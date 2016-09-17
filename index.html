@@ -4,19 +4,15 @@ title: Architect Theme by Jason Long
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
+  <h1>Posts</h1>
+  <ul class="recent-posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
-
-<div id="home">
-  <h1>Recent Links</h1>
-  <ul class="links">
-    {% for link in site.links %}
-      <li><span>{{ link.date | date_to_string }}</span> &raquo; <a href="{{ link.title_url }}">{{ link.title }}</a></li>
+      <li>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          <span class="title">{{ post.title }}</span>
+          <span class="date">{{ post.date | date:"%B %d, %Y"}}</span>
+        </a>
+      </li>
     {% endfor %}
   </ul>
 </div>
