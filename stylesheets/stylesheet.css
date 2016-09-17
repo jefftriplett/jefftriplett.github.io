@@ -626,7 +626,7 @@ form {
   padding-right: 0.3em;
   margin-left: -0.9em;
   color: #9ddcff;
-  content: "#";
+  content: "/";
 }
 
 #main-content h2 {
@@ -640,7 +640,7 @@ form {
 #main-content h2:before {
   padding-right: 0.3em;
   margin-left: -1.5em;
-  content: "##";
+  content: "//";
   color: #9ddcff;
 }
 
@@ -657,7 +657,7 @@ form {
 #main-content h3:before {
   padding-right: 0.3em;
   margin-left: -2em;
-  content: "###";
+  content: "///";
   color: #9ddcff;
 }
 
@@ -673,7 +673,7 @@ form {
 h4:before {
   padding-right: 0.3em;
   margin-left: -2.8em;
-  content: "####";
+  content: "////";
   color: #9ddcff;
 }
 
@@ -687,7 +687,7 @@ h4:before {
 h5:before {
   padding-right: 0.3em;
   margin-left: -3.2em;
-  content: "#####";
+  content: "/////";
   color: #9ddcff;
 }
 
@@ -701,7 +701,7 @@ h5:before {
 h6:before {
   padding-right: 0.3em;
   margin-left: -3.7em;
-  content: "######";
+  content: "//////";
   color: #9ddcff;
 }
 
@@ -739,22 +739,6 @@ ol {
 dl dd {
   font-style: italic;
   font-weight: 100;
-}
-
-footer {
-  padding-top: 20px;
-  padding-bottom: 30px;
-  margin-top: 40px;
-  font-size: 13px;
-  color: #aaa;
-  background: transparent url('../images/hr.png') 0 0 no-repeat;
-}
-
-footer a {
-  color: #666;
-}
-footer a:hover {
-  color: #444;
 }
 
 /* MISC */
@@ -878,4 +862,3 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { }
-
