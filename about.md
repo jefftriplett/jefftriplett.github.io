@@ -4,12 +4,40 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+## Present
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+Developer at [Revolution Systems](http://revsys.com/) living in [Lawrence, KS](http://en.wikipedia.org/wiki/Lawrence,_Kansas). From [Sarcoxie, MO](http://en.wikipedia.org/wiki/Sarcoxie,_Missouri).
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Co-founder and President of the Board of [DEFNA (Django Events Foundation North America )](https://github.com/defna).
+
+[Django Developer Member](https://www.djangoproject.com/foundation/developer-members/).
+
+Open source [developer](https://github.com/jefftriplett).
+
+## Writing
+
+[5 favorite open source Django packages](https://opensource.com/business/15/12/5-favorite-open-source-django-packages)
+
+## Organize
+
+[DjangoCon US 2016](https://2016.djangocon.us/) Conference Chair.
+
+[DjangoCon US 2015](https://2015.djangocon.us/) Conference Chair.
+
+[DjangoCon US 2014](https://2014.djangocon.us/) Last-minute Program Chair.
+
+[Django Birthday](https://djangobirthday.com/) chair/organizer for Django's 10th birthday party.
+
+## Interviews / Mentions
+
+[PyDev of the Week: Jeff Triplett](http://www.blog.pythonlibrary.org/2016/01/04/pydev-of-the-week-jeff-triplett/)
+
+[A Look Back on ELA Conf](http://jonibologna.com/a-look-back-on-ela-conf/) by [Joni Trythall](https://twitter.com/JoniTrythall)
+
+[DjangoCon US 2015 - Django Tales: How Django and Its Community Can Change Lives](https://www.youtube.com/watch?v=JQkM_fOlb2A) by [Anna Ossowski](https://twitter.com/OssAnna16)
+
+## Past
+
+Co-creator of the [Django Pony](http://www.djangopony.com/) website.
+
+Senior Developer at [Mediaphormedia](http://mediaphormedia.com/) where [Django](http://djangoproject.com/) and [Ellington CMS and Marketplace](http://www.ellingtoncms.com/) were created.
