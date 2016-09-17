@@ -29,6 +29,8 @@ relative_permalinks: false
 permalink: :year/:title/
 #permalink: date
 
+paginate: 1
+
 # Build settings
 markdown: kramdown
 theme: minima
@@ -43,3 +45,11 @@ links:
 
 gems:
   - jekyll-paginate
+  - jekyll-gist
+
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# Custom vars
+version: 0.1.0
