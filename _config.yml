@@ -14,25 +14,34 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Jeff Triplett
+
 name: Jeff Triplett
+
 email: jeff.triplett@gmail.com
+
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
+
 baseurl: "" # the subpath of your site, e.g. /blog
+
 url: "http://jefftriplett.com" # the base hostname & protocol for your site
+
 twitter_username: webology
+
 github_username:  jefftriplett
 
 relative_permalinks: false
-permalink: :year/:title/
+
 #permalink: date
+permalink: :year/:title/
 
 paginate: 1
 
 # Build settings
 markdown: kramdown
+
 theme: minima
 
 links:
@@ -51,10 +60,9 @@ links:
 twitter:
   username: webology
 
-
 gems:
-  - jekyll-paginate
   - jekyll-gist
+  - jekyll-paginate
   - jekyll-seo-tag
 
 sass:
