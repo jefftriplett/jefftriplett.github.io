@@ -36,16 +36,26 @@ markdown: kramdown
 theme: minima
 
 links:
+
   - title: About
     url: /about/
+
   - title: Projects
     url: /projects/
+
   - title: Colophon
     url: /colophon/
+
+# SEO
+
+twitter:
+  username: webology
+
 
 gems:
   - jekyll-paginate
   - jekyll-gist
+  - jekyll-seo-tag
 
 sass:
   sass_dir:          _sass
