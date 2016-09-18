@@ -1,3 +1,8 @@
+{% for link in site.links %}
+    <a href="{{ link.url }}">{{ link.title }}</a> &nbsp;
+{% endfor %}
+
+{% comment %}
 <ul>
   {% for link in site.links %}
   <li>
@@ -5,3 +10,4 @@
   </li>
   {% endfor %}
 </ul>
+{% endcomment %}
