@@ -1,6 +1,6 @@
 # Structure configuration
 # source: source
-destination: build
+# destination: build
 
 assets:
   cachebust: soft
