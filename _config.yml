@@ -55,7 +55,6 @@ twitter:
 
 gems:
   - bourbon
-  - jekyll-assets
   - jekyll-gist
   - jekyll-paginate
   - jekyll-seo-tag
