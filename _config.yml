@@ -2,6 +2,15 @@
 # source: source
 # destination: build
 
+gems:
+  - bourbon
+  - neat
+  - octopress-autoprefixer
+  - jekyll-coffeescript
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+
 assets:
   cachebust: soft
 
@@ -52,15 +61,6 @@ links:
 
 twitter:
   username: webology
-
-gems:
-  - bourbon
-  - neat
-  - octopress-autoprefixer
-  - jekyll-coffeescript
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-seo-tag
 
 sass:
   sass_dir:          _sass
