@@ -1,0 +1,15 @@
+---
+layout: default
+title: Home
+---
+
+<div class="posts">
+  {% for post in site.posts %}
+  <article>
+    <a href="{{ site.baseurl }}{{ post.url }}">
+      <span class="post-title">{{ post.title }}</span>
+      <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date:"%B %e, %Y" }}</time>
+    </a>
+  </article>
+  {% endfor %}
+</div>
