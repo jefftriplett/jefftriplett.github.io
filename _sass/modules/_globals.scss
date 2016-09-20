@@ -46,6 +46,19 @@ body {
 }
 
 /*
+
+Via: http://type-scale.com/
+
+html {font-size: 1.125em;}
+
+body {
+  background-color: white;
+  font-family: 'PT Sans', serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+}
+
 p {margin-bottom: 1.3em;}
 
 h1, h2, h3, h4 {
@@ -56,16 +69,16 @@ h1, h2, h3, h4 {
 
 h1 {
   margin-top: 0;
-  font-size: 3.157em;
+  font-size: 2.441em;
 }
 
-h2 {font-size: 2.369em;}
+h2 {font-size: 1.953em;}
 
-h3 {font-size: 1.777em;}
+h3 {font-size: 1.563em;}
 
-h4 {font-size: 1.333em;}
+h4 {font-size: 1.25em;}
 
-small, .font_small {font-size: 0.75em;}
+small, .font_small {font-size: 0.8em;}
 
 */
 
@@ -78,10 +91,17 @@ small, .font_small {font-size: 0.75em;}
   word-spacing: 0.00px;
 }
 
-.h1 { font-size: 3.157em; letter-spacing: -0.72px; }
-.h2 { font-size: 2.369em; letter-spacing: -0.72px; }
-.h3 { font-size: 1.777em; }
-.h4 { font-size: 1.333em; }
+.h1 {
+  margin-top: 0;
+  font-size: 2.414em;
+  letter-spacing: -0.72px;
+}
+.h2 {
+  font-size: 1.953em;
+  letter-spacing: -0.72px;
+}
+.h3 { font-size: 1.563em; }
+.h4 { font-size: 1.25em; }
 .h5 { font-size: 1em; }
 .h6 { font-size: 1em; }
 
