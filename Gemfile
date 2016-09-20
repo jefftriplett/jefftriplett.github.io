@@ -28,8 +28,7 @@ gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
     # gem "jekyll-github-metadata", "~> 1.0"
-    gem "jekyll-assets"
-    gem "jekyll-haml"
+    gem "jekyll-coffeescript"
     gem "jekyll-paginate"
     gem "jekyll-seo-tag"
 end

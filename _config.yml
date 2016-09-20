@@ -64,6 +64,9 @@ gems:
   - bourbon
   - neat
   - octopress-autoprefixer
+  - jekyll-coffeescript
+  - jekyll-paginate
+  - jekyll-seo-tag
 
 exclude:
   - .gitignore
