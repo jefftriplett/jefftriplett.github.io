@@ -5,9 +5,9 @@ title: Home
 
 <div class="posts">
   {% for post in site.posts %}
-  <article>
+  <article class="post">
     <a href="{{ site.baseurl }}{{ post.url }}">
-      <span class="post-title">{{ post.title }}</span>
+      <h4 class="post-title">{{ post.title }}</h4>
       <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date:"%B %e, %Y" }}</time>
     </a>
   </article>
