@@ -11,11 +11,9 @@ ruby RUBY_VERSION
 # Happy Jekylling!
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima"
-gem "bourbon"
 gem "coffee-script"
 # gem "jekyll"
 gem "mini_magick"
-gem "neat"
 gem "octopress-autoprefixer"
 gem "sass"
 gem "uglifier"

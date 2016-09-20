@@ -3,7 +3,7 @@
 # destination: build
 
 assets:
-  cachebust: soft
+  cachebust: hard
 
 # Site settings
 title: Jeff Triplett
@@ -53,16 +53,14 @@ links:
 twitter:
   username: webology
 
-#sass:
-#  sass_dir: _sass
+sass:
+  sass_dir: _sass
 #  # style:            compressed
 
 # Custom vars
 version: 0.1.0
 
 gems:
-  - bourbon
-  - neat
   - octopress-autoprefixer
   - jekyll-coffeescript
   - jekyll-paginate
@@ -73,3 +71,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+
+#liquid:
+#  error_mode: debug
