@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "DjangoCon US Talks I'd Like To See"
-date:   2016-04-01 12:00:00 -0600
+title: "DjangoCon US Talks I'd Like To See"
+date: 2016-04-01 12:00:00 -0600
 ---
 Last year, I threw together a list of [DjangoCon Talk ideas](https://gist.github.com/jefftriplett/cdda63bf42c592b1a6c8) and in that spirit, I wanted to update it for 2016.
 
