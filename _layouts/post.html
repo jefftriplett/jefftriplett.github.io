@@ -4,7 +4,9 @@ layout: default
 
 <article class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date:"%B %e, %Y" }}</time>
+  <span class="post-meta">
+    <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date:"%B %e, %Y" }}</time>
+  </span>
   {{ content }}
 </article>
 

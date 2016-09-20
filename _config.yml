@@ -30,14 +30,16 @@ relative_permalinks: false
 #permalink: date
 permalink: :year/:title/
 
-paginate: 1
+future: true
+paginate: 100
 
 # Build settings
 markdown: kramdown
 
-# theme: minima
-
 links:
+
+  - title: Posts
+    url: /
 
   - title: About
     url: /about/
@@ -48,6 +50,14 @@ links:
   - title: Colophon
     url: /colophon/
 
+  - title: Twitter
+    url: https://twitter.com/webology
+    aria-label: "Follow Jeff on Twitter"
+
+  - title: GitHub
+    url: https://github.com/jefftriplett
+    aria-label: "Follow Jeff on GitHub"
+
 # SEO
 
 twitter:
@@ -55,7 +65,7 @@ twitter:
 
 sass:
   sass_dir: _sass
-  style: compressed
+  # style: compressed
 
 # Custom vars
 version: 0.1.0

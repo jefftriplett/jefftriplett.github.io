@@ -5,17 +5,23 @@
 <html lang="en">
   {% include head.html %}
   <body>
-    <div class="container content">
+    <div class="container">
+
       {% include header.html %}
 
-      <main>
-        {{ content }}
-      </main>
+      <div class="row">
+        <div class="ten columns">
+          {{ content }}
+        </div>
+        {% comment %}
+        <div class="one-third column">
+          1/3
+        </div>
+        {% endcomment %}
+      </div>
 
       <footer class="footer">
-        <small>
-          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
-        </small>
+        &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
       </footer>
 
     </div>
