@@ -22,6 +22,7 @@ group :jekyll_plugins do
     # gem "jekyll-github-metadata", "~> 1.0"
     gem "bourbon"
     gem "coffee-script"
+    gem "haml"
     gem "jekyll-assets"
     gem "jekyll-haml"
     gem "jekyll-paginate"
