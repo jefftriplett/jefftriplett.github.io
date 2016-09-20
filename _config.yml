@@ -1,5 +1,5 @@
 # Structure configuration
-source: source
+# source: source
 destination: build
 
 assets:
