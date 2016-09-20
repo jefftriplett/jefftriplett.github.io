@@ -55,7 +55,7 @@ twitter:
 
 sass:
   sass_dir: _sass
-#  # style:            compressed
+  style: compressed
 
 # Custom vars
 version: 0.1.0
