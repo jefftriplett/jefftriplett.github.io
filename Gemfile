@@ -21,15 +21,8 @@ gem "github-pages", group: :jekyll_plugins
 group :jekyll_plugins do
     # gem "jekyll-github-metadata", "~> 1.0"
     gem "bourbon"
-    gem "coffee-script"
-    gem "haml"
+    gem "neat"
     gem "jekyll-assets"
-    gem "jekyll-haml"
     gem "jekyll-paginate"
     gem "jekyll-seo-tag"
-    gem "mini_magick"
-    gem "neat"
-    gem "octopress-autoprefixer"
-    gem "sass"
-    gem "uglifier"
 end
