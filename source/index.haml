@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+#home
+  %h1 Posts
+  %div.posts
+  {% for post in site.posts %}
+    %article
+      %span
+        %a(href="{{ site.baseurl }}{{ post.url }}")
+          {{ post.title }}
+      %span
+        %time(datetime="{{ post.date | date_to_xmlschema }}")
+          {{ post.date | date:"%B %e, %Y" }}
+  {% endfor %}

@@ -3,14 +3,50 @@
 // Each post is wrapped in `.post` and is used on default and post layouts. Each
 // page is wrapped in `.page` and is only used on the page layout.
 
+.post { @extend .typography; }
+.posts { @extend .typography; }
+
+/*
 .page,
 .post {
   margin-bottom: 4em;
+
+  h1 {
+    font-size: 1.8em;
+    // margin-bottom: 0.5em;
+
+    @include media($medium-screen) {
+      font-size: 2.4em;
+    }
+  }
+
+  h2 {
+    font-size: 1.2em;
+    font-weight: 400;
+    // line-height: 1.4em;
+    // margin-bottom: 0.9em;
+
+    @include media($medium-screen) {
+      font-size: 1.4em;
+    }
+  }
+
+  h3 {
+    font-size: 1.2em;
+    font-weight: 400;
+    // line-height: 1.3em;
+    // margin-bottom: 0.4em;
+  }
+
+  ul {
+    list-style-type: disc;
+  }
 
   li + li {
     margin-top: .25rem;
   }
 }
+*/
 
 // Blog post or page title
 .page-title,
@@ -18,6 +54,7 @@
 .post-title a {
   color: #303030;
 }
+
 .page-title,
 .post-title {
   margin-top: 0;
