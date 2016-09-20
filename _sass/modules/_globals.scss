@@ -32,18 +32,19 @@ body {
   }
 }
 
-
-/*
-html {font-size: 1.125em;}
+html {
+  font-size: 1.125em;
+}
 
 body {
   background-color: white;
   font-family: 'PT Sans', serif;
   font-weight: 400;
-  line-height: 1.45;
+  // line-height: 1.45;
   color: #333;
 }
 
+/*
 p {margin-bottom: 1.3em;}
 
 h1, h2, h3, h4 {
@@ -73,10 +74,11 @@ small, .font_small {font-size: 0.75em;}
   margin: 1.414em 0 0.5em;
   /* font-weight: inherit; */
   line-height: $heading-line-height;
+  word-spacing: 0.00px;
 }
 
-.h1 { font-size: 3.157em; }
-.h2 { font-size: 2.369em; }
+.h1 { font-size: 3.157em; letter-spacing: -0.72px; }
+.h2 { font-size: 2.369em; letter-spacing: -0.72px; }
 .h3 { font-size: 1.777em; }
 .h4 { font-size: 1.333em; }
 .h5 { font-size: 1em; }
