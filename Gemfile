@@ -10,9 +10,10 @@ ruby RUBY_VERSION
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima"
+# gem "minima"
 gem "bourbon"
 gem "coffee-script"
+# gem "jekyll"
 gem "mini_magick"
 gem "neat"
 gem "octopress-autoprefixer"
@@ -28,7 +29,7 @@ gem "github-pages", group: :jekyll_plugins
 group :jekyll_plugins do
     # gem "jekyll-github-metadata", "~> 1.0"
     gem "jekyll-assets"
-    gem "jekyll-paginate"
     gem "jekyll-haml"
+    gem "jekyll-paginate"
     gem "jekyll-seo-tag"
 end

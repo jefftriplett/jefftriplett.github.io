@@ -1,9 +1,7 @@
----
----
 @import "vendor/normalize";
+@import "vendor/bourbon/bourbon";
+// @import "vendor/neat/neat";
 
-@import "bourbon";
-@import "neat";
 @import "base/base";
 
 @import "modules/globals";

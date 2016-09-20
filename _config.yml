@@ -2,15 +2,6 @@
 # source: source
 # destination: build
 
-gems:
-  - bourbon
-  - neat
-  - octopress-autoprefixer
-  - jekyll-coffeescript
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-seo-tag
-
 assets:
   cachebust: soft
 
@@ -44,7 +35,7 @@ paginate: 1
 # Build settings
 markdown: kramdown
 
-theme: minima
+# theme: minima
 
 links:
 
@@ -62,9 +53,20 @@ links:
 twitter:
   username: webology
 
-sass:
-  sass_dir:          _sass
-  # style:            compressed
+#sass:
+#  sass_dir: _sass
+#  # style:            compressed
 
 # Custom vars
 version: 0.1.0
+
+gems:
+  - bourbon
+  - neat
+  - octopress-autoprefixer
+
+exclude:
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - README.md
