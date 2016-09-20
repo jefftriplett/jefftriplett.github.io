@@ -22,9 +22,11 @@ My local trail running club needed help with their website and this is a fully w
 
 ## DjangoCon.us
 
-The website for DjangoCon.us.
+The website(s) for DjangoCon.us.
 
-[djangocon/djangocon.us](https://github.com/djangocon/djangocon.us)
+- [djangocon/2017.djangocon.us](https://github.com/djangocon/2016.djangocon.us)
+- [djangocon/2016.djangocon.us](https://github.com/djangocon/2016.djangocon.us)
+- [djangocon/2015.djangocon.us](https://github.com/djangocon/2015.djangocon.us)
 
 ## bsd-license-generator
 
