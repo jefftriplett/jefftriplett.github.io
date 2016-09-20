@@ -8,12 +8,12 @@ $heading-font-family: "PT Sans", Helvetica, Arial, sans-serif;
 $heading-font-weight: 400;
 
 // Font Sizes
-// $base-font-size: 1em;
-$base-font-size: 18px;
+$base-font-size: 1em;
+// $base-font-size: 18px;
 
 // Line height
-$base-line-height: 1.45;
-$heading-line-height: 1.2;
+$base-line-height: 1.45em;
+$heading-line-height: 1.0em;
 
 // Other Sizes
 $base-border-radius: 3px;
@@ -46,7 +46,6 @@ $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $l
 // Animations
 $base-duration: 150ms;
 $base-timing: ease;
-
 
 // TODO Fixed
 $fixed-font-family: $base-font-family;

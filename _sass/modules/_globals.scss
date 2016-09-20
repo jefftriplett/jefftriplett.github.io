@@ -40,6 +40,7 @@ body {
   background-color: white;
   font-family: 'PT Sans', serif;
   font-weight: 400;
+  font-size: $base-font-size;
   // line-height: 1.45;
   color: #333;
 }
@@ -71,7 +72,7 @@ small, .font_small {font-size: 0.75em;}
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: $heading-font-family;
   font-weight: $heading-font-weight;
-  margin: 1.414em 0 0.5em;
+  /* margin: 1.414em 0 0.5em; */
   /* font-weight: inherit; */
   line-height: $heading-line-height;
   word-spacing: 0.00px;
