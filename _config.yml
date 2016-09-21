@@ -76,7 +76,6 @@ gems:
   - jekyll-coffeescript
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-youtube
   - octopress-autoprefixer
 
 exclude:
