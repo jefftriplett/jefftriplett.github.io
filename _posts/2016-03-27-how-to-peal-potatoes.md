@@ -9,4 +9,4 @@ tags:
  - potatoes
 ---
 
-{% youtube "https://www.youtube.com/watch?v=mbHeddAnrZs" %}
+[How to peal potatoes](https://www.youtube.com/watch?v=mbHeddAnrZs)
