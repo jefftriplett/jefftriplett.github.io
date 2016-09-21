@@ -1,3 +1,5 @@
+<ul>
 {% for link in site.links %}
-  <a href="{{ link.url }}"{% if link.aria-label %} aria-label="{{ link.aria-label }}"{% endif %}>{{ link.title }}</a> &nbsp;
+  <li><a href="{{ link.url }}"{% if link.aria-label %} aria-label="{{ link.aria-label }}"{% endif %}>{{ link.title }}</a></li>
 {% endfor %}
+</ul>

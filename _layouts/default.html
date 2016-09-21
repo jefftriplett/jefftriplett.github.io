@@ -10,19 +10,12 @@
       {% include header.html %}
 
       <div class="row">
-        <div class="ten columns">
+        <div class="tweleve columns">
           {{ content }}
         </div>
-        {% comment %}
-        <div class="one-third column">
-          1/3
-        </div>
-        {% endcomment %}
       </div>
 
-      <footer class="footer">
-        &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
-      </footer>
+      {% include footer.html %}
 
     </div>
   </body>

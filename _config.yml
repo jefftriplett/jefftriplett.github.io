@@ -36,11 +36,11 @@ markdown: kramdown
 
 links:
 
-  - title: Posts
-    url: /
-
   - title: About
     url: /about/
+
+  - title: Posts
+    url: /
 
   - title: Projects
     url: /projects/
@@ -48,13 +48,17 @@ links:
   - title: Colophon
     url: /colophon/
 
-  - title: Twitter
+  - title: <i class="fa fa-twitter" aria-hidden="true"></i>
     url: https://twitter.com/webology
     aria-label: "Follow Jeff on Twitter"
 
-  - title: GitHub
+  - title: <i class="fa fa-github" aria-hidden="true"></i>
     url: https://github.com/jefftriplett
     aria-label: "Follow Jeff on GitHub"
+
+  - title: <i class="fa fa-rss" aria-hidden="true"></i>
+    url: /feed.xml
+    aria-label: "Subscribe!"
 
 # SEO
 

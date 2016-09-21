@@ -1,0 +1,22 @@
+// Nav
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+nav.main-nav {
+  margin: 1rem 0 1.414rem;
+
+  @extend .u-pull-right;
+
+  ul li {
+    display: inline;
+    margin: 0 20px 0 0;
+    margin-bottom: 130px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
