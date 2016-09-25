@@ -1,9 +1,8 @@
 ---
 layout: post
-title: How to Peal Potatoes
+title: "TIL: How to Peal Potatoes"
 date: 2016-03-27
-categories:
- - Cooking
+category: TIL
 tags:
  - cooking
  - potatoes

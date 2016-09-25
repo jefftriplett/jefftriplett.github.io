@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Django `UserPassesTestMixin`
+title: "TIL: Django `UserPassesTestMixin`"
 date: 2016-03-08
-categories:
- - Django
+category: TIL
 tags:
  - python
  - django

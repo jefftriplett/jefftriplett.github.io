@@ -1,9 +1,8 @@
 ---
 layout: post
-title: IFTT Added a Spotify Channel
+title: "TIL: IFTT Added a Spotify Channel"
 date: 2016-06-27
-categories:
- - Music
+category: TIL
 tags:
  - discovery weekly
  - ifttt

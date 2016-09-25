@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Reusable Click Options
+title: "TIL: Reusable Click Options"
 date: 2016-02-17
-categories:
- - Python
+category: TIL
 tags:
  - click
  - python

@@ -1,9 +1,8 @@
 ---
 layout: post
 date: 2016-04-08
-title: Emojis Make Sound!
-categories:
- - Emoji
+title: "TIL: Emojis Make Sound!"
+category: TIL
 tags:
  - emoji
 ---

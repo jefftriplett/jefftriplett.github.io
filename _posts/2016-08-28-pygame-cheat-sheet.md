@@ -1,9 +1,8 @@
 ---
 layout: post
-title: PyGame Cheat Sheet
+title: "TIL: PyGame Cheat Sheet"
 date: 2016-08-28
-categories:
- - PyGame
+category: TIL
 tags:
  - python
  - pygame

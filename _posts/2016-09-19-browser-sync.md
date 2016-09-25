@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Use `browser-sync` as a proxy
+title: "TIL: Use `browser-sync` as a proxy"
 date: 2016-09-19
-categories:
- - Node
+category: TIL
 tags:
  - js
  - node

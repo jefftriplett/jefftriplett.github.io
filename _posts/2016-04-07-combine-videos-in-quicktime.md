@@ -1,9 +1,8 @@
 ---
 layout: post
-title: TIL How to combine videos in QuickTime on OS X
+title: "TIL: How to combine videos in QuickTime on OS X"
 date: 2016-04-07
-categories:
- - Mac
+category: TIL
 tags:
  - mac
  - osx

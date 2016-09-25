@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Makefile Help
+title: "TIL: Makefile Help"
 date: 2016-03-01
-categories:
- - Bash
+category: TIL
 tags:
  - bash
  - make

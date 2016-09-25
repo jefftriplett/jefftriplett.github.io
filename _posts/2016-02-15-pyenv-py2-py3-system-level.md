@@ -1,9 +1,8 @@
 ---
 layout: post
-title: PyEnv Py2 + Py3 System Wide
+title: "TIL: PyEnv Py2 + Py3 System Wide"
 date: 2016-02-15
-categories:
- - Python
+category: TIL
 tags:
  - python
  - py2

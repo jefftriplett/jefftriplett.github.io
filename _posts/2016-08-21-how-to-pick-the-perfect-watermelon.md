@@ -1,9 +1,8 @@
 ---
 layout: post
-title: How to pick the perfect watermelon
+title: "TIL: How to pick the perfect watermelon"
 date: 2016-08-21
-categories:
- - Food
+category: TIL
 tags:
  - food
  - produce

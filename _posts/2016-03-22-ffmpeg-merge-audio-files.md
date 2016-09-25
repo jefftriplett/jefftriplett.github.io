@@ -1,9 +1,8 @@
 ---
 layout: post
 date: 2016-03-22
-title: Use FFMPEG to Merge Audio Files
-categories:
- - Bash
+title: "TIL: Use FFMPEG to Merge Audio Files"
+category: TIL
 tags:
  - audio
  - bash

@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Mac Server is Slow
+title: "TIL: Mac Server is Slow"
 date: 2016-03-02
-categories:
- - Mac
+category: TIL
 tags:
  - mac
  - mac server

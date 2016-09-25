@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Significantly Speed Up iOS
+title: "TIL: Significantly Speed Up iOS"
 date: 2016-03-20
-categories:
- - iOS
+category: TIL
 tags:
  - ios
  - glitch
