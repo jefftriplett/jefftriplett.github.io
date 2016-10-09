@@ -1,11 +1,10 @@
 // Header
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 
-header { 
-    width: 100%;
-    .title {
-        @extend .u-pull-left;
-    }
+header {
+  vertical-align: bottom;
+  .title {
+  }
 }
 
 .section {

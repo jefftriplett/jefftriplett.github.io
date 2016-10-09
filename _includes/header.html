@@ -1,9 +1,13 @@
-<header class="header">
-  <h1 class="title">
-    {{ site.title }}
-    <small>{{ site.tagline }}</small>
-  </h1>
-  <nav class="main-nav">
-    {% include primary-nav-items.html %}
-  </nav>
+<header class="header row">
+  <div class="one-third column">
+    <h1 class="title">
+      {{ site.title }}
+      <small>{{ site.tagline }}</small>
+    </h1>
+  </div>
+  <div class="two-thirds column">
+    <nav class="main-nav">
+      {% include primary-nav-items.html %}
+    </nav>
+  </div>
 </header>
