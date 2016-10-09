@@ -13,7 +13,7 @@ tags:
 To set a breakpoint in py.test, use:
 
 ```python
-import
+import pytest
 
 pytest.set_trace()
 ```
