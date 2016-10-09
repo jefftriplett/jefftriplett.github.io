@@ -4,14 +4,7 @@
 .posts {
 
   article {
-    margin-bottom: 1.5rem;
-
-    .post-title {}
-
-    .post-date {
-      @extend .u-pull-right;
-    }
-
+    // margin-bottom: 1.5rem;
     a {
       text-decoration: none;
       border-bottom: 2px black dotted;
@@ -20,5 +13,14 @@
     a:hover {
       // text-decoration: underline;
     }
+
+    .post-title {
+    }
+
+    .post-date {
+      text-align: right;
+      // @extend .u-pull-right;
+    }
+
   }
 }
