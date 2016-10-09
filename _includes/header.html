@@ -5,7 +5,13 @@
   </h2>
 </div>
 <div class="two-thirds column">
-  <nav class="main-nav">
-    {% include primary-nav-items.html %}
+  <nav>
+    <ul>
+    {% for link in site.links %}
+      {% if link.show_in_header == true %}
+        <li><a href="{{ link.url }}"{% if link.aria-label %} aria-label="{{ link.aria-label }}"{% endif %}>{{ link.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+    </ul>
   </nav>
 </div>
