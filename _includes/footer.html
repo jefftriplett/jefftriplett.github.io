@@ -1,5 +1,12 @@
-<footer class="footer">
-  <section class="copyright">
-    All content copyright &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> Jeff Triplett
-  </section>
-</footer>
+<section class="copyright">
+  All content copyright &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> Jeff Triplett
+</section>
+<nav>
+  <ul>
+  {% for link in site.links %}
+    {% if link.show_in_footer == true %}
+      <li><a href="{{ link.url }}"{% if link.aria-label %} aria-label="{{ link.aria-label }}"{% endif %}>{{ link.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+</nav>
