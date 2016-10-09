@@ -5,10 +5,15 @@ title: Home
 
 <div class="posts">
   {% for post in site.posts %}
-  <article class="post">
+  <article class="row">
     <a href="{{ site.baseurl }}{{ post.url }}">
-      <span class="post-title">{{ post.title }}</span>
-      <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date:"%B %e, %Y" }}</time>
+      <span class="post-title two-thirds column">
+        {{ post.title|markdownify }}
+        {% comment %}
+        <i class="fa fa-external-link" aria-hidden="true"></i>
+        {% endcomment %}
+      </span>
+      <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date one-third column">{{ post.date | date:"%B %e, %Y" }}</time>
     </a>
   </article>
   {% endfor %}
