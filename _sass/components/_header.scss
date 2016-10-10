@@ -2,7 +2,10 @@
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 
 header {
+  margin-bottom: 1.5em;
   vertical-align: bottom;
+  border-bottom: 2px dashed $secondary-color;
+
   .title {
   }
 
