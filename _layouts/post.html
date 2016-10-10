@@ -15,21 +15,24 @@ layout: default
 
 {% if site.related_posts != empty %}
 <aside class="related">
-  <h3>Related posts</h3>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <a href="{{ site.baseurl }}{{ post.url }}">
-          {{ post.title }}
-          <small>
-            <time datetime="{{ post.date | date_to_xmlschema }}">
-            <i class="fa fa-clock-o" aria-hidden="true"></i>
-            {{ post.date | date:"%B %e, %Y" }}
-            </time>
-          </small>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
+  <h2>Related posts</h2>
+  {% for post in site.related_posts limit:3 %}
+    {% unless post.hidden %}
+    <article class="row">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <span class="post-title two-thirds column">
+          {{ post.title|markdownify }}
+          {% comment %}
+          <i class="fa fa-external-link" aria-hidden="true"></i>
+          {% endcomment %}
+        </span>
+        <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date one-third column">
+          <i class="fa fa-clock-o" aria-hidden="true"></i>
+          {{ post.date | date:"%B %e, %Y" }}
+        </time>
+      </a>
+    </article>
+    {% endunless %}
+  {% endfor %}
 </aside>
 {% endif %}
