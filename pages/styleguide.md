@@ -27,6 +27,27 @@ The base type is 15px over 1.6 line height (24px)
 
 _Underlined_
 
+Ordered list
+
+- One
+- Two
+- Three
+  + nested
+  + nested
+- Four
+
+Unordered list
+
+1. One
+1. Two
+1. Three
+  - one
+  - two
+  - three
+1. Four
+    1. Four one
+    2. Four two
+
 ```python
 import python
 
