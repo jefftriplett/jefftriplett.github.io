@@ -67,6 +67,12 @@ links:
     show_in_header: true
     show_in_footer: true
 
+  - title: <i class="fa fa-facebook" aria-hidden=true></i>
+    url: https://www.facebook.com/jefftriplett
+    aria-label: "Follow Jeff on Facebook"
+    show_in_header: true
+    show_in_footer: true
+
   - title: <i class="fa fa-github" aria-hidden=true></i>
     url: https://github.com/jefftriplett
     aria-label: "Follow Jeff on GitHub"
