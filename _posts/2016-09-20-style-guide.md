@@ -5,17 +5,17 @@ date: 2016-09-20 9:28:00 -0600
 hidden: true
 ---
 
-# Heading `h1`
+# `h1` Heading
 
-## Heading `h2`
+## `h2` Heading
 
-### Heading `h3`
+### `h3` Heading
 
-#### Heading `h4`
+#### `h4` Heading
 
-##### Heading `h5`
+##### `h5` Heading
 
-###### Heading `h6`
+###### `h6` Heading
 
 The base type is 15px over 1.6 line height (24px)
 
