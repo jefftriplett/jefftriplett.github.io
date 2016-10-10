@@ -73,6 +73,18 @@ links:
     show_in_header: true
     show_in_footer: true
 
+  - title: <i class="fa fa-thumb-tack" aria-hidden=true></i>
+    url: https://pinboard.in/u:jefftriplett
+    aria-label: "Follow Jeff on Pinboard"
+    show_in_header: false
+    show_in_footer: true
+
+  - title: <i class="fa fa-instagram" aria-hidden=true></i>
+    url: https://www.instagram.com/jefftriplett/
+    aria-label: "Follow Jeff on Instagram"
+    show_in_header: false
+    show_in_footer: true
+
   - title: <i class="fa fa-flickr" aria-hidden=true></i>
     url: https://www.flickr.com/photos/webology
     aria-label: "Follow Jeff on Flickr"
