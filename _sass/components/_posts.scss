@@ -1,6 +1,21 @@
 // Posts
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 
+article.post {
+  //border: 2px dashed $secondary-color;
+
+  .post-meta {
+    time.post-date {
+      // border: 2px dashed $secondary-color;
+      // margin-top: 100px;
+      // margin-bottom: 100px;
+      // margin-top: 3rem;
+      // margin-bottom: 3.5rem;
+    }
+  }
+
+}
+
 .posts {
 
   article {
@@ -24,3 +39,24 @@
 
   }
 }
+
+/*
+ul {
+   list-style-type: disc;
+   list-style-position: inside;
+}
+ol {
+   list-style-type: decimal;
+   list-style-position: inside;
+}
+ul ul, ol ul {
+   list-style-type: circle;
+   list-style-position: inside;
+   margin-left: 15px;
+}
+ol ol, ul ol {
+   list-style-type: lower-latin;
+   list-style-position: inside;
+   margin-left: 15px;
+}
+*/
