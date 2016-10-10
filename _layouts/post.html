@@ -8,9 +8,23 @@ layout: default
     <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">
       <i class="fa fa-clock-o" aria-hidden="true"></i>
       {{ page.date | date:"%B %e, %Y" }}
-      </time>
+    </time>
   </div>
   {{ content }}
+
+  {% comment %}
+  <div class="post-categories">
+    Category: {{ page.category }}
+  </div>
+
+  <div class="post-tags">
+    <i class="fa fa-tag" aria-hidden="true"></i>
+    Tags:
+    {% for tag in page.tags %}
+    <span>{{ tag }}</span>
+    {% endfor %}
+  </div>
+  {% endcomment %}
 </article>
 
 {% if site.related_posts != empty %}
