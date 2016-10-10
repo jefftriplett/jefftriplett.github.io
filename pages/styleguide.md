@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "Style Guide"
-date: 2016-09-20 9:28:00 -0600
+layout: page
+title: Style Guide
+permalink: /styleguide/
 hidden: true
 ---
 
