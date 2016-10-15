@@ -70,7 +70,7 @@ links:
   - title: <i class="fa fa-facebook" aria-hidden=true></i>
     url: https://www.facebook.com/jefftriplett
     aria-label: "Follow Jeff on Facebook"
-    show_in_header: true
+    show_in_header: false
     show_in_footer: true
 
   - title: <i class="fa fa-github" aria-hidden=true></i>
@@ -113,9 +113,10 @@ sass:
   style: compressed
 
 # Custom vars
-version: 0.1.0
+version: 0.2.0
 
 gems:
+  - jemoji
   - jekyll-coffeescript
   - jekyll-paginate
   - jekyll-seo-tag
