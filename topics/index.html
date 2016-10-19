@@ -1,0 +1,42 @@
+---
+layout: default
+title: Topics
+permalink: /topics/
+---
+
+{% comment%}
+Here we generate all the categories.
+{% endcomment%}
+
+{% assign rawcats = "" %}
+{% for post in site.posts %}
+{% assign tcats = post.category | join:'|' | append:'|' %}
+{% assign rawcats = rawcats | append:tcats %}
+{% endfor %}
+
+{% assign rawcats = rawcats | split:'|' | sort %}
+
+{% assign cats = "" %}
+
+{% for cat in rawcats %}
+{% if cat != "" %}
+
+{% if cats == "" %}
+{% assign cats = cat | split:'|' %}
+{% endif %}
+
+{% unless cats contains cat %}
+{% assign cats = cats | join:'|' | append:'|' | append:cat | split:'|' %}
+{% endunless %}
+{% endif %}
+{% endfor %}
+
+<h1 class="page-title">
+  {{ page.title }}
+</h1>
+
+<div class="posts">
+  {% for ct in cats %}
+  <h3 id="{{ ct | slugify }}">{{ ct }}</h3>
+  {% endfor %}
+</div>
