@@ -3,6 +3,7 @@ layout: post
 title: "TIL: Reusable Click Options"
 date: 2016-02-17
 category: TIL
+location: Lawrence, Kansas United States
 tags:
  - click
  - python

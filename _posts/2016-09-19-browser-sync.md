@@ -3,6 +3,8 @@ layout: post
 title: "TIL: Use `browser-sync` as a proxy"
 date: 2016-09-19
 category: TIL
+location: Lawrence, Kansas United States
+weather: It was 89.2°F. The breeze was light.
 tags:
  - js
  - node

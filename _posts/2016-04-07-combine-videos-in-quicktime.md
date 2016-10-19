@@ -3,6 +3,7 @@ layout: post
 title: "TIL: How to combine videos in QuickTime on OS X"
 date: 2016-04-07
 category: TIL
+location: Lawrence, Kansas United States
 tags:
  - mac
  - osx

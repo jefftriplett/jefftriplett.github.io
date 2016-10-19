@@ -3,6 +3,7 @@ layout: post
 title: "TIL: How to pick the perfect watermelon"
 date: 2016-08-21
 category: TIL
+location: Lawrence, Kansas United States
 tags:
  - food
  - produce

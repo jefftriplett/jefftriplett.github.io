@@ -3,6 +3,7 @@ layout: post
 title: "TIL: IFTT Added a Spotify Channel"
 date: 2016-06-27
 category: TIL
+location: Lawrence, Kansas United States
 tags:
  - discovery weekly
  - ifttt

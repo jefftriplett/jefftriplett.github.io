@@ -3,6 +3,7 @@ layout: post
 title: "TIL: PyGame Cheat Sheet"
 date: 2016-08-28
 category: TIL
+location: Lawrence, Kansas United States
 tags:
  - python
  - pygame

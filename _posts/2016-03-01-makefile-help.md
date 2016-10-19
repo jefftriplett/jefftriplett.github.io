@@ -3,6 +3,7 @@ layout: post
 title: "TIL: Makefile Help"
 date: 2016-03-01
 category: TIL
+location: Lawrence, Kansas United States
 tags:
  - bash
  - make

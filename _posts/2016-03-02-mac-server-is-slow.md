@@ -3,6 +3,7 @@ layout: post
 title: "TIL: Mac Server is Slow"
 date: 2016-03-02
 category: TIL
+location: Lawrence, Kansas United States
 tags:
  - mac
  - mac server
