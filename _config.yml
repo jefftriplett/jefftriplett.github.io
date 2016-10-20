@@ -57,12 +57,12 @@ links:
   - title: Now
     url: /now/
     show_in_header: false
-    show_in_footer: false
+    show_in_footer: true
 
   - title: Topics
     url: /topics/
     show_in_header: false
-    show_in_footer: false
+    show_in_footer: true
 
   - title: Colophon
     url: /colophon/
