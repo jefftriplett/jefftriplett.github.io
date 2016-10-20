@@ -4,15 +4,29 @@ title: Colophon
 permalink: /colophon/
 ---
 
-jefftriplett.com is hosted on [GitHub Pages][] and published using [Jekyll][]. The theme was built with [Skeleton][]. The text on the site is [PT Serif][] and [PT Sans][]. 
+jefftriplett.com is published using [Jekyll][] and hosted on [GitHub Pages][]. The source code resides in my github repo: [jefftriplett/jefftriplett.github.io][].
 
-Typography advice from [Top Ten Typography Tips][].
+I'd rather write in [Markdown][] using my favorite editor [Sublime Text 3][] and pushing updates via [Git][] than wasting my days solving the wrong problems.
 
-Other indispensables: GitHub, Chrome, Gmail, Fastmail, AWS, Apple MacBook Pro, Sublime Text, Spotify, and ...
+The theme was built with [Skeleton][], [Skeleton-Sass][], and [SASS][]. 
 
+The text on the site uses [Alegreya][], [PT Sans][], and [PT Serif][]. Typography advice from [Top Ten Typography Tips][]. 
+
+The icons come from [Font Awesome][].
+
+Other indispensables: GitHub, Chrome, Gmail, Fastmail, Spotify, Apple MacBook Pro, and ...
+
+[Alegreya]: https://fonts.google.com/specimen/Alegreya
+[Font Awesome]: http://fontawesome.io/
+[Git]: https://git-scm.com/
 [GitHub Pages]: https://pages.github.com/
+[jefftriplett/jefftriplett.github.io]: https://github.com/jefftriplett/jefftriplett.github.io
 [Jekyll]: https://jekyllrb.com/
+[Markdown]: https://daringfireball.net/projects/markdown/
 [PT Sans]: https://fonts.google.com/specimen/PT+Sans
 [PT Serif]: https://fonts.google.com/specimen/PT+Serif
+[SASS]: http://sass-lang.com/
+[Skeleton-Sass]: https://github.com/whatsnewsaes/Skeleton-Sass
 [Skeleton]: http://getskeleton.com/
+[Sublime Text 3]: https://www.sublimetext.com/
 [Top Ten Typography Tips]: http://www.toptentypography.tips/

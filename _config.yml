@@ -25,6 +25,9 @@ github_username:  jefftriplett
 
 relative_permalinks: false
 
+author:
+  twitter: webology
+
 #permalink: date
 permalink: :year/:title/
 
@@ -53,6 +56,11 @@ links:
 
   - title: Now
     url: /now/
+    show_in_header: false
+    show_in_footer: false
+
+  - title: Topics
+    url: /topics/
     show_in_header: false
     show_in_footer: false
 

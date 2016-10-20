@@ -36,7 +36,11 @@ Here we generate all the categories.
 </h1>
 
 <div class="posts">
-  {% for ct in cats %}
-  <h3 id="{{ ct | slugify }}">{{ ct }}</h3>
+  {% for category in cats %}
+    <h4 id="{{ category | slugify }}">
+      <a href="/topics/{{ category | slugify }}/">
+        {{ category }}
+      </a>
+    </h4>
   {% endfor %}
 </div>

@@ -2,12 +2,25 @@
 layout: default
 ---
 
-<h1>{{ page.category }}</h1>
+<h2>{{ page.category }}</h2>
 
-<ul>
-{% for post in site.categories[page.category] %}
-  <li>
-    {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-{% endfor %}
-</ul>
+<div class="posts">
+  {% for post in site.categories[page.category] %}
+    {% unless post.hidden %}
+    <article class="row">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <span class="post-title two-thirds column">
+          {{ post.title|markdownify }}
+          {% comment %}
+          <i class="fa fa-external-link" aria-hidden="true"></i>
+          {% endcomment %}
+        </span>
+        <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date one-third column">
+          <i class="fa fa-clock-o" aria-hidden="true"></i>
+          {{ post.date | date:"%B %e, %Y" }}
+        </time>
+      </a>
+    </article>
+    {% endunless %}
+  {% endfor %}
+</div>
