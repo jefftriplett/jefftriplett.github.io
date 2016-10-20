@@ -136,5 +136,8 @@ exclude:
   - Gemfile.lock
   - README.md
 
+include:
+  - _pages
+
 #liquid:
 #  error_mode: debug
