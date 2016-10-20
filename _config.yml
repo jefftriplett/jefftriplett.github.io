@@ -121,7 +121,7 @@ sass:
   style: compressed
 
 # Custom vars
-version: 0.3.0
+version: 0.3.1
 
 gems:
   - jemoji
