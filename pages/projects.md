@@ -4,6 +4,8 @@ title: Projects
 permalink: /projects/
 ---
 
+Most of my projects range from scratching personal itches, working on community projects and initiatives, and OSS projects.
+
 ### Lawrence Trail Hawks Website
 
 My local trail running club needed help with their website and this is a fully working Django website for "running" a running club complete with weekly runs and race events.
@@ -18,7 +20,6 @@ My local trail running club needed help with their website and this is a fully w
 
 [2]: http://www.slate.com/articles/sports/sports_nut/2008/03/the_lead_is_safe.html
 [1]: http://www.istheleadsafe.com/
-
 
 ### DjangoCon.us
 
@@ -88,6 +89,6 @@ Fetch an url and translate it to markdown in one command.
 
 [jefftriplett/url2markdown-cli](https://github.com/jefftriplett/url2markdown-cli)
 
-### More projects on Github
+### 100+ more projects on Github
 
 See more [projects on Github](https://github.com/jefftriplett).
