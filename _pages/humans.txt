@@ -1,0 +1,17 @@
+---
+layout: null
+permalink: /humans.txt
+---
+
+/* jeff triplett dot com*/
+
+Designer: Jeff Triplett
+Contact: hello [at] jefftriplett [dot] com
+Twitter: @webology
+Location: Lawrence, Kansas United States
+Last updated: {{ site.time }}
+Language: English
+Built with: Jekyll {{ jekyll.version }} <http://jekyllrb.com>
+            Sublime Text 3 <http://www.sublimetext.com>
+            Font Awesome <http://fontawesome.io/>
+            Skeleton <http://getskeleton.com/>
