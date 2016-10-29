@@ -37,6 +37,9 @@ paginate: 100
 # Build settings
 markdown: kramdown
 
+kramdown:
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+
 links:
 
   - title: About
@@ -121,19 +124,22 @@ sass:
   style: compressed
 
 # Custom vars
-version: 0.3.1
+version: 0.3.3
 
 gems:
-  - jemoji
+  # - jekyll-archives
   - jekyll-coffeescript
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
   - octopress-autoprefixer
 
 exclude:
   - .gitignore
   - Gemfile
   - Gemfile.lock
+  - Procfile
   - README.md
 
 include:
