@@ -8,8 +8,10 @@
 * Sass Version by Seth Coelen https://github.com/whatsnewsaes
 */
 
+/* Vendor files. */
+@import "vendor/normalize";
+
 /* Base files. */
-@import "base/normalize";
 @import "base/variables";
 @import "base/functions";
 @import "base/base-styles";
