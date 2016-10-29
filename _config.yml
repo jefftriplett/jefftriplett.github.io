@@ -145,5 +145,8 @@ exclude:
 include:
   - _pages
 
+font-awesome: 4.6.3
+google-fonts-family: PT+Serif:400,400italic,700|PT+Sans:400|Alegreya
+
 #liquid:
 #  error_mode: debug
