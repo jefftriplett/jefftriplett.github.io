@@ -3,6 +3,7 @@ layout: page
 title: Style Guide
 permalink: /styleguide/
 hidden: true
+sitemap: false
 ---
 
 # `h1` Heading
