@@ -123,6 +123,9 @@ sass:
   sass_dir: _sass
   style: compressed
 
+# Custom vars
+version: 0.3.2
+
 gems:
   # - jekyll-archives
   - jekyll-coffeescript
