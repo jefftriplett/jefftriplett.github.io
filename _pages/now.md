@@ -4,7 +4,7 @@ title: Now
 permalink: /now/
 ---
 
-I'm home in Lawrence, Kansas. It's fall.
+I'm home in Lawrence, Kansas. It's winter.
 
 - I work full-time [RevSys][] as a Software Engineer and Consultant.
 
@@ -14,7 +14,7 @@ I'm home in Lawrence, Kansas. It's fall.
 
 - For all of 2016, I have maintained a weekly [personal goals project][] on github.
 
-- I'm an avid basketball fan and [Is the Lead Safe][] if my website for tracking real-time game updates.
+- I'm an avid basketball fan and [Is the Lead Safe][] if my website for tracking real-time game updates. I'm hoping to find time to work on it more.
 
 - I continue to watch [television][] and listen to [podcasts][].
 
