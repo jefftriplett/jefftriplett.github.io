@@ -20,7 +20,7 @@ article.post {
   margin-bottom: 3.5rem;
 }
 
-.posts, .related {
+.posts, .post-meta, .related {
 
   article {
     // margin-bottom: 1.5rem;
@@ -46,6 +46,21 @@ article.post {
 
     .post-categories {
     }
+
+  }
+
+  blockquote, iframe .instagram-media {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+  }
+}
+
+
+.post-meta {
+  border-top: 2px dashed $border-color;
+  margin-top: 3.5rem;
+  h1, h2, h3 {
+    margin-top: 3rem;
   }
 }
 

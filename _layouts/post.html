@@ -4,12 +4,7 @@ layout: default
 
 <article class="post">
   <h1 class="post-title">{{ page.title|markdownify }}</h1>
-  <div class="post-meta">
-    <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">
-      <i class="fa fa-clock-o" aria-hidden="true"></i>
-      {{ page.date | date:"%B %e, %Y" }}
-    </time>
-  </div>
+
   {{ content }}
 
   {% comment %}
@@ -27,9 +22,31 @@ layout: default
   {% endcomment %}
 </article>
 
+<aside class="post-meta">
+  <h3>Post Meta</h3>
+  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">
+    <i class="fa fa-clock-o" aria-hidden="true"></i>
+    {{ page.date | date:"%B %e, %Y" }}
+  </time>
+  {% if page.location %}
+    <div>
+      <i class="fa fa-map-marker" aria-hidden="true"></i>
+      In {{ page.location }}
+    </div>
+  {% endif %}
+  {% if page.weather %}
+    <h6>
+    <!--
+      <i class="fa fa-map-marker" aria-hidden="true"></i>
+    -->
+      {{ page.weather }}
+    </h6>
+  {% endif %}
+</aside>
+
 {% if site.related_posts != empty %}
 <aside class="related">
-  <h2>Related posts</h2>
+  <h3>Related posts</h3>
   {% for post in site.related_posts limit:3 %}
     {% unless post.hidden %}
     <article class="row">
