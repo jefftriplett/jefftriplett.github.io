@@ -1,7 +1,20 @@
 # jefftriplett.com
 
-This is my personal website written with Markdown using Jekyll.
+This is my personal website written with Jekyll using Markdown.
 
+## Details
+
+### To Install
+
+```bash
+$ gem install jekyll bundler foreman
+```
+
+### To Serve Files
+
+```bash
+$ foreman start
+```
 
 ## Inspiration
 
