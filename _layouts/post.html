@@ -3,23 +3,9 @@ layout: default
 ---
 
 <article class="post">
-  <h1 class="post-title">{{ page.title|markdownify }}</h1>
+  <h1 class="post-title">{{ page.title }}</h1>
 
   {{ content }}
-
-  {% comment %}
-  <div class="post-categories">
-    Category: {{ page.category }}
-  </div>
-
-  <div class="post-tags">
-    <i class="fa fa-tag" aria-hidden="true"></i>
-    Tags:
-    {% for tag in page.tags %}
-    <span>{{ tag }}</span>
-    {% endfor %}
-  </div>
-  {% endcomment %}
 </article>
 
 <aside class="post-meta">
@@ -42,6 +28,19 @@ layout: default
       {{ page.weather }}
     </h6>
   {% endif %}
+  {% comment %}
+  <div class="post-categories">
+    Category: {{ page.category }}
+  </div>
+
+  <div class="post-tags">
+    <i class="fa fa-tag" aria-hidden="true"></i>
+    Tags:
+    {% for tag in page.tags %}
+    <span>{{ tag }}</span>
+    {% endfor %}
+  </div>
+  {% endcomment %}
 </aside>
 
 {% if site.related_posts != empty %}
