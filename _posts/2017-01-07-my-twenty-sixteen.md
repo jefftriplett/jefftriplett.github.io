@@ -163,7 +163,7 @@ I ended 2016 with a wonderful evening with friends.
 - I **attended** 3 conferences
 - I **wrote** 18 blog posts (most were TILs and one was for our company)
 - I **listened** to music for more than 34 days
-- I made 561 [**public** contributions on GitHub](https://github.com/jefftriplett). I have a few 1000 private contributions (clients pay the bills)
+- I **made** 1,591 [contributions on GitHub](https://github.com/jefftriplett).
 
 ## Some TV Shows I watched this year
 
