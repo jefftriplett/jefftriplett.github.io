@@ -1,6 +1,6 @@
 <nav>
   <ul>
-  {% for link in site.links %}
+  {% for link in site.data.navigation.links %}
     {% if link.show_in_footer == true %}
       <li>
         <a href="{{ link.url }}"{% if link.aria-label %} aria-label="{{ link.aria-label }}" title="{{ link.aria-label }}"{% endif %}>{{ link.title }}</a>

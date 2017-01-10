@@ -1,0 +1,75 @@
+# website navigation
+
+links:
+
+  - title: About
+    url: /about/
+    show_in_header: true
+    show_in_footer: true
+
+  - title: Posts
+    url: /
+    show_in_header: true
+    show_in_footer: false
+
+  - title: Projects
+    url: /projects/
+    show_in_header: true
+    show_in_footer: false
+
+  - title: Colophon
+    url: /colophon/
+    show_in_header: false
+    show_in_footer: true
+
+  - title: Topics
+    url: /topics/
+    show_in_header: false
+    show_in_footer: true
+
+  - title: Now
+    url: /now/
+    show_in_header: false
+    show_in_footer: true
+
+  - title: <i class="fa fa-twitter" aria-hidden=true></i>
+    url: https://twitter.com/webology
+    aria-label: "Follow Jeff on Twitter"
+    show_in_header: true
+    show_in_footer: true
+
+  - title: <i class="fa fa-facebook" aria-hidden=true></i>
+    url: https://www.facebook.com/jefftriplett
+    aria-label: "Follow Jeff on Facebook"
+    show_in_header: false
+    show_in_footer: true
+
+  - title: <i class="fa fa-github" aria-hidden=true></i>
+    url: https://github.com/jefftriplett
+    aria-label: "Follow Jeff on GitHub"
+    show_in_header: true
+    show_in_footer: true
+
+  - title: <i class="fa fa-thumb-tack" aria-hidden=true></i>
+    url: https://pinboard.in/u:jefftriplett
+    aria-label: "Follow Jeff on Pinboard"
+    show_in_header: false
+    show_in_footer: true
+
+  - title: <i class="fa fa-instagram" aria-hidden=true></i>
+    url: https://www.instagram.com/jefftriplett/
+    aria-label: "Follow Jeff on Instagram"
+    show_in_header: false
+    show_in_footer: true
+
+  - title: <i class="fa fa-flickr" aria-hidden=true></i>
+    url: https://www.flickr.com/photos/webology
+    aria-label: "Follow Jeff on Flickr"
+    show_in_header: false
+    show_in_footer: true
+
+  - title: <i class="fa fa-rss" aria-hidden=true></i>
+    url: /feed.xml
+    aria-label: "Subscribe!"
+    show_in_header: true
+    show_in_footer: true
