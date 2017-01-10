@@ -42,6 +42,17 @@ kramdown:
 
 # SEO
 
+author:
+  twitter: webology
+
+social:
+  name: Jeff Triplett
+  links:
+    - https://twitter.com/webology
+    - https://www.facebook.com/jefftriplett
+    - https://github.com/jefftriplett
+    - https://keybase.io/jefftriplett
+
 twitter:
   username: webology
 
@@ -75,7 +86,7 @@ collections:
 # Custom vars
 version: 0.4.0
 
-font-awesome: 4.6.3
+font-awesome: 4.7.0
 google-fonts-family: PT+Serif:400,400italic,700|PT+Sans:400|Alegreya
 
 #liquid:
