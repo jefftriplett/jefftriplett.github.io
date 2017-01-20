@@ -14,7 +14,7 @@ One of my [personal goals](https://github.com/jefftriplett/personal-goals) for 2
 
 ## My experiment of the month
 
-I have searched for good dashboard for my home and office for many years, but I never quite found the right solution. That is until I stumbled on [MagicMirror²](https://magicmirror.builders/). 
+I have searched for a good dashboard for my home and office for many years, but I never quite found the right solution. That is until I stumbled on [MagicMirror²](https://magicmirror.builders/). 
 
 Over the weekend I decided to just go with it and I ordered a [Raspberry Pi 3](https://www.amazon.com/gp/search/ref=as_li_qf_sp_sr_tl?ie=UTF8&tag=jefftriplet07-20&keywords=B01CD5VC92&index=aps&camp=1789&creative=9325&linkCode=ur2&linkId=6d6316c841a4778fda7b1afc4f128c84) [(non-affiliate link)](https://www.amazon.com/Raspberry-Pi-RASP-PI-3-Model-Motherboard/dp/B01CD5VC92) to drive a spare monitor at work. I could not be happier with the results!
 
@@ -34,13 +34,15 @@ I absolutely love Tracy Osborn's ([@limedaring](https://twitter.com/limedaring))
 
 [Hello Web App](https://www.amazon.com/Hello-Web-App-Learn-Build-ebook/dp/B00U5MMZ2E/?tag=jefftriplet07-20) [(non-affiliate link)](https://www.amazon.com/Hello-Web-App-Learn-Build-ebook/dp/B00U5MMZ2E/) is my goto recommendation when someone asks me for help for how to get started with Django. When friends reach out to me with that next great idea that they want to build themselves, but they aren't sure where to get started, then Hello Web App to the rescue. I have given my copy away at least half a dozen times. 
 
-Some of Tracy's Kickstarter reward levels include a copy of Hello Web App and her follow up book [Hello Web App: Intermediate Concepts](https://www.amazon.com/Hello-Web-App-Intermediate-Successful-ebook/dp/B01774NMEW/?tag=jefftriplet07-20) [(non-affiliate link)](https://www.amazon.com/Hello-Web-App-Intermediate-Successful-ebook/dp/B01774NMEW/) . This is an excellent deal if don't already own the set or if just want an extra copy to give to a friend when they ask next time :)
+Some of Tracy's Kickstarter reward levels include a copy of Hello Web App and her follow up book [Hello Web App: Intermediate Concepts](https://www.amazon.com/Hello-Web-App-Intermediate-Successful-ebook/dp/B01774NMEW/?tag=jefftriplet07-20) [(non-affiliate link)](https://www.amazon.com/Hello-Web-App-Intermediate-Successful-ebook/dp/B01774NMEW/). This is an excellent deal if you don't already own the set or if you just want an extra copy to give to a friend when they ask next time :)
 
 ## What I'm listening to
 
 I listen to a lot of music but I'm pretty bad at not paying attention to who I'm listening to. Every once in a while I'll check out a band only to realize that I'm already familiar with most of their music catalog. Most recently, I had this discovery with the [The Head and the Heart](https://en.wikipedia.org/wiki/The_Head_and_the_Heart). Their Spotify sessions are a great way to get to know them. I'm always a sucker for recordings of live music.
 
 <iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A2NEs5bVvRsZdlFkF3XSad6" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+
+<br>
 
 ## What I'm watching
 
@@ -53,5 +55,10 @@ Patrick Warburton plays Lemony Snicket, the narrator, which some of you might kn
 ## Quote I'm pondering
 
 > "I always say that the only thing that is the end of world is the end of the world." -- Barack Obama
+
+
+----
+
+*Thanks to [Heather Luna :fire:](https://twitter.com/h34th3r329) for advice on and corrections to a draft of this article. She's amazing.*
 
 <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
