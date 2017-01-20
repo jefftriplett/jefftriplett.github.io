@@ -2,11 +2,11 @@
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 
 ul {
-  list-style: disc inside;
+  list-style: disc;
 }
 
 ol {
-  list-style: decimal inside;
+  list-style: decimal;
   padding-left: 0;
   margin-top: 0;
 }
@@ -29,4 +29,9 @@ ol {
 
 li {
   margin-bottom: 0.5rem;
+}
+
+ol, ul {
+  list-style-position: outside;
+  padding-left: 1em;
 }
