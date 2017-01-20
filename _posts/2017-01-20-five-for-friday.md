@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Five for Friday (Friyay!)"
-hidden: true
 date: 2017-01-20 12:00:00 -0600
 category: Friyay
 location: Lawrence, Kansas United States
