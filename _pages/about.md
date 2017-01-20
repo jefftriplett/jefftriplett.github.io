@@ -8,7 +8,7 @@ permalink: /about/
 
 Developer at [Revolution Systems](http://revsys.com/) living in [Lawrence, KS](http://en.wikipedia.org/wiki/Lawrence,_Kansas). From [Sarcoxie, MO](http://en.wikipedia.org/wiki/Sarcoxie,_Missouri).
 
-Co-founder and President of the Board of [DEFNA (Django Events Foundation North America )](https://github.com/defna).
+Co-founder and President of the Board of [Django Events Foundation North America (DEFNA)](https://github.com/defna).
 
 [Django Developer Member](https://www.djangoproject.com/foundation/developer-members/).
 
@@ -18,7 +18,9 @@ Open source [developer](https://github.com/jefftriplett).
 
 [5 favorite open source Django packages](https://opensource.com/business/15/12/5-favorite-open-source-django-packages)
 
-## Organize
+## Organizing
+
+[DjangoCon US 2017](https://2017.djangocon.us/) Organizer.
 
 [DjangoCon US 2016](https://2016.djangocon.us/) Conference Chair.
 
@@ -35,6 +37,8 @@ Open source [developer](https://github.com/jefftriplett).
 [A Look Back on ELA Conf](http://jonibologna.com/a-look-back-on-ela-conf/) by [Joni Trythall](https://twitter.com/JoniTrythall)
 
 [DjangoCon US 2015 - Django Tales: How Django and Its Community Can Change Lives](https://www.youtube.com/watch?v=JQkM_fOlb2A) by [Anna Ossowski](https://twitter.com/OssAnna16)
+
+[(Life) Lessons Learnt while Traveling](http://anna-oz.tumblr.com/post/156114754840/life-lessons-learnt-while-traveling) by [Anna Ossowski](https://twitter.com/OssAnna16)
 
 ## Past
 
