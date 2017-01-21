@@ -20,7 +20,7 @@ I'm home in Lawrence, Kansas. It's winter.
 
 - I continue to watch [television][] and listen to [podcasts][].
 
-*This page is inspired by [Aaron Sumner's Now Page][] which was inspired by [Derek Sivers's][Derek Sivers] [Now Page Movement][].*
+*This page is inspired by [Aaron Sumner's Now Page][] which was inspired by [Derek Sivers's][Derek Sivers] [Now Page Movement][]. It's current as of January 21st, 2017.*
 
 [Aaron Sumner's Now Page]: http://aaronsumner.com/pages/now.html
 [Derek Sivers]: https://sivers.org/now
