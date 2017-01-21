@@ -18,7 +18,7 @@
   {% comment %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   {% endcomment %}
-  <link rel="stylesheet" href="/{{ site.baseurl }}assets/css/styles.css">
+  <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/styles.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ site.google-fonts-family }}">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/{{ site.font-awesome }}/css/font-awesome.min.css">
   <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/apple-icon-57x57.png">
