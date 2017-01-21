@@ -2,9 +2,9 @@
 layout: post
 title: "Five for Friday (Friyay!)"
 date: 2017-01-20 12:00:00 -0600
-category: Friyay
+category: Five for Friday
 location: Lawrence, Kansas United States
-weather: 47˚F - It was foggy.
+weather: It was 47˚F and foggy.
 tags:
 - friyay
 ---

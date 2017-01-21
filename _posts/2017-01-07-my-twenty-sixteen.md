@@ -4,7 +4,7 @@ title: "My Twenty-Sixteen"
 date: 2017-01-07
 category: Personal
 location: Lawrence, Kansas United States
-weather: 12˚F Clear
+weather: It was 12˚F with clear skies.
 tags:
 - eoy
 ---
