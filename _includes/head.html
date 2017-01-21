@@ -15,7 +15,9 @@
   <meta content="{{ tag }}" property="article:tag">
 {% endfor %}
 {% endif %}
+  {% comment %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  {% endcomment %}
   <link rel="stylesheet" href="/{{ site.baseurl }}assets/css/styles.css">
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ site.google-fonts-family }}">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/{{ site.font-awesome }}/css/font-awesome.css">
@@ -36,4 +38,6 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/assets/images/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
+  <meta name="viewport" content="width=device-width,minimum-scale=1">
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
 </head>
