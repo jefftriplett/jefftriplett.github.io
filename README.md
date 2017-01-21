@@ -22,3 +22,4 @@ $ foreman start
 - [awesome-jekyll](https://github.com/planetjekyll/awesome-jekyll)
 - [How I'm Using Jekyll in 2016](https://mademistakes.com/articles/using-jekyll-2016/)
 - [Katy DeCorah's mind grapes.](https://github.com/katydecorah/katydecorah.github.io) I have picked up several great Jekyll / layout tips reading both Katy's blog and code. A++. My variation on playlists comes directly from Katy's blog.
+- [Adding Open Graph Tags to Jekyll](http://davidensinger.com/2013/04/adding-open-graph-tags-to-jekyll/)
