@@ -88,7 +88,7 @@ collections:
     output: false
 
 # Custom vars
-version: 0.5.0
+version: 0.5.1
 
 font-awesome: 4.7.0
 google-fonts-family: PT+Serif:400,400italic,700|PT+Sans:400|Alegreya
