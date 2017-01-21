@@ -17,7 +17,8 @@ description: > # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 
-url: "http://jefftriplett.com" # the base hostname & protocol for your site
+url: "https://jefftriplett.com"
+enforce_ssl: "jefftriplett.com"
 
 twitter_username: webology
 
