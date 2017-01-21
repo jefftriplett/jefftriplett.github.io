@@ -2,9 +2,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{{ site.description }}">
+  <meta name="description" content="{{ site.description| markdownify | strip_html | strip_newlines | truncate: 100 }}">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   {% seo title=false %}
+{% if page.categories %}
+{% for category in page.categories limit:1 %}
+  <meta content="{{ category }}" property="article:section">
+{% endfor %}
+{% endif %}
+{% if page.tags %}
+{% for tag in page.tags %}
+  <meta content="{{ tag }}" property="article:tag">
+{% endfor %}
+{% endif %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="stylesheet" href="/{{ site.baseurl }}assets/css/styles.css">
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ site.google-fonts-family }}">
@@ -24,6 +34,6 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
   <link rel="manifest" href="/assets/images/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="msapplication-TileImage" content="/assets/images/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 </head>
