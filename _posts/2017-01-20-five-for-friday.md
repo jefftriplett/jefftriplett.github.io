@@ -45,7 +45,7 @@ I listen to a lot of music but I'm pretty bad at not paying attention to who I'm
 
 ## What I'm watching
 
-[An Unfortunate Series of Events]() on Netflix is one of the most fun series that I have watched in quite some time. 
+[An Unfortunate Series of Events](https://en.wikipedia.org/wiki/A_Series_of_Unfortunate_Events_(TV_series)) on Netflix is one of the most fun series that I have watched in quite some time. 
 
 I had high expectations with Neil Patrick Harris as Count Olaf who did not disappoint. I was also blown away by Malina Weissman (Violet) and Louis Hynes's (Klaus) performances as the Baudelaire children. 
 
