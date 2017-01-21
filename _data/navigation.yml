@@ -25,7 +25,7 @@ links:
   - title: Topics
     url: /topics/
     show_in_header: false
-    show_in_footer: true
+    show_in_footer: false
 
   - title: Now
     url: /now/
