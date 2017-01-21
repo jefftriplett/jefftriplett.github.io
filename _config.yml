@@ -1,55 +1,57 @@
-# Structure configuration
-# source: source
-# destination: build
-
+# Site settings
 assets:
   cachebust: hard
-
-# Site settings
 title: Jeff Triplett
-
 name: Jeff Triplett
-
 email: jeff.triplett@gmail.com
-
 description: > # this means to ignore newlines until "baseurl:"
   This is the personal website and blog of Jeff Triplett.
-
 baseurl: "" # the subpath of your site, e.g. /blog
-
 url: "https://jefftriplett.com"
 enforce_ssl: "jefftriplett.com"
-
-twitter_username: webology
-
-github_username:  jefftriplett
-
 relative_permalinks: false
-
-author:
-  twitter: webology
-
-#permalink: date
-permalink: :year/:title/
-
+permalink: :year/:title/  # permalink: date
 future: true
 paginate: 100
 
-# Build settings
-markdown: kramdown
+gems:
+  # - jekyll-archives
+  - jekyll-coffeescript
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+  - octopress-autoprefixer
 
+include:
+  - _pages
+
+exclude:
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - Procfile
+  - README.md
+
+markdown: kramdown
 kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
 
-# Frontmatter fallback settings
+sass:
+  sass_dir: _sass
+  style: compressed
 
-defaults:
+collections:  # process the _data folder
+  components:
+    output: false
+
+defaults:  # Frontmatter fallback settings
   - scope:
       path: ""
     values:
       image: /assets/images/me-gliphy.png
 
-# SEO
+# SEO Plugin settings
 
 author:
   twitter: webology
@@ -71,40 +73,11 @@ social:
 twitter:
   username: webology
 
-# Misc settings
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-gems:
-  # - jekyll-archives
-  - jekyll-coffeescript
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jemoji
-  - octopress-autoprefixer
-
-exclude:
-  - .gitignore
-  - Gemfile
-  - Gemfile.lock
-  - Procfile
-  - README.md
-
-include:
-  - _pages
-
-collections:
-  components:
-    output: false
-
 # Custom vars
 version: 0.5.3
-
 font-awesome: 4.7.0
 google-fonts-family: PT+Serif:400,400italic,700|PT+Sans:400|Alegreya
 
-#liquid:
-#  error_mode: debug
+# Needed for the default template... not sure if they are used anywhere else
+github_username:  jefftriplett
+twitter_username: webology
