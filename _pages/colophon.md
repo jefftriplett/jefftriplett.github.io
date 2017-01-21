@@ -4,7 +4,7 @@ title: Colophon
 permalink: /colophon/
 ---
 
-jefftriplett.com is published using [Jekyll][] and hosted on [GitHub Pages][]. The source code resides in my github repo: [jefftriplett/jefftriplett.github.io][].
+jefftriplett.com is published using [Jekyll][], hosted on [GitHub Pages][] and SSL via [Cloudflare][] The source code resides in my github repo: [jefftriplett/jefftriplett.github.io][].
 
 I'd rather write in [Markdown][] using my favorite editor [Sublime Text 3][] and pushing updates via [Git][] than wasting my days solving the wrong problems.
 
@@ -14,9 +14,10 @@ The text on the site uses [Alegreya][], [PT Sans][], and [PT Serif][]. Typograph
 
 The icons come from [Font Awesome][].
 
-Other indispensables: GitHub, Chrome, Gmail, Fastmail, Spotify, Apple MacBook Pro, and ...
+Other indispensables: GitHub, Chrome, Gmail, Fastmail, Spotify, Apple MacBook Pro, ...
 
 [Alegreya]: https://fonts.google.com/specimen/Alegreya
+[Cloudflare]: https://www.cloudflare.com
 [Font Awesome]: http://fontawesome.io/
 [Git]: https://git-scm.com/
 [GitHub Pages]: https://pages.github.com/
