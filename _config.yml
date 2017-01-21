@@ -45,6 +45,9 @@ kramdown:
 author:
   twitter: webology
 
+facebook:
+  app_id: 182545102225662
+
 social:
   name: Jeff Triplett
   links:
