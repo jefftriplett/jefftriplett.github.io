@@ -27,11 +27,13 @@ include:
   - _pages
 
 exclude:
+  - .bumpversion.cfg
   - .gitignore
   - Gemfile
   - Gemfile.lock
   - Procfile
   - README.md
+  - requirements.txt
 
 markdown: kramdown
 kramdown:
