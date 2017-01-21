@@ -41,6 +41,14 @@ markdown: kramdown
 kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
 
+# Frontmatter fallback settings
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/me-gliphy.png
+
 # SEO
 
 author:
@@ -61,6 +69,8 @@ social:
 
 twitter:
   username: webology
+
+# Misc settings
 
 sass:
   sass_dir: _sass
