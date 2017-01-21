@@ -68,6 +68,12 @@ links:
     show_in_header: false
     show_in_footer: true
 
+  - title: <i class="fa fa-spotify fa-fw" aria-hidden=true></i>
+    url: https://open.spotify.com/user/jefftriplett
+    aria-label: "Follow Jeff on Spotify"
+    show_in_header: false
+    show_in_footer: true
+
   - title: <i class="fa fa-rss fa-fw" aria-hidden=true></i>
     url: /feed.xml
     aria-label: "Subscribe!"
