@@ -10,7 +10,11 @@ Developer at [Revolution Systems](http://revsys.com/) living in [Lawrence, KS](h
 
 Co-founder and President of the Board of [Django Events Foundation North America (DEFNA)](https://github.com/defna).
 
+[Django Code of Conduct Committee Member](https://www.djangoproject.com/foundation/committees/#conduct)
+
 [Django Developer Member](https://www.djangoproject.com/foundation/developer-members/).
+
+[Python Software Foundation Contributing Member](https://www.python.org/psf/membership/)
 
 Open source [developer](https://github.com/jefftriplett).
 
