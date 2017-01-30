@@ -75,7 +75,7 @@ links:
     show_in_footer: true
 
   - title: <i class="fa fa-rss fa-fw" aria-hidden=true></i>
-    url: /feed.xml
+    url: http://feeds.feedburner.com/JeffTriplett
     aria-label: "Subscribe!"
     show_in_header: true
     show_in_footer: true
