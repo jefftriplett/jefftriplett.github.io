@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Personal Goals Recap"
+date: 2017-01-29 21:00:00 -0600
 category: Personal Goals
 location: Lawrence, Kansas United States
 weather: It was 40˚F and cloudy.
