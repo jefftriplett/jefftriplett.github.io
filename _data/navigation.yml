@@ -34,43 +34,49 @@ links:
 
   - title: <i class="fa fa-twitter fa-fw" aria-hidden=true></i>
     url: https://twitter.com/webology
-    aria-label: "Follow Jeff on Twitter"
+    aria-label: "Follow Jeff Triplett on Twitter"
     show_in_header: true
     show_in_footer: true
 
   - title: <i class="fa fa-facebook fa-fw" aria-hidden=true></i>
     url: https://www.facebook.com/jefftriplett
-    aria-label: "Follow Jeff on Facebook"
+    aria-label: "Follow Jeff Triplett on Facebook"
     show_in_header: false
     show_in_footer: true
 
   - title: <i class="fa fa-github fa-fw" aria-hidden=true></i>
     url: https://github.com/jefftriplett
-    aria-label: "Follow Jeff on GitHub"
+    aria-label: "Follow Jeff Triplett on GitHub"
     show_in_header: true
     show_in_footer: true
 
   - title: <i class="fa fa-thumb-tack fa-fw" aria-hidden=true></i>
     url: https://pinboard.in/u:jefftriplett
-    aria-label: "Follow Jeff on Pinboard"
+    aria-label: "Follow Jeff Triplett on Pinboard"
     show_in_header: false
     show_in_footer: true
 
   - title: <i class="fa fa-instagram fa-fw" aria-hidden=true></i>
     url: https://www.instagram.com/jefftriplett/
-    aria-label: "Follow Jeff on Instagram"
+    aria-label: "Follow Jeff Triplett on Instagram"
     show_in_header: false
     show_in_footer: true
 
   - title: <i class="fa fa-flickr fa-fw" aria-hidden=true></i>
     url: https://www.flickr.com/photos/webology
-    aria-label: "Follow Jeff on Flickr"
+    aria-label: "Follow Jeff Triplett on Flickr"
+    show_in_header: false
+    show_in_footer: true
+
+  - title: <i class="fa fa-medium fa-fw" aria-hidden=true></i>
+    url: https://medium.com/@webology
+    aria-label: "Follow Jeff Triplett on Medium"
     show_in_header: false
     show_in_footer: true
 
   - title: <i class="fa fa-spotify fa-fw" aria-hidden=true></i>
     url: https://open.spotify.com/user/jefftriplett
-    aria-label: "Follow Jeff on Spotify"
+    aria-label: "Follow Jeff Triplett on Spotify"
     show_in_header: false
     show_in_footer: true
 
