@@ -3,7 +3,7 @@ layout: null
 permalink: /humans.txt
 ---
 
-/* jeff triplett dot com*/
+/* jeff triplett dot com */
 
 Designer: Jeff Triplett
 Contact: hello [at] jefftriplett [dot] com
