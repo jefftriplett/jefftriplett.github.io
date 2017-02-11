@@ -4,9 +4,9 @@ assets:
 title: Jeff Triplett
 name: Jeff Triplett
 email: jeff.triplett@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  This is the personal website and blog of Jeff Triplett.
-baseurl: "" # the subpath of your site, e.g. /blog
+description: >
+  Thoughts about life, technology, development, and blog by Jeff Triplett.
+baseurl: ""
 url: "https://jefftriplett.com"
 enforce_ssl: "jefftriplett.com"
 relative_permalinks: false

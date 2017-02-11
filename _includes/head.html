@@ -3,7 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
   <meta name="description" content="{{ site.description | markdownify | strip_html | strip_newlines | truncate: 100 }}">
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title }} |{% endif %} {{ site.title }}</title>
   {% seo title=false %}
 {% if page.categories %}
 {% for category in page.categories limit:1 %}
