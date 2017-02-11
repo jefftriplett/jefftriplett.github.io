@@ -63,12 +63,14 @@ article.post {
   }
 }
 
-
-.post-meta {
-  border-top: 2px dashed $border-color;
-  margin-top: 3.5rem;
-  h1, h2, h3 {
-    margin-top: 3rem;
+@media ($bp-smaller-than-phablet) {
+  .posts, .post-meta, .related {
+    article {
+      .post-date {
+        text-align: left;
+        margin-bottom: 1.5rem;
+      }
+    }
   }
 }
 
