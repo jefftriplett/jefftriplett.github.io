@@ -6,7 +6,7 @@ location: Lawrence, Kansas United States
 weather: It was 71˚F sunny and breezy.
 ---
 
-Last week I decided to write about my [Now][] page which I thought was a fun experiment. 
+Last week I [wrote](/2017/now-page/) about my [Now][] page which I thought was a fun experiment. 
 
 I had no idea if anyone actually read my blog outside of a few friends on Twitter. To my surprise, several friends were also inspired and created their own Now pages. 
 
