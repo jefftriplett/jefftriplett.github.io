@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Now and Later"
-date: 2017-02-19 15:30:00 -0600
+date: 2017-02-19 16:46:00 -0600
 location: Lawrence, Kansas United States
 weather: It was 71˚F sunny and breezy.
 ---
