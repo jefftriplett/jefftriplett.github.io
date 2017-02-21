@@ -14,7 +14,7 @@ permalink: /
       <article class="row">
         <a href="{{ site.baseurl }}{{ post.url }}">
           <span class="post-title two-thirds column {% if post.draft %}draft{% endif %}">
-            {{ post.title }}
+            {{ post.title | markupify | remove:'<p>' | remove:'</p>' }}
             {% comment %}
             <i class="fa fa-external-link" aria-hidden="true"></i>
             {% endcomment %}
