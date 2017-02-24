@@ -30,7 +30,7 @@ sitemap: false
 
     {% for post in site.posts %}
       <item>
-        <title><![CDATA[{{post.title}}]]></title>
+        <title><![CDATA[{{ post.title | markdownify | strip_html | strip_newlines }}]]></title>
         <link>{% if post.link %}{{ post.link }}{% else %}{{ site.url }}{{ post.url }}{% endif %}</link>
         <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
         <dc:creator>{{ site.owner.name }}</dc:creator>
@@ -45,7 +45,7 @@ sitemap: false
 
         {% assign tags = post.tags | split: ' ' %}
         {% for tag in tags %}
-          <category domain="post_tag" nicename="{{tag | slugify}}"><![CDATA[{{tag}}]]></category>
+          <category domain="post_tag" nicename="{{ tag | slugify }}"><![CDATA[{{ tag }}]]></category>
         {% endfor %}
 
         <wp:status>publish</wp:status>
