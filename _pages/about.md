@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+redirect_from: /posts/about/raw/
 ---
 
 ## Present
