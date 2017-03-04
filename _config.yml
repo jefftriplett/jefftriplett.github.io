@@ -16,11 +16,12 @@ paginate: 100
 
 gems:
   # - jekyll-archives
-  - jekyll-coffeescript
+  # - jekyll-coffeescript
+  - jekyll-feed
   - jekyll-paginate
+  - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-feed
   - jemoji
   - octopress-autoprefixer
 
