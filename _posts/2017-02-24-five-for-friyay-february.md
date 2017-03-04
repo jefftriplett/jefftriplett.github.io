@@ -23,7 +23,7 @@ I spend hours upon hours writing and rewriting replies to emails. It's my single
 
 Jenn Schiffer's XOXO Festival talk on "No one expects the lady code troll" is a brilliant insight into toxic subcultures in the tech industry. Jenn has a satirical Medium series which baits men into mansplaining software development. Jenn's talk is hilarious and a must watch. I highly recommend it.
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/wewAC5X_CZ8" frameborder="0" allowfullscreen></iframe></p>
+{% include embed_youtube.html id="wewAC5X_CZ8" %}
 
 ## My favorite podcast episode recently
 
