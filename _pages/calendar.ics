@@ -1,0 +1,20 @@
+---
+layout: none
+permalink: /calendar.ics
+sitemap: false
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:http://jefftriplett.com/
+METHOD:PUBLISH
+{% for event in site.data.calendar.events limit:10 %}BEGIN:VEVENT
+UID:{{ event.date | date: "%Y%m%d" }}@jefftriplett.com
+ORGANIZER;CN="Jeff Triplett":MAILTO:hello@jefftriplett.com
+LOCATION:The Address of the example
+SUMMARY:{{ event.title }}
+CLASS:PUBLIC
+DTSTART:{{ event.date | date: "%Y%m%d" }}T170000Z
+DTEND:{{ event.date | date: "%Y%m%d" }}T190000Z
+DTSTAMP:{{ event.date | date: "%Y%m%d" }}T170000Z
+END:VEVENT
+{% endfor %}END:VCALENDAR

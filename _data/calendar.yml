@@ -1,0 +1,72 @@
+# calendar events
+
+events:
+
+  - title: "Big-12 Tournament: Wednesday"
+    date: 2017-03-08
+
+  - title: "Big-12 Tournament: Thursday"
+    date: 2017-03-09
+
+  - title: "Big-12 Tournament: Friday"
+    date: 2017-03-10
+
+  - title: "Big-12 Tournament: Saturday"
+    date: 2017-03-11
+
+  - title: "Saint Patrick's Day"
+    date: 2017-03-17
+
+  - title: "PyCon: Tutorials Day 1"
+    date: 2017-05-17
+
+  - title: "PyCon: Tutorials Day 2"
+    date: 2017-05-18
+
+  - title: "PyCon: Talks Day 1"
+    date: 2017-05-19
+
+  - title: "PyCon: Talks Day 2"
+    date: 2017-05-20
+
+  - title: "PyCon: Talks Day 3"
+    date: 2017-05-21
+
+  - title: "PyCon: Sprints Day 1"
+    date: 2017-05-22
+
+  - title: "PyCon: Sprints Day 2"
+    date: 2017-05-23
+
+  - title: "Memorial Day"
+    date: 2017-05-29
+
+  - title: "Independence Day"
+    date: 2017-07-04
+
+  - title: "DjangoCon US: Tutorials Day 1"
+    date: 2017-08-13
+
+  - title: "DjangoCon US: Talks Day 1"
+    date: 2017-08-14
+
+  - title: "DjangoCon US: Talks Day 2"
+    date: 2017-08-15
+
+  - title: "DjangoCon US: Talks Day 3"
+    date: 2017-08-16
+
+  - title: "DjangoCon US: Sprints Day 1"
+    date: 2017-08-17
+
+  - title: "DjangoCon US: Sprints Day 2"
+    date: 2017-08-18
+
+  - title: "Thanksgiving Day"
+    date: 2017-11-23
+
+  - title: "Christmas Day"
+    date: 2017-12-25
+
+  - title: "New Years Eve"
+    date: 2017-12-31
