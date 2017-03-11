@@ -17,7 +17,9 @@ paginate: 100
 gems:
   # - jekyll-archives
   # - jekyll-coffeescript
+  - jekyll-crosspost-to-medium
   - jekyll-feed
+  - jekyll-mentions
   - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-seo-tag
@@ -81,11 +83,19 @@ social:
 twitter:
   username: webology
 
+# Needed for the default template... not sure if they are used anywhere else
+github_username: jefftriplett
+twitter_username: webology
+
+jekyll-crosspost_to_medium:
+  backdate: true
+  #cache: .jekyll-crosspost_to_medium
+  enabled: true
+  license: all-rights-reserved
+  status: draft
+  text: '<p><i>Your (optional) signoff for the post.</i></p>'
+
 # Custom vars
 version: 0.9.0
 font-awesome: 4.7.0
 google-fonts-family: PT+Serif:400,400italic,700|PT+Sans:400|Alegreya
-
-# Needed for the default template... not sure if they are used anywhere else
-github_username:  jefftriplett
-twitter_username: webology
