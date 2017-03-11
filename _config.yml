@@ -87,6 +87,13 @@ twitter:
 github_username: jefftriplett
 twitter_username: webology
 
+# Jekyll Mentions
+
+jekyll-mentions:
+  base_url: https://twitter.com
+
+# Jekyll to Medium
+
 jekyll-crosspost_to_medium:
   backdate: true
   #cache: .jekyll-crosspost_to_medium
