@@ -19,4 +19,4 @@ import pytest
 pytest.set_trace()
 ```
 
-[source](https://pytest.org/latest/usage.html#setting-a-breakpoint-aka-set-trace)
+[source](http://pytest.org/latest/usage.html#setting-a-breakpoint-aka-set-trace)
