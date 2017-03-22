@@ -3,6 +3,7 @@ ruby RUBY_VERSION
 
 gem "coffee-script"
 gem "html-proofer"
+gem "html-proofer"
 gem "mini_magick"
 gem "octopress-autoprefixer"
 gem "sass"

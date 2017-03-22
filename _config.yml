@@ -33,11 +33,16 @@ include:
 exclude:
   - .bumpversion.cfg
   - .gitignore
+  - _pages/categories.html
+  - _pages/playlists.html
+  - _pages/tags.html
   - Gemfile
   - Gemfile.lock
+  - plugins
   - Procfile
   - README.md
   - requirements.txt
+  - topics
 
 markdown: kramdown
 kramdown:

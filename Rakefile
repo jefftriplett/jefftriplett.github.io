@@ -8,9 +8,10 @@ task :test do
       "ImageCheck"
     ],
     :file_ignore => [
+      /categories/,
       /playlist/,
       /styleguide/,
-      /tag/,
+      /tags/,
       /topics/
     ]
   }
