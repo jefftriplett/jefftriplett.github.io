@@ -113,4 +113,4 @@ If you aren't into public speaking or if there's a topic that you'd like to see 
 
 ----
 
-*Thanks to [Heather Luna aka. :fire:](https://twitter.com/h34th3r329), [Rebecca Kindschi](https://twitter.com/rebeccakindschi), [Emma Delescolle](https://twitter.com/EmmaDelescolle), and [Markus Holtermann](https://twitter.com/m_holtermann) for advice on and corrections to a draft of this article.*
+*Thanks to [Heather Luna aka. :fire:](https://twitter.com/h34th3r329), [Rebecca Kindschi](https://twitter.com/rebeccakindschi), [Emma Delescolle](https://twitter.com/EmmaDelescolle), [Markus Holtermann](https://twitter.com/m_holtermann), and [Jannis Leidel](https://twitter.com/jezdez) for advice on and corrections to a draft of this article.*
