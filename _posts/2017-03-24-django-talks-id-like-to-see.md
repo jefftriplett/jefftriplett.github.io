@@ -107,6 +107,11 @@ If one of these topics looks appealing to you but you aren't sure what to talk a
     - `django.contrib.postgres` for a minor update has several new features which could fit into a talk. QS.iterator on PG
 - What's new in Django 2.0?
 
+## Your Feedback:
+
+- API design via [Renato Oliveira](https://twitter.com/_renatoOliveira/status/845372189662724096)
+- Django in the age of serverless via [Daniel Roy Greenfeld](https://twitter.com/pydanny/status/845385783171211264)
+
 ## What did I miss?
 
 If you aren't into public speaking or if there's a topic that you'd like to see covered, then please let me know on [twitter](https://twitter.com/webology) and I'll add it to the list. Thank you!
