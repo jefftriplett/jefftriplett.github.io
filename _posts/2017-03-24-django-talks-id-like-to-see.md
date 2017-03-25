@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "DjangoCon US Talks I'd Like to See: 2017 Edition"
-date: 2017-03-10 14:35:00 -0600
+date: 2017-03-24 14:35:00 -0600
 category: DjangoCon
 location: Lawrence, Kansas United States
 weather: 68˚F - Cloudy and rainy.
