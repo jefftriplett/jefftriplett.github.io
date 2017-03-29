@@ -14,11 +14,7 @@ LOCATION:Lawrence\, Kansas
 SUMMARY:{{ event.title }}
 CLASS:PUBLIC
 DTSTART:{{ event.start_date | date: "%Y%m%d" }}T170000Z
-{% if event.end_date %}
-DTEND:{{ event.end_date | date: "%Y%m%d" }}T190000Z
-{% else %}
-DTEND:{{ event.start_date | date: "%Y%m%d" }}T190000Z
-{% endif %}
+{% if event.end_date %}DTEND:{{ event.end_date | date: "%Y%m%d" }}T190000Z{% else %}DTEND:{{ event.start_date | date: "%Y%m%d" }}T190000Z{% endif %}
 DTSTAMP:{{ event.start_date | date: "%Y%m%d" }}T170000Z
 END:VEVENT
 {% endfor %}END:VCALENDAR
