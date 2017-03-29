@@ -10,11 +10,15 @@ METHOD:PUBLISH
 {% for event in site.data.calendar.events limit:10 %}BEGIN:VEVENT
 UID:{{ event.date | date: "%Y%m%d" }}@jefftriplett.com
 ORGANIZER;CN="Jeff Triplett":MAILTO:hello@jefftriplett.com
-LOCATION:The Address of the example
+LOCATION:Lawrence\, Kansas
 SUMMARY:{{ event.title }}
 CLASS:PUBLIC
-DTSTART:{{ event.date | date: "%Y%m%d" }}T170000Z
-DTEND:{{ event.date | date: "%Y%m%d" }}T190000Z
-DTSTAMP:{{ event.date | date: "%Y%m%d" }}T170000Z
+DTSTART:{{ event.start_date | date: "%Y%m%d" }}T170000Z
+{% if event.end_date %}
+DTEND:{{ event.end_date | date: "%Y%m%d" }}T190000Z
+{% else %}
+DTEND:{{ event.start_date | date: "%Y%m%d" }}T190000Z
+{% endif %}
+DTSTAMP:{{ event.start_date | date: "%Y%m%d" }}T170000Z
 END:VEVENT
 {% endfor %}END:VCALENDAR
