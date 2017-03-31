@@ -111,6 +111,7 @@ If one of these topics looks appealing to you but you aren't sure what to talk a
 
 - API design via [Renato Oliveira](https://twitter.com/_renatoOliveira/status/845372189662724096)
 - Django in the age of serverless via [Daniel Roy Greenfeld](https://twitter.com/pydanny/status/845385783171211264)
+- How to contribute to an open source project. How to create an distributable app via [Maikel P](https://twitter.com/maikelpac/status/847911677433712641)
 
 ## What did I miss?
 
