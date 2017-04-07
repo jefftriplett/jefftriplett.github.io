@@ -86,11 +86,11 @@ social:
     - https://www.instagram.com/jefftriplett/
 
 twitter:
-  username: webology
+  username: "webology"
 
 # Needed for the default template... not sure if they are used anywhere else
 github_username: jefftriplett
-twitter_username: webology
+twitter_username: "webology"
 
 # Jekyll Mentions
 
