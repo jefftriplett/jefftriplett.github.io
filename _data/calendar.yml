@@ -28,6 +28,10 @@ events:
   - title: "Cinco De Mayo / Revsys turns 10"
     start_date: 2017-05-05
 
+  - title: "Mother's Day Weekend in Chicago"
+    start_date: 2017-04-12
+    end_date: 2017-04-14
+
   - title: "PyCon: Tutorials Day 1"
     start_date: 2017-05-17
 
