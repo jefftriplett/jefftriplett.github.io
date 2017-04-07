@@ -30,6 +30,7 @@ In case you want to attempt to make Cashew Chicken from home. It's actually very
 > "Your happiness depends on where you’re focusing." -- [Derek Sivers](https://sivers.org/bronze)
 
 ----
+
 ## Service I'm using
 
 [Supermute](https://supermute.feeltrain.com/) has made Twitter bearable again. The service allows you to mute words for a period of time and it also shows you which accounts are impacted by it. At one point, mine was blocking 254 users and I could happily use Twitter browse Twitter again.
