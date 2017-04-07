@@ -4,8 +4,8 @@ title: "Five for Friyay: April Showers"
 date: 2017-04-07 18:21:00 -0600
 category: Five for Friyay
 location: Lawrence, Kansas United States
-weather: 65˚F - It was Sunny.
-playlist: http://open.spotify.com/user/jefftriplett/playlist/1Hfm3vTnyRlga1sKLVw1hq
+weather: "65˚F - It was Sunny."
+playlist: "http://open.spotify.com/user/jefftriplett/playlist/1Hfm3vTnyRlga1sKLVw1hq"
 tags:
 - friyay
 ---
