@@ -64,8 +64,7 @@ defaults:  # Frontmatter fallback settings
 
 # SEO Plugin settings
 
-author:
-  twitter: webology
+author: webology
 
 facebook:
   app_id: 182545102225662
