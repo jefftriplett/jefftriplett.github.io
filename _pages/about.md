@@ -49,4 +49,4 @@ Open source [developer](https://github.com/jefftriplett).
 
 Co-creator of the [Django Pony](http://www.djangopony.com/) website.
 
-Senior Developer at [Mediaphormedia](http://mediaphormedia.com/) where [Django](http://djangoproject.com/) and [Ellington CMS and Marketplace](http://www.ellingtoncms.com/) were created.
+Senior Developer at [Mediaphormedia](https://www.ellingtoncms.com/) where [Django](http://djangoproject.com/) and [Ellington CMS and Marketplace](https://www.ellingtoncms.com/) were created.
