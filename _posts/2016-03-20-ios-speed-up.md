@@ -10,4 +10,4 @@ tags:
  - performance
 ---
 
-How to speed up iOS by [disabling SpringBoard animations](http://9to5mac.com/2016/03/08/how-to-disable-ios-springboard-animations-faster-glitch/).
+How to speed up iOS by [disabling SpringBoard animations](https://9to5mac.com/2016/03/08/how-to-disable-ios-springboard-animations-faster-glitch/).
