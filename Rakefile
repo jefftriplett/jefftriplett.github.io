@@ -13,6 +13,9 @@ task :test do
       /styleguide/,
       /tags/,
       /topics/
+    ],
+    :url_ignore => [
+      /www.ellingtoncms.com/
     ]
   }
   HTMLProofer.check_directory("./_site", options).run
