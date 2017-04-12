@@ -29,8 +29,8 @@ events:
     start_date: 2017-05-05
 
   - title: "Mother's Day Weekend in Chicago"
-    start_date: 2017-04-12
-    end_date: 2017-04-14
+    start_date: 2017-05-12
+    end_date: 2017-05-14
 
   - title: "PyCon: Tutorials Day 1"
     start_date: 2017-05-17
