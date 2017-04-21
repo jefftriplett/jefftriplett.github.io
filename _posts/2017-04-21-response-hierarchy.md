@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Response Hierarchy"
-date: 2017-04-21 15:10:00 -0600
+date: 2017-04-21 15:09:00 -0600
 location: Lawrence, Kansas United States
 weather: "56˚F - It was mostly cloudy."
 ---
