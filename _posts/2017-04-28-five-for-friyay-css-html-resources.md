@@ -5,7 +5,7 @@ date: 2017-04-28 16:30:00 -0600
 category: Five for Friyay
 location: Naperville, Illinois United States
 weather: 66˚F It was mostly cloudy.
-redirect_from: /posts/five-for-friyay-css-html-resources/
+# redirect_from: /posts/five-for-friyay-css-html-resources/
 tags:
 - friyay
 ---
