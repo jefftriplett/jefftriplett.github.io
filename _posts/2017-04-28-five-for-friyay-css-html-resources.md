@@ -5,6 +5,7 @@ date: 2017-04-28 16:30:00 -0600
 category: Five for Friyay
 location: Naperville, Illinois United States
 weather: 66˚F It was mostly cloudy.
+redirect_from: /posts/five-for-friyay-css-html-resources/
 tags:
 - friyay
 ---
@@ -19,13 +20,15 @@ Despite spending most of my professional time working on backend Python and API 
 
 I don't normally care for these types of games but I wanted an excuse to learn CSS grid and Thomas does a great job of teaching in a way that your mistakes are even educations which the grid doesn't quite work how I thought it should.
 
-![](https://pbs.twimg.com/media/C8lOJFBWsAALFQi.png:small)
+![](/assets/images/posts/friyay-css-html-resources/cssgridgarden.png)
 
 ----
 
 ## What I'm learning
 
 [Flexbox Froggy](http://flexboxfroggy.com/) by [Thomas H. Park](https://twitter.com/thomashpark) is another CSS game which focuses on learning CSS flexbox. It's fun and I played this all the way through over lunch.
+
+![](/assets/images/posts/friyay-css-html-resources/flexboxfroggy.png)
 
 ----
 
