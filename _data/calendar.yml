@@ -56,6 +56,12 @@ events:
   - title: "Memorial Day"
     start_date: 2017-05-29
 
+  - title: "Moving Day"
+    start_date: 2017-06-01
+
+  - title: "Cleaning Day"
+    start_date: 2017-06-02
+
   - title: "Independence Day"
     start_date: 2017-07-04
 
