@@ -55,6 +55,9 @@ sass:
 collections:  # process the _data folder
   components:
     output: false
+  topics:
+    output: true
+    permalink: /:collection/:name/
 
 defaults:  # Frontmatter fallback settings
   - scope:

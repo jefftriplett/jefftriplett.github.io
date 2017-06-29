@@ -1,0 +1,24 @@
+---
+layout: default
+title: Topics
+permalink: /topics/
+sitemap: false
+---
+
+{% comment%}
+Here we generate all the categories.
+{% endcomment%}
+
+<h1 class="page-title">
+  {{ page.title }}
+</h1>
+
+<div class="posts">
+  {% for topic in site.topics %}
+    <h4 id="{{ topic.category | slugify }}">
+      <a href="{{ topic.url }}">
+        {{ topic.category }}
+      </a>
+    </h4>
+  {% endfor %}
+</div>

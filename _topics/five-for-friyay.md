@@ -1,5 +1,5 @@
 ---
 layout: topic_detail
-category: Five for Friday
+category: Five for Friyay
 sitemap: false
 ---
