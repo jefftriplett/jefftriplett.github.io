@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Five for Friyay: CSS and HTML Resources"
+title: "CSS and HTML Resources"
 date: 2017-04-28 16:30:00 -0600
 category: Five for Friyay
 location: Naperville, Illinois United States

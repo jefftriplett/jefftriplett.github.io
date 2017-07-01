@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2016-04-08
-title: "TIL: Emojis Make Sound!"
+title: "Emojis Make Sound!"
 category: TIL
 location: Lawrence, Kansas United States
 tags:

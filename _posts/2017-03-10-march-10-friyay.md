@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Five for Friyay: March 10th"
+title: "March 10th"
 date: 2017-03-10 01:45:00 -0600
 category: Five for Friyay
 location: Lawrence, Kansas United States

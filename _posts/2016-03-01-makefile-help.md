@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TIL: Makefile Help"
+title: "Makefile Help"
 date: 2016-03-01
 category: TIL
 location: Lawrence, Kansas United States

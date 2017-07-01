@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TIL: Significantly Speed Up iOS"
+title: "Significantly Speed Up iOS"
 date: 2016-03-20
 category: TIL
 location: Lawrence, Kansas United States

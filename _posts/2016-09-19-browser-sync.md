@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TIL: Use `browser-sync` as a proxy"
+title: "Use `browser-sync` as a proxy"
 date: 2016-09-19
 category: TIL
 location: Lawrence, Kansas United States

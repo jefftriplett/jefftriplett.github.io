@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TIL: PyEnv Py2 + Py3 System Wide"
+title: "PyEnv Py2 + Py3 System Wide"
 date: 2016-02-15
 category: TIL
 location: Lawrence, Kansas United States

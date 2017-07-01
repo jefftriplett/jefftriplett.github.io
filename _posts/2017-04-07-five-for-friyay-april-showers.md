@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Five for Friyay: April Showers"
+title: "April Showers"
 date: 2017-04-07 18:21:00 -0600
 category: Five for Friyay
 location: Lawrence, Kansas United States

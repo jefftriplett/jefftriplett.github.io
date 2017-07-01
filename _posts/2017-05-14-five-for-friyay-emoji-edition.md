@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Five for Friyay: Emoji Edition"
+title: "Emoji Edition"
 date: 2017-05-14 16:35:00 -0600
 category: Five for Friyay
 location: Naperville, Illinois United States

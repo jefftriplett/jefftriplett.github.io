@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TIL: Django `UserPassesTestMixin`"
+title: "Django `UserPassesTestMixin`"
 date: 2016-03-08
 category: TIL
 location: Lawrence, Kansas United States

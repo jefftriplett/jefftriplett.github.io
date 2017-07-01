@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Five for Friyay: Cashew Chicken Edition"
+title: "Cashew Chicken Edition"
 date: 2017-03-31 14:35:00 -0600
 category: Five for Friyay
 location: Lawrence, Kansas United States
