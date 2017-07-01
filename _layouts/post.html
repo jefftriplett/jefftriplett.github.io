@@ -3,7 +3,13 @@ layout: default
 ---
 
 <article class="post">
-  <h1 class="post-title">{{ page.title | markdownify | remove:'<p>' | remove:'</p>' }}</h1>
+  <h1 class="post-title">
+    {% assign topic = site.topics | where:"category", page.category | first %}
+    {% if topic.show_on_homepage %}
+      {{ topic.category }}:
+    {% endif %}
+    {{ page.title | markdownify | remove:'<p>' | remove:'</p>' }}
+  </h1>
   {{ content }}
 
   {% include sharing.html %}
