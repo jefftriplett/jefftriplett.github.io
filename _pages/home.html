@@ -17,6 +17,13 @@ redirect_from:
       <article class="row">
         <a href="{{ site.baseurl }}{{ post.url }}">
           <span class="post-title two-thirds column {% if post.draft %}draft{% endif %}">
+            {% if post.category %}
+              {% assign topic = site.topics | where:"category", post.category | first %}
+              {% if topic.show_on_homepage %}
+                {{ post.category }}:
+              {% endif %}
+            {% endif %}
+
             {{ post.title | markdownify | remove:'<p>' | remove:'</p>' }}
             {% comment %}
             <i class="fa fa-external-link" aria-hidden="true"></i>
