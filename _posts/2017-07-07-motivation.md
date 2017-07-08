@@ -50,3 +50,5 @@ Now when I work with friends who are landing their first industry job, I try to 
 I have most of my systems automated using [Ansible](https://www.ansible.com/) and I keep meaning to do a write-up about it. Ricbra's setup can give you some idea of how powerful and easy Ansible is to use. 
 
 My [dotfiles](https://github.com/jefftriplett/dotfiles) setup is on GitHub and I use Ansible via a Makefile to make my setup repeatable without having to remember which command line flags and options need to be passed in. I make small changes to it all the time so check back for updates.
+
+*Thanks to [Heather Luna :fire:](https://twitter.com/h34th3r329) for advice on and corrections to a draft of this article. She's amazing.*
