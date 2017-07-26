@@ -65,23 +65,12 @@ events:
   - title: "Independence Day"
     start_date: 2017-07-04
 
-  - title: "DjangoCon US: Tutorials Day 1"
-    start_date: 2017-08-13
+  - title: "DjangoCon US: Spokane"
+    start_date: 2017-08-10
+    end_date: 2017-08-19
 
-  - title: "DjangoCon US: Talks Day 1"
-    start_date: 2017-08-14
-
-  - title: "DjangoCon US: Talks Day 2"
-    start_date: 2017-08-15
-
-  - title: "DjangoCon US: Talks Day 3"
-    start_date: 2017-08-16
-
-  - title: "DjangoCon US: Sprints Day 1"
-    start_date: 2017-08-17
-
-  - title: "DjangoCon US: Sprints Day 2"
-    start_date: 2017-08-18
+  - title: ":baby:"
+    start_date: 2017-09-16
 
   - title: "Thanksgiving Day"
     start_date: 2017-11-23
