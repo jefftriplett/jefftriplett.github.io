@@ -37,7 +37,7 @@ Seashells is also built on the handy [xterm.js](https://github.com/sourcelair/xt
 
 ## Sign Your Git Commits
 
-[keybase-gpg-github](https://github.com/pstadler/keybase-gpg-github) is an easy to follow guide on how to create a GPG key on [Keybase](keybase.io) to use GPG to sign Git commits. This allows you to have verified commit messages on Github.
+[keybase-gpg-github](https://github.com/pstadler/keybase-gpg-github) is an easy to follow guide on how to create a GPG key on [Keybase](https://keybase.io/) to use GPG to sign Git commits. This allows you to have verified commit messages on Github.
 
 ## Rethinking How You Teach
 
