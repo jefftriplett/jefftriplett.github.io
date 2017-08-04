@@ -4,7 +4,7 @@ title: Tools Edition
 date: 2017-08-04 10:40:00 -0600
 category: Five for Friyay
 location: Lawrence, Kansas. United States
-weather: 67˚F and Clear
+weather: 68˚F and Clear
 image: /assets/images/posts/friyay-tools-edition/tools.png
 tags:
 - friyay
