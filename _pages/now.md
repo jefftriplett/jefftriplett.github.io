@@ -4,7 +4,7 @@ title: Now
 permalink: /now/
 ---
 
-I'm home in Lawrence, Kansas. It's spring.
+I'm home in Lawrence, Kansas. It's summer.
 
 - I work full-time [RevSys][] as an Engineer and Consultant. Some days I write code, train developers, automate systems, secure websites, and manage humans.
 
@@ -12,11 +12,13 @@ I'm home in Lawrence, Kansas. It's spring.
 
 - I'm learning to play the Ukulele.
 
-- After a few year hiatus, I recently started trail running again.
+- After a few year hiatus, I consistently trail running again.
+
+- I converted to a [Keto diet][]
 
 - I have maintained a weekly [personal goals project][] on Github since late 2015. I'm continuing on into 2017 and the foreseeable future. 
 
-- I'm attempting to blog once a week for every week in 2017.
+- I'm attempting to blog *nearly* once a week for every week in 2017.
 
 - I'm an avid basketball fan and [Is the Lead Safe][] if my website for tracking real-time game updates. I hope to resume working on it during the fall.
 
@@ -28,8 +30,9 @@ I'm home in Lawrence, Kansas. It's spring.
 [Derek Sivers]: https://sivers.org/now
 [DjangoCon US 2017]: https://2017.djangocon.us/
 [Is the Lead Safe]: http://www.istheleadsafe.com/
+[Keto diet]: https://www.reddit.com/r/keto/wiki/keto_in_a_nutshell
 [Now Page Movement]: http://nownownow.com/about
-[RevSys]: http://www.revsys.com/
 [personal goals project]: https://github.com/jefftriplett/personal-goals
 [podcasts]: https://github.com/jefftriplett/personal-goals/blob/master/content-list/podcasts.md
+[RevSys]: http://www.revsys.com/
 [television]: https://github.com/jefftriplett/personal-goals/blob/master/content-list/television.md
