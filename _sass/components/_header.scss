@@ -6,7 +6,9 @@ header {
   vertical-align: bottom;
   border-bottom: 2px dashed $border-color;
 
-  h1, h2, h3 {
+  h1,
+  h2,
+  h3 {
     margin-bottom: 0.5em;
   }
 
@@ -39,7 +41,6 @@ header {
       text-decoration: underline;
     }
   }
-
 }
 
 .section {

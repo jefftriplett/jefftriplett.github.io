@@ -17,15 +17,13 @@ article.post {
     // margin-bottom: 3.5rem;
   }
 
-  .sharing {
-    // text-align: center;
-  }
-
   margin-bottom: 3.5rem;
 }
 
-.posts, .post-meta, .related {
-
+.posts,
+.post-meta,
+.related,
+.sharing {
   article {
     // margin-bottom: 1.5rem;
     a {
@@ -58,14 +56,17 @@ article.post {
     margin-bottom: 2.5rem;
   }
 
-  blockquote, iframe .instagram-media {
+  blockquote,
+  iframe .instagram-media {
     margin-top: 3.5rem;
     margin-bottom: 3.5rem;
   }
 }
 
 @media ($bp-smaller-than-phablet) {
-  .posts, .post-meta, .related {
+  .posts,
+  .post-meta,
+  .related {
     article {
       .post-date {
         text-align: left;
@@ -77,9 +78,16 @@ article.post {
 .related {
   border-top: 2px dashed $border-color;
   margin-top: 3.5rem;
-  h1, h2, h3 {
+  h1,
+  h2,
+  h3 {
     margin-top: 3rem;
   }
+}
+
+.sharing {
+  // text-align: center;
+  // border: 2px dashed #CAD1D8;
 }
 
 .embed {
@@ -120,3 +128,55 @@ ol ol, ul ol {
    margin-left: 15px;
 }
 */
+
+.meta-list {
+  // border: 2px dashed #CAD1D8;
+  // border-top: dotted 2px #CAD1D8;
+  // border-top: dashed 2px $border-color;
+  margin: 0 0;
+  list-style-type: none;
+  padding-top: 3%;
+  position: relative;
+  // color: #8E969E;
+  font-style: normal;
+  font-size: 0.75em;
+}
+
+.meta-list li {
+  padding: 0 10px 0 0;
+  position: relative;
+  display: inline-block;
+  min-width: 32%;
+  max-width: 32%;
+  vertical-align: top;
+}
+
+@media (max-width: 800px) {
+  .meta-list {
+    padding: 7% 0 5% 0;
+  }
+
+  .meta-list li {
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .meta-list li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.meta-list strong {
+  // color: #383F49;
+  display: inline-block;
+  width: 100%;
+}
+
+.meta-list a {
+  color: #6f7f8d;
+}
+
+.meta-list a:hover {
+  color: #383f49;
+}
