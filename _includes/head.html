@@ -14,6 +14,8 @@
   <meta content="{{ tag }}" property="article:tag">
 {% endfor %}
 {% endif %}
+  <!-- Don't be evil Twitter -->
+  <meta name="twitter:dnt" content="on">
   {% comment %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   {% endcomment %}
