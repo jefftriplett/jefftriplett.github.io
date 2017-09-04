@@ -1,0 +1,83 @@
+<aside class="post-meta">
+  <br>
+  <h3>Post Meta</h3>
+  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">
+    <i class="fa fa-clock-o" aria-hidden="true"></i>
+    {{ page.date | date:"%B %e, %Y" }}
+  </time>
+  {% if page.location %}
+    <div>
+      <i class="fa fa-map-marker" aria-hidden="true"></i>
+      In {{ page.location }}
+    </div>
+  {% endif %}
+  {% if page.weather %}
+    <h6>
+    <!--
+      <i class="fa fa-map-marker" aria-hidden="true"></i>
+    -->
+      {{ page.weather }}
+    </h6>
+  {% endif %}
+  {% comment %}
+  <div class="post-categories">
+    Category: {{ page.category }}
+  </div>
+
+  <div class="post-tags">
+    <i class="fa fa-tag" aria-hidden="true"></i>
+    Tags:
+    {% for tag in page.tags %}
+    <span>{{ tag }}</span>
+    {% endfor %}
+  </div>
+  {% endcomment %}
+</aside>
+
+{% comment %}
+<aside class="post-meta">
+  <ul class="meta-list">
+    <li>
+      <strong><i class="fa fa-clock-o" aria-hidden="true"></i> Published</strong>
+      <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">
+        {{ page.date | date:"%B %e, %Y" }}
+      </time>
+    </li>
+
+    <li>
+      <strong>Category</strong>
+      <a href="">{{ page.category }}</a>
+    </li>
+
+    <li>
+      <div class="post-tags">
+        <strong><i class="fa fa-tag" aria-hidden="true"></i> Tags</strong>
+        {% for tag in page.tags %}
+        <span>{{ tag }}</span>
+        {% endfor %}
+      </div>
+    </li>
+
+    {% assign read_time = page.content | strip_html | strip_newlines | number_of_words | divided_by: 200 %}
+    {% if read_time == 0 %}{% assign read_time = 1 %}{% endif %}
+    <li>
+      <i class="fa fa-clock-o" aria-hidden="true"></i>
+      {{ read_time }} minute read
+    </li>
+
+    {% if page.location %}
+      <li>
+        <strong><i class="fa fa-map-marker" aria-hidden="true"></i> Location</strong>
+        In {{ page.location }}
+      </li>
+    {% endif %}
+
+    {% if page.weather %}
+      <li>
+        <strong>Weather</strong>
+        {{ page.weather }}
+      </li>
+    {% endif %}
+  </ul>
+</aside>
+{% endcomment %}

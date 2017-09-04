@@ -11,65 +11,16 @@ layout: default
     {{ page.title | markdownify | remove:'<p>' | remove:'</p>' }}
   </h1>
   {{ content }}
-
-  {% include sharing.html %}
 </article>
 
-<aside class="post-meta">
-  <h3>Post Meta</h3>
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">
-    <i class="fa fa-clock-o" aria-hidden="true"></i>
-    {{ page.date | date:"%B %e, %Y" }}
-  </time>
-  {% if page.location %}
-    <div>
-      <i class="fa fa-map-marker" aria-hidden="true"></i>
-      In {{ page.location }}
-    </div>
-  {% endif %}
-  {% if page.weather %}
-    <h6>
-    <!--
-      <i class="fa fa-map-marker" aria-hidden="true"></i>
-    -->
-      {{ page.weather }}
-    </h6>
-  {% endif %}
-  {% comment %}
-  <div class="post-categories">
-    Category: {{ page.category }}
-  </div>
+<!-- Sharing -->
+{% include sharing.html %}
+<!-- End of Sharing -->
 
-  <div class="post-tags">
-    <i class="fa fa-tag" aria-hidden="true"></i>
-    Tags:
-    {% for tag in page.tags %}
-    <span>{{ tag }}</span>
-    {% endfor %}
-  </div>
-  {% endcomment %}
-</aside>
+<!-- Post Meta -->
+{% include posts_meta.html %}
+<!-- End of Post Meta -->
 
-{% if site.related_posts != empty %}
-<aside class="related">
-  <h3>Related posts</h3>
-  {% for post in site.related_posts limit:3 %}
-    {% unless post.hidden %}
-    <article class="row">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        <span class="post-title two-thirds column">
-          {{ post.title }}
-          {% comment %}
-          <i class="fa fa-external-link" aria-hidden="true"></i>
-          {% endcomment %}
-        </span>
-        <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date one-third column">
-          <i class="fa fa-clock-o" aria-hidden="true"></i>
-          {{ post.date | date:"%B %e, %Y" }}
-        </time>
-      </a>
-    </article>
-    {% endunless %}
-  {% endfor %}
-</aside>
-{% endif %}
+<!-- Related Posts -->
+{% include posts_related.html %}
+<!-- End of Related Posts -->
