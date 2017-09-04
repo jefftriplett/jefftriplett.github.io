@@ -1,6 +1,7 @@
 .asset-cache
+.bundle
 .jekyll-metadata
 .sass-cache
+Gemfile.lock
 _site
 build
-Gemfile.lock
