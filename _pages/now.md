@@ -4,21 +4,21 @@ title: Now
 permalink: /now/
 ---
 
-I'm home in Lawrence, Kansas. It's summer.
+I'm home in Lawrence, Kansas. It's fall.
 
-- I work full-time [RevSys][] as an Engineer and Consultant. Some days I write code, train developers, automate systems, secure websites, and manage humans.
+- I work full-time [REVSYS][] as an Engineer and Consultant. Some days I write code, train developers, automate systems, secure websites, and manage humans.
 
-- I'm helping with [DjangoCon US 2017][].
+- We just wrapped up [DjangoCon US 2017][].
 
-- I'm learning to play the Ukulele.
+- I dabble with the Ukulele.
 
-- After a few year hiatus, I consistently trail running again.
+- After a few year hiatus, I am trail running again.
 
-- I converted to a [Keto diet][]
+- I converted to a [Keto diet][] and lost ~30 lbs along the way.
 
 - I have maintained a weekly [personal goals project][] on Github since late 2015. I'm continuing on into 2017 and the foreseeable future. 
 
-- I'm attempting to blog *nearly* once a week for every week in 2017.
+- I'm attempting to blog more often in 2017. I didn't meet my goal of one post per week, but I'm determined to finish strong.
 
 - I'm an avid basketball fan and [Is the Lead Safe][] if my website for tracking real-time game updates. I hope to resume working on it during the fall.
 
