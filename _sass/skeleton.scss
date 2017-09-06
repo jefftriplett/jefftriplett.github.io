@@ -11,7 +11,10 @@
 /* Vendor files. */
 @import "vendor/normalize";
 
-/* Base files. */
+/* Base fonts */
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400|Alegreya');
+
+/* Base files */
 @import "base/variables";
 @import "base/functions";
 @import "base/base-styles";
