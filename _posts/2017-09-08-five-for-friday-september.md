@@ -50,5 +50,6 @@ If you are a macOS user and you are as obsessed at automating as many parts of y
 
 Mas is also supported by [homebrew-bundle](https://github.com/Homebrew/homebrew-bundle) which allows you to dump your entire [Homebrew](https://brew.sh/) apps, cask apps, and mas apps which make taking a quick snapshot of which apps and utilities that you have installed so you can easily restore it.
 
+----
 
-
+*Thanks to [Heather Luna :fire:](https://twitter.com/h34th3r329) for advice on and corrections to a draft of this article. She's amazing.*
