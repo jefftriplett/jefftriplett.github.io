@@ -1,7 +1,7 @@
 ---
 layout: post
 title: September Edition
-date: 2017-09-08 12:45:00 -0600
+date: 2017-09-08 13:20:00 -0600
 category: Five for Friyay
 location: Lawrence, Kansas. United States
 weather: 82˚F and Clear
@@ -30,9 +30,9 @@ I have used and love [Duet Display](https://www.duetdisplay.com/) for many years
 
 ## New Podcast I'm Listening To
 
-I stumbled on [Seth Godin’s Marketing Secrets to Launching a New Business](https://everyonehatesmarketers.com/seth-godin-marketing-secrets/) episode this week and the first 30 minutes get my creative brain gears churning. Especially with how advertisers are handled.
+I stumbled on [Seth Godin’s Marketing Secrets to Launching a New Business](https://everyonehatesmarketers.com/seth-godin-marketing-secrets/) episode this week and the first 30 minutes get my creative brain gears churning, especially with how advertisers are handled.
 
-I find Seth Godin's approach to marketing fascinating and listening to him walk us through his process when working on a new product has a lot of value.
+I find Seth Godin's approach to marketing fascinating, and listening to him walk us through his process when working on a new product has a lot of value.
 
 <iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/5541029/height/90/width/640/theme/custom/autonext/no/thumbnail/yes/autoplay/no/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="640" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
@@ -50,6 +50,5 @@ If you are a macOS user and you are as obsessed at automating as many parts of y
 
 Mas is also supported by [homebrew-bundle](https://github.com/Homebrew/homebrew-bundle) which allows you to dump your entire [Homebrew](https://brew.sh/) apps, cask apps, and mas apps which make taking a quick snapshot of which apps and utilities that you have installed so you can easily restore it.
 
-----
 
-*Thanks to [Heather Luna :fire:](https://twitter.com/h34th3r329) for advice on and corrections to a draft of this article. She's amazing.*
+
