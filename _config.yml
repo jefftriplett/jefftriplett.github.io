@@ -63,7 +63,7 @@ defaults:  # Frontmatter fallback settings
   - scope:
       path: ""
     values:
-      image: /assets/images/me-gliphy.png
+      image: /assets/images/dcus-2017-bw.jpg
 
 # SEO Plugin settings
 
