@@ -29,9 +29,9 @@ My goals for the year:
 
 My first goal of 2016 was to be healthy. I started paying attention to my health goals. I now track my heart rate, daily steps, and my weight. It's amazing that just by tracking these stats, I managed to improve across all three. Everything is tracked via Apple's Health Kit via my iPhone which makes tracking it easy because it's automated.
 
-I bought a [Garmin vívosmart HR Activity Tracker](https://www.amazon.com/gp/product/B0177V0H7K/?tag=jefftriplet07-20) to track my heart rate and my daily step counts. I wanted something I could wear all the time and only charge once a week. The vívosmart accomplishes this goal really well. I opted out of the more expensive model with GPS because I didn't want to sacrifice the battery life. My phone has GPS on it and I always run with it, so not having GPS on my watch doesn't hold me back.
+I bought a [Garmin vívosmart HR Activity Tracker](https://www.amazon.com/gp/product/B0177V0H7K/?tag={{site.amazon_affiliate_id}}) to track my heart rate and my daily step counts. I wanted something I could wear all the time and only charge once a week. The vívosmart accomplishes this goal really well. I opted out of the more expensive model with GPS because I didn't want to sacrifice the battery life. My phone has GPS on it and I always run with it, so not having GPS on my watch doesn't hold me back.
 
-A few years ago, I purchased the [Withings Scale](https://www.amazon.com/Withings-Body-Composition-Wi-Fi-Scale/dp/B01F3LJ2RW/?tag=jefftriplet07-20). Tracking my weight is effortless and a part of my daily morning routine. I don't focus on the number, but I find it helps me decide if I need one piece of pizza or two on any given day.
+A few years ago, I purchased the [Withings Scale](https://www.amazon.com/Withings-Body-Composition-Wi-Fi-Scale/dp/B01F3LJ2RW/?tag={{site.amazon_affiliate_id}}). Tracking my weight is effortless and a part of my daily morning routine. I don't focus on the number, but I find it helps me decide if I need one piece of pizza or two on any given day.
 
 I started running again and managed to either walk or ride my bike to and from work for all of 2016. This helped me increase my daily step count to over 5k a day without much effort. I'm lucky that I live and work downtown so I'm only a 10 minute walk from my office and downtown Lawrence.
 

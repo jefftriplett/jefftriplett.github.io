@@ -65,6 +65,10 @@ defaults:  # Frontmatter fallback settings
     values:
       image: /assets/images/dcus-2017-bw.jpg
 
+# Amazon Tracking ID
+
+amazon_affiliate_id: webology0b-20
+
 # SEO Plugin settings
 
 author: webology
