@@ -7,7 +7,9 @@ redirect_from: /posts/about/raw/
 
 Hello! I'm Jeff Triplett. I live in [Lawrence, KS](http://en.wikipedia.org/wiki/Lawrence,_Kansas). I am a consultant (Python, Django, performance, scaling, and management) at [REVSYS](http://revsys.com/).
 
-![](/assets/images/dcus-2017-bw.jpg){: width="600" }
+![](/assets/images/dcus-2017-bw.jpg){: width="600" alt="Jeff Triplett" title="Jeff Triplett taken by Melanie Crutchfield" }
+
+Image courtesy of [Melanie Crutchfield](https://twitter.com/HelloMelanieC).
 
 I grew up in rural [Sarcoxie, MO](http://en.wikipedia.org/wiki/Sarcoxie,_Missouri).
 
