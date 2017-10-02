@@ -5,19 +5,37 @@ permalink: /about/
 redirect_from: /posts/about/raw/
 ---
 
+Hello! I'm Jeff Triplett. I live in [Lawrence, KS](http://en.wikipedia.org/wiki/Lawrence,_Kansas). I am a Django / Python consultant at [REVSYS](http://revsys.com/).
+
+![](/assets/images/dcus-2017-bw.jpg){: width="600" }
+
+I grew up in rural [Sarcoxie, MO](http://en.wikipedia.org/wiki/Sarcoxie,_Missouri).
+
 ## Present
 
-Developer at [Revolution Systems](http://revsys.com/) living in [Lawrence, KS](http://en.wikipedia.org/wiki/Lawrence,_Kansas). From [Sarcoxie, MO](http://en.wikipedia.org/wiki/Sarcoxie,_Missouri).
+#### [REVSYS](http://revsys.com/)
 
-Co-founder and President of the Board of [Django Events Foundation North America (DEFNA)](https://github.com/defna).
+I have been a developer for one of the premier Django consulting agencies since 2011.
 
-[Django Code of Conduct Committee Member](https://www.djangoproject.com/foundation/committees/#conduct)
+#### [Django Events Foundation North America (DEFNA)](https://github.com/defna)
 
-[Django Developer Member](https://www.djangoproject.com/foundation/developer-members/).
+I am one of the three co-founders of DEFNA and I have served as the President of the Board since 2015.
 
-[Python Software Foundation Contributing Member](https://www.python.org/psf/membership/)
+#### [Django Code of Conduct Committee](https://www.djangoproject.com/foundation/committees/#conduct)
 
-Open source [developer](https://github.com/jefftriplett).
+I joined the committee in 2016 as a member and I have served as co-chair since the end of 2016.
+
+#### [Django Developer Member](https://www.djangoproject.com/foundation/developer-members/)
+
+I was nominated in 2015 and have served as a member ever since.
+
+#### [Python Software Foundation Contributing Member](https://www.python.org/psf/membership/)
+
+I joined the PSF in 2015.
+
+#### Open source [developer](https://github.com/jefftriplett).
+
+I have dabbled with open source since 2007.
 
 ## Writing
 
@@ -27,13 +45,13 @@ Open source [developer](https://github.com/jefftriplett).
 
 [DjangoCon US 2017](https://2017.djangocon.us/) Organizer.
 
-[DjangoCon US 2016](https://2016.djangocon.us/) Conference Chair.
+[DjangoCon US 2016](https://2016.djangocon.us/) Conference Chair / Organizer.
 
-[DjangoCon US 2015](https://2015.djangocon.us/) Conference Chair.
+[DjangoCon US 2015](https://2015.djangocon.us/) Conference Chair / Organizer.
 
 [DjangoCon US 2014](https://2014.djangocon.us/) Last-minute Program Chair.
 
-[Django Birthday](https://djangobirthday.com/) chair/organizer for Django's 10th birthday party.
+[Django Birthday](https://djangobirthday.com/) Conference Chair / Organizer for Django's 10th birthday party.
 
 ## Interviews / Mentions
 
@@ -47,6 +65,10 @@ Open source [developer](https://github.com/jefftriplett).
 
 ## Past
 
-Co-creator of the [Django Pony](http://www.djangopony.com/) website.
+#### DjangoPony.com
 
-Senior Developer at [Mediaphormedia](https://www.ellingtoncms.com/) where [Django](http://djangoproject.com/) and [Ellington CMS and Marketplace](https://www.ellingtoncms.com/) were created.
+I'm the co-creator of the [Django Pony website](http://www.djangopony.com/) and helped add fuel to the fire to the Django meme.
+
+#### Mediaphormedia (The World Company subsidiary)
+
+I joined [The World Company](www.theworldco.net) in 2007 to work at [Django Project's](http://djangoproject.com/)'s birth place. As a Senior Developer, I worked on [Ellington CMS](https://www.ellingtoncms.com/) and [Ellington Marketplace](https://www.ellingtoncms.com/marketplace/).
