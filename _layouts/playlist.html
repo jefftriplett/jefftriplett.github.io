@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<article class="post">
+  <h1 class="post-title">
+    {{ page.playlist }}
+  </h1>
+  <a href="{{ page.spotify }}" title="{{ page.playlist }}">
+    <img src="{{ page.playlist_image.url }}" height="{{ page.playlist_image.height }}" width="{{ page.playlist_image.width }}">
+  </a>
+  <p><a href="{{ page.spotify }}">Listen on Spotify</a></p>
+  <ul>
+  {% for track in page.tracks %}
+    <li>
+      <strong>{{ track.track }}</strong>
+      {{ track.artist }} -
+      {{ track.album }}
+    </li>
+  {% endfor %}
+  </ul>
+</article>
