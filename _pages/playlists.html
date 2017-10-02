@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Playlists
 permalink: /playlists/
 sitemap: false
@@ -7,52 +7,15 @@ sitemap: false
 
 <div class="photos everything-thumbs">
   <ul>
-  {% for playlist_files in site.data.playlists %}
-    {% assign playlist = playlist_files[1] %}
-    {% unless playlist.hidden %}
-    <li>
-      <a href="#{{ playlist.playlist | replace: ' ', '_' | downcase }}" title="{{ playlist.playlist }}" class="everything-thumb" style="background-image: url({{ playlist.cover }})">
-        {{ playlist.playlist }}
-      </a>
-    </li>
-    {% endunless %}
-  {% endfor %}
+    {% for playlist in site.playlists %}
+      {% unless playlist.hidden %}
+        <li>
+          <a href="{{ playlist.url }}" title="{{ playlist.playlist }}">
+            <img src="{{ playlist.playlist_image.url }}" height="300" width="300">
+            <span>{{ playlist.playlist }}</span>
+          </a>
+        </li>
+      {% endunless %}
+    {% endfor %}
   </ul>
 </div>
-
-<hr>
-<hr>
-
-{% for playlist_files in site.data.playlists %}
-  {% assign playlist = playlist_files[1] %}
-  {% unless playlist.hidden %}
-    <div class="container">
-      <a href="{{ playlist.spotify }}" title="{{ playlist.playlist }}">
-        <img width="600" src="{{ playlist.cover }}">
-      </a>
-      <h2>{{ playlist.playlist }}</h2>
-
-      {% if playlist.spotify %}
-      <a href="{{ playlist.spotify }}" class="playlist-spotify">
-        <i class="fa fa-music" aria-hidden="true"></i> Listen on Spotify
-      </a>
-      {% endif %}
-    </div>
-
-    <div class="playlist">
-      {% for tracks in playlist.tracks %}
-        <div class="playlist-track">
-          <div class="track-name">
-            <a href="{{ tracks.spotify }}" title="{{ tracks.track }}">
-              {{ tracks.track }}
-            </a>
-          </div>
-          <div class="track-meta">
-            <span class="track-artist">{{ tracks.artist }}</span>
-            {% if tracks.album and tracks.album != '' %}<span class="track-album"> - {{ tracks.album }}</span>{% endif %}
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  {% endunless %}
-{% endfor %}

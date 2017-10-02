@@ -34,7 +34,6 @@ exclude:
   - .bumpversion.cfg
   - .gitignore
   - _pages/categories.html
-  - _pages/playlists.html
   - _pages/tags.html
   - Gemfile
   - Gemfile.lock
@@ -42,7 +41,6 @@ exclude:
   - Procfile
   - README.md
   - requirements.txt
-  - topics
 
 markdown: kramdown
 kramdown:
@@ -55,6 +53,9 @@ sass:
 collections:  # process the _data folder
   components:
     output: false
+  playlists:
+    output: true
+    permalink: /:collection/:name/
   topics:
     output: true
     permalink: /:collection/:name/
