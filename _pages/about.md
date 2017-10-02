@@ -5,7 +5,7 @@ permalink: /about/
 redirect_from: /posts/about/raw/
 ---
 
-Hello! I'm Jeff Triplett. I live in [Lawrence, KS](http://en.wikipedia.org/wiki/Lawrence,_Kansas). I am a Django / Python consultant at [REVSYS](http://revsys.com/).
+Hello! I'm Jeff Triplett. I live in [Lawrence, KS](http://en.wikipedia.org/wiki/Lawrence,_Kansas). I am a consultant (Python, Django, performance, scaling, and management) at [REVSYS](http://revsys.com/).
 
 ![](/assets/images/dcus-2017-bw.jpg){: width="600" }
 
