@@ -1,5 +1,5 @@
 ---
-layout: topic_detail
+layout: topic
 category: DjangoCon
 sitemap: false
 ---
