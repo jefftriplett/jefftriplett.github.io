@@ -74,7 +74,7 @@ I use scheduled messages to set reminders for meetings, events, or other random 
 
 I under-utilize Boomerang's canned response feature, but a few years ago when I was running two conferences I adopted several default responses which saved me tons of time. 
 
-[Tracy Osborn](https://twitter.com/limedaring)'s [How I run a bootstrapped marketplace with eleven different properties and 5,000 vendors — by myself.](https://limedaring.com/articles/how-i-run-a-marketplace-with-eleven-different-properties-and-5000-vendors/) has a few Boomerang tips worth checking out too.
+[Tracy Osborn's](https://twitter.com/limedaring) [How I run a bootstrapped marketplace with eleven different properties and 5,000 vendors — by myself.](https://limedaring.com/articles/how-i-run-a-marketplace-with-eleven-different-properties-and-5000-vendors/) has a few Boomerang tips worth checking out too.
 
 ## Dealing with Guilt
 
