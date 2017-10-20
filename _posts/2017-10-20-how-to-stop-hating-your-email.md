@@ -5,7 +5,7 @@ date: 2017-10-20 16:00:00 -0600
 category: Productivity
 location: Lawrence, Kansas. United States
 weather: 75˚F and Clear
-images: /assets/images/posts/how-to-stop-hating-your-email/pablo.png
+image: /assets/images/posts/how-to-stop-hating-your-email/pablo.png
 tags:
 - email
 - productivity
