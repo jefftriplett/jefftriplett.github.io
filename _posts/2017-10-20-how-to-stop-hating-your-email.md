@@ -88,4 +88,4 @@ I under-utilize Boomerang's canned response feature, but a few years ago when I 
 
 [Airmail 3](http://airmailapp.com/) is their Mac version and it's great for checking non-Gmail accounts and replying to long threads. Airmail just works.
 
-**Thanks to [Laceyn Williams Henschel](https://twitter.com/laceynwilliams) for advice on and corrections to a draft of this article.**
+**Thanks to [Lacey Williams Henschel](https://twitter.com/laceynwilliams) for advice on and corrections to a draft of this article.**
