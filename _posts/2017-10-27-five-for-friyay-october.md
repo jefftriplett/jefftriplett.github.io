@@ -1,7 +1,7 @@
 ---
 layout: post
 title: October Edition
-date: 2017-10-28 12:00:00 -0600
+date: 2017-10-27 12:00:00 -0600
 category: Five for Friyay
 location: Lawrence, Kansas. United States
 weather: 42˚F and Chilly
