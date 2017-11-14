@@ -85,6 +85,10 @@ events:
     start_date: 2018-05-09
     end_date: 2018-05-17
 
+  - title: "DjangoCon US: San Diego"
+    start_date: 2018-10-12
+    end_date: 2018-10-21
+
   - title: "PyCon 2019"
     start_date: 2019-05-01
     end_date: 2019-05-09
