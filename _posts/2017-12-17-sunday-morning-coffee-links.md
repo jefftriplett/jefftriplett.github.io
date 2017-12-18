@@ -10,10 +10,9 @@ tags:
 - sunday
 ---
 
-I love Sunday mornings. I love making coffee, wearing my favorite slippers, sitting down at my desk to open ReadKit, and catching up on blogs from the last week. Sometimes I listen to music, a podcast, a YouTube video, or I will just enjoy the silence. 
+I love Sunday mornings. I love making coffee, wearing my favorite slippers, sitting down at my desk to open ReadKit, and catching up on blogs from the last week. Sometimes I listen to music, a podcast, a YouTube video, or I will just enjoy the silence.
 
 I star my favorites and save many away to my [pinboard](https://pinboard.in/u:jefftriplett) account. Most are private, but I try to share a few.
----
 
 ## List of Lists
 
