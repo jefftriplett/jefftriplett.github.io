@@ -13,9 +13,10 @@ layout: default
   <ul>
   {% for track in page.tracks %}
     <li>
-      <strong>{{ track.track }}</strong>
+      <strong><a href="{{ track.spotify }}">{{ track.track }}</a></strong>
       {{ track.artist }} -
       {{ track.album }}
+      {% if track.starred %}:star:{% endif %}
     </li>
   {% endfor %}
   </ul>
