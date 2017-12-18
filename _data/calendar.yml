@@ -78,6 +78,10 @@ events:
   - title: "Christmas Day"
     start_date: 2017-12-25
 
+  - title: "Christmas Week"
+    start_date: 2017-12-25
+    end_date: 2017-12-29
+
   - title: "New Years Eve"
     start_date: 2017-12-31
 
