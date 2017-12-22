@@ -73,4 +73,4 @@ I'm the co-creator of the [Django Pony website](http://www.djangopony.com/) and 
 
 #### Mediaphormedia (The World Company subsidiary)
 
-I joined [The World Company](www.theworldco.net) in 2007 to work at [Django Project's](http://djangoproject.com/)'s birth place. As a Senior Developer, I worked on [Ellington CMS](https://www.ellingtoncms.com/) and [Ellington Marketplace](https://www.ellingtoncms.com/marketplace/).
+I joined [The World Company](http://www.theworldco.net) in 2007 to work at [Django Project's](http://djangoproject.com/)'s birth place. As a Senior Developer, I worked on [Ellington CMS](https://www.ellingtoncms.com/) and [Ellington Marketplace](https://www.ellingtoncms.com/marketplace/).
