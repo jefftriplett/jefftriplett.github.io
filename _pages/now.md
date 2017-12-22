@@ -34,5 +34,5 @@ I'm home in Lawrence, Kansas. It's fall.
 [Now Page Movement]: http://nownownow.com/about
 [personal goals project]: https://github.com/jefftriplett/personal-goals
 [podcasts]: https://github.com/jefftriplett/personal-goals/blob/master/content-list/podcasts.md
-[RevSys]: http://www.revsys.com/
+[RevSys]: https://www.revsys.com/
 [television]: https://github.com/jefftriplett/personal-goals/blob/master/content-list/television.md

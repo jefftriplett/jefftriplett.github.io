@@ -96,7 +96,7 @@ When I got back from Philly, my friend [Russell](https://twitter.com/freakboy374
 
 ## August
 
-I wrote [Extend Django Templates Smartly](http://www.revsys.com/tidbits/extend-django-templates-smartly/) for the Revsys blog. It was well received.
+I wrote [Extend Django Templates Smartly](https://www.revsys.com/tidbits/extend-django-templates-smartly/) for the Revsys blog. It was well received.
 
 Had a nice gathering with new friends at a Shrimp Boil at my favorite local winery at Jefferson Hills. Great food and wine were enjoyed by all.
 
