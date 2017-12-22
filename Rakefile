@@ -5,17 +5,12 @@ task :test do
   options = {
     :assume_extension => true,
     :checks_to_ignore => [
-      "ImageCheck"
+        "ImageCheck"
     ],
+    :disable_external => true,
     :file_ignore => [
-      /categories/,
-      /playlist/,
-      /styleguide/,
-      /tags/,
-      /topics/
-    ],
-    :url_ignore => [
-      /www.ellingtoncms.com/
+        /styleguide/,
+        /404.html/
     ]
   }
   HTMLProofer.check_directory("./_site", options).run
