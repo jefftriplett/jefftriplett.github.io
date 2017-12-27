@@ -45,7 +45,7 @@ social:
     url: http://www.myfitnesspal.com/profile/jefftriplett
 
   - name: pinboard
-    icon: /assets/images/social/question-circle.png
+    icon: /assets/images/social/bookmark.png
     url: https://pinboard.in/u:jefftriplett
 
   - name: social
@@ -55,6 +55,11 @@ social:
   - name: spotify
     icon: /assets/images/social/spotify.png
     url: https://open.spotify.com/user/jefftriplett
+
+  - name: twitch
+    icon: /assets/images/social/twitch.png
+    url: https://www.twitch.tv/jefftriplett
+    featured: true
 
   - name: twitter
     icon: /assets/images/social/twitter.png
