@@ -57,7 +57,7 @@ collections:  # process the _data folder
     output: true
     permalink: /:collection/:name/
   projects:
-    output: true
+    output: false
     permalink: /:collection/:name/
   topics:
     output: true
