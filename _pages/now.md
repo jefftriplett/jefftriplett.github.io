@@ -4,7 +4,7 @@ title: Now
 permalink: /now/
 ---
 
-I'm home in Lawrence, Kansas. It's fall.
+I'm home in Lawrence, Kansas. It's winter. Brrr.
 
 - I work full-time [REVSYS][] as an Engineer and Consultant. Some days I write code, train developers, automate systems, secure websites, and manage humans.
 
@@ -14,11 +14,11 @@ I'm home in Lawrence, Kansas. It's fall.
 
 - After a few year hiatus, I am trail running again.
 
-- I converted to a [Keto diet][] and lost ~30 lbs along the way.
+- I converted to a [Keto diet][] and lost ~40 lbs along the way.
 
-- I have maintained a weekly [personal goals project][] on Github since late 2015. I'm continuing on into 2017 and the foreseeable future. 
+- I have maintained a weekly [personal goals project][] on Github since late 2015. I'm continuing on into 2018 and the foreseeable future. 
 
-- I'm attempting to blog more often in 2017. I didn't meet my goal of one post per week, but I'm determined to finish strong.
+- I'm attempting to blog more often in 2018. I had a goal of blogging once a week in 2017, but I published roughly half of my goal. 
 
 - I'm an avid basketball fan and [Is the Lead Safe][] if my website for tracking real-time game updates. I hope to resume working on it during the fall.
 
