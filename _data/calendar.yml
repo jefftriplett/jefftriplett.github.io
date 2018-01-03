@@ -85,13 +85,57 @@ events:
   - title: "New Years Eve"
     start_date: 2017-12-31
 
+  - title: "Big-12 Tournament: Wednesday"
+    start_date: 2018-03-07
+
+  - title: "Big-12 Tournament: Thursday"
+    start_date: 2018-03-08
+
+  - title: "Big-12 Tournament: Friday"
+    start_date: 2018-03-09
+
+  - title: "Big-12 Tournament: Saturday"
+    start_date: 2018-03-10
+
+  - title: "Saint Patrick's Day"
+    start_date: 2018-03-17
+
+  - title: "Rockin K Trail Weekend"
+    start_date: 2018-04-06
+    end_date: 2018-04-08
+
+  - title: "Easter"
+    start_date: 2018-04-01
+
+  - title: "Cinco De Mayo / Revsys turns 11"
+    start_date: 2018-05-05
+
   - title: "PyCon 2018"
     start_date: 2018-05-09
     end_date: 2018-05-17
 
+  - title: "Memorial Day"
+    start_date: 2018-05-28
+
+  - title: "Independence Day"
+    start_date: 2018-07-04
+
   - title: "DjangoCon US: San Diego"
     start_date: 2018-10-12
     end_date: 2018-10-21
+
+  - title: "Thanksgiving Day"
+    start_date: 2018-11-22
+
+  - title: "Christmas Day"
+    start_date: 2018-12-25
+
+  - title: "Christmas Week"
+    start_date: 2018-12-24
+    end_date: 2018-12-28
+
+  - title: "New Years Eve"
+    start_date: 2018-12-31
 
   - title: "PyCon 2019"
     start_date: 2019-05-01
