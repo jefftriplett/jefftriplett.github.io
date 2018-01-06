@@ -140,3 +140,29 @@ events:
   - title: "PyCon 2019"
     start_date: 2019-05-01
     end_date: 2019-05-09
+
+  - title: "CLC is Closed"
+    start_date: 2018-01-15
+
+  - title: "CLC is Closed"
+    start_date: 2018-05-28
+
+  - title: "CLC is Closed"
+    start_date: 2018-07-04
+
+  - title: "CLC is Closed"
+    start_date: 2018-09-03
+
+  - title: "CLC is Closed"
+    start_date: 2018-10-08
+
+  - title: "CLC is Closed"
+    start_date: 2018-11-22
+    end_date: 2018-11-23
+
+  - title: "CLC is Closed"
+    start_date: 2018-12-24
+    end_date: 2018-12-31
+
+  - title: "CLC is Closed"
+    start_date: 2019-01-01
