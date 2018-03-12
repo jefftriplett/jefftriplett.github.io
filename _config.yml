@@ -14,7 +14,7 @@ permalink: :year/:title/  # permalink: date
 future: true
 paginate: 100
 
-gems:
+plugins:
   # - jekyll-archives
   # - jekyll-coffeescript
   - jekyll-crosspost-to-medium
