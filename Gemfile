@@ -1,13 +1,13 @@
 source "https://rubygems.org"
 ruby RUBY_VERSION
 
-gem "coffee-script"
+# gem "coffee-script"
 gem "rake"
 gem "html-proofer"
-gem "mini_magick"
-gem "octopress-autoprefixer"
-gem "sass"
-gem "uglifier"
+# gem "mini_magick"
+# gem "octopress-autoprefixer"
+# gem "sass"
+# gem "uglifier"
 
 gem "github-pages", group: :jekyll_plugins
 
