@@ -104,8 +104,41 @@ events:
     start_date: 2018-04-06
     end_date: 2018-04-08
 
+  - title: "NCAA Tournament: Round of 64: Thursday"
+    start_date: 2018-03-15
+
+  - title: "NCAA Tournament: Round of 64: Friday"
+    start_date: 2018-03-16
+
+  - title: "NCAA Tournament: Round of 32: Saturday"
+    start_date: 2018-03-17
+
+  - title: "Saint Patrick's Day"
+    start_date: 2018-03-17
+
+  - title: "NCAA Tournament: Round of 32: Sunday"
+    start_date: 2018-03-18
+
+  - title: "NCAA Tournament: Sweet 16: Thursday"
+    start_date: 2018-03-22
+
+  - title: "NCAA Tournament: Sweet 16: Friday"
+    start_date: 2018-03-23
+
+  - title: "NCAA Tournament: Elite 8: Saturday"
+    start_date: 2018-03-24
+
+  - title: "NCAA Tournament: Elite 8: Sunday"
+    start_date: 2018-03-25
+
+  - title: "NCAA Tournament: Final 4: Saturday"
+    start_date: 2018-03-31
+
   - title: "Easter"
     start_date: 2018-04-01
+
+  - title: "NCAA Tournament: National Championship"
+    start_date: 2018-04-02
 
   - title: "Cinco De Mayo / Revsys turns 11"
     start_date: 2018-05-05
