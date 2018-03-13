@@ -16,7 +16,7 @@ redirect_from:
       {% endif %}
       <article class="row">
         <a href="{{ site.baseurl }}{{ post.url }}">
-          <span class="post-title two-thirds column {% if post.draft %}draft{% endif %}">
+          <span class="post-title two-thirds column {% if post.draft %}draft{% endif %}{% if post.link-out %} link-out{% endif %}">
             {% if post.category %}
               {% assign topic = site.topics | where:"category", post.category | first %}
               {% if topic.show_on_homepage %}
@@ -25,9 +25,10 @@ redirect_from:
             {% endif %}
 
             {{ post.title | markdownify | remove:'<p>' | remove:'</p>' }}
-            {% comment %}
+
+            {% if post.link-out %}
             <i class="fa fa-external-link" aria-hidden="true"></i>
-            {% endcomment %}
+            {% endif %}
           </span>
           <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date one-third column">
             {{ post.date | date:"%B %e" }}
