@@ -32,9 +32,9 @@ links:
     show_in_header: false
     show_in_footer: true
 
-  - title: <i class="fa fa-twitter fa-fw" aria-hidden=true></i>
-    url: https://twitter.com/webology
-    aria-label: "Follow Jeff Triplett on Twitter"
+  - title: <i class="fa fa-coffee fa-fw" aria-hidden=true></i>
+    url: https://www.buymeacoffee.com/webology
+    aria-label: "Buy Jeff Triplett a coffee"
     show_in_header: true
     show_in_footer: true
 
@@ -47,6 +47,12 @@ links:
   - title: <i class="fa fa-github fa-fw" aria-hidden=true></i>
     url: https://github.com/jefftriplett
     aria-label: "Follow Jeff Triplett on GitHub"
+    show_in_header: true
+    show_in_footer: true
+
+  - title: <i class="fa fa-twitter fa-fw" aria-hidden=true></i>
+    url: https://twitter.com/webology
+    aria-label: "Follow Jeff Triplett on Twitter"
     show_in_header: true
     show_in_footer: true
 

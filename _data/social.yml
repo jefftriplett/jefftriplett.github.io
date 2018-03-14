@@ -1,10 +1,17 @@
 
 social:
 
+  - name: buymeacoffee
+    icon: /assets/images/social/coffee.png
+    url: https://www.buymeacoffee.com/webology
+    featured: true
+    order: 30
+
   - name: docker hub
     icon: /assets/images/social/docker.png
     url: https://hub.docker.com/u/jefftriplett/
     featured: true
+    order: 40
 
   - name: facebook
     icon: /assets/images/social/facebook.png
@@ -18,15 +25,17 @@ social:
     icon: /assets/images/social/github.png
     url: https://github.com/jefftriplett
     featured: true
+    order: 10
+
+  - name: instagram
+    icon: /assets/images/social/instagram.png
+    url: https://www.instagram.com/jefftriplett/
 
   - name: jeff triplett dot com
     icon: /assets/images/social/globe.png
     url: https://jefftriplett.com
     featured: true
-
-  - name: instagram
-    icon: /assets/images/social/instagram.png
-    url: https://www.instagram.com/jefftriplett/
+    order: 20
 
   - name: keybase
     icon: /assets/images/social/question-circle.png
@@ -60,11 +69,13 @@ social:
     icon: /assets/images/social/twitch.png
     url: https://www.twitch.tv/jefftriplett
     featured: true
+    order: 60
 
   - name: twitter
     icon: /assets/images/social/twitter.png
     url: https://twitter.com/webology
     featured: true
+    order: 50
 
   - name: youtube
     icon: /assets/images/social/youtube.png
