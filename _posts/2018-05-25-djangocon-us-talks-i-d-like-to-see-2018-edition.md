@@ -5,6 +5,7 @@ date: 2018-05-25 14:50:00 -0600
 category: DjangoCon
 location: Lawrence, Kansas United States
 weather: 82˚F - Sunny.
+image: https://2018.djangocon.us/static/img/social/avatar-main.png
 tags:
 - djangocon
 ---
