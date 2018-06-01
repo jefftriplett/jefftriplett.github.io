@@ -103,3 +103,12 @@ I'm cutting my list short this year because many of the ideas I mentioned [last 
 Feel free to [let me know on Twitter](https://twitter.com/webology) ) what you wish to hear, and I'll add them here like I have done in previous years.
 
 Good luck!
+
+## What you said you want to see! (updated 2018-06-01)
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Since we all have to work with Javascript, maybe a talk about the new ES6?</p>&mdash; William Hakizimana (@willyhakim) <a href="https://twitter.com/willyhakim/status/1000232471668166656?ref_src=twsrc%5Etfw">May 26, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">If you don&#39;t have one yet, here are some talk ideas for <a href="https://twitter.com/djangocon?ref_src=twsrc%5Etfw">@djangocon</a>:<br><br>* My favorite full stack: Django + Vuejs + Zappa<br>* Async battle: Celery vs RedisQ vs Channels vs zappa.async<br>* FaaS Django battle: Zappa vs Serverless<br>* A deep dive into Django&#39;s utility libraries</p>&mdash; Daniel Roy Greenfeld (@pydanny) <a href="https://twitter.com/pydanny/status/998234809141936129?ref_src=twsrc%5Etfw">May 20, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
