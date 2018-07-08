@@ -157,9 +157,17 @@ events:
   - title: "Independence Day"
     start_date: 2018-07-04
 
+  - title: "XOXO 2018"
+    start_date: 2018-09-06
+    end_date: 2018-09-09
+
   - title: "DjangoCon US: San Diego"
     start_date: 2018-10-12
     end_date: 2018-10-21
+
+  - title: "The PSF in-person board of directors meeting"
+    start_date: 2018-11-12
+    end_date: 2018-11-13
 
   - title: "Thanksgiving Day"
     start_date: 2018-11-22
@@ -173,10 +181,6 @@ events:
 
   - title: "New Years Eve"
     start_date: 2018-12-31
-
-  - title: "PyCon 2019"
-    start_date: 2019-05-01
-    end_date: 2019-05-09
 
   - title: "CLC is Closed"
     start_date: 2018-01-15
@@ -203,3 +207,7 @@ events:
 
   - title: "CLC is Closed"
     start_date: 2019-01-01
+
+  - title: "PyCon 2019"
+    start_date: 2019-05-01
+    end_date: 2019-05-09
