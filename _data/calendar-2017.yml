@@ -1,0 +1,86 @@
+# calendar events
+
+events:
+
+  - title: "Big-12 Tournament: Wednesday"
+    start_date: 2017-03-08
+
+  - title: "Big-12 Tournament: Thursday"
+    start_date: 2017-03-09
+
+  - title: "Big-12 Tournament: Friday"
+    start_date: 2017-03-10
+
+  - title: "Big-12 Tournament: Saturday"
+    start_date: 2017-03-11
+
+  - title: "Saint Patrick's Day"
+    start_date: 2017-03-17
+
+  - title: "Rockin K Trail Weekend"
+    start_date: 2017-03-31
+    end_date: 2017-04-02
+
+  - title: "Easter Weekend in SWMO"
+    start_date: 2017-04-14
+    end_date: 2017-04-16
+
+  - title: "Cinco De Mayo / Revsys turns 10"
+    start_date: 2017-05-05
+
+  - title: "Mother's Day Weekend in Chicago"
+    start_date: 2017-05-12
+    end_date: 2017-05-14
+
+  - title: "PyCon: Tutorials Day 1"
+    start_date: 2017-05-17
+
+  - title: "PyCon: Tutorials Day 2"
+    start_date: 2017-05-18
+
+  - title: "PyCon: Talks Day 1"
+    start_date: 2017-05-19
+
+  - title: "PyCon: Talks Day 2"
+    start_date: 2017-05-20
+
+  - title: "PyCon: Talks Day 3"
+    start_date: 2017-05-21
+
+  - title: "PyCon: Sprints Day 1"
+    start_date: 2017-05-22
+
+  - title: "PyCon: Sprints Day 2"
+    start_date: 2017-05-23
+
+  - title: "Memorial Day"
+    start_date: 2017-05-29
+
+  - title: "Moving Day"
+    start_date: 2017-06-01
+
+  - title: "Cleaning Day"
+    start_date: 2017-06-02
+
+  - title: "Independence Day"
+    start_date: 2017-07-04
+
+  - title: "DjangoCon US: Spokane"
+    start_date: 2017-08-10
+    end_date: 2017-08-19
+
+  - title: ":baby:"
+    start_date: 2017-09-16
+
+  - title: "Thanksgiving Day"
+    start_date: 2017-11-23
+
+  - title: "Christmas Day"
+    start_date: 2017-12-25
+
+  - title: "Christmas Week"
+    start_date: 2017-12-25
+    end_date: 2017-12-29
+
+  - title: "New Years Eve"
+    start_date: 2017-12-31
