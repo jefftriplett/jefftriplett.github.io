@@ -111,8 +111,20 @@ events:
   - title: "CLC is Closed"
     start_date: 2018-09-03
 
+  - title: "XOXO Fest - XOXO 2018"
+    start_date: 2018-09-06
+    start_date: 2018-09-10
+
   - title: "CLC is Closed"
     start_date: 2018-10-08
+
+  - title: "DjangoCon US 2018: San Diego"
+    start_date: 2018-10-12
+    start_date: 2018-10-21
+
+  - title: "The PSF Board Meeting in Chicago"
+    start_date: 2018-11-11
+    end_date: 2018-11-13
 
   - title: "CLC is Closed"
     start_date: 2018-11-22
