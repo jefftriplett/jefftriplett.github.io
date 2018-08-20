@@ -4,23 +4,27 @@ title: Now
 permalink: /now/
 ---
 
-I'm home in Lawrence, Kansas. It's Spring but has been unusually cold for Spring. 
+I'm home in Lawrence, Kansas. It's late Summer.
 
 - I work full-time [REVSYS][] as an Engineer and Consultant. Some days I write code, train developers, automate systems, secure websites, and manage humans.
 
-- We just wrapped up [DjangoCon US 2017][].
+- We are working on [DjangoCon US 2018][].
 
 - I dabble with the Ukulele.
 
-- After a few year hiatus, I am trail running again.
+- After a few year hiatus, I am trail running again. Checkout out my [#jeffisrunning](https://twitter.com/search?q=%23jeffisrunning&src=typd) on Twitter.
 
-- I converted to a [Keto diet][] and lost ~40 lbs along the way.
+- I converted to a [Keto diet][] and lost ~45 lbs before gaining back 15 lbs. and then losing 15 lbs again.
 
-- I have maintained a weekly [personal goals project][] on Github since late 2015. I'm continuing into 2018 and the foreseeable future. 
+- I have maintained a weekly [personal goals project][] on Github since late 2015. I stalled out a bit in 2018, but it's on my radar to automate, and keep going.
+
+- I have been co-writing articles on [OpenSource.com](https://opensource.com/users/jefftriplett) every month with [Lacey Williams Henschel](https://opensource.com/users/laceynwilliams) for every month in 2018.
 
 - I'm attempting to blog more often in 2018. I had a goal of blogging once a week in 2017, but I published roughly half of my goal. 
 
-- I'm an avid basketball fan and [Is the Lead Safe][] if my website for tracking real-time game updates. I hope to resume working on it during the fall.
+- I am working on several side projects and logging my progress on [wip.chat]https://wip.chat/@jefftriplett) for public accountability.
+
+- ~I'm an avid basketball fan and [Is the Lead Safe][] if my website for tracking real-time game updates. I hope to resume working on it during the fall.~
 
 - I continue to watch [television][] and listen to [podcasts][].
 
@@ -28,7 +32,7 @@ I'm home in Lawrence, Kansas. It's Spring but has been unusually cold for Spring
 
 [Aaron Sumner's Now Page]: http://aaronsumner.com/pages/now.html
 [Derek Sivers]: https://sivers.org/now
-[DjangoCon US 2017]: https://2017.djangocon.us/
+[DjangoCon US 2018]: https://2018.djangocon.us/
 [Is the Lead Safe]: http://www.istheleadsafe.com/
 [Keto diet]: https://www.reddit.com/r/keto/wiki/keto_in_a_nutshell
 [Now Page Movement]: http://nownownow.com/about
