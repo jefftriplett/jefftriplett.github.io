@@ -24,6 +24,8 @@ I haven't decided if I'm going to participate in [#DeactiDay](https://twitter.co
 
 - I am syncing my Twitter friends list via [Mastodon's Friends Bridge](https://bridge.joinmastodon.org/friends)
 
+- I prefer a Twitter-like UI than Mastodon's default TweetDeck-like experience. Thankfully, [Pinafore](https://pinafore.social/) is another web client which has a more Twitter-like feel to it.
+
 ## Short to Medium-term
 
 - I am participating in [#BlockParty500](https://twitter.com/shannoncoulter/status/1028632688586936320) using this [Block Together app+list](https://blocktogether.org/show-blocks/Jegy0TDm2gypbK-Tg1vGTh5KCJY2mxq_6iJ_hK2p). I am also proactively blocking advertisers who appear in my timeline.
