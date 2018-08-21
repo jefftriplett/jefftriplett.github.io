@@ -24,6 +24,8 @@ I haven't decided if I'm going to participate in [#DeactiDay](https://twitter.co
 
 - I am syncing my Twitter friends list via [Mastodon's Friends Bridge](https://bridge.joinmastodon.org/friends)
 
+- My preferred UI is [Halcyon](https://twitter.rixx.de/) which mimics the Twitter UI and is [open source](https://notabug.org/halcyon-suite/halcyon).
+
 - I prefer a Twitter-like UI than Mastodon's default TweetDeck-like experience. Thankfully, [Pinafore](https://pinafore.social/) is another web client which has a more Twitter-like feel to it.
 
 ## Short to Medium-term
