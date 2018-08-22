@@ -18,13 +18,13 @@ I haven't decided if I'm going to participate in [#DeactiDay](https://twitter.co
 
 ## Short-term
 
-- I am on [Mastodon](https://mastodon.social/@webology)
+- I am on [@webology@mastodon.social](https://mastodon.social/@webology)
 
 - All of my public Mastodon Toots are published on Twitter via [Moa](https://moa.party/)
 
 - I am syncing my Twitter friends list via [Mastodon's Friends Bridge](https://bridge.joinmastodon.org/friends)
 
-- My preferred UI is [Halcyon](https://twitter.rixx.de/) which mimics the Twitter UI and is [open source](https://notabug.org/halcyon-suite/halcyon).
+- My preferred UI is [Halcyon](https://notabug.org/halcyon-suite/halcyon) which is a Twitter UI clone which is written in PHP. If hosting your own PHP instance isn't your thing, I have found a great host on [twitter.rixx.de](https://twitter.rixx.de/).
 
 - I prefer a Twitter-like UI than Mastodon's default TweetDeck-like experience. Thankfully, [Pinafore](https://pinafore.social/) is another web client which has a more Twitter-like feel to it.
 
