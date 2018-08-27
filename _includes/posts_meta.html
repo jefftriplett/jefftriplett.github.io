@@ -3,8 +3,18 @@
   <h3>Post Meta</h3>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">
     <i class="fa fa-clock-o" aria-hidden="true"></i>
-    {{ page.date | date:"%B %e, %Y" }}
+    Published: {{ page.date | date:"%B %e, %Y" }}
   </time>
+
+  {% if page.updated %}
+  <div>
+    <time datetime="{{ page.updated | date_to_xmlschema }}" class="post-updated">
+      <i class="fa fa-clock-o" aria-hidden="true"></i>
+      Updated: {{ page.updated | date:"%B %e, %Y" }}
+    </time>
+  </div>
+  {% endif %}
+
   {% if page.location %}
     <div>
       <i class="fa fa-map-marker" aria-hidden="true"></i>
