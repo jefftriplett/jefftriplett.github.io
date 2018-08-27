@@ -74,6 +74,12 @@ events:
   - title: "Independence Day"
     start_date: 2018-07-04
 
+  - title: "Day off FTW"
+    start_date: 2018-08-31
+
+  - title: "Labor Day"
+    start_date: 2018-09-03
+
   - title: "XOXO 2018"
     start_date: 2018-09-06
     end_date: 2018-09-09
