@@ -2,8 +2,8 @@
   <ul class="list-reset">
   {% for link in site.data.navigation.links %}
     {% if link.show_in_footer == true %}
-      <li class="inline-block py-2 px-2 hover:text-blue">
-        <a class="outline-none no-underline" href="{{ link.url }}"{% if link.aria-label %} aria-label="{{ link.aria-label }}" title="{{ link.aria-label }}"{% endif %}>{{ link.title }}</a>
+      <li class="inline-block py-2 px-2 hover:text-blue-dark">
+        <a class="no-underline hover:underline hover:text-blue-dark" href="{{ link.url }}"{% if link.aria-label %} aria-label="{{ link.aria-label }}" title="{{ link.aria-label }}"{% endif %}>{{ link.title }}</a>
       </li>
     {% endif %}
   {% endfor %}

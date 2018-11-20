@@ -10,7 +10,7 @@
   {% for link in site.data.navigation.links %}
     {% if link.show_in_header == true %}
       <li class="inline-block py-2 px-2">
-        <a class="no-underline hover:underline hover:text-blue" href="{{ link.url }}"{% if link.aria-label %} aria-label="{{ link.aria-label }}" title="{{ link.aria-label }}"{% endif %}>{{ link.title }}</a>
+        <a class="no-underline hover:underline hover:text-blue-dark" href="{{ link.url }}"{% if link.aria-label %} aria-label="{{ link.aria-label }}" title="{{ link.aria-label }}"{% endif %}>{{ link.title }}</a>
       </li>
     {% endif %}
   {% endfor %}
