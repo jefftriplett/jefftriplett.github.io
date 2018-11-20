@@ -16,6 +16,10 @@ I grew up in rural [Sarcoxie, MO](http://en.wikipedia.org/wiki/Sarcoxie,_Missour
 ## Present
 {:.mt-8}
 
+#### [Python Software Foundation Director](https://www.python.org/psf/records/board/history/#id2)
+
+I was voted in by the community as a Board of Director for The PSF in 2018.
+
 #### [REVSYS](http://revsys.com/)
 
 I have been a developer for one of the premier Django consulting agencies since 2011.
@@ -45,33 +49,33 @@ I have dabbled with open source since 2007.
 
 [5 favorite open source Django packages](https://opensource.com/business/15/12/5-favorite-open-source-django-packages)
 
-## Organizing
+## Conference & Event Organizing
 {:.mt-8}
 
-[DjangoCon US 2019](https://2019.djangocon.us/) Organizer.
+- [DjangoCon US 2019](https://2019.djangocon.us/) Organizer
 
-[DjangoCon US 2018](https://2018.djangocon.us/) Organizer.
+- [DjangoCon US 2018](https://2018.djangocon.us/) Organizer
 
-[DjangoCon US 2017](https://2017.djangocon.us/) Organizer.
+- [DjangoCon US 2017](https://2017.djangocon.us/) Vice Conference Chair & Organizer
 
-[DjangoCon US 2016](https://2016.djangocon.us/) Conference Chair / Organizer.
+- [DjangoCon US 2016](https://2016.djangocon.us/) Conference Chair & Organizer
 
-[DjangoCon US 2015](https://2015.djangocon.us/) Conference Chair / Organizer.
+- [DjangoCon US 2015](https://2015.djangocon.us/) Conference Chair & Organizer
 
-[DjangoCon US 2014](https://2014.djangocon.us/) Organizer(ish) / Last-minute Program Chair.
+- [DjangoCon US 2014](https://2014.djangocon.us/) Organizer(ish) & Last-minute Program Chair
 
-[Django Birthday](https://djangobirthday.com/) Conference Chair / Organizer for Django's 10th birthday party.
+- [Django Birthday](https://djangobirthday.com/) Conference Chair & Organizer for Django's 10th birthday party :birthday:
 
-## Interviews / Mentions
+## Interviews & Mentions
 {:.mt-8}
 
-[PyDev of the Week: Jeff Triplett](http://www.blog.pythonlibrary.org/2016/01/04/pydev-of-the-week-jeff-triplett/)
+- [PyDev of the Week: Jeff Triplett](http://www.blog.pythonlibrary.org/2016/01/04/pydev-of-the-week-jeff-triplett/)
 
-[A Look Back on ELA Conf](http://jonibologna.com/a-look-back-on-ela-conf/) by [Joni Trythall](https://twitter.com/JoniTrythall)
+- [A Look Back on ELA Conf](http://jonibologna.com/a-look-back-on-ela-conf/) by [Joni Trythall](https://twitter.com/JoniTrythall)
 
-[DjangoCon US 2015 - Django Tales: How Django and Its Community Can Change Lives](https://www.youtube.com/watch?v=JQkM_fOlb2A) by [Anna Ossowski](https://twitter.com/OssAnna16)
+- [DjangoCon US 2015 - Django Tales: How Django and Its Community Can Change Lives](https://www.youtube.com/watch?v=JQkM_fOlb2A) by [Anna Ossowski](https://twitter.com/OssAnna16)
 
-[(Life) Lessons Learnt while Traveling](http://anna-oz.tumblr.com/post/156114754840/life-lessons-learnt-while-traveling) by [Anna Ossowski](https://twitter.com/OssAnna16)
+- [(Life) Lessons Learnt while Traveling](http://anna-oz.tumblr.com/post/156114754840/life-lessons-learnt-while-traveling) by [Anna Ossowski](https://twitter.com/OssAnna16)
 
 ## Past
 {:.mt-8}
