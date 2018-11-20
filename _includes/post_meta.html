@@ -1,5 +1,4 @@
-<aside class="post-meta">
-  <br>
+<aside class="my-4 text-xl border border-dashed border-black">
   <h3>Post Meta</h3>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">
     <i class="fa fa-clock-o" aria-hidden="true"></i>
@@ -8,32 +7,37 @@
 
   {% if page.updated %}
   <div>
-    <time datetime="{{ page.updated | date_to_xmlschema }}" class="post-updated">
-      <i class="fa fa-clock-o" aria-hidden="true"></i>
+    <time datetime="{{ page.updated | date_to_xmlschema }}">
       Updated: {{ page.updated | date:"%B %e, %Y" }}
+      <i class="fa fa-clock-o" aria-hidden="true"></i>
     </time>
   </div>
   {% endif %}
 
   {% if page.location %}
-    <div>
-      <i class="fa fa-map-marker" aria-hidden="true"></i>
-      In {{ page.location }}
-    </div>
+  <div>
+    <i class="fa fa-map-marker" aria-hidden="true"></i>
+    In {{ page.location }}
+  </div>
   {% endif %}
+
   {% if page.weather %}
-    <h6>
-    <!--
-      <i class="fa fa-map-marker" aria-hidden="true"></i>
-    -->
-      {{ page.weather }}
-    </h6>
+  <div>
+    <i class="fa fa-thermometer-half"></i>
+    {{ page.weather }}
+  </div>
   {% endif %}
+
   {% comment %}
+  {% if page.category %}
   <div class="post-categories">
+    <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
     Category: {{ page.category }}
   </div>
+  {% endif %}
+  {% endcomment %}
 
+  {% comment %}
   <div class="post-tags">
     <i class="fa fa-tag" aria-hidden="true"></i>
     Tags:
@@ -61,7 +65,7 @@
 
     <li>
       <div class="post-tags">
-        <strong><i class="fa fa-tag" aria-hidden="true"></i> Tags</strong>
+        <strong><i class="fal fa-tag" aria-hidden="true"></i> Tags</strong>
         {% for tag in page.tags %}
         <span>{{ tag }}</span>
         {% endfor %}
