@@ -1,7 +1,7 @@
 {% if site.related_posts != empty %}
-<aside class="my-4 pt-4 border-t-2 border-dashed border-grey-light">
+<aside class="my-4 p-4 bg-grey-lighter rounded overflow-hidden border-t-2">
   <h3 class="flex mb-4">Related Posts</h3>
-  {% for post in site.related_posts limit:3 %}
+  {% for post in site.related_posts limit:4 %}
     {% unless post.hidden %}
     <article class="flex mb-4">
       <div class="w-2/3">
