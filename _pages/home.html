@@ -6,7 +6,7 @@ redirect_from:
   - /blog/
   - /posts/
 ---
-<section class="text-xl">
+<section class="leading-normal">
   {% for post in site.posts %}
     {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
     {% unless post.hidden %}
@@ -15,7 +15,7 @@ redirect_from:
       {% endif %}
       <article class="flex mb-4">
         <div class="w-2/3">
-          <a class="outline-none no-underline" href="{{ site.baseurl }}{{ post.url }}">
+          <a class="outline-none no-underline hover:underline" href="{{ site.baseurl }}{{ post.url }}">
             {% if post.category %}
               {% assign topic = site.topics | where:"category", post.category | first %}
               {% if topic.show_on_homepage %}

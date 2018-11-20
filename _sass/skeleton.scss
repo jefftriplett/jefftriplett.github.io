@@ -15,11 +15,11 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400|Alegreya');
 
 /* Base files */
-// @import "base/variables";
+@import "base/variables";
 // @import "base/functions";
-// @import "base/base-styles";
+@import "base/base-styles";
 // @import "base/utils";
-// @import "base/typography";
+@import "base/typography";
 
 /* Modules */
 // @import "modules/grid";

@@ -1,5 +1,5 @@
 {% if site.related_posts != empty %}
-<aside class="my-4 text-xl border border-dashed border-black">
+<aside class="my-4 border border-dashed border-black">
   <h3 class="flex mb-4 leading-normal category-title">Related Posts</h3>
   {% for post in site.related_posts limit:3 %}
     {% unless post.hidden %}
