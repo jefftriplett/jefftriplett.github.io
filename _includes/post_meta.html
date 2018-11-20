@@ -1,51 +1,53 @@
-<aside class="my-4 pt-4 border-t-2 border-dashed">
+<aside class="my-4 pt-4 border-t-2 border-dashed border-grey-light">
   <h3>Post Meta</h3>
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">
-    <i class="fa fa-clock-o" aria-hidden="true"></i>
-    Published: {{ page.date | date:"%B %e, %Y" }}
-  </time>
+  <ul class="list-reset">
+    <li>
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        <i class="fa fa-clock-o" aria-hidden="true"></i>
+        Published: {{ page.date | date:"%B %e, %Y" }}
+      </time>
+    </li>
 
-  {% if page.updated %}
-  <div>
-    <time datetime="{{ page.updated | date_to_xmlschema }}">
-      Updated: {{ page.updated | date:"%B %e, %Y" }}
-      <i class="fa fa-clock-o" aria-hidden="true"></i>
-    </time>
-  </div>
-  {% endif %}
+    {% if page.updated %}
+    <li>
+      <time datetime="{{ page.updated | date_to_xmlschema }}">
+        Updated: {{ page.updated | date:"%B %e, %Y" }}
+        <i class="fa fa-clock-o" aria-hidden="true"></i>
+      </time>
+    </li>
+    {% endif %}
 
-  {% if page.location %}
-  <div>
-    <i class="fa fa-map-marker" aria-hidden="true"></i>
-    In {{ page.location }}
-  </div>
-  {% endif %}
+    {% if page.location %}
+    <li>
+      <i class="fa fa-map-marker" aria-hidden="true"></i>
+      In {{ page.location }}
+    </li>
+    {% endif %}
 
-  {% if page.weather %}
-  <div>
-    <i class="fa fa-thermometer-half"></i>
-    {{ page.weather }}
-  </div>
-  {% endif %}
+    {% if page.weather %}
+    <li>
+      <i class="fa fa-thermometer-half"></i>
+      {{ page.weather }}
+    </li>
+    {% endif %}
 
-  {% comment %}
-  {% if page.category %}
-  <div class="post-categories">
-    <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
-    Category: {{ page.category }}
-  </div>
-  {% endif %}
-  {% endcomment %}
+    {% comment %}
+    {% if page.category %}
+    <li>
+      <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
+      Category: {{ page.category }}
+    </li>
+    {% endif %}
 
-  {% comment %}
-  <div class="post-tags">
-    <i class="fa fa-tag" aria-hidden="true"></i>
-    Tags:
-    {% for tag in page.tags %}
-    <span>{{ tag }}</span>
-    {% endfor %}
-  </div>
-  {% endcomment %}
+    <li>
+      <i class="fa fa-tag" aria-hidden="true"></i>
+      Tags:
+      {% for tag in page.tags %}
+      <span>{{ tag }}</span>
+      {% endfor %}
+    </li>
+    {% endcomment %}
+  </ul>
 </aside>
 
 {% comment %}

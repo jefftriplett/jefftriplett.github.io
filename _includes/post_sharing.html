@@ -1,14 +1,14 @@
-<aside class="my-4 pt-4 border-t-2 border-dashed">
+<aside class="my-4 pt-4 border-t-2 border-dashed border-grey-light">
   <h3>Sharing</h3>
   <div class="flex">
     <ul class="list-reset">
       <li class="inline-block">
-        <a href="https://twitter.com/intent/tweet?url={{ site.url | url_encode }}{{ page.url | url_encode }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}&text={{ page.title | markdownify | strip_html | strip_newlines | truncate: 100 }}" rel="nofollow" target="_blank" title="Share on Twitter">
+        <a class="hover:underline hover:text-blue-dark" href="https://twitter.com/intent/tweet?url={{ site.url | url_encode }}{{ page.url | url_encode }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}&text={{ page.title | markdownify | strip_html | strip_newlines | truncate: 100 }}" rel="nofollow" target="_blank" title="Share on Twitter">
           Twitter
         </a>
       </li>
       <li class="inline-block">
-        <a href="https://facebook.com/sharer.php?u={{ site.url | url_encode }}{{ page.url | url_encode }}" rel="nofollow" target="_blank" title="Share on Facebook">
+        <a class="hover:underline hover:text-blue-dark" href="https://facebook.com/sharer.php?u={{ site.url | url_encode }}{{ page.url | url_encode }}" rel="nofollow" target="_blank" title="Share on Facebook">
           Facebook
         </a>
       </li>
