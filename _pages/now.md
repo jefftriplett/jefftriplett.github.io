@@ -29,6 +29,7 @@ I'm home in Lawrence, Kansas. It's late fall.
 - I continue to watch [television][] and listen to [podcasts][].
 
 *This page is inspired by [Aaron Sumner's Now Page][] which was inspired by [Derek Sivers's][Derek Sivers] [Now Page Movement][]. It's current as of November 19th, 2018.*
+{:.my-4 .p-4 .bg-grey-lighter .rounded .overflow-hidden .border-t-2}
 
 [Aaron Sumner's Now Page]: http://aaronsumner.com/pages/now.html
 [Derek Sivers]: https://sivers.org/now
