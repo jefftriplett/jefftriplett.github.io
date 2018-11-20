@@ -24,7 +24,7 @@ I'm home in Lawrence, Kansas. It's late Summer.
 
 - I am working on several side projects and logging my progress on [wip.chat]https://wip.chat/@jefftriplett) for public accountability.
 
-- ~I'm an avid basketball fan and [Is the Lead Safe][] if my website for tracking real-time game updates. I hope to resume working on it during the fall.~
+- ~~I'm an avid basketball fan and [Is the Lead Safe][] if my website for tracking real-time game updates. I hope to resume working on it during the fall.~~
 
 - I continue to watch [television][] and listen to [podcasts][].
 
