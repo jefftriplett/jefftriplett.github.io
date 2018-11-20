@@ -14,6 +14,7 @@ Image courtesy of [Melanie Crutchfield](https://twitter.com/HelloMelanieC).
 I grew up in rural [Sarcoxie, MO](http://en.wikipedia.org/wiki/Sarcoxie,_Missouri).
 
 ## Present
+{:.mt-8}
 
 #### [REVSYS](http://revsys.com/)
 
@@ -40,10 +41,16 @@ I joined the PSF in 2015.
 I have dabbled with open source since 2007.
 
 ## Writing
+{:.mt-8}
 
 [5 favorite open source Django packages](https://opensource.com/business/15/12/5-favorite-open-source-django-packages)
 
 ## Organizing
+{:.mt-8}
+
+[DjangoCon US 2019](https://2019.djangocon.us/) Organizer.
+
+[DjangoCon US 2018](https://2018.djangocon.us/) Organizer.
 
 [DjangoCon US 2017](https://2017.djangocon.us/) Organizer.
 
@@ -51,11 +58,12 @@ I have dabbled with open source since 2007.
 
 [DjangoCon US 2015](https://2015.djangocon.us/) Conference Chair / Organizer.
 
-[DjangoCon US 2014](https://2014.djangocon.us/) Last-minute Program Chair.
+[DjangoCon US 2014](https://2014.djangocon.us/) Organizer(ish) / Last-minute Program Chair.
 
 [Django Birthday](https://djangobirthday.com/) Conference Chair / Organizer for Django's 10th birthday party.
 
 ## Interviews / Mentions
+{:.mt-8}
 
 [PyDev of the Week: Jeff Triplett](http://www.blog.pythonlibrary.org/2016/01/04/pydev-of-the-week-jeff-triplett/)
 
@@ -66,6 +74,7 @@ I have dabbled with open source since 2007.
 [(Life) Lessons Learnt while Traveling](http://anna-oz.tumblr.com/post/156114754840/life-lessons-learnt-while-traveling) by [Anna Ossowski](https://twitter.com/OssAnna16)
 
 ## Past
+{:.mt-8}
 
 #### DjangoPony.com
 
