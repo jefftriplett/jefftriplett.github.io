@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
-
-<article class="post">
-  <h1 class="post-title">
+<article class="leading-normal">
+  <h1>
     {% assign topic = site.topics | where:"category", page.category | first %}
     {% if topic.show_on_homepage %}
       {{ topic.category }}:
@@ -14,13 +13,13 @@ layout: default
 </article>
 
 <!-- Sharing -->
-{% include sharing.html %}
+{% include post_sharing.html %}
 <!-- End of Sharing -->
 
 <!-- Post Meta -->
-{% include posts_meta.html %}
+{% include post_meta.html %}
 <!-- End of Post Meta -->
 
 <!-- Related Posts -->
-{% include posts_related.html %}
+{% include post_related.html %}
 <!-- End of Related Posts -->
