@@ -4,23 +4,23 @@ title: Now
 permalink: /now/
 ---
 
-I'm home in Lawrence, Kansas. It's late Summer.
+I'm home in Lawrence, Kansas. It's late fall.
 
 - I work full-time [REVSYS][] as an Engineer and Consultant. Some days I write code, train developers, automate systems, secure websites, and manage humans.
 
-- We are working on [DjangoCon US 2018][].
+- We are working on [DjangoCon US 2019][].
 
 - I dabble with the Ukulele.
 
 - After a few year hiatus, I am trail running again. Checkout out my [#jeffisrunning](https://twitter.com/search?q=%23jeffisrunning&src=typd) on Twitter.
 
-- I converted to a [Keto diet][] and lost ~45 lbs before gaining back 15 lbs. and then losing 15 lbs again.
+- I converted to a [Keto diet][] and lost ~45 lbs before gaining back 10 lbs.
 
-- I have maintained a weekly [personal goals project][] on Github since late 2015. I stalled out a bit in 2018, but it's on my radar to automate, and keep going.
+- I have maintained a weekly [personal goals project][] on Github since late 2015. I stalled out a bit in 2018, but it's on my radar to automate, and keep going. Currently off-track.
 
-- I have been co-writing articles on [OpenSource.com](https://opensource.com/users/jefftriplett) every month with [Lacey Williams Henschel](https://opensource.com/users/laceynwilliams) for every month in 2018.
+- I have been co-writing articles on [OpenSource.com](https://opensource.com/users/jefftriplett) every month with [Lacey Williams Henschel](https://opensource.com/users/laceynwilliams) for every month(ish) in 2018.
 
-- I'm attempting to blog more often in 2018. I had a goal of blogging once a week in 2017, but I published roughly half of my goal. 
+- I'm attempting to blog more often in 2018 after having a great streak in 2017. I fell off my goal in August.
 
 - I am working on several side projects and logging my progress on [wip.chat]https://wip.chat/@jefftriplett) for public accountability.
 
@@ -32,7 +32,7 @@ I'm home in Lawrence, Kansas. It's late Summer.
 
 [Aaron Sumner's Now Page]: http://aaronsumner.com/pages/now.html
 [Derek Sivers]: https://sivers.org/now
-[DjangoCon US 2018]: https://2018.djangocon.us/
+[DjangoCon US 2019]: https://2019.djangocon.us/
 [Is the Lead Safe]: http://www.istheleadsafe.com/
 [Keto diet]: https://www.reddit.com/r/keto/wiki/keto_in_a_nutshell
 [Now Page Movement]: http://nownownow.com/about
