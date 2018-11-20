@@ -4,11 +4,11 @@ title: Colophon
 permalink: /colophon/
 ---
 
-jefftriplett.com is published using [Jekyll][], hosted on [GitHub Pages][] and SSL via [Cloudflare][] The source code resides in my github repo: [jefftriplett/jefftriplett.github.io][].
+jefftriplett.com is published using [Jekyll][], hosted on [GitHub Pages][], and SSL via [Cloudflare][] The source code resides in my github repo: [jefftriplett/jefftriplett.github.io][].
 
 I'd rather write in [Markdown][] using my favorite editor [Sublime Text 3][] and pushing updates via [Git][] than wasting my days solving the wrong problems.
 
-The theme was built with [Skeleton][], [Skeleton-Sass][], and [SASS][]. 
+The theme was built with [Tailwind CSS][] ~~[Skeleton][], [Skeleton-Sass][],~~ and [SASS][]. 
 
 The text on the site uses [Alegreya][], [PT Sans][], and [PT Serif][]. Typography advice from [Top Ten Typography Tips][]. 
 
@@ -19,8 +19,8 @@ Other indispensables: GitHub, Chrome, Gmail, Fastmail, Spotify, Apple MacBook Pr
 [Alegreya]: https://fonts.google.com/specimen/Alegreya
 [Cloudflare]: https://www.cloudflare.com
 [Font Awesome]: http://fontawesome.io/
-[Git]: https://git-scm.com/
 [GitHub Pages]: https://pages.github.com/
+[Git]: https://git-scm.com/
 [jefftriplett/jefftriplett.github.io]: https://github.com/jefftriplett/jefftriplett.github.io
 [Jekyll]: https://jekyllrb.com/
 [Markdown]: https://daringfireball.net/projects/markdown/
@@ -30,4 +30,5 @@ Other indispensables: GitHub, Chrome, Gmail, Fastmail, Spotify, Apple MacBook Pr
 [Skeleton-Sass]: https://github.com/whatsnewsaes/Skeleton-Sass
 [Skeleton]: http://getskeleton.com/
 [Sublime Text 3]: https://www.sublimetext.com/
+[Tailwind CSS]: http://tailwindcss.com
 [Top Ten Typography Tips]: http://www.toptentypography.tips/
