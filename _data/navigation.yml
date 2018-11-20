@@ -35,7 +35,7 @@ links:
   - title: <i class="fa fa-coffee fa-fw" aria-hidden=true></i>
     url: https://www.buymeacoffee.com/webology
     aria-label: "Buy Jeff Triplett a coffee"
-    show_in_header: true
+    show_in_header: false
     show_in_footer: true
 
   - title: <i class="fa fa-facebook fa-fw" aria-hidden=true></i>
