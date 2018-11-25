@@ -5,13 +5,16 @@ admin_path: admin
 webhook_url:
 sections:
 - type: jekyll-pages
-  path: _pages
   label: Pages
   create: all
-  match: "**/*"
 - type: jekyll-posts
   label: Posts
   create: all
+- type: directory
+  path: _pages
+  label: More Pages
+  create: all
+  match: "**/*"
 - type: directory
   path: _topics
   label: Topics
