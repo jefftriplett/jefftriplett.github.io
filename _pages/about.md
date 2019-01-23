@@ -20,13 +20,17 @@ I grew up in rural [Sarcoxie, MO](http://en.wikipedia.org/wiki/Sarcoxie,_Missour
 
 I was voted in by the community as a Board of Director for The PSF in 2018.
 
-#### [REVSYS](http://revsys.com/)
+#### [REVSYS Partner](http://revsys.com/)
 
-I have been a developer for one of the premier Django consulting agencies since 2011.
+I have been a developer for one of the premier Django consulting agencies since 2011. In 2019, I became a Partner.
 
 #### [Django Events Foundation North America (DEFNA)](https://github.com/defna)
 
 I am one of the three co-founders of DEFNA and I have served as the President of the Board since 2015.
+
+#### [Python Software Foundation Fellow Member for Q4 2018](http://pyfound.blogspot.com/2019/01/python-software-foundation-fellow.html)
+
+I was named a PSF Fellow Member in January 2019.
 
 #### [Django Code of Conduct Committee](https://www.djangoproject.com/foundation/committees/#conduct)
 
