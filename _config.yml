@@ -33,6 +33,7 @@ include:
 exclude:
   - .bumpversion.cfg
   - .gitignore
+  - .vendor
   - _pages/categories.html
   - _pages/tags.html
   - Gemfile

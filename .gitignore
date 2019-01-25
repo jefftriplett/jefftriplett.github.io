@@ -2,6 +2,7 @@
 .bundle
 .jekyll-metadata
 .sass-cache
-Gemfile.lock
+.vendor
 _site
 build
+Gemfile.lock

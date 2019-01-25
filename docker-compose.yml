@@ -5,3 +5,4 @@ jekyll:
         - 8000:8000
     volumes:
         - .:/srv/jekyll
+        - .vendor/bundle:/usr/local/bundle
