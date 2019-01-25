@@ -1,8 +1,12 @@
-jekyll:
+version: "3.2"
+
+services:
+
+  jekyll:
     image: jekyll/jekyll
-    command: jekyll serve --watch --profile --drafts --port 8000
     ports:
-        - 8000:8000
+      - 8000:8000
     volumes:
-        - .:/srv/jekyll
-        - .vendor/bundle:/usr/local/bundle
+      - .:/srv/jekyll
+      - .vendor/bundle:/usr/local/bundle
+    command: ["jekyll", "serve", "--watch", "--profile", "--drafts", "--port", "8000"]
