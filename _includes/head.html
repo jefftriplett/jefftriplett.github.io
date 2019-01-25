@@ -17,13 +17,12 @@
   <!-- Don't be evil Twitter -->
   <meta name="twitter:dnt" content="on">
   {% comment %}
+  {% endcomment %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  {% endcomment %}
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/{{ site.font-awesome }}/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/tailwind.css">
   <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/2018.css">
-  {% comment %}
-  {% endcomment %}
 
   <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/apple-icon-60x60.png">
@@ -42,5 +41,5 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/assets/images/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
-  <link type="application/atom+xml" rel="alternate" href="http://feeds.feedburner.com/JeffTriplett" title="Jeff Triplett" />
+  <link type="application/atom+xml" rel="alternate" href="http://feeds.feedburner.com/JeffTriplett" title="Jeff Triplett">
 </head>
