@@ -4,25 +4,25 @@ title: Now
 permalink: /now/
 ---
 
-I'm home in Lawrence, Kansas. It's late fall.
+I'm home in Lawrence, Kansas. It's winter.
 
-- I work full-time [REVSYS][] as an Engineer and Consultant. Some days I write code, train developers, automate systems, secure websites, and manage humans.
+- I work full-time [REVSYS][] as a Partner, Engineer, and Consultant. Some days I write code, train developers, automate systems, secure websites, and manage humans.
 
 - We are working on [DjangoCon US 2019][].
 
-- I dabble with the Ukulele.
-
-- After a few year hiatus, I am trail running again. Checkout out my [#jeffisrunning](https://twitter.com/search?q=%23jeffisrunning&src=typd) on Twitter.
+- After a few year hiatus, I am trail running again. Checkout out my [#jeffisrunning](https://twitter.com/search?q=%23jeffisrunning&src=typd) on Twitter once the weather is warmer.
 
 - I converted to a [Keto diet][] and lost ~45 lbs before gaining back 10 lbs.
 
-- I have maintained a weekly [personal goals project][] on Github since late 2015. I stalled out a bit in 2018, but it's on my radar to automate, and keep going. Currently off-track.
+- I have maintained a weekly [personal goals project][] on Github since late 2015. I stalled out a bit in 2018, but it's on my radar to automate, and keep going. Currently off-track(ish).
 
-- I have been co-writing articles on [OpenSource.com](https://opensource.com/users/jefftriplett) every month with [Lacey Williams Henschel](https://opensource.com/users/laceynwilliams) for every month(ish) in 2018.
+- I co-wrote a series of articles on [OpenSource.com](https://opensource.com/users/jefftriplett) every month in 2018 with [Lacey Williams Henschel](https://opensource.com/users/laceynwilliams).
 
-- I'm attempting to blog more often in 2018 after having a great streak in 2017. I fell off my goal in August.
+- I'm attempting to blog more often in 2019 after having a great streak in 2017. I fell off my goal in August.
 
 - I am working on several side projects and logging my progress on [wip.chat](https://wip.chat/@jefftriplett) for public accountability.
+
+- ~~I dabble with the Ukulele.~~
 
 - ~~I'm an avid basketball fan and [Is the Lead Safe][] if my website for tracking real-time game updates. I hope to resume working on it during the fall.~~
 
