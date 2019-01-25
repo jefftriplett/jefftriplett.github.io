@@ -16,6 +16,13 @@ $ gem install jekyll bundler foreman
 $ foreman start
 ```
 
+### Tailwind
+
+```bash
+$ npx tailwind build style.css -o ./assets/css/tailwind.css
+$ npx purgecss --css ./assets/css/dist.css --content **/*.html --out ./assets/dist/
+```
+
 ## Inspiration
 
 - [Aaron Sumner's Now page](http://aaronsumner.com/pages/now.html)
