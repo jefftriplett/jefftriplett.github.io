@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Home
-permalink: /
+title: Archives
+permalink: /archives/
 redirect_from:
   - /blog/
   - /posts/
@@ -16,7 +16,7 @@ redirect_from:
       {% endif %}
       <article class="flex mb-4">
         <div class="w-2/3">
-          <a class="outline-none no-underline hover:underline hover:text-blue-dark" href="{{ site.baseurl }}{{ post.url }}">
+          <a class="outline-none no-underline" href="{{ site.baseurl }}{{ post.url }}">
             {% if post.category %}
               {% assign topic = site.topics | where:"category", post.category | first %}
               {% if topic.show_on_homepage %}
@@ -40,21 +40,4 @@ redirect_from:
     {% endunless %}
     {% capture lastyear %}{{ post.date | date: '%Y' }}{% endcapture %}
   {% endfor %}
-
-  {% comment %}
-  <!-- Pagination links -->
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-    {% else %}
-      <span class="previous">Previous</span>
-    {% endif %}
-    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-    {% else %}
-      <span class="next ">Next</span>
-    {% endif %}
-  </div>
-  {% endcomment %}
 </section>
