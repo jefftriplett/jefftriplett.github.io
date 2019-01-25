@@ -36,12 +36,17 @@ exclude:
   - .vendor
   - _pages/categories.html
   - _pages/tags.html
+  - CNAME
+  - docker-compose.yml
   - Gemfile
   - Gemfile.lock
   - plugins
   - Procfile
+  - purgecss.config.js
+  - Rakefile
   - README.md
   - requirements.txt
+  - staticman.yml
 
 markdown: kramdown
 kramdown:
