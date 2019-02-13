@@ -35,3 +35,8 @@ hr {
   border-width: 0;
   border-top: 1px solid $light-grey;
 }
+
+
+article * + p {
+  margin-bottom: 1.55rem; /* 0.75 baselines  */
+}
