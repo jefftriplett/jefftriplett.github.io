@@ -11,8 +11,8 @@
     {% if page.updated %}
     <li>
       <time datetime="{{ page.updated | date_to_xmlschema }}">
-        Updated: {{ page.updated | date:"%B %e, %Y" }}
         <i class="fa fa-clock-o" aria-hidden="true"></i>
+        Updated: {{ page.updated | date:"%B %e, %Y" }}
       </time>
     </li>
     {% endif %}
