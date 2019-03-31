@@ -1,11 +1,13 @@
 ---
 title: Is the Lead Safe?
+homepage: http://www.istheleadsafe.com
 ---
 
 [My basketball at a glance website][1] dedicated to answering the basic
 questions of "Is the Lead safe?" using a modified version of
-[Bill James' method][2]. **Please note**: the website only operating
-during the NCAA season.
+[Bill James' method][2]. 
+
+**Please note**: the website only operating during the NCAA season.
 
 [Public roadmap](https://trello.com/b/AdBKPdGb)
 
