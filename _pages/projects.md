@@ -13,6 +13,6 @@ Most of my projects range from scratching personal itches, working on community 
 {% endfor %}
 
 ### 100+ more projects on Github
-{:.mt-8}
+{:.mt-8 .border-t-1}
 
 See more [projects on Github](https://github.com/jefftriplett).
