@@ -1,27 +1,36 @@
 ---
 layout: default
 ---
-<article class="leading-loose">
+<article class="leading-normal">
   <h1>
-    {{ page.category }}
+    Topics labeled "{{ page.category }}"
   </h1>
 
   <div class="posts">
     {% for post in site.categories[page.category] %}
       {% unless post.hidden %}
-      <article class="row">
-        <a href="{{ site.baseurl }}{{ post.url }}">
-          <span class="post-title two-thirds column">
+      <article class="flex mb-4">
+        <div class="w-2/3">
+          <a class="outline-none no-underline hover:underline hover:text-blue-dark" href="{{ site.baseurl }}{{ post.url }}">
+            {% if post.category %}
+              {% assign topic = site.topics | where:"category", post.category | first %}
+              {% if topic.show_on_homepage %}
+                {{ post.category }}:
+              {% endif %}
+            {% endif %}
+
             {{ post.title | markdownify | remove:'<p>' | remove:'</p>' }}
-            {% comment %}
+
+            {% if post.link-out %}
             <i class="fa fa-external-link" aria-hidden="true"></i>
-            {% endcomment %}
-          </span>
-          <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date one-third column">
-            <i class="fa fa-clock-o" aria-hidden="true"></i>
-            {{ post.date | date:"%B %e, %Y" }}
+            {% endif %}
+          </a>
+        </div>
+        <div class="w-1/3 text-right">
+          <time datetime="{{ post.date | date_to_xmlschema }}">
+            {{ post.date | date:"%B %e" }}
           </time>
-        </a>
+        </div>
       </article>
       {% endunless %}
     {% endfor %}
