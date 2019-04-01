@@ -2,32 +2,32 @@
 
 links:
 
-  - title: /About
+  - title: About
     url: /about/
     show_in_header: true
     show_in_footer: true
 
-  - title: /Posts
+  - title: Posts
     url: /
     show_in_header: true
     show_in_footer: false
 
-  - title: /Projects
+  - title: Projects
     url: /projects/
     show_in_header: true
     show_in_footer: false
 
-  - title: /Colophon
+  - title: Colophon
     url: /colophon/
     show_in_header: false
     show_in_footer: true
 
-  - title: /Topics
+  - title: Topics
     url: /topics/
     show_in_header: false
     show_in_footer: false
 
-  - title: /Now
+  - title: Now
     url: /now/
     show_in_header: false
     show_in_footer: true
