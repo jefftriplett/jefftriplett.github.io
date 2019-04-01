@@ -5,17 +5,20 @@ permalink: /playlists/
 sitemap: false
 ---
 
-<div class="photos everything-thumbs">
-  <ul>
-    {% for playlist in site.playlists %}
-      {% unless playlist.hidden %}
-        <li>
-          <a href="{{ playlist.url }}" title="{{ playlist.playlist }}">
-            <img src="{{ playlist.playlist_image.url }}" height="300" width="300">
-            <span>{{ playlist.playlist }}</span>
-          </a>
-        </li>
-      {% endunless %}
-    {% endfor %}
-  </ul>
-</div>
+<section class="leading-normal">
+  <h2 class="flex mb-4 leading-normal category-title">Playlists</h2>
+  {% for playlist in site.playlists %}
+    {% unless playlist.hidden %}
+    <article class="max-w-sm mb-8 rounded overflow-hidden shadow-lg">
+      <a href="{{ playlist.url }}" title="{{ playlist.playlist }}">
+        <img class="w-full" src="{{ playlist.playlist_image.url }}">
+        <div class="px-6 py-4">
+          <p class="text-grey-darkest text-base text-center leading-none">
+            {{ playlist.playlist }}
+          </p>
+        </div>
+      </a>
+    </article>
+    {% endunless %}
+  {% endfor %}
+</section>
