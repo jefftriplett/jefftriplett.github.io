@@ -1,5 +1,5 @@
 ---
-hidden: false
+hidden: true
 layout: playlist
 playlist: Starred
 playlist_image:
