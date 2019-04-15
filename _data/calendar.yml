@@ -15,10 +15,10 @@ events:
 
   - title: "CLC is Closed"
     start_date: 2019-07-04
-    start_date: 2019-07-05
+    end_date: 2019-07-05
 
   - title: "CLC is Closed"
-    end_date: 2019-09-02
+    start_date: 2019-09-02
 
   - title: "DjangoCon US 2019"
     start_date: 2019-09-20
@@ -26,8 +26,8 @@ events:
 
   - title: "CLC is Closed"
     start_date: 2019-11-28
-    start_date: 2019-11-29
+    end_date: 2019-11-29
 
   - title: "CLC is Closed"
     start_date: 2019-12-24
-    start_date: 2020-01-01
+    end_date: 2020-01-01
