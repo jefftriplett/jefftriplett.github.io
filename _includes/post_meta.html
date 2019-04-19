@@ -3,7 +3,7 @@
   <ul class="list-reset">
     <li>
       <time datetime="{{ page.date | date_to_xmlschema }}">
-        <i class="fa fa-clock-o" aria-hidden="true"></i>
+        <i class="far fa-calendar" aria-hidden="true"></i>
         Published: {{ page.date | date:"%B %e, %Y" }}
       </time>
     </li>
@@ -11,7 +11,7 @@
     {% if page.updated %}
     <li>
       <time datetime="{{ page.updated | date_to_xmlschema }}">
-        <i class="fa fa-clock-o" aria-hidden="true"></i>
+        <i class="far fa-calendar" aria-hidden="true"></i>
         Updated: {{ page.updated | date:"%B %e, %Y" }}
       </time>
     </li>
@@ -19,14 +19,14 @@
 
     {% if page.location %}
     <li>
-      <i class="fa fa-map-marker" aria-hidden="true"></i>
+      <i class="far fa-map-marker" aria-hidden="true"></i>
       In {{ page.location }}
     </li>
     {% endif %}
 
     {% if page.weather %}
     <li>
-      <i class="fa fa-thermometer-half"></i>
+      <i class="far fa-thermometer-half"></i>
       {{ page.weather }}
     </li>
     {% endif %}
@@ -34,13 +34,13 @@
     {% comment %}
     {% if page.category %}
     <li>
-      <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
+      <i class="far fa-puzzle-piece" aria-hidden="true"></i>
       Category: {{ page.category }}
     </li>
     {% endif %}
 
     <li>
-      <i class="fa fa-tag" aria-hidden="true"></i>
+      <i class="far fa-tag" aria-hidden="true"></i>
       Tags:
       {% for tag in page.tags %}
       <span>{{ tag }}</span>
@@ -54,7 +54,7 @@
 <aside class="post-meta">
   <ul class="meta-list">
     <li>
-      <strong><i class="fa fa-clock-o" aria-hidden="true"></i> Published</strong>
+      <strong><i class="far fa-calendar" aria-hidden="true"></i> Published</strong>
       <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">
         {{ page.date | date:"%B %e, %Y" }}
       </time>
@@ -77,13 +77,13 @@
     {% assign read_time = page.content | strip_html | strip_newlines | number_of_words | divided_by: 200 %}
     {% if read_time == 0 %}{% assign read_time = 1 %}{% endif %}
     <li>
-      <i class="fa fa-clock-o" aria-hidden="true"></i>
+      <i class="far fa-clock-o" aria-hidden="true"></i>
       {{ read_time }} minute read
     </li>
 
     {% if page.location %}
       <li>
-        <strong><i class="fa fa-map-marker" aria-hidden="true"></i> Location</strong>
+        <strong><i class="far fa-map-marker" aria-hidden="true"></i> Location</strong>
         In {{ page.location }}
       </li>
     {% endif %}

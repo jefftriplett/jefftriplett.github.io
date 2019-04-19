@@ -37,61 +37,67 @@ links:
     show_in_header: false
     show_in_footer: true
 
-  - title: <i class="fa fa-coffee fa-fw" aria-hidden=true></i>
+  - title: <i class="far fa-coffee" aria-hidden=true></i>
     url: https://www.buymeacoffee.com/webology
     aria-label: "Buy Jeff Triplett a coffee"
     show_in_header: false
     show_in_footer: true
 
-  - title: <i class="fa fa-facebook fa-fw" aria-hidden=true></i>
+  - title: <i class="fab fa-facebook" aria-hidden=true></i>
     url: https://www.facebook.com/jefftriplett
     aria-label: "Follow Jeff Triplett on Facebook"
     show_in_header: false
     show_in_footer: true
 
-  - title: <i class="fa fa-github fa-fw" aria-hidden=true></i>
+  - title: <i class="fab fa-github" aria-hidden=true></i>
     url: https://github.com/jefftriplett
     aria-label: "Follow Jeff Triplett on GitHub"
     show_in_header: true
     show_in_footer: true
 
-  - title: <i class="fa fa-twitter fa-fw" aria-hidden=true></i>
+  - title: <i class="fab fa-dev" aria-hidden=true></i>
+    url: https://dev.to/jefftriplett
+    aria-label: "Jeff Triplett's DEV Profile"
+    show_in_header: false
+    show_in_footer: true
+
+  - title: <i class="fab fa-twitter" aria-hidden=true></i>
     url: https://twitter.com/webology
     aria-label: "Follow Jeff Triplett on Twitter"
     show_in_header: true
     show_in_footer: true
 
-  - title: <i class="fa fa-thumb-tack fa-fw" aria-hidden=true></i>
+  - title: <i class="fas fa-thumbtack" aria-hidden=true></i>
     url: https://pinboard.in/u:jefftriplett
     aria-label: "Follow Jeff Triplett on Pinboard"
     show_in_header: false
     show_in_footer: true
 
-  - title: <i class="fa fa-instagram fa-fw" aria-hidden=true></i>
+  - title: <i class="fab fa-instagram" aria-hidden=true></i>
     url: https://www.instagram.com/jefftriplett/
     aria-label: "Follow Jeff Triplett on Instagram"
     show_in_header: false
     show_in_footer: true
 
-  - title: <i class="fa fa-flickr fa-fw" aria-hidden=true></i>
+  - title: <i class="fab fa-flickr" aria-hidden=true></i>
     url: https://www.flickr.com/photos/webology
     aria-label: "Follow Jeff Triplett on Flickr"
     show_in_header: false
     show_in_footer: true
 
-  - title: <i class="fa fa-medium fa-fw" aria-hidden=true></i>
+  - title: <i class="fab fa-medium" aria-hidden=true></i>
     url: https://medium.com/@webology
     aria-label: "Follow Jeff Triplett on Medium"
     show_in_header: false
     show_in_footer: true
 
-  - title: <i class="fa fa-spotify fa-fw" aria-hidden=true></i>
+  - title: <i class="fab fa-spotify" aria-hidden=true></i>
     url: https://open.spotify.com/user/jefftriplett
     aria-label: "Follow Jeff Triplett on Spotify"
     show_in_header: false
     show_in_footer: true
 
-  - title: <i class="fa fa-rss fa-fw" aria-hidden=true></i>
+  - title: <i class="far fa-rss" aria-hidden=true></i>
     url: http://feeds.feedburner.com/JeffTriplett
     aria-label: "Subscribe!"
     show_in_header: true

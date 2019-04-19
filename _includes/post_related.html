@@ -16,13 +16,13 @@
           {{ post.title | markdownify | remove:'<p>' | remove:'</p>' }}
 
           {% if post.link-out %}
-          <i class="fa fa-external-link" aria-hidden="true"></i>
+          <i class="far fa-external-link" aria-hidden="true"></i>
           {% endif %}
         </a>
       </div>
       <div class="w-1/3 text-right">
         <time datetime="{{ post.date | date_to_xmlschema }}">
-          <i class="fa fa-clock-o" aria-hidden="true"></i>
+          <i class="far fa-calendar" aria-hidden="true"></i>
           {{ post.date | date:"%B %e" }}
         </time>
       </div>
