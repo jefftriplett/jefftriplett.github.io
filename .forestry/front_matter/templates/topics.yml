@@ -1,6 +1,7 @@
 ---
-label: topics
+label: Topics
 hide_body: true
+display_field: category
 fields:
 - type: text
   name: layout
