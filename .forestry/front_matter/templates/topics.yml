@@ -1,0 +1,16 @@
+---
+label: topics
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: category
+  label: category
+- type: boolean
+  name: show_on_homepage
+  label: show_on_homepage
+- type: boolean
+  name: sitemap
+  label: sitemap
