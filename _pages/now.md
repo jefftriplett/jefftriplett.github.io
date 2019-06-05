@@ -4,7 +4,7 @@ title: Now
 permalink: /now/
 ---
 
-I'm home in Lawrence, Kansas. It's winter.
+I'm home in Lawrence, Kansas. It's spring.
 
 - I work full-time [REVSYS][] as a Partner, Engineer, and Consultant. Some days I write code, train developers, automate systems, secure websites, and manage humans.
 
