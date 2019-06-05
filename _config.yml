@@ -131,5 +131,5 @@ jekyll-crosspost_to_medium:
   text: '<p><i>Your (optional) signoff for the post.</i></p>'
 
 # Custom vars
-version: 0.18.0
+version: 0.18.1
 google-fonts-family: PT+Serif:400,400italic,700|PT+Sans:400|Alegreya
