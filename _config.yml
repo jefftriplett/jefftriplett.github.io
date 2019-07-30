@@ -17,7 +17,7 @@ paginate: 100
 plugins:
   # - jekyll-archives
   # - jekyll-coffeescript
-  - jekyll-crosspost-to-medium
+  # - jekyll-crosspost-to-medium
   - jekyll-feed
   - jekyll-mentions
   - jekyll-paginate
@@ -25,7 +25,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
-  - octopress-autoprefixer
+  # - octopress-autoprefixer
 
 include:
   - _pages
@@ -49,6 +49,7 @@ exclude:
   - README.md
   - requirements.txt
   - staticman.yml
+  - "*/src/*"
 
 markdown: kramdown
 kramdown:
