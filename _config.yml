@@ -31,25 +31,28 @@ include:
   - _pages
 
 exclude:
+  - "*/src/*"
   - .bumpversion.cfg
   - .gitignore
   - .vendor
-  - _pages/categories.html
-  - _pages/tags.html
   - CNAME
-  - docker-compose.yml
   - Gemfile
   - Gemfile.lock
-  - jekyll.dockerapp
-  - node_modules
-  - plugins
+  - Makefile
   - Procfile
-  - purgecss.config.js
-  - Rakefile
   - README.md
+  - Rakefile
+  - _pages/categories.html
+  - _pages/tags.html
+  - docker-compose.yml
+  - jekyll.dockerapp
+  - modd.conf
+  - node_modules
+  - package*.json
+  - plugins
+  - purgecss.config.js
   - requirements.txt
   - staticman.yml
-  - "*/src/*"
 
 markdown: kramdown
 kramdown:
