@@ -1,0 +1,43 @@
+@tailwind base;
+
+h1 {
+  @apply text-3xl;
+}
+
+h2 {
+  @apply text-2xl;
+}
+
+h3 {
+  @apply text-xl;
+}
+
+p {
+    @apply pt-4;
+}
+
+a {
+  @apply text-blue-600 underline;
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: theme('padding.4');
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: theme('padding.4');
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  line-height: 1.15;
+}
+
+@tailwind components;
+
+@tailwind utilities;

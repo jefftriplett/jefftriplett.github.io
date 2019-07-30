@@ -1,0 +1,27 @@
+{
+  "name": "jefftriplett.github.io-git",
+  "version": "0.1.0",
+  "description": "This is my personal website written with Jekyll using Markdown.",
+  "main": "purgecss.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jefftriplett/jefftriplett.github.io.git"
+  },
+  "keywords": [],
+  "author": "Jeff Triplett <jeff.triplett@gmail.com> (https://jefftriplett.com)",
+  "license": "bsd3",
+  "bugs": {
+    "url": "https://github.com/jefftriplett/jefftriplett.github.io/issues"
+  },
+  "homepage": "https://github.com/jefftriplett/jefftriplett.github.io#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0"
+  },
+ "scripts": {
+    "dev": "parcel <your entry file>",
+    "build": "parcel build <your entry file>"
+  }
+}
