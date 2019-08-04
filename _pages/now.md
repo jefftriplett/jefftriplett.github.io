@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Now
+title: What I'm Doing Now
 permalink: /now/
 ---
 
-I'm home in Lawrence, Kansas. It's summer.
+**Location:** Lawrence, KS
 
 - I work full-time [REVSYS][] as a Partner, Engineer, and Consultant. Some days I write code, train developers, automate systems, secure websites, and manage humans.
 
@@ -27,7 +27,7 @@ I'm home in Lawrence, Kansas. It's summer.
 - I continue to watch [television][] and listen to [podcasts][].
 
 *This page is inspired by [Aaron Sumner's Now Page][] which was inspired by [Derek Sivers's][Derek Sivers] [Now Page Movement][]. It's current as of November 19th, 2018.*
-{:.my-4 .p-4 .bg-grey-lighter .rounded .overflow-hidden .border-t-2}
+{:.my-4 .p-4 .bg-grey-lighter .rounded-lg .overflow-hidden .border-t-2}
 
 [#jeffisrunning]: https://twitter.com/search?q=%23jeffisrunning&src=typd
 [Aaron Sumner's Now Page]: http://aaronsumner.com/pages/now.html

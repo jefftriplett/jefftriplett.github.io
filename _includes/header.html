@@ -2,11 +2,11 @@
   <a class="no-underline" href="/">
     {{ site.title }}
   </a>
-  <small>{{ site.tagline }}</small>
+  {% comment %}<small>{{ site.tagline }}</small>{% endcomment %}
 </h2>
 
 <nav class="w-3/4 self-center text-right">
-  <ul class="list-reset">
+  <ul>
   {% for link in site.data.navigation.links %}
     {% if link.show_in_header == true %}
       <li class="inline-block py-2 px-2">

@@ -1,33 +1,28 @@
+
 @tailwind base;
 
 h1 {
-  @apply text-3xl;
+  @apply text-4xl;
 }
 
 h2 {
-  @apply text-2xl;
+  @apply text-3xl;
 }
 
 h3 {
+  @apply text-2xl;
+}
+
+h4 {
   @apply text-xl;
 }
 
 p {
-    @apply pt-4;
+  @apply pt-4;
 }
 
-a {
+a:hover {
   @apply text-blue-600 underline;
-}
-
-ol {
-  list-style-type: decimal;
-  padding-left: theme('padding.4');
-}
-
-ul {
-  list-style-type: disc;
-  padding-left: theme('padding.4');
 }
 
 button,
@@ -37,6 +32,30 @@ select,
 textarea {
   line-height: 1.15;
 }
+
+.page a, .post a {
+  @apply text-gray-600 underline;
+}
+
+.page a:hover, .post a:hover {
+  /* @apply underline text-orange-400; */
+  @apply text-blue-600 underline;
+}
+
+.page ol, .post ol {
+  list-style-type: decimal;
+  padding-left: theme('padding.12');
+}
+
+.page ul, .post ul{
+  list-style-type: disc;
+  padding-left: theme('padding.12');
+}
+
+.meta {
+  @apply bg-gray-200;
+}
+
 
 @tailwind components;
 

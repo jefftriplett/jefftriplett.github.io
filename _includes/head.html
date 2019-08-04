@@ -17,12 +17,19 @@
   <!-- Don't be evil Twitter -->
   <meta name="twitter:dnt" content="on">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  {% comment %}
-  <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/tailwind.css">
-  <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/2018.css">
-  {% endcomment %}
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-Bx4pytHkyTDy3aJKjGkGoHPt3tvv6zlwwjc3iqN7ktaiEMLDPqLSZYts2OjKcBx1" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400|Alegreya&display=swap">
   <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/2019.css">
+
+<style>
+* {
+  font-family: "PT Serif", sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "PT Serif", sans-serif;
+  /*font-family: "PT Sans", sans-serif;*/
+}
+</style>
 
   <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/apple-icon-60x60.png">

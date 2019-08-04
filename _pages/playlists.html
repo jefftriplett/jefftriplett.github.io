@@ -6,10 +6,10 @@ sitemap: false
 ---
 
 <section class="leading-normal">
-  <h2 class="flex mb-4 leading-normal category-title">Playlists</h2>
+  <h2 class="flex mb-4 leading-normal font-semibold">Playlists</h2>
   {% for playlist in site.playlists %}
     {% unless playlist.hidden %}
-    <article class="max-w-sm mb-8 rounded overflow-hidden shadow-lg">
+    <article class="max-w-sm mb-8 rounded-lg overflow-hidden shadow-lg">
       <a href="{{ playlist.url }}" title="{{ playlist.playlist }}">
         <img class="w-full" src="{{ playlist.playlist_image.url }}">
         <div class="px-6 py-4">
