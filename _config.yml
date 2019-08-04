@@ -18,6 +18,7 @@ plugins:
   # - jekyll-archives
   # - jekyll-coffeescript
   # - jekyll-crosspost-to-medium
+  # - octopress-autoprefixer
   - jekyll-feed
   - jekyll-mentions
   - jekyll-paginate
@@ -25,7 +26,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
-  # - octopress-autoprefixer
 
 include:
   - _pages
