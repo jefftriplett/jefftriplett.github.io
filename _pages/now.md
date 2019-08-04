@@ -6,6 +6,8 @@ permalink: /now/
 
 **Location:** Lawrence, KS
 
+**Working on:**
+
 - I work full-time [REVSYS][] as a Partner, Engineer, and Consultant. Some days I write code, train developers, automate systems, secure websites, and manage humans.
 
 - We are working on [DjangoCon US 2019][].
@@ -23,7 +25,7 @@ permalink: /now/
 - I continue to watch [television][] and listen to [podcasts][].
 
 *This page is inspired by [Aaron Sumner's Now Page][] which was inspired by [Derek Sivers's][Derek Sivers] [Now Page Movement][]. It's current as of August 3rd, 2019.*
-{:.my-4 .p-4 .bg-grey-lighter .rounded-lg .overflow-hidden .border-t-2}
+{:.my-4 .p-4 .bg-gray-100 .rounded-lg .shadow-md .overflow-hidden .border-t-2}
 
 [#jeffisrunning]: https://twitter.com/search?q=%23jeffisrunning&src=typd
 [Aaron Sumner's Now Page]: http://aaronsumner.com/pages/now.html

@@ -7,7 +7,7 @@ redirect_from: /posts/about/raw/
 
 Hello! I'm Jeff Triplett. I live in [Lawrence, KS](http://en.wikipedia.org/wiki/Lawrence,_Kansas). I am a consultant (Python, Django, performance, scaling, and management) at [REVSYS](http://revsys.com/).
 
-![](/assets/images/dcus-2017-bw.jpg){: width="600" alt="Jeff Triplett" title="Jeff Triplett taken by Melanie Crutchfield" }
+![](/assets/images/dcus-2017-bw.jpg){: .rounded-lg .w-full alt="Jeff Triplett" title="Jeff Triplett taken by Melanie Crutchfield" }
 
 Image courtesy of [Melanie Crutchfield](https://twitter.com/HelloMelanieC).
 
@@ -16,35 +16,43 @@ I grew up in rural [Sarcoxie, MO](http://en.wikipedia.org/wiki/Sarcoxie,_Missour
 ## Present
 {:.mt-8}
 
-#### [Python Software Foundation Director](https://www.python.org/psf/records/board/history/#id2)
+### [Python Software Foundation Director](https://www.python.org/psf/records/board/history/#id2)
+{:.mt-4 .-mb-4}
 
 I was voted in by the community as a Board of Director for The PSF in 2018.
 
-#### [REVSYS Partner](http://revsys.com/)
+### [REVSYS Partner](http://revsys.com/)
+{:.mt-4 .-mb-4}
 
 I have been a developer for one of the premier Django consulting agencies since 2011. In 2019, I became a Partner.
 
-#### [Django Events Foundation North America (DEFNA)](https://github.com/defna)
+### [Django Events Foundation North America (DEFNA)](https://github.com/defna)
+{:.mt-4 .-mb-4}
 
 I am one of the three co-founders of DEFNA and I have served as the President of the Board since 2015.
 
-#### [Python Software Foundation Fellow Member for Q4 2018](http://pyfound.blogspot.com/2019/01/python-software-foundation-fellow.html)
+### [Python Software Foundation Fellow Member for Q4 2018](http://pyfound.blogspot.com/2019/01/python-software-foundation-fellow.html)
+{:.mt-4 .-mb-4}
 
 I was named a PSF Fellow Member in January 2019.
 
-#### [Django Code of Conduct Committee](https://www.djangoproject.com/foundation/committees/#conduct)
+### [Django Code of Conduct Committee](https://www.djangoproject.com/foundation/committees/#conduct)
+{:.mt-4 .-mb-4}
 
 I joined the committee in 2016 as a member and I have served as co-chair since the end of 2016.
 
-#### [Django Developer Member](https://www.djangoproject.com/foundation/developer-members/)
+### [Django Developer Member](https://www.djangoproject.com/foundation/developer-members/)
+{:.mt-4 .-mb-4}
 
 I was nominated in 2015 and have served as a member ever since.
 
-#### [Python Software Foundation Contributing Member](https://www.python.org/psf/membership/)
+### [Python Software Foundation Contributing Member](https://www.python.org/psf/membership/)
+{:.mt-4 .-mb-4}
 
 I joined the PSF in 2015.
 
-#### Open source [developer](https://github.com/jefftriplett).
+### Open source [developer](https://github.com/jefftriplett).
+{:.mt-4 .-mb-4}
 
 I have dabbled with open source since 2007.
 
@@ -84,10 +92,12 @@ I have dabbled with open source since 2007.
 ## Past
 {:.mt-8}
 
-#### DjangoPony.com
+### DjangoPony.com
+{:.mt-4 .-mb-4}
 
 I'm the co-creator of the [Django Pony website](http://www.djangopony.com/) and helped add fuel to the fire to the Django meme.
 
-#### Mediaphormedia (The World Company subsidiary)
+### Mediaphormedia (The World Company subsidiary)
+{:.mt-4 .-mb-4}
 
 I joined [The World Company](http://www.theworldco.net) in 2007 to work at [Django Project's](http://djangoproject.com/)'s birth place. As a Senior Developer, I worked on [Ellington CMS](https://www.ellingtoncms.com/) and [Ellington Marketplace](https://www.ellingtoncms.com/marketplace/).
