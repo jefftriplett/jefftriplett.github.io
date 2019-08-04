@@ -8,7 +8,7 @@ jefftriplett.com is published using [Jekyll][], hosted on [GitHub Pages][], and 
 
 I'd rather write in [Markdown][] using my favorite editor [Sublime Text 3][] and pushing updates via [Git][] than wasting my days solving the wrong problems.
 
-The theme was built with [Tailwind CSS][] ~~[Skeleton][], [Skeleton-Sass][],~~ and [SASS][]. 
+The theme was built with [Tailwind CSS][].
 
 The text on the site uses [Alegreya][], [PT Sans][], and [PT Serif][]. Typography advice from [Top Ten Typography Tips][]. 
 

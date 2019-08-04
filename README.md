@@ -6,21 +6,20 @@ This is my personal website written with Jekyll using Markdown.
 
 ### To Install
 
-```bash
+```shell
 $ gem install jekyll bundler foreman
 ```
 
 ### To Serve Files
 
-```bash
+```shell
 $ foreman start
 ```
 
 ### Tailwind
 
-```bash
-$ npx tailwind build style.css -o ./assets/css/tailwind.css
-$ npx purgecss --css ./assets/css/dist.css --content **/*.html --out ./assets/dist/
+```shell
+$ make static 
 ```
 
 ## Inspiration
