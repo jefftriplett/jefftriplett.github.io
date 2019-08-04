@@ -4,7 +4,7 @@
   "description": "This is my personal website written with Jekyll using Markdown.",
   "main": "purgecss.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "postcss assets/index.css -o assets/css/2019.css"
   },
   "repository": {
     "type": "git",
@@ -12,16 +12,19 @@
   },
   "keywords": [],
   "author": "Jeff Triplett <jeff.triplett@gmail.com> (https://jefftriplett.com)",
-  "license": "bsd3",
+  "license": "mit",
   "bugs": {
     "url": "https://github.com/jefftriplett/jefftriplett.github.io/issues"
   },
   "homepage": "https://github.com/jefftriplett/jefftriplett.github.io#readme",
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.2.0",
     "parcel-bundler": "^1.11.0"
   },
- "scripts": {
-    "dev": "parcel <your entry file>",
-    "build": "parcel build <your entry file>"
+  "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "postcss-cli": "^6.1.3",
+    "tailupgrade": "^0.1.3",
+    "tailwindcss": "^1.0.6"
   }
 }
