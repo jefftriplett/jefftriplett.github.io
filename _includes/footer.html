@@ -1,4 +1,4 @@
-<nav class="mb-4 w-full text-center">
+<nav class="mb-4 w-full text-center text-md">
   <ul>
   {% for link in site.data.navigation.links %}
     {% if link.show_in_footer == true %}
@@ -9,7 +9,8 @@
   {% endfor %}
   </ul>
 </nav>
-<section class="mb-4 w-full text-center">
-  &copy; <time datetime="{{ site.time | date_to_xmlschema }}">2016 - {{ site.time | date: '%Y' }}</time> Jeff Triplett
-  <span>v{{ site.version }}</span>
+<section class="mb-4 w-full text-center text-md">
+  &copy; <time datetime="{{ site.time | date_to_xmlschema }}">2016&ndash;{{ site.time | date: '%Y' }}</time>
+  &mdash; <span>Jeff Triplett</span>
+  &mdash; <span>v{{ site.version }}</span>
 </section>
