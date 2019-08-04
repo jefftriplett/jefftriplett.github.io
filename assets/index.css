@@ -33,6 +33,14 @@ textarea {
   line-height: 1.15;
 }
 
+code {
+  @apply font-mono text-base;
+}
+
+.page pre, .post pre {
+  @apply mt-4 font-mono text-base bg-gray-300;
+}
+
 .page a, .post a {
   @apply text-gray-600 underline;
 }

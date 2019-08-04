@@ -632,6 +632,18 @@ textarea {
   line-height: 1.15;
 }
 
+code {
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 1rem;
+}
+
+.page pre, .post pre {
+  margin-top: 1rem;
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 1rem;
+  background-color: #e2e8f0;
+}
+
 .page a, .post a {
   color: #718096;
   text-decoration: underline;
