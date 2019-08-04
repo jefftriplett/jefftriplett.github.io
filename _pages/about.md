@@ -51,7 +51,7 @@ I was nominated in 2015 and have served as a member ever since.
 
 I joined the PSF in 2015.
 
-### Open source [developer](https://github.com/jefftriplett).
+### [Open source developer](https://github.com/jefftriplett)
 {:.mt-4 .-mb-4}
 
 I have dabbled with open source since 2007.
@@ -74,9 +74,9 @@ I have dabbled with open source since 2007.
 
 - [DjangoCon US 2015](https://2015.djangocon.us/) Conference Chair & Organizer
 
-- [DjangoCon US 2014](https://2014.djangocon.us/) Organizer(ish) & Last-minute Program Chair
+- [Django Birthday 2015](https://djangobirthday.com/) Conference Chair & Organizer for Django's 10th birthday party :birthday:
 
-- [Django Birthday](https://djangobirthday.com/) Conference Chair & Organizer for Django's 10th birthday party :birthday:
+- [DjangoCon US 2014](https://2014.djangocon.us/) Organizer(ish) & Last-minute Program Chair
 
 ## Interviews & Mentions
 {:.mt-8}
