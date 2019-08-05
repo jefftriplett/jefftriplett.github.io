@@ -41,13 +41,13 @@ links:
     url: https://www.buymeacoffee.com/webology
     aria-label: "Buy Jeff Triplett a coffee"
     show_in_header: false
-    show_in_footer: true
+    show_in_footer: false
 
   - title: <i class="fab fa-facebook text-base" aria-hidden=true></i>
     url: https://www.facebook.com/jefftriplett
     aria-label: "Follow Jeff Triplett on Facebook"
     show_in_header: false
-    show_in_footer: true
+    show_in_footer: false
 
   - title: <i class="fab fa-github text-base" aria-hidden=true></i>
     url: https://github.com/jefftriplett
@@ -94,6 +94,12 @@ links:
   - title: <i class="fab fa-spotify text-base" aria-hidden=true></i>
     url: https://open.spotify.com/user/jefftriplett
     aria-label: "Follow Jeff Triplett on Spotify"
+    show_in_header: false
+    show_in_footer: true
+
+  - title: <i class="fas fa-construction text-base" aria-hidden=true></i>
+    url: https://wip.chat/@jefftriplett
+    aria-label: "Follow Jeff Triplett on WIP"
     show_in_header: false
     show_in_footer: true
 
