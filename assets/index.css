@@ -64,7 +64,6 @@ code {
   @apply bg-gray-200;
 }
 
-
 @tailwind components;
 
 @tailwind utilities;

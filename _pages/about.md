@@ -5,7 +5,7 @@ permalink: /about/
 redirect_from: /posts/about/raw/
 ---
 
-<div class="float-right w-1/3 pl-2 pt-4">
+<div class="float-right w-1/3 pl-4 pt-4">
 <img class="rounded-lg w-64" src="/assets/images/dcus-2017-bw.jpg" alt="Jeff Triplett" title="Jeff Triplett taken by Melanie Crutchfield">
 <div class="text-center text-sm w-full">
 Image courtesy of 

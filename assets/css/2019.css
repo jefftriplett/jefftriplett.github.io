@@ -686,6 +686,10 @@ code {
   align-self: center;
 }
 
+.float-right {
+  float: right;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -781,6 +785,10 @@ code {
   padding-top: 1rem;
 }
 
+.pl-4 {
+  padding-left: 1rem;
+}
+
 .pb-8 {
   padding-bottom: 2rem;
 }
@@ -817,6 +825,10 @@ code {
   text-align: right;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+}
+
 .text-base {
   font-size: 1rem;
 }
@@ -835,6 +847,10 @@ code {
 
 .align-baseline {
   vertical-align: baseline;
+}
+
+.w-64 {
+  width: 16rem;
 }
 
 .w-1\/3 {
