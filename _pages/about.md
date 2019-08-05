@@ -5,13 +5,17 @@ permalink: /about/
 redirect_from: /posts/about/raw/
 ---
 
-Hello! I'm Jeff Triplett. I live in [Lawrence, KS](http://en.wikipedia.org/wiki/Lawrence,_Kansas). I am a consultant (Python, Django, performance, scaling, and management) at [REVSYS](http://revsys.com/).
+<div class="float-right w-1/3 pl-2 pt-4">
+<img class="rounded-lg w-64" src="/assets/images/dcus-2017-bw.jpg" alt="Jeff Triplett" title="Jeff Triplett taken by Melanie Crutchfield">
+<div class="text-center text-sm w-full">
+Image courtesy of 
+<a href="https://twitter.com/HelloMelanieC">Melanie Crutchfield</a>
+</div>
+</div>
 
-![](/assets/images/dcus-2017-bw.jpg){: .rounded-lg .w-full alt="Jeff Triplett" title="Jeff Triplett taken by Melanie Crutchfield" }
+Jeff Triplett is a developer living and working out of [Lawrence, Kansas](http://en.wikipedia.org/wiki/Lawrence,_Kansas). Originally from [Sarcoxie, Missouri](http://en.wikipedia.org/wiki/Sarcoxie,_Missouri), he studied Computer Science, Networking, CADD, and Graphic Design at [MSSU](https://en.wikipedia.org/wiki/Missouri_Southern_State_University) after which he lived and worked in [Joplin, Missouri](https://en.wikipedia.org/wiki/Joplin,_Missouri).
 
-Image courtesy of [Melanie Crutchfield](https://twitter.com/HelloMelanieC).
-
-I grew up in rural [Sarcoxie, MO](http://en.wikipedia.org/wiki/Sarcoxie,_Missouri).
+Jeff is a partner and consultant at [REVSYS](https://revsys.com/) where he specializes in Python, Django, Docker, performance, scaling, and team management. 
 
 ## Present
 {:.mt-8}
@@ -80,6 +84,11 @@ I have dabbled with open source since 2007.
 
 ## Interviews & Mentions
 {:.mt-8}
+
+- [Django Chat](https://djangochat.com/) interview [Django Testing - Jeff Triplett](https://django-chat.simplecast.com/episodes/jeff-triplett)
+
+- [2019 Opensource.com Community - 2019 People's Choice Award
+ recipient](https://opensource.com/article/19/2/community-awards-2019#people)
 
 - [PyDev of the Week: Jeff Triplett](http://www.blog.pythonlibrary.org/2016/01/04/pydev-of-the-week-jeff-triplett/)
 
