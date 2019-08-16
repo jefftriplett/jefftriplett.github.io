@@ -1,16 +1,15 @@
-
 @tailwind base;
 
 h1 {
-  @apply text-4xl;
+  @apply text-4xl text-gray-800;
 }
 
 h2 {
-  @apply text-3xl;
+  @apply text-3xl text-gray-800;
 }
 
 h3 {
-  @apply text-2xl;
+  @apply text-2xl text-gray-800;
 }
 
 h4 {
@@ -37,27 +36,32 @@ code {
   @apply font-mono text-base;
 }
 
-.page pre, .post pre {
+.page pre,
+.post pre {
   @apply mt-4 font-mono text-base bg-gray-300;
 }
 
-.page a, .post a {
+.page a,
+.post a {
   @apply text-gray-600 underline;
 }
 
-.page a:hover, .post a:hover {
+.page a:hover,
+.post a:hover {
   /* @apply underline text-orange-400; */
   @apply text-blue-600 underline;
 }
 
-.page ol, .post ol {
+.page ol,
+.post ol {
   list-style-type: decimal;
-  padding-left: theme('padding.12');
+  padding-left: theme("padding.12");
 }
 
-.page ul, .post ul{
+.page ul,
+.post ul {
   list-style-type: disc;
-  padding-left: theme('padding.12');
+  padding-left: theme("padding.12");
 }
 
 .meta {
