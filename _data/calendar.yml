@@ -2,32 +2,46 @@
 
 events:
 
-  - title: "CLC is Closed"
-    start_date: 2019-01-01
-
-  - title: "Winter Break"
-    start_date: 2018-12-24
-    end_date: 2019-01-02
-
-  - title: "PyCon 2019"
-    start_date: 2019-05-01
-    end_date: 2019-05-07
-
-  - title: "CLC is Closed"
-    start_date: 2019-07-04
-    end_date: 2019-07-05
-
-  - title: "CLC is Closed"
-    start_date: 2019-09-02
-
-  - title: "DjangoCon US 2019"
-    start_date: 2019-09-20
-    end_date: 2019-09-28
+  - title: "Thanksgiving Day"
+    start_date: 2019-11-28
 
   - title: "CLC is Closed"
     start_date: 2019-11-28
     end_date: 2019-11-29
 
+  - title: "Christmas Day"
+    start_date: 2019-12-25
+
+  - title: "New Year's Eve"
+    start_date: 2019-12-31
+
   - title: "CLC is Closed"
     start_date: 2019-12-24
     end_date: 2020-01-01
+
+  - title: "New Year's Days"
+    start_date: 2020-01-01
+
+  - title: "Easter"
+    start_date: 2020-04-01
+
+  - title: "Memorial Day"
+    start_date: 2020-05-28
+
+  - title: "Independence Day (Observed)"
+    start_date: 2020-07-03
+
+  - title: "Independence Day"
+    start_date: 2020-07-04
+
+  - title: "Labor Day"
+    start_date: 2020-09-07
+
+  - title: "Thanksgiving Day"
+    start_date: 2020-11-26
+
+  - title: "Christmas Day"
+    start_date: 2020-12-25
+
+  - title: "New Year's Eve"
+    start_date: 2020-12-31
