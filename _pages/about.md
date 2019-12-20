@@ -17,23 +17,44 @@ Jeff Triplett is a developer living and working out of [Lawrence, Kansas](http:/
 
 Jeff is a partner and consultant at [REVSYS](https://revsys.com/) where he specializes in Python, Django, Docker, performance, scaling, and team management. 
 
+----
+
+## Work
+
+### [Revolution Systems (REVSYS)](http://revsys.com/) (2010-present)
+{:.mt-4 .-mb-4}
+
+I have been a developer for one of the premier Django consulting agencies since 2011. In 2019, I became a Partner.
+
+### Mediaphormedia (The World Company subsidiary) (2007-2010)
+{:.mt-4 .-mb-4}
+
+I joined [The World Company](http://www.theworldco.net) in 2007 to work at [Django Project's](http://djangoproject.com/) birth place. As a Senior Developer, I worked on [Ellington CMS](https://www.ellingtoncms.com/) and [Ellington Marketplace](https://www.ellingtoncms.com/marketplace/).
+
+### Fast Freedom (2002-2007)
+{:.mt-4 .-mb-4}
+
+I was Director of Operations and started the website division/service for our company. I managed the hosting, development, wireless, and dial-up service and employees for five years. 
+
+----
+
 ## Present
-{:.mt-8}
+{:.mt-8 .text-green-500}
 
 ### [Python Software Foundation Director](https://www.python.org/psf/records/board/history/#id2)
 {:.mt-4 .-mb-4}
 
-I was voted in by the community as a Board of Director for The PSF in 2018.
-
-### [REVSYS Partner](http://revsys.com/)
-{:.mt-4 .-mb-4}
-
-I have been a developer for one of the premier Django consulting agencies since 2011. In 2019, I became a Partner.
+I was voted in by the community as a Board of Director for [Python Software Foundation (PSF) Director ](https://www.python.org/psf/) for the 2018 to 2021 term.
 
 ### [Django Events Foundation North America (DEFNA)](https://github.com/defna)
 {:.mt-4 .-mb-4}
 
 I am one of the three co-founders of DEFNA and I have served as the President of the Board since 2015.
+
+### [2019 Malcolm Tredinnick Memorial Prize recipient](https://www.djangoproject.com/weblog/2019/dec/17/2019-malcolm-tredinnick-prize--jeff-triplett/)
+{:.mt-4 .-mb-4}
+
+I was awarded the Malcolm Tredinnick Memorial Prize in 2019. 
 
 ### [Python Software Foundation Fellow Member for Q4 2018](http://pyfound.blogspot.com/2019/01/python-software-foundation-fellow.html)
 {:.mt-4 .-mb-4}
@@ -85,7 +106,9 @@ I have dabbled with open source since 2007.
 ## Interviews & Mentions
 {:.mt-8}
 
-- [Django Chat](https://djangochat.com/) interview [Django Testing - Jeff Triplett](https://django-chat.simplecast.com/episodes/jeff-triplett)
+- [Productivity in Tech](https://productivityintech.com/) Podcast interview [Jeff Triplett Tells Us a Story of Django and Community!](https://productivityintech.transistor.fm/episodes/jeff-triplett-tells-us-a-story-of-django-and-community)
+
+- [Django Chat](https://djangochat.com/) Podcast interview [Django Testing - Jeff Triplett](https://django-chat.simplecast.com/episodes/jeff-triplett)
 
 - [2019 Opensource.com Community - 2019 People's Choice Award
  recipient](https://opensource.com/article/19/2/community-awards-2019#people)
@@ -105,8 +128,3 @@ I have dabbled with open source since 2007.
 {:.mt-4 .-mb-4}
 
 I'm the co-creator of the [Django Pony website](http://www.djangopony.com/) and helped add fuel to the fire to the Django meme.
-
-### Mediaphormedia (The World Company subsidiary)
-{:.mt-4 .-mb-4}
-
-I joined [The World Company](http://www.theworldco.net) in 2007 to work at [Django Project's](http://djangoproject.com/)'s birth place. As a Senior Developer, I worked on [Ellington CMS](https://www.ellingtoncms.com/) and [Ellington Marketplace](https://www.ellingtoncms.com/marketplace/).
