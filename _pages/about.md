@@ -51,7 +51,7 @@ I was voted in by the community as a Board of Director for [Python Software Foun
 
 I am one of the three co-founders of DEFNA and I have served as the President of the Board since 2015.
 
-### [2019 Malcolm Tredinnick Memorial Prize recipient](https://www.djangoproject.com/weblog/2019/dec/17/2019-malcolm-tredinnick-prize--jeff-triplett/)
+### [2019 Malcolm Tredinnick Memorial Prize winner](https://www.djangoproject.com/weblog/2019/dec/17/2019-malcolm-tredinnick-prize--jeff-triplett/)
 {:.mt-4 .-mb-4}
 
 I was awarded the Malcolm Tredinnick Memorial Prize in 2019. 
@@ -60,6 +60,11 @@ I was awarded the Malcolm Tredinnick Memorial Prize in 2019.
 {:.mt-4 .-mb-4}
 
 I was named a PSF Fellow Member in January 2019.
+
+### [2019 Opensource.com Community Awards winner](https://opensource.com/article/19/2/community-awards-2019#people)
+{:.mt-4 .-mb-4}
+
+I won an Opensource.com 2019 People's Choice Award.
 
 ### [Django Code of Conduct Committee](https://www.djangoproject.com/foundation/committees/#conduct)
 {:.mt-4 .-mb-4}
