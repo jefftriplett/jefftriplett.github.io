@@ -19,7 +19,7 @@ links:
 
   - title: Let's Work Together
     url: https://www.revsys.com/
-    show_in_header: true
+    show_in_header: false
     show_in_footer: false
 
   - title: Colophon
