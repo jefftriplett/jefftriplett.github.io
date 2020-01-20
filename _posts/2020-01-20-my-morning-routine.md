@@ -15,7 +15,7 @@ My daily routine centers around my son, Oliver, who's over two years old. He's a
 I set my daily wake-up light alarm to 6:30 am, which slowly lights the room up starting around 6 am as if it were daylight outside. Waking up to a bright room takes the edge off of the Winter blues for me. 
 
 1. make my bed
-1. every other day I do a 20-minute workout including ~10 minutes of stretching with the [8fit.app](https://8fit.com/) (no affiliation). 
+1. three days a week I do a 20-minute workout including ~10 minutes of stretching with the [8fit.app](https://8fit.com/) (no affiliation). 
 1. pick out clothes for the day (I dream of rotating or automating this)
 1. weigh me
 1. shower, brush teeth, comb hair, etc
