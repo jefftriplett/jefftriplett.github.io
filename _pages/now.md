@@ -22,8 +22,6 @@ permalink: /now/
 
 - I am working on several side projects and logging my progress on [wip.chat][] for public accountability.
 
-- I continue to watch [television][] and listen to [podcasts][].
-
 *This page is inspired by [Aaron Sumner's Now Page][] which was inspired by [Derek Sivers's][Derek Sivers] [Now Page Movement][]. It's current as of January 19th, 2020.*
 {:.my-4 .p-4 .bg-gray-100 .rounded-lg .shadow-md .overflow-hidden .border-t-2}
 
@@ -40,6 +38,4 @@ permalink: /now/
 [OpenSource.com]: https://opensource.com/users/jefftriplett
 [RevSys]: https://www.revsys.com/
 [personal goals project]: https://github.com/jefftriplett/personal-goals
-[podcasts]: https://github.com/jefftriplett/personal-goals/blob/master/content-list/podcasts.md
-[television]: https://twitter.com/search?q=%40webology%20%F0%9F%93%BA&src=typd
 [wip.chat]: https://wip.chat/@jefftriplett
