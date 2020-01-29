@@ -2,6 +2,12 @@
 
 events:
 
+  - title: "January 20 - CLC - Inservice Training/Cleaning Day"
+    start_date: 2020-01-20
+
+  - title: "March 20 - CLC - PT Conferences"
+    start_date: 2020-03-20
+
   - title: "Easter"
     start_date: 2020-04-01
 
@@ -10,9 +16,15 @@ events:
     end_date: 2020-04-22
 
   - title: "Memorial Day"
-    start_date: 2020-05-28
+    start_date: 2020-05-25
+
+  - title: "May 25 - CLC - Memorial Day"
+    start_date: 2020-05-25
 
   - title: "Independence Day (Observed)"
+    start_date: 2020-07-03
+
+  - title: "July 3 - CLC - Independence Day"
     start_date: 2020-07-03
 
   - title: "Independence Day"
@@ -21,9 +33,15 @@ events:
   - title: "Labor Day"
     start_date: 2020-09-07
 
+  - title: "September 7 - CLC - Labor Day"
+    start_date: 2020-09-07
+
   - title: "DjangoCon US"
     start_date: 2020-10-10
     end_date: 2020-10-17
+
+  - title: "October 12 - CLC - Columbus Day"
+    start_date: 2020-10-12
 
   - title: "Thanksgiving Day"
     start_date: 2020-11-26
