@@ -8,14 +8,14 @@ redirect_from: /posts/about/raw/
 <div class="float-right w-1/3 pl-4 pt-4">
 <img class="rounded-lg w-64" src="/assets/images/dcus-2017-bw.jpg" alt="Jeff Triplett" title="Jeff Triplett taken by Melanie Crutchfield">
 <div class="text-center text-sm w-full">
-Image courtesy of 
+Image courtesy of
 <a href="https://twitter.com/HelloMelanieC">Melanie Crutchfield</a>
 </div>
 </div>
 
-Jeff Triplett is a developer living and working out of [Lawrence, Kansas](http://en.wikipedia.org/wiki/Lawrence,_Kansas). Originally from [Sarcoxie, Missouri](http://en.wikipedia.org/wiki/Sarcoxie,_Missouri), he studied Computer Science, Networking, CADD, and Graphic Design at [MSSU](https://en.wikipedia.org/wiki/Missouri_Southern_State_University) after which he lived and worked in [Joplin, Missouri](https://en.wikipedia.org/wiki/Joplin,_Missouri).
+Jeff Triplett is a Partner at [REVSYS](https://revsys.com/) and a [Director of the Python Software Foundation](https://www.python.org/psf/records/board/history/#id2). The current President and co-founder of the [Django Events Foundation North America (DEFNA)](https://www.defna.org), the non-profit which has run DjangoCon US since 2015, he was awarded the [2019 Malcolm Tredinnick Memorial Prize](https://www.djangoproject.com/weblog/2019/dec/17/2019-malcolm-tredinnick-prize--jeff-triplett/) for his contributions to the Django community.
 
-Jeff is a partner and consultant at [REVSYS](https://revsys.com/) where he specializes in Python, Django, Docker, performance, scaling, and team management. 
+Originally from [Sarcoxie, Missouri](http://en.wikipedia.org/wiki/Sarcoxie,_Missouri), he currently lives and works out of [Lawrence, Kansas](http://en.wikipedia.org/wiki/Lawrence,_Kansas).
 
 ----
 
@@ -24,7 +24,7 @@ Jeff is a partner and consultant at [REVSYS](https://revsys.com/) where he speci
 ### [Revolution Systems (REVSYS)](http://revsys.com/) (2010-present)
 {:.mt-4 .-mb-4}
 
-I have been a developer for one of the premier Django consulting agencies since 2011. In 2019, I became a Partner.
+I have been a developer for one of the premier Django consulting agencies since 2011. In 2019, I became a Partner. We specialize in Python, Django, Docker, performance, scaling, and team management.
 
 ### Mediaphormedia (The World Company subsidiary) (2007-2010)
 {:.mt-4 .-mb-4}
@@ -34,7 +34,7 @@ I joined [The World Company](http://www.theworldco.net) in 2007 to work at [Djan
 ### Fast Freedom (2002-2007)
 {:.mt-4 .-mb-4}
 
-I was Director of Operations and started the website division/service for our company. I managed the hosting, development, wireless, and dial-up service and employees for five years. 
+I was Director of Operations and started the website division/service for our company. I managed the hosting, development, wireless, and dial-up service and employees for five years.
 
 ----
 
@@ -44,17 +44,17 @@ I was Director of Operations and started the website division/service for our co
 ### [Python Software Foundation Director](https://www.python.org/psf/records/board/history/#id2)
 {:.mt-4 .-mb-4}
 
-I was voted in by the community as a Board of Director for [Python Software Foundation (PSF) Director ](https://www.python.org/psf/) for the 2018 to 2021 term.
+I was voted in by the community as a Director for the [Python Software Foundation (PSF)](https://www.python.org/psf/) for the 2018 to 2021 term.
 
 ### [Django Events Foundation North America (DEFNA)](https://github.com/defna)
 {:.mt-4 .-mb-4}
 
-I am one of the three co-founders of DEFNA and I have served as the President of the Board since 2015.
+I am one of the three co-founders of DEFNA and have served as the President of the Board since 2015.
 
 ### [2019 Malcolm Tredinnick Memorial Prize winner](https://www.djangoproject.com/weblog/2019/dec/17/2019-malcolm-tredinnick-prize--jeff-triplett/)
 {:.mt-4 .-mb-4}
 
-I was awarded the Malcolm Tredinnick Memorial Prize in 2019. 
+I was awarded the Malcolm Tredinnick Memorial Prize in 2019 for contributions to the Django community.
 
 ### [Python Software Foundation Fellow Member for Q4 2018](http://pyfound.blogspot.com/2019/01/python-software-foundation-fellow.html)
 {:.mt-4 .-mb-4}
