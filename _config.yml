@@ -56,6 +56,7 @@ exclude:
   - postcss.config.js
   - purgecss.config.js
   - requirements.txt
+  - src
   - staticman.yml
   - tailwind.config.js
 
