@@ -2,6 +2,7 @@
 title: Lawrence Trail Hawks Website
 github: https://github.com/trailhawks/lawrencetrailhawks
 homepage: https://trailhawks.com
+archived: true
 ---
 
 My local trail running club needed help with their website and this is a

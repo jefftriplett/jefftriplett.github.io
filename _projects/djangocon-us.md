@@ -1,6 +1,7 @@
 ---
 title: DjangoCon.us
 github: https://github.com/djangocon
+archived: false
 ---
 The website(s) for DjangoCon.us:
 
