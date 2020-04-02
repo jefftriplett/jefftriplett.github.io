@@ -1,6 +1,7 @@
 ---
 category: Django
 date: 2020-04-02 10:10 -0500
+image: https://jefftriplett.com/django-release-cycle/assets/screenshot.png
 layout: post
 location: Home @ Lawrence, Kansas United States
 title: Announcing Django Release Cycle
