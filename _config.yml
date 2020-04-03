@@ -32,26 +32,27 @@ include:
 
 exclude:
   - "*.js"
+  - "*.py"
   - "*/src/*"
   - .bumpversion.cfg
   - .gitignore
   - .vendor
-  - _pages/categories.html
-  - _pages/tags.html
   - CNAME
-  - docker-compose.yml
   - Gemfile
   - Gemfile.lock
-  - jekyll.dockerapp
   - Makefile
+  - Procfile
+  - README.md
+  - Rakefile
+  - _pages/categories.html
+  - _pages/tags.html
+  - docker-compose.yml
+  - jekyll.dockerapp
   - modd.conf
   - node_modules
   - package*.json
   - plugins
-  - Procfile
   - purgecss.config.js
-  - Rakefile
-  - README.md
   - requirements.txt
   - staticman.yml
 
