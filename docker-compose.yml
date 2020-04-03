@@ -4,9 +4,9 @@ services:
 
   web:
     image: jekyll/jekyll:3.8
+    command: ["jekyll", "serve", "--watch", "--profile", "--drafts", "--port", "8000"]
     ports:
       - 8000:8000
     volumes:
       - .:/srv/jekyll
       - .vendor/bundle:/usr/local/bundle
-    command: ["jekyll", "serve", "--watch", "--profile", "--drafts", "--port", "8000"]
