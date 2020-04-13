@@ -30,10 +30,23 @@
   <meta content="{{ tag }}" property="article:tag">
 {% endfor %}
 {% endif %}
+  <!-- Don't be evil Twitter -->
+  <meta name="twitter:dnt" content="on">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.1/css/all.css" integrity="sha384-y++enYq9sdV7msNmXr08kJdkX4zEI1gMjjkw0l9ttOepH7fMdhb7CePwuRQCfwCr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400|Alegreya&display=swap">
+  <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/2020.css">
+  <!--
+  <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/pygments/github.css">
+  <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/pygments/monokai.css">
+  -->
+  <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/pygments/default.css">
+  <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/termynal.css">
+  <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/custom.css">
 <style>
-* {
-  font-family: "PT Serif", sans-serif;
-}
+// * {
+//   font-family: "PT Serif", sans-serif;
+// }
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Serif", sans-serif;
   /*font-family: "PT Sans", sans-serif;*/

@@ -31,7 +31,8 @@ include:
   - _pages
 
 exclude:
-  - "*.js"
+  # - "*.js"
+  - "*.conf"
   - "*.py"
   - "*/src/*"
   - .bumpversion.cfg
@@ -52,9 +53,12 @@ exclude:
   - node_modules
   - package*.json
   - plugins
+  - postcss.config.js
   - purgecss.config.js
   - requirements.txt
+  - src
   - staticman.yml
+  - tailwind.config.js
 
 markdown: kramdown
 kramdown:
@@ -129,5 +133,5 @@ jekyll-mentions:
   base_url: https://twitter.com
 
 # Custom vars
-version: 0.20.2
+version: 0.21.0
 google-fonts-family: PT+Serif:400,400italic,700|PT+Sans:400|Alegreya

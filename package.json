@@ -1,10 +1,10 @@
 {
   "name": "jefftriplett.github.io-git",
-  "version": "0.20.2",
+  "version": "0.21.0",
   "description": "This is my personal website written with Jekyll using Markdown.",
   "main": "purgecss.config.js",
   "scripts": {
-    "build": "postcss assets/index.css -o assets/css/2019.css"
+    "build": "postcss src/index.css -o assets/css/2020.css"
   },
   "repository": {
     "type": "git",
