@@ -5,7 +5,7 @@
   <title>{% if page.title %}{{ page.title | markdownify | strip_html | strip_newlines }} |{% endif %} {{ site.title }}</title>
   <link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/JeffTriplett" title="Jeff Triplett">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="icon" sizes="32x32"   href="/assets/images/favicon-32.png">
+  <link rel="icon" sizes="32x32" href="/assets/images/favicon-32.png">
   <link rel="icon" sizes="128x128" href="/assets/images/favicon-128.png">
   <link rel="icon" sizes="152x152" href="/assets/images/favicon-152.png">
   <link rel="icon" sizes="167x167" href="/assets/images/favicon-167.png">
@@ -14,27 +14,6 @@
   <link rel="icon" sizes="196x196" href="/assets/images/favicon-196.png">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400|Alegreya&display=swap">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.1/css/all.css" integrity="sha384-y++enYq9sdV7msNmXr08kJdkX4zEI1gMjjkw0l9ttOepH7fMdhb7CePwuRQCfwCr" crossorigin="anonymous">
-  <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/2019.css">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/assets/images/favicon-152.png">
-  <meta name="theme-color" content="#ffffff">
-  <meta name="twitter:dnt" content="on">
-  {% seo title=false %}
-{% if page.categories %}
-{% for category in page.categories limit:1 %}
-  <meta content="{{ category }}" property="article:section">
-{% endfor %}
-{% endif %}
-{% if page.tags %}
-{% for tag in page.tags %}
-  <meta content="{{ tag }}" property="article:tag">
-{% endfor %}
-{% endif %}
-  <!-- Don't be evil Twitter -->
-  <meta name="twitter:dnt" content="on">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.1/css/all.css" integrity="sha384-y++enYq9sdV7msNmXr08kJdkX4zEI1gMjjkw0l9ttOepH7fMdhb7CePwuRQCfwCr" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400|Alegreya&display=swap">
   <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/2020.css">
   <!--
   <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/pygments/github.css">
@@ -42,14 +21,13 @@
   -->
   <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/pygments/default.css">
   <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/termynal.css">
-  <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/custom.css">
-<style>
-// * {
-//   font-family: "PT Serif", sans-serif;
-// }
-h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Serif", sans-serif;
-  /*font-family: "PT Sans", sans-serif;*/
-}
-</style>
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/images/favicon-196.png">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="twitter:dnt" content="on">
+{% seo title=false %}
+{% if page.categories %}{% for category in page.categories limit:1 %}
+  <meta content="{{ category }}" property="article:section">{% endfor %}{% endif %}
+{% if page.tags %}{% for tag in page.tags %}
+  <meta content="{{ tag }}" property="article:tag">{% endfor %}{% endif %}
 </head>
