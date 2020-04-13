@@ -599,7 +599,7 @@ h1 {
   font-size: 2.25rem;
   color: #2a4365;
   font-family: "PT Serif", sans-serif;
-  line-height: 1.1;
+  /*line-height: 1.1;*/
 }
 
 h2 {
@@ -633,10 +633,10 @@ p {
 }
 
 hr {
-  height: 0.25rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  background-color: #4a5568;
+  border-width: 2px;
+  border-style: dashed;
 }
 
 a:hover {
@@ -657,13 +657,32 @@ code {
   font-size: 1rem;
 }
 
-.page pre,
-.post pre {
+blockquote {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-style: italic;
+  border-left-width: 4px;
+  background-color: #edf2f7;
+  border-radius: 0.5rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+pre {
   margin-top: 1rem;
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 1rem;
   background-color: #edf2f7;
 }
+
+/*
+.page pre,
+.post pre {
+  @apply mt-4 font-mono text-base bg-gray-200;
+}
+*/
 
 .page a,
 .post a {
