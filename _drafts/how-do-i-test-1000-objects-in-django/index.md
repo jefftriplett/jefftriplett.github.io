@@ -26,7 +26,7 @@ from model_bakery import baker
 category = baker.make("news.Category")
 ```
 
-So that's great for one instance, but how do you create 1,000 objects to test again? Here is another example modified from their [docs](https://model-bakery.readthedocs.io/en/latest/basic_usage.html#more-than-one-instance):
+So that's great for one instance, but how do you create 1,000 objects to test against? Here is another example modified from their [docs](https://model-bakery.readthedocs.io/en/latest/basic_usage.html#more-than-one-instance):
 
 <!-- embedme src/example-02.py -->
 ```python 
@@ -41,13 +41,13 @@ assert len(categories) == 1000
 
 ## Bonus Answers
 
-### Bonus Answer: It works well with `pytest.fixtures`
+### Bonus Answer 1: It works well with `pytest.fixtures`
 
 If you are using pytest and pytest-django, one pattern that I use all the time is to create a series of text fixtures for each of my models that I will be testing with.
 
 #### `tests/fixtures.py`
 
-<!-- embedme src/example-03.py -->
+<!-- embedme src/example-03-fixtures.py -->
 ```python
 import pytest
 
@@ -69,7 +69,7 @@ Pytest Fixtures are nice and easy to use once you get the handle of them. Any ti
 
 #### `tests/test_models.py`
 
-<!-- embedme src/example-04.py -->
+<!-- embedme src/example-04-test_models.py -->
 ```python
 def test_category(category):
     assert category.name == "Category Name"
@@ -82,13 +82,35 @@ def test_post(post):
 
 ----
 
-### Bonus Answer: It works well for generating non-models 
+### Bonus Answer 2: It works well for generating non-models 
+
+Model Bakery also has a `prepare` method which is nice for creating valid data for a Django model without saving it to our database. I use this method a lot for testing Django Forms and DRF POST methods. 
 
 <!-- embedme src/example-05.py -->
 ```python
 from model_bakery import baker
 
-category_data = baker.prepare("news.Category")
+from news.serializers import CategorySerializer
+
+
+def test_category_post(tp):
+    # Create a Category fixture
+    obj = baker.prepare("news.Category")
+
+    # Use a DRF ModelSerializer to give us JSON
+    payload = serializers.CategorySerializer(obj).data
+
+    # Use a reverse lookup to find our endpoint's url
+    url = tp.reverse("category-detail")
+
+    # Login as a valid test user
+    tp.client.login()
+
+    # Send our test payload to our endpoint
+    response = tp.client.post(url, payload, content_type="application/json")
+
+    # Was our request valid?
+    tp.response_200(response)
 
 ```
 
