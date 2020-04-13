@@ -9,9 +9,9 @@ favicon:
 
 .PHONY: static
 static:
-	@NODE_ENV=production npm run build
+# 	@NODE_ENV=production npm run build
 
-# 	@npx tailwindcss build \
-# 		assets/index.css \
-# 		--config assets/tailwind.config.js \
-# 		--output assets/css/2019.css
+	@npx tailwindcss build \
+		src/index.css \
+		--config src/tailwind.config.js \
+		--output assets/css/2020.css
