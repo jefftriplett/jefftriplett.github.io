@@ -1,8 +1,15 @@
 ---
 category: Django
 date: 2020-04-13 10:00 -0500
+layout: "post"
 slug: "how-do-i-test-1000-objects-in-django"
 title: "How do I generate 1,000 objects in Django and DRF to test?"
+tags: 
+    - django
+    - django-restframework
+    - drf
+    - model-bakery
+    - python
 ---
 
 I get asked questions like quite a bit, so I am going to start blogging about the more common questions. 
@@ -10,7 +17,7 @@ I get asked questions like quite a bit, so I am going to start blogging about th
 ## Question
 
 > I am using Django Rest Framework and I need to test an endpoint with at least 1,000 objects.  But putting that in a cycle doesn't seem very optimal to me.
-
+> 
 > Do you know of any way to create objects in bulk within the tests?
 
 ## Answer
@@ -26,7 +33,7 @@ from model_bakery import baker
 category = baker.make("news.Category")
 ```
 
-So that's great for one instance, but how do you create 1,000 objects to test against? Here is another example modified from their [docs](https://model-bakery.readthedocs.io/en/latest/basic_usage.html#more-than-one-instance):
+To create 1,000 categories to test with, we pass the optional `_quantity` parameter to to our `baker.make` method. Here is another example based on the docs [docs](https://model-bakery.readthedocs.io/en/latest/basic_usage.html#more-than-one-instance):
 
 <!-- embedme src/example-02.py -->
 ```python 
@@ -43,7 +50,7 @@ assert len(categories) == 1000
 
 ### Bonus Answer 1: It works well with `pytest.fixtures`
 
-If you are using pytest and pytest-django, one pattern that I use all the time is to create a series of text fixtures for each of my models that I will be testing with.
+If you are using [`pytest`](https://github.com/pytest-dev/pytest) and [`pytest-django`](https://github.com/pytest-dev/pytest-django), one pattern that I use all the time is to create a series of text fixtures for each of my models that I will be testing with.
 
 #### `tests/fixtures.py`
 
@@ -62,10 +69,9 @@ def category(db):
 @pytest.fixture()
 def post(db, category):
     return baker.make("news.Post", category=category, title="Post Title")
-
 ```
 
-Pytest Fixtures are nice and easy to use once you get the handle of them. Any time you want to use one
+Pytest Fixtures are nice way to reduce the amount of boilerplate code you need for creating and testing objects. To use one of your new tests fixtures, you passed them in as a method argument and pytest will pass the fixture into the test function.
 
 #### `tests/test_models.py`
 
@@ -77,8 +83,12 @@ def test_category(category):
 
 def test_post(post):
     assert post.title == "Post Title"
-
 ```
+
+For more information about pytest.fixtures, check out the [pytest fixtures: explicit, modular, scalable](https://docs.pytest.org/en/latest/fixture.html) docs.
+
+
+
 
 ----
 
@@ -111,7 +121,7 @@ def test_category_post(tp):
 
     # Was our request valid?
     tp.response_200(response)
-
 ```
 
 ----
+
