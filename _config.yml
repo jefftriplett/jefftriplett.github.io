@@ -31,7 +31,8 @@ include:
   - _pages
 
 exclude:
-  - "*.js"
+  # - "*.js"
+  - "*.conf"
   - "*.py"
   - "*/src/*"
   - .bumpversion.cfg
@@ -52,9 +53,12 @@ exclude:
   - node_modules
   - package*.json
   - plugins
+  - postcss.config.js
   - purgecss.config.js
   - requirements.txt
+  - src
   - staticman.yml
+  - tailwind.config.js
 
 markdown: kramdown
 kramdown:

@@ -20,6 +20,10 @@ p {
   @apply pt-4;
 }
 
+hr {
+  @apply h-1 my-8 bg-gray-700;
+}
+
 a:hover {
   @apply text-blue-600 underline;
 }
@@ -38,7 +42,7 @@ code {
 
 .page pre,
 .post pre {
-  @apply mt-4 font-mono text-base bg-gray-300;
+  @apply mt-4 font-mono text-base bg-gray-200;
 }
 
 .page a,
@@ -50,6 +54,10 @@ code {
 .post a:hover {
   /* @apply underline text-orange-400; */
   @apply text-blue-600 underline;
+}
+
+.post h2 {
+  @apply mt-8;
 }
 
 .page ol,
