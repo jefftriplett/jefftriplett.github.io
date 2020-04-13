@@ -8,11 +8,13 @@ permalink: /now/
 
 **Working on:**
 
+- I am a month into a stay-at-home order here with my family in Kansas with at least two weeks left. Daycares closed a month ago, but we are doing just fine.
+
 - I work full-time [REVSYS][]. Some days I write code, train developers, automate systems, secure websites, and manage humans.
 
-- I am working on [DjangoCon US 2020][].
-
 - I am working on a weekly newsletter called [Django News][].
+
+- I am working on [DjangoCon US 2020][].
 
 - After a few year hiatus, I am trail running again. Checkout out my [#jeffisrunning][] tweets on Twitter. 
 
