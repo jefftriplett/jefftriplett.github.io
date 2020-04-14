@@ -128,12 +128,3 @@ def test_category_post(tp):
     # Was our request valid?
     tp.response_200(response)
 ```
-
-## Conclusion
-
-
-
-
-
-----
-
