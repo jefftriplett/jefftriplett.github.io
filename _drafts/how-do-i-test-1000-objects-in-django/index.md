@@ -12,7 +12,7 @@ tags:
     - python
 ---
 
-Earlier this week, [Isa Buriticá](https://twitter.com/iris9112) asked me great question on how to bulk create and test items in a Django test and I wanted to share that information on my blog in case it was useful.
+Earlier this week, [Isa Buriticá](https://twitter.com/iris9112) asked me great question on how to bulk create and test items in a Django test and I wanted to share that that information on my website.
 
 ## Question
 
@@ -26,7 +26,7 @@ Earlier this week, [Isa Buriticá](https://twitter.com/iris9112) asked me great 
 
 My go-to library of choice for creating test data or more commonly called fixtures in Django tests is [`Model Bakery`](https://github.com/model-bakers/model_bakery). 
 
-With Model Bakery, you can pass it a Django model or a Django model reference, and Bakery will create an object based on that model type. This fully baked object included valid test data so that each field has the right type of data in it. 
+With Model Bakery, you can pass it a Django model or a Django model reference, and Bakery will create an object based on that model type. This fully baked object includes valid test data so that each required field has the right type of data it needs.
 
 Here is an example, based on their [docs](https://model-bakery.readthedocs.io/en/latest/basic_usage.html#basic-usage):
 
@@ -92,9 +92,6 @@ def test_post(post):
 ```
 
 For more information about pytest.fixtures, check out the [pytest fixtures: explicit, modular, scalable](https://docs.pytest.org/en/latest/fixture.html) docs.
-
-
-
 
 ----
 
