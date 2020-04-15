@@ -1,6 +1,6 @@
 ---
 category: Django
-date: 2020-04-15 14:00 -0500
+date: 2020-04-15 13:52 -0500
 layout: "post"
 location: Home @ Lawrence, Kansas United States
 slug: "how-do-i-test-1000-objects-in-django"
