@@ -1,7 +1,8 @@
 ---
 category: Django
-date: 2020-04-13 10:00 -0500
+date: 2020-04-15 14:00 -0500
 layout: "post"
+location: Home @ Lawrence, Kansas United States
 slug: "how-do-i-test-1000-objects-in-django"
 title: "How do I generate 1,000 objects in Django and DRF to test?"
 tags: 
@@ -10,6 +11,7 @@ tags:
     - drf
     - model-bakery
     - python
+weather: 50˚F Clear
 ---
 
 Earlier this week, [Isa Buriticá](https://twitter.com/iris9112) asked me a great question about how to bulk create and test items in a Django test and I wanted to share that information on my website.
