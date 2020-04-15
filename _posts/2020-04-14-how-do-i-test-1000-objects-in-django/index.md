@@ -127,3 +127,7 @@ def test_category_post(tp):
     # Was our request valid?
     tp.response_200(response)
 ```
+
+----
+
+Thanks to [Will Vincent](https://wsvincent.com/) for advice on and corrections to a draft of this article.
