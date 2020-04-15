@@ -12,7 +12,7 @@ tags:
     - python
 ---
 
-Earlier this week, [Isa Buriticá](https://twitter.com/iris9112) asked me great question on how to bulk create and test items in a Django test and I wanted to share that that information on my website.
+Earlier this week, [Isa Buriticá](https://twitter.com/iris9112) asked me a great question about how to bulk create and test items in a Django test and I wanted to share that information on my website.
 
 ## Question
 
@@ -24,9 +24,9 @@ Earlier this week, [Isa Buriticá](https://twitter.com/iris9112) asked me great 
 
 ## Answer
 
-My go-to library of choice for creating test data or more commonly called fixtures in Django tests is [`Model Bakery`](https://github.com/model-bakers/model_bakery). 
+My go-to library of choice for creating test data, more commonly called “fixtures” in Django tests, is [`Model Bakery`](https://github.com/model-bakers/model_bakery). 
 
-With Model Bakery, you can pass it a Django model or a Django model reference, and Bakery will create an object based on that model type. This fully baked object includes valid test data so that each required field has the right type of data it needs.
+With Model Bakery, you can pass in a Django model or model reference, and Bakery will create an object based on that model type. This fully-baked object includes valid test data so that each required field has the right type of data it needs.
 
 Here is an example, based on their [docs](https://model-bakery.readthedocs.io/en/latest/basic_usage.html#basic-usage):
 
@@ -39,7 +39,7 @@ category = baker.make("news.Category")
 assert category.name
 ```
 
-To create 1,000 categories to test with, we pass the optional `_quantity` parameter to to our `baker.make` method. Here is another example based on the [docs](https://model-bakery.readthedocs.io/en/latest/basic_usage.html#more-than-one-instance):
+To create 1,000 categories for a  test, we pass the optional `_quantity` parameter to our `baker.make` method. Here is another example based on the [docs](https://model-bakery.readthedocs.io/en/latest/basic_usage.html#more-than-one-instance):
 
 <!-- embedme src/example-02.py -->
 ```python 
@@ -77,7 +77,7 @@ def post(db, category):
     return baker.make("news.Post", category=category, title="Post Title")
 ```
 
-Pytest Fixtures are nice way to reduce the amount of boilerplate code you need for creating and testing objects. To use one of your new tests fixtures, you passed them in as a method argument and pytest will pass the fixture into the test function.
+Pytest Fixtures are nice way to reduce the amount of boilerplate code you need for creating and testing objects. To use one of your new tests fixtures, you pass them in as a method argument and pytest will pass the fixture into the test function.
 
 #### `tests/test_models.py`
 
@@ -97,7 +97,7 @@ For more information about pytest.fixtures, check out the [pytest fixtures: expl
 
 ### Bonus Answer 2: It works well for generating test data
 
-Model Bakery also has a `prepare` method which is nice for creating valid test data for a Django model without saving it to our database. I use this method a lot for testing Django Forms and DRF POST methods. 
+Model Bakery also has a `prepare` method which is useful for creating valid test data for a Django model without saving it to our database. I use this method often for testing Django Forms and DRF POST methods. 
 
 <!-- embedme src/example-05.py -->
 ```python
