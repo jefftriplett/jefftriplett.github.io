@@ -1,37 +1,32 @@
 @tailwind base;
 
 h1 {
-  @apply text-4xl text-blue-900;
+  @apply py-4 leading-tight text-4xl text-blue-900;
   font-family: "PT Serif", sans-serif;
-  /*line-height: 1.1;*/
 }
 
 h2 {
-  @apply text-3xl text-blue-800;
+  @apply py-2 leading-tight text-3xl text-blue-800;
   font-family: "PT Serif", sans-serif;
 }
 
 h3 {
-  @apply text-2xl text-blue-700;
+  @apply py-2 leading-tight text-2xl text-blue-700;
   font-family: "PT Serif", sans-serif;
 }
 
 h4 {
-  @apply text-xl;
-  font-family: "PT Serif", sans-serif;
-}
-
-h4 {
-  @apply text-xl;
+  @apply py-2 leading-tight text-xl;
   font-family: "PT Serif", sans-serif;
 }
 
 h5, h6 {
+  @apply py-2;
   font-family: "PT Serif", sans-serif;
 }
 
 p {
-  @apply pt-4;
+  @apply py-4 leading-normal;
 }
 
 hr {
@@ -50,16 +45,16 @@ textarea {
   line-height: 1.15;
 }
 
-code {
-  @apply font-mono text-base;
+blockquote {
+  @apply px-4 leading-relaxed italic border-l-4 bg-gray-200 rounded-lg rounded-r-none;
 }
 
-blockquote {
-  @apply py-2 px-4 italic border-l-4 bg-gray-200 rounded-lg rounded-r-none;
+code {
+  @apply leading-relaxed font-mono text-base;
 }
 
 pre {
-  @apply mt-4 font-mono text-base bg-gray-200;
+  @apply px-2 py-2 mt-4 leading-relaxed font-mono text-base bg-gray-200;
 }
 
 
