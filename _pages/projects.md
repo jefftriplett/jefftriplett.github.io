@@ -13,7 +13,7 @@ Most of my projects range from scratching personal itches, working on community 
 {% unless project.archived %}
 <div>
 
-<h3 class="-mb-4">
+<h3 class="">
     <a href="{{ project.github }}">{{ project.title }}</a>
     {% if project.github %}
     <span><a href="{{ project.github }}"><i class="fab fa-github" aria-hidden="true"></i></a></span>
@@ -39,7 +39,7 @@ Most of my projects range from scratching personal itches, working on community 
 {% for project in site.projects %}
 {% if project.archived %}
 <div>
-<h3 class="-mb-4">
+<h3>
     <a href="{{ project.github }}">{{ project.title }}</a>
     {% if project.github %}
     <span><a href="{{ project.github }}"><i class="fab fa-github" aria-hidden="true"></i></a></span>
