@@ -14,7 +14,11 @@
   <link rel="icon" sizes="196x196" href="/assets/images/favicon-196.png">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400|Alegreya&display=swap">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.1/css/all.css" integrity="sha384-y++enYq9sdV7msNmXr08kJdkX4zEI1gMjjkw0l9ttOepH7fMdhb7CePwuRQCfwCr" crossorigin="anonymous">
+{% if jekyll.environment == "production" %}
+  <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/2020.min.css">
+{% else %}
   <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/2020.css">
+{% endif %}
   <!--
   <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/pygments/github.css">
   <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/pygments/monokai.css">

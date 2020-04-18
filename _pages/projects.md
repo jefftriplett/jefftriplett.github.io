@@ -11,7 +11,7 @@ Most of my projects range from scratching personal itches, working on community 
 
 {% for project in site.projects %}
 {% unless project.archived %}
-<div class="mt-4">
+<div>
 
 <h3 class="-mb-4">
     <a href="{{ project.github }}">{{ project.title }}</a>
@@ -38,7 +38,7 @@ Most of my projects range from scratching personal itches, working on community 
 
 {% for project in site.projects %}
 {% if project.archived %}
-<div class="mt-4">
+<div>
 <h3 class="-mb-4">
     <a href="{{ project.github }}">{{ project.title }}</a>
     {% if project.github %}
@@ -59,8 +59,6 @@ Most of my projects range from scratching personal itches, working on community 
 
 ----
 
-### 100+ more projects on Github
-{:.mt-8}
+## 100+ more projects on Github
 
-[See more projects on Github](https://github.com/jefftriplett).
-{:.-mt-4 -mb-4}
+[See more projects on Github](https://github.com/jefftriplett)
