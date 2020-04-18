@@ -1,6 +1,6 @@
 {
   "name": "jefftriplett.github.io-git",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is my personal website written with Jekyll using Markdown.",
   "main": "purgecss.config.js",
   "scripts": {
