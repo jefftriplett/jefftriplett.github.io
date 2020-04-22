@@ -29,7 +29,7 @@ title: Search
 
 <!-- Html Elements for Search -->
 <div id="search-container">
-<input class="w-full border border-blue-800 p-1" type="text" id="search-input" placeholder="Search...">
+<input class="w-full p-4 bg-blue-100" type="text" id="search-input" placeholder="Search...">
 <ol id="results-container"></ol>
 </div>
 
