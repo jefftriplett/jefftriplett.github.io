@@ -704,8 +704,8 @@ pre {
   background-color: #f7fafc;
 }
 
-.border-blue-800 {
-  border-color: #2c5282;
+.bg-blue-100 {
+  background-color: #ebf8ff;
 }
 
 .rounded-lg {
@@ -714,10 +714,6 @@ pre {
 
 .border-dashed {
   border-style: dashed;
-}
-
-.border {
-  border-width: 1px;
 }
 
 .border-t-2 {
@@ -829,10 +825,6 @@ pre {
 
 .overflow-hidden {
   overflow: hidden;
-}
-
-.p-1 {
-  padding: 0.25rem;
 }
 
 .p-4 {
