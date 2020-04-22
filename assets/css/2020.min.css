@@ -540,8 +540,8 @@ video {
 h1 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  line-height: 1.25;
   font-size: 2.25rem;
+  line-height: 1.5;
   color: #2a4365;
   font-family: "PT Serif", sans-serif;
 }
@@ -549,8 +549,8 @@ h1 {
 h2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  line-height: 1.25;
   font-size: 1.875rem;
+  line-height: 1.5;
   color: #2c5282;
   font-family: "PT Serif", sans-serif;
 }
@@ -558,8 +558,8 @@ h2 {
 h3 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  line-height: 1.25;
   font-size: 1.5rem;
+  line-height: 1.5;
   color: #2b6cb0;
   font-family: "PT Serif", sans-serif;
 }
@@ -567,8 +567,8 @@ h3 {
 h4 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  line-height: 1.25;
   font-size: 1.25rem;
+  line-height: 1.5;
   font-family: "PT Serif", sans-serif;
 }
 
@@ -605,19 +605,19 @@ textarea {
 blockquote {
   padding-left: 1rem;
   padding-right: 1rem;
-  line-height: 1.625;
   font-style: italic;
-  border-left-width: 4px;
+  line-height: 1.625;
   background-color: #edf2f7;
+  border-left-width: 4px;
   border-radius: 0.5rem;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
 
 code {
-  line-height: 1.625;
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 1rem;
+  line-height: 1.625;
 }
 
 pre {
@@ -626,9 +626,9 @@ pre {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   margin-top: 1rem;
-  line-height: 1.625;
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 1rem;
+  line-height: 1.625;
   background-color: #edf2f7;
 }
 
@@ -647,7 +647,7 @@ pre {
 
 .page a:hover,
 .post a:hover {
-  /* @apply underline text-orange-400; */
+  /* @apply text-orange-400 underline; */
   color: #3182ce;
   text-decoration: underline;
 }
@@ -704,12 +704,20 @@ pre {
   background-color: #f7fafc;
 }
 
+.border-blue-800 {
+  border-color: #2c5282;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
 
 .border-dashed {
   border-style: dashed;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-t-2 {
@@ -762,6 +770,10 @@ pre {
 
 .leading-loose {
   line-height: 2;
+}
+
+.m-2 {
+  margin: 0.5rem;
 }
 
 .my-4 {
@@ -817,6 +829,10 @@ pre {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.p-1 {
+  padding: 0.25rem;
 }
 
 .p-4 {

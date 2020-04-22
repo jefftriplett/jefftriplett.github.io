@@ -1,22 +1,22 @@
 @tailwind base;
 
 h1 {
-  @apply py-4 leading-tight text-4xl text-blue-900;
+  @apply py-4 text-4xl leading-normal text-blue-900;
   font-family: "PT Serif", sans-serif;
 }
 
 h2 {
-  @apply py-2 leading-tight text-3xl text-blue-800;
+  @apply py-2 text-3xl leading-normal text-blue-800;
   font-family: "PT Serif", sans-serif;
 }
 
 h3 {
-  @apply py-2 leading-tight text-2xl text-blue-700;
+  @apply py-2 text-2xl leading-normal text-blue-700;
   font-family: "PT Serif", sans-serif;
 }
 
 h4 {
-  @apply py-2 leading-tight text-xl;
+  @apply py-2 text-xl leading-normal;
   font-family: "PT Serif", sans-serif;
 }
 
@@ -46,15 +46,15 @@ textarea {
 }
 
 blockquote {
-  @apply px-4 leading-relaxed italic border-l-4 bg-gray-200 rounded-lg rounded-r-none;
+  @apply px-4 italic leading-relaxed bg-gray-200 border-l-4 rounded-lg rounded-r-none;
 }
 
 code {
-  @apply leading-relaxed font-mono text-base;
+  @apply font-mono text-base leading-relaxed;
 }
 
 pre {
-  @apply px-2 py-2 mt-4 leading-relaxed font-mono text-base bg-gray-200;
+  @apply px-2 py-2 mt-4 font-mono text-base leading-relaxed bg-gray-200;
 }
 
 
@@ -72,7 +72,7 @@ pre {
 
 .page a:hover,
 .post a:hover {
-  /* @apply underline text-orange-400; */
+  /* @apply text-orange-400 underline; */
   @apply text-blue-600 underline;
 }
 
