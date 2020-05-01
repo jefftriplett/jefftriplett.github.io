@@ -1,5 +1,5 @@
 ---
-title: Hey Guys
+title: HeyGuys.cc
 github: https://github.com/williln/heyguys.cc
 homepage: https://heyguys.cc/
 archived: false
