@@ -922,6 +922,12 @@ pre {
   text-align: right;
 }
 
+.text-gray-700 {
+  --text-opacity: 1;
+  color: #4a5568;
+  color: rgba(74, 85, 104, var(--text-opacity));
+}
+
 .text-gray-800 {
   --text-opacity: 1;
   color: #2d3748;
