@@ -65,36 +65,33 @@ pre {
 }
 */
 
-.page a,
-.post a {
-  @apply text-gray-600 underline;
-}
+.page, .post {
+  a {
+    @apply text-gray-600 underline;
+  }
 
-.page a:hover,
-.post a:hover {
-  /* @apply text-orange-400 underline; */
-  @apply text-blue-600 underline;
-}
+  a:hover {
+    /* @apply text-orange-400 underline; */
+    @apply text-blue-600 underline;
+  }
 
+  h2 {
+    @apply mt-8;
+  }
 
-.post h2 {
-  @apply mt-8;
-}
+  ol {
+    list-style-type: decimal;
+    padding-left: theme("padding.12");
+  }
 
-.page ol,
-.post ol {
-  list-style-type: decimal;
-  padding-left: theme("padding.12");
-}
+  ul {
+    list-style-type: disc;
+    padding-left: theme("padding.12");
+  }
 
-.page ul,
-.post ul {
-  list-style-type: disc;
-  padding-left: theme("padding.12");
-}
-
-.meta {
-  @apply bg-gray-200;
+  .meta {
+    @apply bg-gray-200;
+  }
 }
 
 @tailwind components;
