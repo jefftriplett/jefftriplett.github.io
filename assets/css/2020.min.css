@@ -28,10 +28,6 @@ body {
  * Render the `main` element consistently in IE.
  */
 
-main {
-  display: block;
-}
-
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
@@ -326,7 +322,6 @@ h4,
 h5,
 h6,
 hr,
-figure,
 p,
 pre {
   margin: 0;
@@ -934,12 +929,6 @@ pre {
   color: rgba(45, 55, 72, var(--text-opacity));
 }
 
-.text-red-700 {
-  --text-opacity: 1;
-  color: #c53030;
-  color: rgba(197, 48, 48, var(--text-opacity));
-}
-
 .text-green-500 {
   --text-opacity: 1;
   color: #48bb78;
@@ -992,8 +981,4 @@ pre {
 
 .w-full {
   width: 100%;
-}
-
-.termy [data-termynal] {
-  white-space: pre-wrap;
 }
