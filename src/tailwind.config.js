@@ -1,4 +1,11 @@
 module.exports = {
+  purge: {
+    enabled: true,
+    content: [
+      './**/*.html',
+      './_site/**/*.html',
+    ],
+  },
   theme: {
     fontFamily: {
       body: ['"PT Serif"', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
@@ -10,5 +17,5 @@ module.exports = {
     extend: {}
   },
   variants: {},
-  plugins: []
+  plugins: [],
 }

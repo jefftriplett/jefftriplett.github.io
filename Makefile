@@ -16,10 +16,7 @@ favicon:
 
 .PHONY: static
 static:
- 	# @NODE_ENV=production npm run build
-	@npx tailwindcss build \
+	@npx tailwindcss@1.4.6 build \
 		src/index.css \
 		--config src/tailwind.config.js \
 		--output assets/css/2020.css
-
-	@NODE_ENV=production npx postcss src/index.css -o assets/css/2020.min.css
