@@ -1,5 +1,9 @@
 FAVICON := ./assets/images/dcus-2017-bw.jpg
 
+.PHONY: build
+build:
+	@jekyll build
+
 
 .PHONY: embedme
 embedme:
