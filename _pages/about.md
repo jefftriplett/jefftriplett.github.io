@@ -39,12 +39,11 @@ I was Director of Operations and started the website division/service for our co
 ----
 
 ## Present
-{:.mt-8 .text-green-500}
 
 ### [Python Software Foundation Director](https://www.python.org/psf/records/board/history/#id2)
 {:.mt-4 .-mb-4}
 
-I was voted in by the community as a Director for the [Python Software Foundation (PSF)](https://www.python.org/psf/) for the 2018 to 2021 term.
+I was voted in by the community as a Director for the [Python Software Foundation (PSF)](https://www.python.org/psf/) for the 2018 to 2020 term and then for a second term from 2020 to 2023.
 
 ### [Django Events Foundation North America (DEFNA)](https://github.com/defna)
 {:.mt-4 .-mb-4}
@@ -94,6 +93,10 @@ I have dabbled with open source since 2007.
 ## Conference & Event Organizing
 {:.mt-8}
 
+- [DjangoCon US 2021](https://2021.djangocon.us/) Organizer
+
+- [DjangoCon US 2020](https://2020.djangocon.us/) Organizer (we canceled 2020)
+
 - [DjangoCon US 2019](https://2019.djangocon.us/) Organizer
 
 - [DjangoCon US 2018](https://2018.djangocon.us/) Organizer
@@ -111,6 +114,8 @@ I have dabbled with open source since 2007.
 ## Interviews & Mentions
 {:.mt-8}
 
+- [Modern Django Development - Jeff Triplett](https://djangochat.com/episodes/docker-tailwind-and-more-jeff-triplett) - Jeff is a partner at REVSYS and a Director of the Python Software Foundation. We discuss modern development tools including Github Actions, Docker, Tailwind, and more.
+
 - [Productivity in Tech](https://productivityintech.com/) Podcast interview [Jeff Triplett Tells Us a Story of Django and Community!](https://productivityintech.transistor.fm/episodes/jeff-triplett-tells-us-a-story-of-django-and-community)
 
 - [Django Chat](https://djangochat.com/) Podcast interview [Django Testing - Jeff Triplett](https://django-chat.simplecast.com/episodes/jeff-triplett)
@@ -125,6 +130,8 @@ I have dabbled with open source since 2007.
 - [DjangoCon US 2015 - Django Tales: How Django and Its Community Can Change Lives](https://www.youtube.com/watch?v=JQkM_fOlb2A) by [Anna Ossowski](https://twitter.com/OssAnna16)
 
 - [(Life) Lessons Learnt while Traveling](http://anna-oz.tumblr.com/post/156114754840/life-lessons-learnt-while-traveling) by [Anna Ossowski](https://twitter.com/OssAnna16)
+
+----
 
 ## Past
 {:.mt-8}
