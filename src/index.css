@@ -1,5 +1,6 @@
 @tailwind base;
 
+/*
 h1 {
   @apply py-4 text-4xl leading-normal text-blue-900;
   font-family: "PT Serif", sans-serif;
@@ -56,7 +57,7 @@ code {
 pre {
   @apply px-2 py-2 mt-4 font-mono text-base leading-relaxed bg-gray-200;
 }
-
+*/
 
 /*
 .page pre,
@@ -65,12 +66,12 @@ pre {
 }
 */
 
-.page a, .post a {
+/*.page a, .post a {
   @apply text-gray-600 underline;
 }
 
 .page a:hover, .post a:hover {
-  /* @apply text-orange-400 underline; */
+  / * @apply text-orange-400 underline; * /
   @apply text-blue-600 underline;
 }
 
@@ -91,7 +92,7 @@ pre {
 .page .meta, .post .meta {
   @apply bg-gray-200;
 }
-
+*/
 
 @tailwind components;
 

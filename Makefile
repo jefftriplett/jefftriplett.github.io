@@ -20,7 +20,7 @@ favicon:
 
 .PHONY: static
 static:
-	@npx tailwindcss@1.4.6 build \
+	@npx tailwindcss build \
 		src/index.css \
 		--config src/tailwind.config.js \
 		--output assets/css/2020.css
