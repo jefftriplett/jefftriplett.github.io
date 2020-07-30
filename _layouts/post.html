@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="leading-loose post prose sm:prose md:prose-md lg:prose-lg xl:prose-xl">
+<article class="prose sm:prose md:prose-md lg:prose-lg xl:prose-xl">
   <h1 class="font-semibold {% if page.draft %}text-red-700{% endif %}">
     {% assign topic = site.topics | where:"category", page.category | first %}
     {% if topic.show_on_homepage %}
