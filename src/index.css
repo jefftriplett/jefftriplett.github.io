@@ -59,6 +59,8 @@ pre {
 }
 */
 
+@tailwind components;
+
 /*
 .page pre,
 .post pre {
@@ -93,8 +95,6 @@ pre {
   @apply bg-gray-200;
 }
 */
-
-@tailwind components;
 
 @tailwind utilities;
 

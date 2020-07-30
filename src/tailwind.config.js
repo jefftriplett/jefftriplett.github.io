@@ -1,6 +1,7 @@
 module.exports = {
   purge: {
     enabled: true,
+    mode: 'all',
     content: [
       './**/*.html',
       './_site/**/*.html',

@@ -5,14 +5,14 @@
 <html lang="en">
   {% include head.html %}
   <body class="text-xl">
-    <div class="container mx-auto max-w-3xl">
-      <header class="flex h-36 my-4 pb-8 align-baseline border-b-2 border-dashed">
+    <div class="container mx-auto sm:max-w-3xl max-w-sm">
+      <header class="flex h-36 my-4 sm:pb-8 bp-4 align-baseline border-b-2 border-dashed">
         {% include header.html %}
       </header>
 
       {{ content }}
 
-      <footer class="my-8 pt-4 border-t-2 border-dashed">
+      <footer class="sm:my-8 my-4 pt-4 border-t-2 border-dashed">
         {% include footer.html %}
       </footer>
     </div>

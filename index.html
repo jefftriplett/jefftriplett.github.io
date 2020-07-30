@@ -14,8 +14,8 @@ redirect_from:
       {% if year != lastyear %}
         <h2 class="flex mb-4 pt-4 leading-normal font-semibold">{{ year }}</h2>
       {% endif %}
-      <article class="flex mb-4 text-gray-800">
-        <div class="w-2/3">
+      <article class="flex flex-wrap mb-4 text-gray-800">
+        <div class="sm:w-2/3 w-full">
           <a class="outline-none no-underline hover:underline hover:text-blue-600 {% if post.draft %}text-red-700{% endif %}" href="{{ site.baseurl }}{{ post.url }}">
             {% if post.category %}
               {% assign topic = site.topics | where:"category", post.category | first %}
@@ -31,7 +31,7 @@ redirect_from:
             {% endif %}
           </a>
         </div>
-        <div class="w-1/3 text-right">
+        <div class="hidden sm:block sm:w-1/3 w-full sm:text-right {% if post.draft %}text-red-700{% endif %}">
           <time datetime="{{ post.date | date_to_xmlschema }}">
             <i class="far fa-calendar text-base" aria-hidden="true"></i>
             {{ post.date | date:"%B %e" }}
