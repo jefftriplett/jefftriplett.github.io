@@ -4,23 +4,19 @@ title: Colophon
 permalink: /colophon/
 ---
 
-jefftriplett.com is published using [Jekyll][], hosted on [GitHub Pages][], and SSL via [Cloudflare][] The source code resides in my github repo: [jefftriplett/jefftriplett.github.io][].
+jefftriplett.com is published using [Jekyll][], hosted on [GitHub Pages][], and SSL via [Cloudflare][] The source code resides in my GitHub repo: [jefftriplett/jefftriplett.github.io][].
 
-I'd rather write in [Markdown][] using my favorite editor [Sublime Text 3][] and pushing updates via [Git][] than wasting my days solving the wrong problems.
+I'd rather write in [Markdown][] using my favorite editor [Sublime Text 3][] and push updates via [Git][] than wasting my days solving the wrong problems.
 
-The theme was built with [Tailwind CSS][].
+The theme was built with [Tailwind CSS][] and [tailwindcss-typography][]. The text on the site uses [Alegreya][], [PT Sans][], and [PT Serif][]. Typography advice from [Top Ten Typography Tips][]. The icons come from [Font Awesome][].
 
-The text on the site uses [Alegreya][], [PT Sans][], and [PT Serif][]. Typography advice from [Top Ten Typography Tips][]. 
-
-The icons come from [Font Awesome][].
-
-Other indispensables: GitHub, Chrome, Gmail, Fastmail, Spotify, Apple MacBook Pro, ...
+Other indispensables: GitHub, Spotify, and written on my Apple MacBook Pro.
 
 [Alegreya]: https://fonts.google.com/specimen/Alegreya
 [Cloudflare]: https://www.cloudflare.com
 [Font Awesome]: http://fontawesome.io/
-[GitHub Pages]: https://pages.github.com/
 [Git]: https://git-scm.com/
+[GitHub Pages]: https://pages.github.com/
 [jefftriplett/jefftriplett.github.io]: https://github.com/jefftriplett/jefftriplett.github.io
 [Jekyll]: https://jekyllrb.com/
 [Markdown]: https://daringfireball.net/projects/markdown/
@@ -31,4 +27,5 @@ Other indispensables: GitHub, Chrome, Gmail, Fastmail, Spotify, Apple MacBook Pr
 [Skeleton]: http://getskeleton.com/
 [Sublime Text 3]: https://www.sublimetext.com/
 [Tailwind CSS]: http://tailwindcss.com
+[tailwindcss-typography]: https://github.com/tailwindlabs/tailwindcss-typography
 [Top Ten Typography Tips]: http://www.toptentypography.tips/
