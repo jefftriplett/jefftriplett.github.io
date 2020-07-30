@@ -4,18 +4,16 @@
 <!DOCTYPE html>
 <html lang="en">
   {% include head.html %}
-  <body class="text-xl">
-    <div class="container mx-auto lg:max-w-3xl md:max-w-2xl sm:max-w-md max-w-sm">
-      <header class="flex h-36 my-4 sm:pb-8 bp-4 align-baseline border-b-2 border-dashed">
-        {% include header.html %}
-      </header>
+  <body class="container max-w-sm mx-auto text-xl lg:max-w-3xl md:max-w-2xl sm:max-w-md">
+    <header class="flex flex-wrap pb-5 my-3 align-baseline border-b-2 border-dashed h-36">
+      {% include header.html %}
+    </header>
 
-      {{ content }}
+    {{ content }}
 
-      <footer class="sm:my-8 my-4 pt-4 border-t-2 border-dashed">
-        {% include footer.html %}
-      </footer>
-    </div>
+    <footer class="pt-3 my-3 border-t-2 border-dashed sm:my-8">
+      {% include footer.html %}
+    </footer>
     <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
     {% include analytics.html %}
   </body>
