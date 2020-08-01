@@ -1,5 +1,6 @@
 FAVICON := ./assets/images/dcus-2017-bw.jpg
 
+
 .PHONY: build
 build:
 	@jekyll build
@@ -16,6 +17,11 @@ favicon:
 		convert "${FAVICON}" -resize "$${size}x$${size}" "./assets/images/favicon-$${size}.png" ; \
 	done
 	@convert "${FAVICON}" -resize 196x196 ./favicon.ico
+
+
+.PHONY: lint
+lint:
+	@curlylint _includes/ _layouts/ _pages/ *.html
 
 
 .PHONY: static

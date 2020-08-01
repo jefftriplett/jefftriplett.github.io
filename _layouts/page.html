@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="prose sm:prose md:prose-md lg:prose-lg xl:prose-xl">
-  <h1>{{ page.title | markdownify | remove:'<p>' | remove:'</p>' }}</h1>
+<article class="prose sm:prose md:prose-md lg:prose-lg xl:prose-xl max-w-none">
+  <h1 class="font-semibold">{{ page.title | markdownify | remove:'<p>' | remove:'</p>' }}</h1>
   {{ content }}
 </article>

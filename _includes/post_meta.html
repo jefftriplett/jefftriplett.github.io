@@ -1,9 +1,9 @@
-<aside class="my-4 p-4 bg-gray-100 rounded-lg shadow-md overflow-hidden border-t-2">
-  <h3>Post Meta</h3>
+<aside class="w-full pt-3 my-3 border-t-2 border-dashed sm:my-8">
+  <h2 class="mt-4 text-xl font-semibold">Post Meta</h2>
   <ul>
     <li>
       <time datetime="{{ page.date | date_to_xmlschema }}">
-        <i class="far fa-calendar text-base" aria-hidden="true"></i>
+        <i class="text-base far fa-calendar" aria-hidden="true"></i>
         Published: {{ page.date | date:"%B %e, %Y" }}
       </time>
     </li>
@@ -11,7 +11,7 @@
     {% if page.updated %}
     <li>
       <time datetime="{{ page.updated | date_to_xmlschema }}">
-        <i class="far fa-calendar text-base" aria-hidden="true"></i>
+        <i class="text-base far fa-calendar" aria-hidden="true"></i>
         Updated: {{ page.updated | date:"%B %e, %Y" }}
       </time>
     </li>
@@ -19,81 +19,16 @@
 
     {% if page.location %}
     <li>
-      <i class="far fa-map-marker text-base" aria-hidden="true"></i>
+      <i class="text-base far fa-map-marker" aria-hidden="true"></i>
       In {{ page.location }}
     </li>
     {% endif %}
 
     {% if page.weather %}
     <li>
-      <i class="far fa-thermometer-half text-base"></i>
+      <i class="text-base far fa-thermometer-half"></i>
       {{ page.weather }}
     </li>
     {% endif %}
-
-    {% comment %}
-    {% if page.category %}
-    <li>
-      <i class="far fa-puzzle-piece text-base" aria-hidden="true"></i>
-      Category: {{ page.category }}
-    </li>
-    {% endif %}
-
-    <li>
-      <i class="far fa-tag text-base" aria-hidden="true"></i>
-      Tags:
-      {% for tag in page.tags %}
-      <span>{{ tag }}</span>
-      {% endfor %}
-    </li>
-    {% endcomment %}
   </ul>
 </aside>
-
-{% comment %}
-<aside class="post-meta">
-  <ul class="meta-list">
-    <li>
-      <strong><i class="far fa-calendar text-base" aria-hidden="true"></i> Published</strong>
-      <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">
-        {{ page.date | date:"%B %e, %Y" }}
-      </time>
-    </li>
-
-    <li>
-      <strong>Category</strong>
-      <a href="">{{ page.category }}</a>
-    </li>
-
-    <li>
-      <div class="post-tags">
-        <strong><i class="fal fa-tag text-base" aria-hidden="true"></i> Tags</strong>
-        {% for tag in page.tags %}
-        <span>{{ tag }}</span>
-        {% endfor %}
-      </div>
-    </li>
-
-    {% assign read_time = page.content | strip_html | strip_newlines | number_of_words | divided_by: 200 %}
-    {% if read_time == 0 %}{% assign read_time = 1 %}{% endif %}
-    <li>
-      <i class="far fa-clock-o text-base" aria-hidden="true"></i>
-      {{ read_time }} minute read
-    </li>
-
-    {% if page.location %}
-      <li>
-        <strong><i class="far fa-map-marker text-base" aria-hidden="true"></i> Location</strong>
-        In {{ page.location }}
-      </li>
-    {% endif %}
-
-    {% if page.weather %}
-      <li>
-        <strong>Weather</strong>
-        {{ page.weather }}
-      </li>
-    {% endif %}
-  </ul>
-</aside>
-{% endcomment %}

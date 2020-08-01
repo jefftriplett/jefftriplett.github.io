@@ -34,4 +34,4 @@ I set my daily wake-up light alarm to 6:30 am, which slowly lights the room up s
 1. unpack my laptop
 1. drink my coffee while checking in with the world
 
-Previously: [2018]({% link _posts/2018-08-12-my-morning-routine.md %})
+Previously: <a href="{% link _posts/2018-08-12-my-morning-routine.md %})">2018</a>
