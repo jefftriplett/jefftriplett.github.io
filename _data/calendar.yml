@@ -33,6 +33,10 @@ events:
   - title: "Labor Day"
     start_date: 2020-09-07
 
+  - title: "Vacation"
+    start_date: 2020-09-08
+    end_date: 2020-09-11
+
   - title: "September 7 - CLC - Labor Day"
     start_date: 2020-09-07
 
