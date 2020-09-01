@@ -16,7 +16,7 @@ permalink: /now/
 
 - I am working on [DjangoCon US 2020][].
 
-- After a few year hiatus, I am trail running again. Checkout out my [#jeffisrunning][] tweets on Twitter. 
+- After a few year hiatus, I am trail running again. Checkout out my [#jeffisrunning][] tweets on Twitter.
 
 - I have maintained a weekly [personal goals project][] on GitHub since late 2015. I stalled out a bit in 2018, but it's on my radar to automate, and keep going.
 

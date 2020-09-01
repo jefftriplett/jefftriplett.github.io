@@ -7,7 +7,7 @@ sitemap: false
 
 ## Contact / Social Media
 
-Here are a few ways to keep up with me online. If you have a question about this project, please consider opening a GitHub Issue. 
+Here are a few ways to keep up with me online. If you have a question about this project, please consider opening a GitHub Issue.
 
 {% assign social_sorted = site.data.social.social | sort: 'order', 'last' %}
 
