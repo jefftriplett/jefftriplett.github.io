@@ -490,7 +490,7 @@ textarea {
 
 pre,
 code {
-  font-family: Menlo, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "PT Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 /**
