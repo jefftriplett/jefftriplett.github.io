@@ -6,12 +6,17 @@ permalink: /uses/
 
 ## Editor and Terminal
 
-- Code Editor: Sublime Text
-- Terminal [iTerm2](https://www.iterm2.com/)
+- I use Sublime Text and I dabble with VS Code.
+- I use [iTerm2](https://www.iterm2.com/) for my terminal.
+- I mostly use Google Chrome 
+- Most of my configs are in my [dotfiles repo](https://github.com/jefftriplett/dotfiles)
 
 ## Desktop Apps
 
-- Alfred with Power Tools
+- Alfred with Power Tools.
+- I backup my machines with Time Machine and Backblaze.
+- I currently use a 2019 16" MacBook Pro 2.4 GHz 8-Core Intel Core i9 with 64GB memory.
+- Previously, I used a 15" MacBook Pro with 16GB memory.
 
 ## Office Setup
 
