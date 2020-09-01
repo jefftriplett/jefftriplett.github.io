@@ -1,3 +1,8 @@
+// const ptSans = require("typeface-pt-sans");
+// const ptSerif = require("typeface-pt-serif");
+const defaultTheme = require("tailwindcss/defaultTheme");
+
+
 module.exports = {
   purge: {
     enabled: true,
@@ -8,14 +13,15 @@ module.exports = {
     ],
   },
   theme: {
-    fontFamily: {
-      body: ['"PT Serif"', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
-      display: ['"PT Serif"', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
-      mono: ['Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
-      sans: ['"PT Sans"', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', '"Helvetica Neue"', 'Arial', '"Noto Sans"', 'sans-serif', '"Apple Color Emoji"', '"Segoe UI Emoji"', '"Segoe UI Symbol"', '"Noto Color Emoji"'],
-      serif: ['"PT Serif"', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif']
+    extend: {
+      fontFamily: {
+        body: ['"PT Serif"', ...defaultTheme.fontFamily.serif],
+        display: ['"PT Serif"', ...defaultTheme.fontFamily.serif],
+        mono: ['Menlo', ...defaultTheme.fontFamily.mono],
+        sans: ['"PT Sans"', ...defaultTheme.fontFamily.sans],
+        serif: ['"PT Serif"', ...defaultTheme.fontFamily.serif],
+      },
     },
-    extend: {}
   },
   variants: {},
   plugins: [
