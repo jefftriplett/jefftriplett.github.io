@@ -1164,6 +1164,45 @@ pre {
   margin-bottom: 0;
 }
 
+.debug-screens::before {
+  position: fixed;
+  z-index: 2147483647;
+  bottom: 0;
+  left: 0;
+  padding: .3333333em .5em;
+  font-size: 12px;
+  line-height: 1;
+  font-family: sans-serif;
+  background-color: #000;
+  color: #fff;
+  box-shadow: 0 0 0 1px #fff;
+  content: 'screen: _';
+}
+
+@media (min-width: 640px) {
+  .debug-screens::before {
+    content: 'screen: sm';
+  }
+}
+
+@media (min-width: 768px) {
+  .debug-screens::before {
+    content: 'screen: md';
+  }
+}
+
+@media (min-width: 1024px) {
+  .debug-screens::before {
+    content: 'screen: lg';
+  }
+}
+
+@media (min-width: 1280px) {
+  .debug-screens::before {
+    content: 'screen: xl';
+  }
+}
+
 /*
 .page pre,
 .post pre {
@@ -1315,6 +1354,10 @@ pre {
   align-items: center;
 }
 
+.items-stretch {
+  align-items: stretch;
+}
+
 .self-center {
   align-self: center;
 }
@@ -1430,6 +1473,10 @@ pre {
 
 .max-w-none {
   max-width: none;
+}
+
+.max-w-xs {
+  max-width: 20rem;
 }
 
 .max-w-sm {
@@ -1629,6 +1676,10 @@ pre {
   vertical-align: baseline;
 }
 
+.align-top {
+  vertical-align: top;
+}
+
 .truncate {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1639,8 +1690,8 @@ pre {
   width: 1.25rem;
 }
 
-.w-64 {
-  width: 16rem;
+.w-32 {
+  width: 8rem;
 }
 
 .w-1\/3 {
@@ -2069,6 +2120,229 @@ pre {
     margin-bottom: 0;
   }
 
+  .sm\:prose-sm {
+    font-size: 0.875rem;
+    line-height: 1.7142857;
+  }
+
+  .sm\:prose-sm p {
+    margin-top: 1.1428571em;
+    margin-bottom: 1.1428571em;
+  }
+
+  .sm\:prose-sm [class~="lead"] {
+    font-size: 1.2857143em;
+    line-height: 1.5555556;
+    margin-top: 0.8888889em;
+    margin-bottom: 0.8888889em;
+  }
+
+  .sm\:prose-sm blockquote {
+    margin-top: 1.3333333em;
+    margin-bottom: 1.3333333em;
+    padding-left: 1.1111111em;
+  }
+
+  .sm\:prose-sm h1 {
+    font-size: 2.1428571em;
+    margin-top: 0;
+    margin-bottom: 0.8em;
+    line-height: 1.2;
+  }
+
+  .sm\:prose-sm h2 {
+    font-size: 1.4285714em;
+    margin-top: 1.6em;
+    margin-bottom: 0.8em;
+    line-height: 1.4;
+  }
+
+  .sm\:prose-sm h3 {
+    font-size: 1.2857143em;
+    margin-top: 1.5555556em;
+    margin-bottom: 0.4444444em;
+    line-height: 1.5555556;
+  }
+
+  .sm\:prose-sm h4 {
+    margin-top: 1.4285714em;
+    margin-bottom: 0.5714286em;
+    line-height: 1.4285714;
+  }
+
+  .sm\:prose-sm img {
+    margin-top: 1.7142857em;
+    margin-bottom: 1.7142857em;
+  }
+
+  .sm\:prose-sm video {
+    margin-top: 1.7142857em;
+    margin-bottom: 1.7142857em;
+  }
+
+  .sm\:prose-sm figure {
+    margin-top: 1.7142857em;
+    margin-bottom: 1.7142857em;
+  }
+
+  .sm\:prose-sm figure > * {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .sm\:prose-sm figure figcaption {
+    font-size: 0.8571429em;
+    line-height: 1.3333333;
+    margin-top: 0.6666667em;
+  }
+
+  .sm\:prose-sm code {
+    font-size: 0.8571429em;
+  }
+
+  .sm\:prose-sm h2 code {
+    font-size: 0.9em;
+  }
+
+  .sm\:prose-sm h3 code {
+    font-size: 0.8888889em;
+  }
+
+  .sm\:prose-sm pre {
+    font-size: 0.8571429em;
+    line-height: 1.6666667;
+    margin-top: 1.6666667em;
+    margin-bottom: 1.6666667em;
+    border-radius: 0.25rem;
+    padding-top: 0.6666667em;
+    padding-right: 1em;
+    padding-bottom: 0.6666667em;
+    padding-left: 1em;
+  }
+
+  .sm\:prose-sm ol {
+    margin-top: 1.1428571em;
+    margin-bottom: 1.1428571em;
+  }
+
+  .sm\:prose-sm ul {
+    margin-top: 1.1428571em;
+    margin-bottom: 1.1428571em;
+  }
+
+  .sm\:prose-sm li {
+    margin-top: 0.2857143em;
+    margin-bottom: 0.2857143em;
+  }
+
+  .sm\:prose-sm ol > li {
+    padding-left: 1.5714286em;
+  }
+
+  .sm\:prose-sm ol > li:before {
+    left: 0;
+  }
+
+  .sm\:prose-sm ul > li {
+    padding-left: 1.5714286em;
+  }
+
+  .sm\:prose-sm ul > li::before {
+    height: 0.3571429em;
+    width: 0.3571429em;
+    top: calc(0.8571429em - 0.1785714em);
+    left: 0.2142857em;
+  }
+
+  .sm\:prose-sm > ul > li p {
+    margin-top: 0.5714286em;
+    margin-bottom: 0.5714286em;
+  }
+
+  .sm\:prose-sm > ul > li > *:first-child {
+    margin-top: 1.1428571em;
+  }
+
+  .sm\:prose-sm > ul > li > *:last-child {
+    margin-bottom: 1.1428571em;
+  }
+
+  .sm\:prose-sm > ol > li > *:first-child {
+    margin-top: 1.1428571em;
+  }
+
+  .sm\:prose-sm > ol > li > *:last-child {
+    margin-bottom: 1.1428571em;
+  }
+
+  .sm\:prose-sm ul ul, .sm\:prose-sm ul ol, .sm\:prose-sm ol ul, .sm\:prose-sm ol ol {
+    margin-top: 0.5714286em;
+    margin-bottom: 0.5714286em;
+  }
+
+  .sm\:prose-sm hr {
+    margin-top: 2.8571429em;
+    margin-bottom: 2.8571429em;
+  }
+
+  .sm\:prose-sm hr + * {
+    margin-top: 0;
+  }
+
+  .sm\:prose-sm h2 + * {
+    margin-top: 0;
+  }
+
+  .sm\:prose-sm h3 + * {
+    margin-top: 0;
+  }
+
+  .sm\:prose-sm h4 + * {
+    margin-top: 0;
+  }
+
+  .sm\:prose-sm table {
+    font-size: 0.8571429em;
+    line-height: 1.5;
+  }
+
+  .sm\:prose-sm thead th {
+    padding-right: 1em;
+    padding-bottom: 0.6666667em;
+    padding-left: 1em;
+  }
+
+  .sm\:prose-sm thead th:first-child {
+    padding-left: 0;
+  }
+
+  .sm\:prose-sm thead th:last-child {
+    padding-right: 0;
+  }
+
+  .sm\:prose-sm tbody td {
+    padding-top: 0.6666667em;
+    padding-right: 1em;
+    padding-bottom: 0.6666667em;
+    padding-left: 1em;
+  }
+
+  .sm\:prose-sm tbody td:first-child {
+    padding-left: 0;
+  }
+
+  .sm\:prose-sm tbody td:last-child {
+    padding-right: 0;
+  }
+
+  .sm\:prose-sm > :first-child {
+    margin-top: 0;
+  }
+
+  .sm\:prose-sm > :last-child {
+    margin-bottom: 0;
+  }
+
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--space-y-reverse)));
@@ -2138,6 +2412,10 @@ pre {
 }
 
 @media (min-width: 768px) {
+  .md\:text-lg {
+    font-size: 1.125rem;
+  }
+
   .md\:max-w-2xl {
     max-width: 42rem;
   }
@@ -2149,6 +2427,10 @@ pre {
 
   .md\:text-right {
     text-align: right;
+  }
+
+  .md\:w-64 {
+    width: 16rem;
   }
 
   .md\:w-1\/4 {
@@ -2860,6 +3142,10 @@ pre {
     --space-y-reverse: 0;
     margin-top: calc(6rem * calc(1 - var(--space-y-reverse)));
     margin-bottom: calc(6rem * var(--space-y-reverse));
+  }
+
+  .xl\:max-w-4xl {
+    max-width: 56rem;
   }
 
   .xl\:max-w-6xl {

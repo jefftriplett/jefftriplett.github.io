@@ -1,7 +1,4 @@
-// const ptSans = require("typeface-pt-sans");
-// const ptSerif = require("typeface-pt-serif");
 const defaultTheme = require("tailwindcss/defaultTheme");
-
 
 module.exports = {
   purge: {
@@ -27,5 +24,6 @@ module.exports = {
   variants: {},
   plugins: [
     require('@tailwindcss/typography'),
+    require('tailwindcss-debug-screens'),
   ],
 }
