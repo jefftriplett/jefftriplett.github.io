@@ -26,6 +26,7 @@ lint:
 
 .PHONY: static
 static:
+	@jekyll build
 	@npx tailwindcss build \
 		src/index.css \
 		--config src/tailwind.config.js \
