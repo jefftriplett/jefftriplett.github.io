@@ -1,0 +1,15 @@
+<aside class="w-full pt-3 my-3 border-t-2 border-dashed sm:my-8 flex">
+  {% if page.previous %}
+  <div class="w-1/2 mr-2 md:w-2/5">
+    <h5 class="text-sm font-bolder">Previous Post</h5>
+    <h3 class="text-xl"><a href="{{ page.previous.url }}">{{ page.previous.title }}</a></h3>
+  </div>
+  {% endif %}
+  {% if page.next %}
+  <div class="w-1/2 ml-2 md:w-2/5">
+    <h5 class="text-sm font-bolder">Next Post</h5>
+    <h3 class="text-xl"><a href="{{ page.next.url }}">{{ page.next.title }}</a></h3>
+  </div>
+  {% endif %}
+</aside>
+
