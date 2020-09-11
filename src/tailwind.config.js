@@ -2,12 +2,9 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
   purge: {
-    enabled: true,
-    mode: 'all',
-    content: [
-      './**/*.html',
-      './_site/**/*.html',
-    ],
+    enabled: process.env.JEKYLL_ENV == "production",
+    mode: "all",
+    content: ["./**/*.html", "./_site/**/*.html"],
   },
   theme: {
     extend: {
@@ -23,10 +20,10 @@ module.exports = {
   },
   variants: {},
   plugins: [
-    require('@tailwindcss/typography'),
-    require('tailwindcss-debug-screens'),
+    require("@tailwindcss/typography"),
+    require("tailwindcss-debug-screens"),
   ],
   future: {
     removeDeprecatedGapUtilities: true,
   },
-}
+};

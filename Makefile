@@ -1,5 +1,5 @@
 FAVICON := ./assets/images/dcus-2017-bw.jpg
-
+TAILWIND_CSS_VERSION := 1.8.7
 
 .PHONY: build
 build:
@@ -25,9 +25,20 @@ lint:
 
 
 .PHONY: static
-static:
-	@jekyll build
-	@npx tailwindcss@1.8.7 build \
+static: build static_development static_production
+
+
+.PHONY: static_development
+static_development:
+	@npx tailwindcss@${TAILWIND_CSS_VERSION} build \
+		src/index.css \
+		--config src/tailwind.config.js \
+		--output assets/css/2020.development.css
+
+
+.PHONY: static_production
+static_production:
+	@JEKYLL_ENV=production npx tailwindcss@${TAILWIND_CSS_VERSION} build \
 		src/index.css \
 		--config src/tailwind.config.js \
 		--output assets/css/2020.css
