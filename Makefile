@@ -27,7 +27,7 @@ lint:
 .PHONY: static
 static:
 	@jekyll build
-	@npx tailwindcss build \
+	@npx tailwindcss@1.8.7 build \
 		src/index.css \
 		--config src/tailwind.config.js \
 		--output assets/css/2020.css
