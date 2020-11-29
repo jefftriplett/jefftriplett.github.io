@@ -7,19 +7,19 @@ This is my personal website written with Jekyll using Markdown.
 ### To Install
 
 ```shell
-$ gem install jekyll bundler foreman
+$ gem install bundler jekyll 
 ```
 
 ### To Serve Files
 
 ```shell
-$ foreman start
+$ just run
 ```
 
 ### Tailwind
 
 ```shell
-$ make static 
+$ just static 
 ```
 
 ## Inspiration

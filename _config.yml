@@ -38,23 +38,23 @@ exclude:
   - .bumpversion.cfg
   - .gitignore
   - .vendor
-  - CNAME
-  - Gemfile
-  - Gemfile.lock
-  - Makefile
-  - Procfile
-  - README.md
-  - Rakefile
   - _pages/categories.html
   - _pages/tags.html
+  - CNAME
   - docker-compose.yml
+  - Gemfile
+  - Gemfile.lock
   - jekyll.dockerapp
+  - justfile
   - modd.conf
   - node_modules
   - package*.json
   - plugins
   - postcss.config.js
+  - Procfile
   - purgecss.config.js
+  - Rakefile
+  - README.md
   - requirements.txt
   - src
   - staticman.yml
