@@ -10,6 +10,13 @@ TAILWIND_CSS_VERSION := "2.0.1"
     jekyll build
 
 
+@build-taildwind target='' filename='2020.css':
+    JEKYLL_ENV={{target}} npx tailwindcss@{{TAILWIND_CSS_VERSION}} build \
+        src/index.css \
+        --config src/tailwind.config.js \
+        --output assets/css/{{filename}}
+
+
 @embedme:
     npx embedme _drafts/**/*.md
 
@@ -29,18 +36,7 @@ TAILWIND_CSS_VERSION := "2.0.1"
     modd
 
 
-@static: build static_development static_production
-
-
-@static_development:
-    npx tailwindcss@{{TAILWIND_CSS_VERSION}} build \
-        src/index.css \
-        --config src/tailwind.config.js \
-        --output assets/css/2020.development.css
-
-
-@static_production:
-    JEKYLL_ENV=production npx tailwindcss@{{TAILWIND_CSS_VERSION}} build \
-        src/index.css \
-        --config src/tailwind.config.js \
-        --output assets/css/2020.css
+@static:
+    just build
+    just build-taildwind development 2020.development.css
+    just build-taildwind production 2020.css
