@@ -8,15 +8,15 @@ permalink: /now/
 
 **Working on:**
 
-- I am a month into a stay-at-home order here with my family in Kansas with at least two weeks left. Daycares closed a month ago, but we are doing just fine.
+- We am nine months into a mostly stay-at-home order here with my family in Kansas. 
 
 - I work full-time [REVSYS][]. Some days I write code, train developers, automate systems, secure websites, and manage humans.
 
 - I am working on a weekly newsletter called [Django News][].
 
-- I am working on [DjangoCon US 2020][].
+- I am working on [DjangoCon US 2021][].
 
-- After a few year hiatus, I am trail running again. Checkout out my [#jeffisrunning][] tweets on Twitter.
+- One of my 2020 regrets is that I never ran. Checkout out my [#jeffisrunning][] tweets on Twitter.
 
 - I have maintained a weekly [personal goals project][] on GitHub since late 2015. I stalled out a bit in 2018, but it's on my radar to automate, and keep going.
 
@@ -33,6 +33,7 @@ permalink: /now/
 [Django News]: https://django-news.com/
 [DjangoCon US 2019]: https://2019.djangocon.us/
 [DjangoCon US 2020]: https://2020.djangocon.us/
+[DjangoCon US 2021]: https://2021.djangocon.us/
 [Is the Lead Safe]: http://www.istheleadsafe.com/
 [Keto diet]: https://www.reddit.com/r/keto/wiki/keto_in_a_nutshell
 [Lacey Williams Henschel]: https://opensource.com/users/laceynwilliams
