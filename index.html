@@ -12,7 +12,7 @@ redirect_from:
     {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
     {% unless post.hidden %}
       {% if year != lastyear %}
-        <h2 class="flex pt-4 mb-4 text-2xl font-semibold leading-normal">{{ year }}</h2>
+        <h2 class="flex pt-4 mb-4 text-3xl font-semibold leading-normal">{{ year }}</h2>
       {% endif %}
       <article class="flex flex-wrap mb-4 text-gray-800">
         <div class="w-full sm:w-2/3">
