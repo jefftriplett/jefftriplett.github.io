@@ -32,11 +32,11 @@ TAILWIND_CSS_VERSION := "2.0.1"
     convert "{{FAVICON}}" -resize 196x196 ./favicon.ico
 
 @lint:
+    black --check .
     curlylint _includes/ _layouts/ _pages/ *.html
 
 @run:
     modd
 
 @static:
-    just build-jekyll
-    just build-static
+    just build
