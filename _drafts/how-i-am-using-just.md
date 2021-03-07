@@ -14,7 +14,7 @@ Recently, I was burned on a project because of the subtitles between macOS's BSD
 
 ## Getting Started
 
-Every justfile I create starts with this snippet at the very top:
+Every justfile I create starts with this snippet at the top:
 
 ```yaml
 @_default:
