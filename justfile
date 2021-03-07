@@ -1,8 +1,27 @@
 FAVICON := "./assets/images/dcus-2017-bw.jpg"
 TAILWIND_CSS_VERSION := "2.0.1"
 
-@default:
+@_default:
     just --list
+
+@opengraph:
+    # tcardgen \
+    #     -f ./font/ \
+    #     -o ./output \
+    #     -t ./templates/template.png \
+    #     _posts/*.md
+
+    tcardgen \
+        --config=./templates/template3.config.yaml \
+        -f ./font/ \
+        -o ./output \
+        _posts/*.md
+
+#    tcardgen \
+#        -f path/to/fontDir \
+#        -o path/to/hugo/static/imgDir \
+#        -t path/to/templateFile \
+#        path/to/hugo/content/posts/*.md
 
 @build:
     just build-jekyll
@@ -21,6 +40,9 @@ TAILWIND_CSS_VERSION := "2.0.1"
         src/index.css \
         --config src/tailwind.config.js \
         --output assets/css/{{filename}}
+
+@clean:
+    rm -rf _site
 
 @embedme:
     npx embedme _drafts/**/*.md
