@@ -97,9 +97,9 @@ Five or six years ago, I read [Scripts to Rule Them All][] and it's stuck out to
 
 Recently, I added a justfile to my home folder with a goal of adding common commands that I run to it to develop more playbooks.
 
-Playbooks are for me and they are my way of documenting, remembering, and automating tasks that I find myself repeating or looking up how they work. 
+Playbooks are my way of documenting, remembering, and automating tasks that I find myself repeating or looking up how they work. 
 
-Even if `just` isn't your jam, build playbooks, write docs, or do what works best for you and future you will look back and appreciate your previous efforts.  
+Even if `just` isn't your jam, build playbooks, write docs, or do what works best for you. Your future self will look back and appreciate your previous efforts.
 
 ## GitHub Actions
 
