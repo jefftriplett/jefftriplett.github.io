@@ -81,9 +81,13 @@ Five or six years ago, I read [Scripts to Rule Them All][] and it's stuck out to
     echo "TODO: update"
 ```
 
-## TODO: Advanced things
+## TODO: Common things
 
-- calling other just commands
+- calling other just commands from within just
+
+- chaining commands
+
+    Having the ability to run `just build up test down` and switch to another project is something I use a lot to batch up a series of steps that I know may take 30 seconds or 15 minutes. 
 
 - OPTS to for pytest
 
@@ -92,6 +96,8 @@ Five or six years ago, I read [Scripts to Rule Them All][] and it's stuck out to
 - embed Python
 
 - some logic
+
+- Running python 2 and python 3 test together
 
 ## TODO: How I'm writing my own playbooks
 
@@ -115,9 +121,15 @@ Check out their ["Generating Ninja files from code"](https://ninja-build.org/man
 
 [Julia Evans - ninja: a simple way to do builds][julia-evans-on-ninja] is a good introduction for the curious.
 
+- [Rush][rednafi/rush] Rush is another Python meets yaml config meets bash tool.
+I used it on several projects to much success.
+It's not quite as feature complete as `just`.
+
+
 [casey/just]: https://github.com/casey/just
 [extractions/setup-just]: https://github.com/extractions/setup-just
 [julia-evans-on-ninja]: https://jvns.ca/blog/2020/10/26/ninja--a-simple-way-to-do-builds/
 [ninja-build/ninja]: https://github.com/ninja-build/ninja
 [pyinvoke/invoke]: https://github.com/pyinvoke/invoke
+[rednafi/rush]: https://github.com/rednafi/rush
 [Scripts to Rule Them All]: https://github.blog/2015-06-30-scripts-to-rule-them-all/
