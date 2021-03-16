@@ -7,10 +7,19 @@ title: Sauce Demo
 
 <script type='module' src="https://kag0.github.io/sauce/sauce.js"></script>
 
-<!--basic example-->
+<h3>justfile</h3>
 <sauce-code
-  file='config/test_settings.py'
-  lang='python'
-  repo='jefftriplett/django-jobs' 
-  theme='monokai-sublime'
+  file='justfile'
+  lang='yaml'
+  repo='jefftriplett/scripts-to-rule-them-all' 
+  theme='hopscotch'
+></sauce-code>
+
+
+<h3>Using a justfile with GitHub Actions</h3>
+<sauce-code
+  file='.github/workflows/actions.yml'
+  lang='yaml'
+  repo='jefftriplett/scripts-to-rule-them-all' 
+  theme='hopscotch'
 ></sauce-code>
