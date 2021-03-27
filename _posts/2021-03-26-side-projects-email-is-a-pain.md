@@ -4,9 +4,11 @@ categories: [Side Projects]
 date: 2021-03-26T21:38:00-06:00
 excerpt: "I love working on side projects, but I hate setting up and configuring email for projects."
 layout: post
+location: Home @ Lawrence, Kansas United States
 slug: side-projects-email-is-a-pain
 tags: [email, side projects]
 title: "Side Projects: Email is a Pain"
+weather: 69˚F Clear.
 ---
 
 I love working on side projects, but I hate setting up and configuring email for projects. 
