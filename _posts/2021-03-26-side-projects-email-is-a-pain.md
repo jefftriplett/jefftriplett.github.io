@@ -8,7 +8,7 @@ location: Home @ Lawrence, Kansas United States
 slug: side-projects-email-is-a-pain
 tags: [email, side projects]
 title: "Side Projects: Email is a Pain"
-weather: 69˚F Clear.
+weather: 59˚F Clear.
 ---
 
 I love working on side projects, but I hate setting up and configuring email for projects. 
