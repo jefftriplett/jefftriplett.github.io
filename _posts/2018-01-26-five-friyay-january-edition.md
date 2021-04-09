@@ -1,12 +1,13 @@
 ---
-layout: post
 category: Five for Friyay
 date: 2018-01-26 16:10:58 -0600
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=friyay&title=January+Edition
+layout: post
 location: Lawrence, Kansas. United States
-title: January Edition
-weather: 58˚F and Cloudy
 tags:
 - friyay
+title: January Edition
+weather: 58˚F and Cloudy
 ---
 
 I realized today if I didn't post on my blog that I was going to miss out on having a Five for Friyay in January. My lack of updates doesn't mean that I haven't been busy working. 

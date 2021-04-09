@@ -1,13 +1,14 @@
 ---
-layout: post
-title: "April Showers"
-date: 2017-04-07 18:21:00 -0600
 category: Five for Friyay
+date: 2017-04-07 18:21:00 -0600
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=friyay&title=April+Showers
+layout: post
 location: Lawrence, Kansas United States
-weather: "65˚F - It was Sunny."
-playlist: "http://open.spotify.com/user/jefftriplett/playlist/1Hfm3vTnyRlga1sKLVw1hq"
+playlist: http://open.spotify.com/user/jefftriplett/playlist/1Hfm3vTnyRlga1sKLVw1hq
 tags:
 - friyay
+title: April Showers
+weather: 65˚F - It was Sunny.
 ---
 
 The weather has been rainy, windy, and cold for the last few weeks so I have spent more time than normal around a computer  thinking about productivity tools, so I decided to focus on those this week.

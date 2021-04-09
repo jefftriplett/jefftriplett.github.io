@@ -1,13 +1,13 @@
 ---
-layout: post
-title: "CSS and HTML Resources"
-date: 2017-04-28 16:30:00 -0600
 category: Five for Friyay
+date: 2017-04-28 16:30:00 -0600
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=friyay&title=CSS+and+HTML+Resources
+layout: post
 location: Naperville, Illinois United States
-weather: 66˚F It was mostly cloudy.
-# redirect_from: /posts/five-for-friyay-css-html-resources/
 tags:
 - friyay
+title: CSS and HTML Resources
+weather: 66˚F It was mostly cloudy.
 ---
 
 Despite spending most of my professional time working on backend Python and API code, I try when possible to keep current on HTML5 and CSS trends. This week, I wanted to highlight some good resources which I found to be useful.

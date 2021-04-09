@@ -1,13 +1,14 @@
 ---
-layout: post
-title: My Morning Routine
-date: 2018-08-12 14:43 -0500
 category: Personal
+date: 2018-08-12 14:43 -0500
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=personal%2Clife+hacks&title=My+Morning+Routine
+layout: post
 location: Lawrence, Kansas United States
-weather: 93˚F - Clear.
 tags:
 - personal
 - life hacks
+title: My Morning Routine
+weather: 93˚F - Clear.
 ---
 
 I ran across the [Do you have a morning routine?](https://dev.to/lukewestby/do-you-have-a-morning-routine-3j39) post and I thought it'd be fun to post my daily morning routine. 
@@ -27,4 +28,4 @@ My routine is 90% dependent on my son Oliver, who's eleven-months-old. While he'
 11. drop my son off at daycare
 12. drive to the office
 
-I am planning on trying to incorporate some version of the [7-Minute Workout](https://www.nytimes.com/interactive/projects/well/workouts/) in my morning routine for a month and see if I like it. 
+I am planning on trying to incorporate some version of the [7-Minute Workout](https://www.nytimes.com/interactive/projects/well/workouts/) in my morning routine for a month and see if I like it.

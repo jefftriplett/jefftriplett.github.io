@@ -1,13 +1,13 @@
 ---
-layout: post
-title: Phone Sanity
-date: 2017-11-10 11:00:00 -0600
 category: Five for Friyay
+date: 2017-11-10 11:00:00 -0600
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=friyay&title=Phone+Sanity
+layout: post
 location: Lawrence, Kansas. United States
-weather: 30˚F and Chilly
-image: /assets/images/posts/friyay-phone-sanity/pablo.png
 tags:
 - friyay
+title: Phone Sanity
+weather: 30˚F and Chilly
 ---
 
 I recently upgraded from a cracked screen iPhone 6 to an iPhone 8 Plus and while I love this phone, I have had buyer's regret ever since. In hindsight, going from a large screen phone to an even larger screen phone was not what I wanted or should have done. Instead, I should have gone with much cheaper, updated iPhone SE and saved money. 

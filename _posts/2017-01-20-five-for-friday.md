@@ -1,12 +1,13 @@
 ---
-layout: post
-title: "Five for Friday (Friyay!)"
-date: 2017-01-20 12:00:00 -0600
 category: Five for Friyay
+date: 2017-01-20 12:00:00 -0600
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=friyay&title=Five+for+Friday+%28Friyay%21%29
+layout: post
 location: Lawrence, Kansas United States
-weather: It was 47˚F and foggy.
 tags:
 - friyay
+title: Five for Friday (Friyay!)
+weather: It was 47˚F and foggy.
 ---
 
 One of my [personal goals](https://github.com/jefftriplett/personal-goals) for 2017 is to write more often. I set out to write and blog something every week for the whole year. I missed my second week trying to take on too much, so I thought I'd write about what's on my mind. I have seen a few other bloggers do an x for Friday type of post and it sounded fun. So here's mine.

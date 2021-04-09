@@ -1,6 +1,7 @@
 ---
 category: Personal
 date: 2020-02-11 11:30 -0500
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=&title=Keeping+Git+Forks+Updated+and+Tidy
 layout: post
 location: REVSYS @ Lawrence, Kansas United States
 title: Keeping Git Forks Updated and Tidy

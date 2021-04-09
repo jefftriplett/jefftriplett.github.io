@@ -1,13 +1,18 @@
 ---
 author: Jeff Triplett
-categories: [Side Projects]
-date: 2021-03-26T21:38:00-06:00
-excerpt: "I love working on side projects, but I hate setting up and configuring email for projects."
+categories:
+- Side Projects
+date: 2021-03-26 21:38:00-06:00
+excerpt: I love working on side projects, but I hate setting up and configuring email
+  for projects.
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=email%2Cside+projects&title=Side+Projects%3A+Email+is+a+Pain
 layout: post
 location: Home @ Lawrence, Kansas United States
 slug: side-projects-email-is-a-pain
-tags: [email, side projects]
-title: "Side Projects: Email is a Pain"
+tags:
+- email
+- side projects
+title: 'Side Projects: Email is a Pain'
 weather: 59˚F Clear.
 ---
 
@@ -26,4 +31,4 @@ MX   @  mx2.forwardemail.net  20
 TXT  @  forward-email=you@here.com
 ```
 
-Now all of my emails go to one account, and setting up a new group or alias for someone only takes me less than a minute from my Cloudflare account, which is where I manage my DNS these days. 
+Now all of my emails go to one account, and setting up a new group or alias for someone only takes me less than a minute from my Cloudflare account, which is where I manage my DNS these days.

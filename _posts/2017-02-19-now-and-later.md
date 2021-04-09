@@ -1,8 +1,9 @@
 ---
-layout: post
-title: "Now and Later"
 date: 2017-02-19 16:46:00 -0600
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=&title=Now+and+Later
+layout: post
 location: Lawrence, Kansas United States
+title: Now and Later
 weather: It was 71˚F sunny and breezy.
 ---
 

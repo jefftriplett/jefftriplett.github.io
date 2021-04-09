@@ -1,14 +1,14 @@
 ---
-layout: post
-title: How to Stop Hating Your Email
-date: 2017-10-20 16:00:00 -0600
 category: Productivity
+date: 2017-10-20 16:00:00 -0600
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=email%2Cproductivity&title=How+to+Stop+Hating+Your+Email
+layout: post
 location: Lawrence, Kansas. United States
-weather: 75˚F and Clear
-image: /assets/images/posts/how-to-stop-hating-your-email/pablo.png
 tags:
 - email
 - productivity
+title: How to Stop Hating Your Email
+weather: 75˚F and Clear
 ---
 
 Email is both a blessing and a curse. I love receiving emails from friends and community members who want to reach out or ask for advice. These are the highlights of my week some weeks. However, my email volume is high enough that it used to be difficult for me to sort everything out by priority. A few years ago, I felt like I was drowning in email without making progress so I did some research and came up with some rules to prevent email from being a major source of stress in my life. 

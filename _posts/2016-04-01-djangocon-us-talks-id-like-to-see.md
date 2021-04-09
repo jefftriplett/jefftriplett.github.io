@@ -1,9 +1,10 @@
 ---
-layout: post
-title: "DjangoCon US Talks I'd Like To See"
-date: 2016-04-01 12:00:00 -0600
-location: Lawrence, Kansas United States
 category: DjangoCon
+date: 2016-04-01 12:00:00 -0600
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=&title=DjangoCon+US+Talks+I%27d+Like+To+See
+layout: post
+location: Lawrence, Kansas United States
+title: DjangoCon US Talks I'd Like To See
 ---
 
 Last year, I threw together a list of [DjangoCon Talk ideas](https://gist.github.com/jefftriplett/cdda63bf42c592b1a6c8) and in that spirit, I wanted to update it for 2016.

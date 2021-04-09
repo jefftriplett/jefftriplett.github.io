@@ -1,13 +1,13 @@
 ---
-layout: post
-title: September Edition
-date: 2017-09-08 13:20:00 -0600
 category: Five for Friyay
+date: 2017-09-08 13:20:00 -0600
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=friyay&title=September+Edition
+layout: post
 location: Lawrence, Kansas. United States
-weather: 82˚F and Clear
-image: /assets/images/posts/friyay-september-edition/pablo.png
 tags:
 - friyay
+title: September Edition
+weather: 82˚F and Clear
 ---
 
 ## What I'm Watching

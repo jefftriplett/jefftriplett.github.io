@@ -1,10 +1,11 @@
 ---
-layout: post
-title: "Response Hierarchy"
-date: 2017-04-21 15:09:00 -0600
 category: Personal
+date: 2017-04-21 15:09:00 -0600
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=&title=Response+Hierarchy
+layout: post
 location: Lawrence, Kansas United States
-weather: "56˚F - It was mostly cloudy."
+title: Response Hierarchy
+weather: 56˚F - It was mostly cloudy.
 ---
 
 Taking a queue from [Rands Response Hierarchy](http://randsinrepose.com/archives/rands-response-hierarchy/) I wanted to create a prioritized hierarchy to how likely I will respond to a piece of communication. This list is sorted from least to most likely.

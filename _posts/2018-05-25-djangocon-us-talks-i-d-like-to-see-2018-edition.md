@@ -1,13 +1,13 @@
 ---
-layout: post
-title: "DjangoCon US Talks I'd Like to See: 2018 Edition"
-date: 2018-05-25 14:50:00 -0600
 category: DjangoCon
+date: 2018-05-25 14:50:00 -0600
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=djangocon&title=DjangoCon+US+Talks+I%27d+Like+to+See%3A+2018+Edition
+layout: post
 location: Lawrence, Kansas United States
-weather: 82˚F - Sunny.
-image: https://2018.djangocon.us/static/img/social/avatar-main.png
 tags:
 - djangocon
+title: 'DjangoCon US Talks I''d Like to See: 2018 Edition'
+weather: 82˚F - Sunny.
 ---
 
 Continuing in the tradition of my [2017](https://jefftriplett.com/2017/django-talks-id-like-to-see/) and [2016](https://jefftriplett.com/2016/djangocon-us-talks-id-like-to-see/) "DjangoCon US Talks I’d Like to See" posts, here is an update for 2018.

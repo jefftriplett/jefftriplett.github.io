@@ -1,13 +1,14 @@
 ---
-layout: post
-title: My Morning Routine
-date: 2020-01-20 00:25 -0500
 category: Personal
+date: 2020-01-20 00:25 -0500
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=personal%2Clife+hacks&title=My+Morning+Routine
+layout: post
 location: Home @ Lawrence, Kansas United States
-weather: 11˚F - Clear.
 tags:
 - personal
 - life hacks
+title: My Morning Routine
+weather: 11˚F - Clear.
 ---
 
 My daily routine centers around my son, Oliver, who's over two years old. He's a good sleeper, so I rarely have to change up our routine. 

@@ -1,12 +1,13 @@
 ---
-layout: post
-title: "My Twenty-Sixteen"
-date: 2017-01-07
 category: Personal
+date: 2017-01-07
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=eoy&title=My+Twenty-Sixteen
+layout: post
 location: Lawrence, Kansas United States
-weather: It was 12˚F with clear skies.
 tags:
 - eoy
+title: My Twenty-Sixteen
+weather: It was 12˚F with clear skies.
 ---
 
 Twenty-Sixteen was a challenging and stressful year for so many people. For me it was filled with many professional and personal highs along with some pretty bad personal / family setbacks. Everyone made it through 2016 which was the silver lining of the year. Below is my personal view on 2016 month by month.

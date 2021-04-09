@@ -1,9 +1,10 @@
 ---
-layout: post
-title: "Personal Goals Recap"
-date: 2017-01-29 21:00:00 -0600
 category: Personal Goals
+date: 2017-01-29 21:00:00 -0600
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=&title=Personal+Goals+Recap
+layout: post
 location: Lawrence, Kansas United States
+title: Personal Goals Recap
 weather: It was 40˚F and cloudy.
 ---
 

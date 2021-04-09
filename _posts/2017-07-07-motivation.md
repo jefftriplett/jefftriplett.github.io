@@ -1,13 +1,13 @@
 ---
-layout: post
-title: Motivation
-date: 2017-07-07 20:25:00 -0600
 category: Five for Friyay
+date: 2017-07-07 20:25:00 -0600
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=friyay&title=Motivation
+layout: post
 location: Lawrence, Kansas. United States
-weather: 89˚F and Clear
-image: https://farm5.staticflickr.com/4267/34689446331_21f35144a8_k_d.jpg
 tags:
 - friyay
+title: Motivation
+weather: 89˚F and Clear
 ---
 
 Lately, I have struggled to keep up with my writing. Actually, that's not true. I haven't had any problem writing. My struggle has been publishing and getting out of the small updates here and there mindset.

@@ -1,9 +1,10 @@
 ---
-layout: post
-title: 10 Tips For Making The Django Admin More Secure
 date: 2018-03-12 21:56 -0500
-excerpt: "Don't take chances with app security. Here's how to protect your users."
+excerpt: Don't take chances with app security. Here's how to protect your users.
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=&title=10+Tips+For+Making+The+Django+Admin+More+Secure
+layout: post
 link-out: https://opensource.com/article/18/1/10-tips-making-django-admin-more-secure
+title: 10 Tips For Making The Django Admin More Secure
 ---
 
 <script type="text/javascript">

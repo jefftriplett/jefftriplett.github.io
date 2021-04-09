@@ -1,14 +1,14 @@
 ---
-layout: post
-title: Tools Edition
-date: 2017-08-04 10:40:00 -0600
 category: Five for Friyay
+date: 2017-08-04 10:40:00 -0600
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=friyay%2Ctools&title=Tools+Edition
+layout: post
 location: Lawrence, Kansas. United States
-weather: 68˚F and Clear
-image: /assets/images/posts/friyay-tools-edition/tools.png
 tags:
 - friyay
 - tools
+title: Tools Edition
+weather: 68˚F and Clear
 ---
 
 One thing you quickly learn when you are a consultant/developer is to be more fluid in your tools and opinions because client opinions and practices range vastly from project to project. It can be a little intimidating at first but you can quickly learn what to compromise on (line length and git flow) vs. what to hold firm on (code quality and encouraging junior developers who learn the most from you). As soon as you get in a groove, the project may end and you have to re-adjust for the next client.

@@ -1,12 +1,13 @@
 ---
-layout: post
-title: "DjangoCon US Talks I'd Like to See: 2017 Edition"
-date: 2017-03-24 14:35:00 -0600
 category: DjangoCon
+date: 2017-03-24 14:35:00 -0600
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=djangocon&title=DjangoCon+US+Talks+I%27d+Like+to+See%3A+2017+Edition
+layout: post
 location: Lawrence, Kansas United States
-weather: 68˚F - Cloudy and rainy.
 tags:
 - djangocon
+title: 'DjangoCon US Talks I''d Like to See: 2017 Edition'
+weather: 68˚F - Cloudy and rainy.
 ---
 
 A common question I get asked every year is "What topic should I submit to DjangoCon US?" So many people are unsure of what to talk about.

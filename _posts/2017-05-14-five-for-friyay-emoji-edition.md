@@ -1,12 +1,13 @@
 ---
-layout: post
-title: "Emoji Edition"
-date: 2017-05-14 16:35:00 -0600
 category: Five for Friyay
+date: 2017-05-14 16:35:00 -0600
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=friyay&title=Emoji+Edition
+layout: post
 location: Naperville, Illinois United States
-weather: 74˚F Sunny with a cool breeze.
 tags:
 - friyay
+title: Emoji Edition
+weather: 74˚F Sunny with a cool breeze.
 ---
 
 I wrote most of this in a car on Friday, but I ran out of time to add screenshots and actually hit publish. Oops! Here's a Sunday version of my Friyay series!

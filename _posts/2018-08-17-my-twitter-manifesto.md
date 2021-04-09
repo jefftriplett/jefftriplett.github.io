@@ -1,14 +1,15 @@
 ---
-layout: post
-title: My Twitter Manifesto
-date: 2018-08-17 09:37 -0500
-updated: 2018-08-27 12:17 -0500
 category: Personal
+date: 2018-08-17 09:37 -0500
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=personal%2Ccommunity&title=My+Twitter+Manifesto
+layout: post
 location: Lawrence, Kansas United States
-weather: 76˚F - Partly cloudy.
 tags:
 - personal
 - community
+title: My Twitter Manifesto
+updated: 2018-08-27 12:17 -0500
+weather: 76˚F - Partly cloudy.
 ---
 
 This is more of a WIP than the ink being dry.
@@ -59,4 +60,4 @@ Why Telegram? I have been on the platform for a few months and have reconnected 
 
 ## Long-term
 
-The writing is on the wall that I don't want to be on Twitter unless there is a management change. 
+The writing is on the wall that I don't want to be on Twitter unless there is a management change.

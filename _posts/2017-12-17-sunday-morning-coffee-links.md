@@ -1,13 +1,13 @@
 ---
-layout: post
-title: Sunday Morning Coffee Links
-date: 2017-12-17 21:35:00 -0600
 category: Sunday Morning Coffee Links
+date: 2017-12-17 21:35:00 -0600
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=sunday&title=Sunday+Morning+Coffee+Links
+layout: post
 location: Lawrence, Kansas. United States
-weather: 43˚F and Cloudy
-image: /assets/images/posts/sunday-morning-coffee/pablo.png
 tags:
 - sunday
+title: Sunday Morning Coffee Links
+weather: 43˚F and Cloudy
 ---
 
 I love Sunday mornings. I love making coffee, wearing my favorite slippers, sitting down at my desk to open ReadKit, and catching up on blogs from the last week. Sometimes I listen to music, a podcast, a YouTube video, or I will just enjoy the silence.
@@ -75,4 +75,4 @@ I love lists, todos, goals, and playlists. Here's a mix of them all.
 
 ## Products
 
-- [Tools & Toys: Yaktrax Pro Strap-On Ice & Snow Traction Cleats](http://toolsandtoys.net/yaktrax-pro-strap-on-ice-snow-traction-cleats/) - I picked up my first pair of Yaktrax over seven years ago. I spent the better part of that time living downtown and commuting to work by foot. We get a lot of ice in Kansas which makes walking on sidewalks dangerous until I found Yaktrax. I keep a spare pair in my backpack during the cold months. I don't own one pair; I own four pairs which I purchased when they were on sale in spring. 
+- [Tools & Toys: Yaktrax Pro Strap-On Ice & Snow Traction Cleats](http://toolsandtoys.net/yaktrax-pro-strap-on-ice-snow-traction-cleats/) - I picked up my first pair of Yaktrax over seven years ago. I spent the better part of that time living downtown and commuting to work by foot. We get a lot of ice in Kansas which makes walking on sidewalks dangerous until I found Yaktrax. I keep a spare pair in my backpack during the cold months. I don't own one pair; I own four pairs which I purchased when they were on sale in spring.

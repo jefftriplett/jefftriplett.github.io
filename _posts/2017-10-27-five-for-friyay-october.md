@@ -1,13 +1,13 @@
 ---
-layout: post
-title: October Edition
-date: 2017-10-27 12:00:00 -0600
 category: Five for Friyay
+date: 2017-10-27 12:00:00 -0600
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=friyay&title=October+Edition
+layout: post
 location: Lawrence, Kansas. United States
-weather: 42˚F and Chilly
-image: /assets/images/posts/friyay-october-edition/pablo.png
 tags:
 - friyay
+title: October Edition
+weather: 42˚F and Chilly
 ---
 
 ## A Project I'm Working On
