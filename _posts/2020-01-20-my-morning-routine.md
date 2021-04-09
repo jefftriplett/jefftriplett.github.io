@@ -1,7 +1,7 @@
 ---
 category: Personal
 date: 2020-01-20 00:25 -0500
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=personal%2Clife+hacks&title=My+Morning+Routine
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=personal%2Clife+hacks&title=My+Morning+Routine
 layout: post
 location: Home @ Lawrence, Kansas United States
 tags:

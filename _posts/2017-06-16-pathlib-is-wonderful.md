@@ -1,7 +1,7 @@
 ---
 category: Python
 date: 2017-06-16 14:24:00 -0600
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=python&title=Pathlib+Is+Wonderful%21
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=python&title=Pathlib+Is+Wonderful%21
 layout: post
 location: Lawrence, Kansas United States
 tags:

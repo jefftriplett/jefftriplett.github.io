@@ -1,7 +1,7 @@
 ---
 category: Personal
 date: 2018-08-12 14:43 -0500
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=personal%2Clife+hacks&title=My+Morning+Routine
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=personal%2Clife+hacks&title=My+Morning+Routine
 layout: post
 location: Lawrence, Kansas United States
 tags:

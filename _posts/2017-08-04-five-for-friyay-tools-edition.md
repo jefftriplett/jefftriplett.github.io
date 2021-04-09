@@ -1,7 +1,7 @@
 ---
 category: Five for Friyay
 date: 2017-08-04 10:40:00 -0600
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=friyay%2Ctools&title=Tools+Edition
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=friyay%2Ctools&title=Tools+Edition
 layout: post
 location: Lawrence, Kansas. United States
 tags:

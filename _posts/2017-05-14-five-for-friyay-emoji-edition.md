@@ -1,7 +1,7 @@
 ---
 category: Five for Friyay
 date: 2017-05-14 16:35:00 -0600
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=friyay&title=Emoji+Edition
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=friyay&title=Emoji+Edition
 layout: post
 location: Naperville, Illinois United States
 tags:

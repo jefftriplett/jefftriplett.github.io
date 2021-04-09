@@ -1,7 +1,7 @@
 ---
 category: TIL
 date: 2016-06-27
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=discovery+weekly%2Cifttt%2Cmusic%2Cplaylist%2Cspotify&title=IFTT+Added+a+Spotify+Channel
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=discovery+weekly%2Cifttt%2Cmusic%2Cplaylist%2Cspotify&title=IFTT+Added+a+Spotify+Channel
 layout: post
 location: Lawrence, Kansas United States
 tags:

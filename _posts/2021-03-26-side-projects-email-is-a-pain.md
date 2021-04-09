@@ -5,7 +5,7 @@ categories:
 date: 2021-03-26 21:38:00-06:00
 excerpt: I love working on side projects, but I hate setting up and configuring email
   for projects.
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=email%2Cside+projects&title=Side+Projects%3A+Email+is+a+Pain
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=email%2Cside+projects&title=Side+Projects%3A+Email+is+a+Pain
 layout: post
 location: Home @ Lawrence, Kansas United States
 slug: side-projects-email-is-a-pain

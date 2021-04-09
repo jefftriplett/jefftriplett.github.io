@@ -1,7 +1,7 @@
 ---
 category: TIL
 date: 2016-03-01
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=bash%2Cmake%2Cmakefile&title=Makefile+Help
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=bash%2Cmake%2Cmakefile&title=Makefile+Help
 layout: post
 location: Lawrence, Kansas United States
 tags:

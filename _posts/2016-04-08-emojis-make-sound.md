@@ -1,7 +1,7 @@
 ---
 category: TIL
 date: 2016-04-08
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=emoji&title=Emojis+Make+Sound%21
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=emoji&title=Emojis+Make+Sound%21
 layout: post
 location: Lawrence, Kansas United States
 tags:

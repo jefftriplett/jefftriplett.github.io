@@ -1,7 +1,7 @@
 ---
 category: TIL
 date: 2016-09-19
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=js%2Cnode%2Cnpm%2Cproxy&title=Use+%60browser-sync%60+as+a+proxy
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=js%2Cnode%2Cnpm%2Cproxy&title=Use+%60browser-sync%60+as+a+proxy
 layout: post
 location: Lawrence, Kansas United States
 tags:

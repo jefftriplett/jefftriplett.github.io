@@ -1,7 +1,7 @@
 ---
 category: Personal
 date: 2017-04-21 15:09:00 -0600
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=&title=Response+Hierarchy
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=&title=Response+Hierarchy
 layout: post
 location: Lawrence, Kansas United States
 title: Response Hierarchy

@@ -1,7 +1,7 @@
 ---
 category: Productivity
 date: 2017-10-20 16:00:00 -0600
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=email%2Cproductivity&title=How+to+Stop+Hating+Your+Email
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=email%2Cproductivity&title=How+to+Stop+Hating+Your+Email
 layout: post
 location: Lawrence, Kansas. United States
 tags:

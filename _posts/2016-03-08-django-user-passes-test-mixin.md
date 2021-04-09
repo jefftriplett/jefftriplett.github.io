@@ -1,7 +1,7 @@
 ---
 category: TIL
 date: 2016-03-08
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=python%2Cdjango%2Cmixins&title=Django+%60UserPassesTestMixin%60
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=python%2Cdjango%2Cmixins&title=Django+%60UserPassesTestMixin%60
 layout: post
 location: Lawrence, Kansas United States
 tags:

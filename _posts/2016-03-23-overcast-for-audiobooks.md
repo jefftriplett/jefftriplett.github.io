@@ -1,7 +1,7 @@
 ---
 category: TIL
 date: 2016-03-23
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=audio%2Cios%2Cpodcast&title=Overcast+is+a+Good+Audiobook+Client
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=audio%2Cios%2Cpodcast&title=Overcast+is+a+Good+Audiobook+Client
 layout: post
 location: Lawrence, Kansas United States
 tags:

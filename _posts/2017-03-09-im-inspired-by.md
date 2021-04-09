@@ -1,7 +1,7 @@
 ---
 category: Inspiration
 date: 2017-03-09 09:30:00 -0600
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=advocacy%2Cinspiration%2Ciwd&title=I%27m+Inspired+By
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=advocacy%2Cinspiration%2Ciwd&title=I%27m+Inspired+By
 layout: post
 location: Lawrence, Kansas United States
 tags:

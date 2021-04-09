@@ -1,7 +1,7 @@
 ---
 category: Sunday Morning Coffee Links
 date: 2017-12-17 21:35:00 -0600
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=sunday&title=Sunday+Morning+Coffee+Links
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=sunday&title=Sunday+Morning+Coffee+Links
 layout: post
 location: Lawrence, Kansas. United States
 tags:

@@ -1,7 +1,7 @@
 ---
 category: Five for Friyay
 date: 2018-01-26 16:10:58 -0600
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=friyay&title=January+Edition
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=friyay&title=January+Edition
 layout: post
 location: Lawrence, Kansas. United States
 tags:

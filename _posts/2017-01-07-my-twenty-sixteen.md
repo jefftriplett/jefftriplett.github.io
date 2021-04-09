@@ -1,7 +1,7 @@
 ---
 category: Personal
 date: 2017-01-07
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=eoy&title=My+Twenty-Sixteen
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=eoy&title=My+Twenty-Sixteen
 layout: post
 location: Lawrence, Kansas United States
 tags:

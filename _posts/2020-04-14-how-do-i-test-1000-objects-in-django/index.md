@@ -1,7 +1,7 @@
 ---
 category: Django
 date: 2020-04-14 13:52 -0500
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=django%2Cdjango-restframework%2Cdrf%2Cmodel-bakery%2Cpython&title=How+do+I+generate+1%2C000+objects+in+Django+and+DRF+to+test%3F
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=django%2Cdjango-restframework%2Cdrf%2Cmodel-bakery%2Cpython&title=How+do+I+generate+1%2C000+objects+in+Django+and+DRF+to+test%3F
 layout: post
 location: Home @ Lawrence, Kansas United States
 slug: how-do-i-test-1000-objects-in-django

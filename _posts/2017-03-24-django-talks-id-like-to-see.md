@@ -1,7 +1,7 @@
 ---
 category: DjangoCon
 date: 2017-03-24 14:35:00 -0600
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=djangocon&title=DjangoCon+US+Talks+I%27d+Like+to+See%3A+2017+Edition
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=djangocon&title=DjangoCon+US+Talks+I%27d+Like+to+See%3A+2017+Edition
 layout: post
 location: Lawrence, Kansas United States
 tags:

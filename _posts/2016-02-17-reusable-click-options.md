@@ -1,7 +1,7 @@
 ---
 category: TIL
 date: 2016-02-17
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=click%2Cpython&title=Reusable+Click+Options
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=click%2Cpython&title=Reusable+Click+Options
 layout: post
 location: Lawrence, Kansas United States
 tags:

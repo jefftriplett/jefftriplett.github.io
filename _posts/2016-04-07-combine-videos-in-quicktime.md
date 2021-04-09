@@ -1,7 +1,7 @@
 ---
 category: TIL
 date: 2016-04-07
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=mac%2Cosx%2Cvideo&title=How+to+combine+videos+in+QuickTime+on+OS+X
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=mac%2Cosx%2Cvideo&title=How+to+combine+videos+in+QuickTime+on+OS+X
 layout: post
 location: Lawrence, Kansas United States
 tags:

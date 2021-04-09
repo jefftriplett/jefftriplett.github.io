@@ -1,7 +1,7 @@
 ---
 category: Five for Friyay
 date: 2017-07-07 20:25:00 -0600
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=friyay&title=Motivation
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=friyay&title=Motivation
 layout: post
 location: Lawrence, Kansas. United States
 tags:

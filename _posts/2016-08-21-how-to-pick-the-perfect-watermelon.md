@@ -1,7 +1,7 @@
 ---
 category: TIL
 date: 2016-08-21
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=food%2Cproduce%2Cwatermelon&title=How+to+pick+the+perfect+watermelon
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=food%2Cproduce%2Cwatermelon&title=How+to+pick+the+perfect+watermelon
 layout: post
 location: Lawrence, Kansas United States
 tags:

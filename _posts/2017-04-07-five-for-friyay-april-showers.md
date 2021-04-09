@@ -1,7 +1,7 @@
 ---
 category: Five for Friyay
 date: 2017-04-07 18:21:00 -0600
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=friyay&title=April+Showers
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=friyay&title=April+Showers
 layout: post
 location: Lawrence, Kansas United States
 playlist: http://open.spotify.com/user/jefftriplett/playlist/1Hfm3vTnyRlga1sKLVw1hq

@@ -1,7 +1,7 @@
 ---
 category: DjangoCon
 date: 2016-04-01 12:00:00 -0600
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=&title=DjangoCon+US+Talks+I%27d+Like+To+See
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=&title=DjangoCon+US+Talks+I%27d+Like+To+See
 layout: post
 location: Lawrence, Kansas United States
 title: DjangoCon US Talks I'd Like To See

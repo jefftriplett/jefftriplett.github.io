@@ -1,7 +1,7 @@
 ---
 category: TIL
 date: 2016-02-15
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=python%2Cpy2%2Cpy3%2Cpyenv&title=PyEnv+Py2+%2B+Py3+System+Wide
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=python%2Cpy2%2Cpy3%2Cpyenv&title=PyEnv+Py2+%2B+Py3+System+Wide
 layout: post
 location: Lawrence, Kansas United States
 tags:

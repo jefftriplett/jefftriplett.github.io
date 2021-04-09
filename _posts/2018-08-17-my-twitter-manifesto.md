@@ -1,7 +1,7 @@
 ---
 category: Personal
 date: 2018-08-17 09:37 -0500
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=personal%2Ccommunity&title=My+Twitter+Manifesto
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=personal%2Ccommunity&title=My+Twitter+Manifesto
 layout: post
 location: Lawrence, Kansas United States
 tags:

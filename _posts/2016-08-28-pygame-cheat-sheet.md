@@ -1,7 +1,7 @@
 ---
 category: TIL
 date: 2016-08-28
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=python%2Cpygame&title=PyGame+Cheat+Sheet
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=python%2Cpygame&title=PyGame+Cheat+Sheet
 layout: post
 location: Lawrence, Kansas United States
 tags:

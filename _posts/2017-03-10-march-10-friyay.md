@@ -1,7 +1,7 @@
 ---
 category: Five for Friyay
 date: 2017-03-10 01:45:00 -0600
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=friyay&title=March+10th
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=friyay&title=March+10th
 layout: post
 location: Lawrence, Kansas United States
 tags:

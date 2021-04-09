@@ -1,7 +1,7 @@
 ---
 category: Django
 date: 2019-12-20 09:00 -0500
-image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&tags=django%2Cdjango+news%2Cnewsletter&title=Announcing+the+Django+News+Newsletter
+image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=django%2Cdjango+news%2Cnewsletter&title=Announcing+the+Django+News+Newsletter
 layout: post
 location: Lawrence, Kansas United States
 tags:
