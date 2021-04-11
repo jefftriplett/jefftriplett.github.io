@@ -9,21 +9,25 @@ insert_final_newline = true
 trim_trailing_whitespace = true
 
 [*.{py,rst,ini}]
-indent_style = space
 indent_size = 4
+indent_style = space
 
 [*.py]
-line_length=120
-known_first_party=app
-multi_line_output=3
-default_section=THIRDPARTY
+line_length = 120
+multi_line_output = 3
 
-[*.{html,css,scss,json,yml}]
-indent_style = space
+[*.{css,html,js,json,sass,scss,yml,yaml}]
 indent_size = 2
+indent_style = space
 
 [*.md]
+indent_size = 4
+indent_style = space
 trim_trailing_whitespace = false
+
+[justfile]
+indent_size = 4
+indent_style = space
 
 [{Makefile,modd.conf}]
 indent_style = tab
