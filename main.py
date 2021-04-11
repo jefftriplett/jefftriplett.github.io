@@ -101,7 +101,7 @@ def process(folder: str):
 
 
 @app.command()
-def update_opengraph_image(folder: str):
+def update_opengraph_image(folder: str, debug: bool = False):
     filenames = Path(folder).glob("**/*.md")
     for filename in filenames:
         try:
@@ -118,10 +118,13 @@ def update_opengraph_image(folder: str):
                 "title": data.metadata.get("title", ""),
                 # "titleMargin": "-m-6",
             }
-
             query = urlencode(query)
-            image_url = f"https://generator.opengraphimg.com/?{query}"
-            # image_url = f"https://generator.opengraphimg.com/view?{query}"
+
+            if debug:
+                image_url = f"https://generator.opengraphimg.com/?{query}"
+            else:
+                image_url = f"https://generator.opengraphimg.com/view?{query}"
+
             data.metadata["image"] = image_url
             filename.write_text(frontmatter.dumps(data))
 
