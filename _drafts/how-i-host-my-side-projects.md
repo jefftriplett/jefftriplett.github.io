@@ -1,27 +1,31 @@
-----
-title: "How I Host My Side Projects"
-----
+---
+category: Personal
+layout: post
+location: Home @ Lawrence, Kansas United States
+slug: how-i-host-my-side-projects
+title: How I Host My Side Projects
+---
 
-My goto server stack for side projects is Digitial Ocean.
+My goto server stack for side projects is Digital Ocean.
 I have a dedicated web node, a monolithic server that only runs Docker and Docker Compose.
 I have a dedicated Postgres server.
-I have a dedicated Redis server. 
+I have a dedicated Redis server.
 
 To keep my cluster secure, I use DO's firewall to prevent traffic from ever getting to my server.
 I use DO's VPC so that my web node may communicate with Postgres and Redis only on a private network.
-These boxes are not accessible from the outside world. 
+These boxes are not accessible from the outside world.
 
 I create a floating IP and assign it to my webserver.
 I update my side project's DNS to point to my floating IP.
 
-I use DO's snapshot feature to keep working backups of my servers. 
+I use DO's snapshot feature to keep working backups of my servers.
 When I need to upgrade the resources on my server, I create a new web node, and I restore my snapshot to it.
 Then I reassign my floating IP to the new node.
 
 I store all of my source code in a GitHub repository.
 I use a GitHub Action to test my projects.
-I use a GitHub Action to sync server configs and SSH to the box to reboot a service if a config file changes. 
-I use a GitHub Action to build a production Docker image if my tests pass. 
+I use a GitHub Action to sync server configs and SSH to the box to reboot a service if a config file changes.
+I use a GitHub Action to build a production Docker image if my tests pass.
 I store my Docker images in GitHub's Container Registry.
 
 My web node runs over two dozen services.
@@ -50,4 +54,4 @@ Email is managed through...
 
 # TODO:
 
-Add Blue/Green deploys, which so far isn't a huge issue. 
+Add Blue/Green deploys, which so far isn't a huge issue.

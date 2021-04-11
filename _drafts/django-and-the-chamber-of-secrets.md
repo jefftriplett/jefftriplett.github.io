@@ -1,6 +1,9 @@
 ---
-slug: "django-chamber-of-secrets"
-title: "Django: Chamber of Secrets"
+category: Personal
+layout: post
+location: Home @ Lawrence, Kansas United States
+slug: django-and-the-chamber-of-secrets
+title: Django and the Chamber of Secrets
 ---
 
 ## Abstract

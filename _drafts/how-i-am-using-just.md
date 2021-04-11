@@ -1,6 +1,9 @@
 ---
-slug: "how-i-am-using-just"
-title: "How I Am Using Just"
+category: Personal
+layout: post
+location: Home @ Lawrence, Kansas United States
+slug: how-i-am-using-just
+title: How I Am Using Just
 ---
 
 I have been using `casey/just` for a year or so and it fits my brain better than other tools I have used.
@@ -89,7 +92,7 @@ Five or six years ago, I read [Scripts to Rule Them All][] and it's stuck out to
 
     Having the ability to run `just build up test down` and switch to another project is something I use a lot to batch up a series of steps that I know may take 30 seconds or 15 minutes.
 
-- ARGS for pytest
+- recipe parameters
 
     ```yaml
     @test +ARGS="":

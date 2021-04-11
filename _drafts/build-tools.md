@@ -1,5 +1,9 @@
 ---
-title: "Build Tools"
+category: Personal
+layout: post
+location: Home @ Lawrence, Kansas United States
+slug: build-tools
+title: Build Tools
 ---
 
 - [Just](https://github.com/casey/just) - Just a command runner.
