@@ -7,6 +7,7 @@ from pathlib import Path
 from pydantic import BaseModel, ValidationError
 from slugify import slugify
 from typing import List, Optional
+from urllib.parse import urlencode
 
 
 class Post(BaseModel):
@@ -16,7 +17,7 @@ class Post(BaseModel):
     image: Optional[str] = None
     layout: Optional[str] = "post"
     location: Optional[str] = "Home @ Lawrence, Kansas United States"
-    tags: List[str] = []
+    tags: List[str] = None
     slug: Optional[str] = None
     title: str
     weather: Optional[str] = None
@@ -51,43 +52,8 @@ class Post(BaseModel):
 app = typer.Typer()
 
 
-def scan_files(folder: str):
-    posts = sorted(Path(folder).glob("*.md"))
-    for filename in posts:
-        typer.secho(f"{filename}", fg="white")
-        try:
-            data = frontmatter.load(filename)
-            post = Post(**data.metadata)
-            slug = slugify(f"{post.title}")
-
-            if post.date:
-                destination = filename.parent.joinpath(
-                    f"{post.date:%Y-%m-%d}-{slug}{filename.suffix}"
-                )
-
-            else:
-                destination = filename.parent.joinpath(f"{slug}{filename.suffix}")
-
-            if filename.name not in ["README.md"] and not filename.name.startswith("_"):
-                if slug != post.slug:
-                    data.metadata["slug"] = slug
-                    filename.write_text(frontmatter.dumps(data))
-
-                if not destination.exists():
-                    typer.secho(f"\t{destination}", fg="yellow")
-                    # filename.rename(destination)
-
-        except ValidationError as e:
-            typer.echo(e.json())
-
-
 @app.command()
-def demo():
-    scan_files("_drafts")
-
-
-@app.command()
-def main(filename: str):
+def dump(filename: str):
     try:
         data = frontmatter.load(filename)
         post = Post(**data.metadata)
@@ -100,23 +66,67 @@ def main(filename: str):
 
 
 @app.command()
-def rename(filename: str):
-    path = Path(filename)
-    try:
-        data = frontmatter.load(filename)
-        post = Post(**data.metadata)
-        slug = slugify(f"{post.title}")
+def process(folder: str):
+    posts = sorted(Path(folder).glob("*.md"))
+    for filename in posts:
+        typer.secho(f"{filename}", fg="white")
+        try:
+            data = frontmatter.load(filename)
+            post = Post(**data.metadata)
 
-        destination_path = path.parent.joinpath(f"{slug}{path.suffix}")
+            slug = slugify(f"{post.title}")
+            if slug != post.slug:
+                post.slug = slug
 
-        if path != destination_path:
-            typer.echo("rename")
+            data.metadata.update(**post.dict(exclude_none=True))
 
-        typer.echo(json.dumps(data.metadata, indent=2))
-        typer.echo("----")
+            if post.date:
+                destination = filename.parent.joinpath(
+                    f"{post.date:%Y-%m-%d}-{slug}{filename.suffix}"
+                )
 
-    except ValidationError as e:
-        typer.echo(e.json())
+            else:
+                destination = filename.parent.joinpath(f"{slug}{filename.suffix}")
+
+            if not filename.name.startswith("_") and filename.name not in ["README.md"]:
+                if filename != destination:
+                    typer.echo(f"renaming: {filename} to: {destination}")
+                    filename.rename(destination)
+                    filename = Path(destination)
+
+                filename.write_text(frontmatter.dumps(data))
+
+        except ValidationError as e:
+            typer.secho(e.json(), fg="red")
+
+
+@app.command()
+def update_opengraph_image(folder: str):
+    filenames = Path(folder).glob("**/*.md")
+    for filename in filenames:
+        try:
+            data = frontmatter.load(filename)
+            # post = Post(**data.metadata)
+            # slug = slugify(f"{post.title}")
+            typer.echo(f"{data.metadata['title']}")
+            query = {
+                "atSymbol": "true",
+                "author": "webology",
+                "authorSize": "text-2xl",
+                "style": "modern",
+                "tags": ",".join(data.metadata.get("tags", [])),
+                "title": data.metadata.get("title", ""),
+                # "titleMargin": "-m-6",
+            }
+
+            query = urlencode(query)
+            image_url = f"https://generator.opengraphimg.com/?{query}"
+            # image_url = f"https://generator.opengraphimg.com/view?{query}"
+            data.metadata["image"] = image_url
+            filename.write_text(frontmatter.dumps(data))
+
+        except ValidationError as e:
+            typer.echo(e.json())
 
 
 if __name__ == "__main__":
