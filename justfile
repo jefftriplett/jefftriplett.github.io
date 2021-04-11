@@ -46,6 +46,8 @@ TAILWIND_CSS_VERSION := "2.0.3"
 
 @embedme:
     npx embedme _drafts/**/*.md
+    # TODO: https://github.com/DavidWells/markdown-magic
+    # md-magic --path '**/*.md' --config ./config.file.js
 
 @favicon:
     for size in 32 128 152 167 180 192 196 ; do \
@@ -57,8 +59,11 @@ TAILWIND_CSS_VERSION := "2.0.3"
     black --check .
     curlylint _includes/ _layouts/ _pages/ *.html
 
-@run:
+@serve:
     modd
+
+@social:
+    fmcardgen --config=./src/config.yml --recursive ./_posts/
 
 @static:
     just build
