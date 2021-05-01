@@ -70,14 +70,15 @@ def dump(filename: str):
 def fix_redirect_to(folder: str):
     posts = sorted(Path(folder).glob("*.md"))
     for filename in posts:
-        # typer.secho(f"{filename}", fg="white")
         try:
-            data = frontmatter.load(filename)
-            if "link-out" in data.metadata:
-                print(data.metadata["link-out"])
-                data.metadata["redirect_to"] = data.metadata["link-out"]
-                filename.write_text(frontmatter.dumps(data))
-            # post = Post(**data.metadata)
+            post = frontmatter.load(filename)
+            if "link-out" in post.metadata:
+                typer.secho(f"{filename}", fg="white")
+                print(post.metadata["link-out"])
+                post.metadata["redirect_to"] = post.metadata["link-out"]
+                post.content = ""
+                del post.metadata["link-out"]
+                filename.write_text(frontmatter.dumps(post))
         except ValidationError as e:
             typer.secho(e.json(), fg="red")
 
