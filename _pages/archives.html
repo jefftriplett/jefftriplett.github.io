@@ -26,7 +26,7 @@ redirect_from:
 
             {{ post.title | markdownify | remove:'<p>' | remove:'</p>' }}
 
-            {% if post.link-out %}
+            {% if post.redirect_to %}
             <i class="text-base far fa-external-link" aria-hidden="true"></i>
             {% endif %}
           </a>
