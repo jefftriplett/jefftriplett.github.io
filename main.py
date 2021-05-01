@@ -18,6 +18,7 @@ class Post(BaseModel):
     layout: Optional[str] = "post"
     location: Optional[str] = "Home @ Lawrence, Kansas United States"
     tags: List[str] = None
+    redirect_to: Optional[str] = None
     slug: Optional[str] = None
     title: str
     weather: Optional[str] = None
@@ -63,6 +64,22 @@ def dump(filename: str):
 
     except ValidationError as e:
         typer.echo(e.json())
+
+
+@app.command()
+def fix_redirect_to(folder: str):
+    posts = sorted(Path(folder).glob("*.md"))
+    for filename in posts:
+        # typer.secho(f"{filename}", fg="white")
+        try:
+            data = frontmatter.load(filename)
+            if "link-out" in data.metadata:
+                print(data.metadata["link-out"])
+                data.metadata["redirect_to"] = data.metadata["link-out"]
+                filename.write_text(frontmatter.dumps(data))
+            # post = Post(**data.metadata)
+        except ValidationError as e:
+            typer.secho(e.json(), fg="red")
 
 
 @app.command()
