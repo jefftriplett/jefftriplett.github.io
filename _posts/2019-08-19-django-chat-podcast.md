@@ -6,6 +6,7 @@ excerpt: Jeff Triplett is a consultant at REVSYS, a Director of the Python Softw
 image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=&title=DjangoChat+Podcast
 layout: post
 link-out: https://django-chat.simplecast.com/episodes/jeff-triplett?share=true
+redirect_to: https://django-chat.simplecast.com/episodes/jeff-triplett?share=true
 title: DjangoChat Podcast
 ---
 

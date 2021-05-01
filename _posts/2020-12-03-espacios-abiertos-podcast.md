@@ -9,6 +9,7 @@ excerpt: In this episode I am accompanied by Jeff Triplett . Partner at Revsys .
 image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=podcast&title=Espacios+Abiertos+Podcast+-+Proyectos+de+idea+a+producto
 layout: post
 link-out: https://espaciosabiertos.dev/jeff-triplett/
+redirect_to: https://espaciosabiertos.dev/jeff-triplett/
 tags:
 - podcast
 title: Espacios Abiertos Podcast - Proyectos de idea a producto

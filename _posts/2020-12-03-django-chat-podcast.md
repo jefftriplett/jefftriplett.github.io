@@ -6,6 +6,7 @@ excerpt: Jeff is a partner at REVSYS and a Director of the Python Software Found
 image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=&title=DjangoChat+Podcast
 layout: post
 link-out: https://djangochat.com/episodes/docker-tailwind-and-more-jeff-triplett
+redirect_to: https://djangochat.com/episodes/docker-tailwind-and-more-jeff-triplett
 title: DjangoChat Podcast
 ---
 

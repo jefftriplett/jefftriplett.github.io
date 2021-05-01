@@ -6,6 +6,7 @@ excerpt: Jeff Triplett is a veteran in the Django space. In fact he has done so 
 image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=&title=Productivity+in+Tech+Podcast
 layout: post
 link-out: https://productivityintech.transistor.fm/episodes/jeff-triplett-tells-us-a-story-of-django-and-community
+redirect_to: https://productivityintech.transistor.fm/episodes/jeff-triplett-tells-us-a-story-of-django-and-community
 title: Productivity in Tech Podcast
 ---
 
