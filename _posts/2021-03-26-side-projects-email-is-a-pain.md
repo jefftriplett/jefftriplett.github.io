@@ -2,6 +2,7 @@
 author: Jeff Triplett
 categories:
 - Side Projects
+category: Personal
 date: 2021-03-26 21:38:00-06:00
 excerpt: I love working on side projects, but I hate setting up and configuring email
   for projects.
