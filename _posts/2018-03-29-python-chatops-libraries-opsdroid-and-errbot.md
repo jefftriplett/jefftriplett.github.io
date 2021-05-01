@@ -4,13 +4,6 @@ excerpt: Learn about the most widely used ChatOps libraries in the Python worldâ
   each does well and how to get started.
 image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=&title=Python+ChatOps+Libraries%3A+Opsdroid+and+Errbot
 layout: post
-link-out: https://opensource.com/article/18/3/python-chatops-libraries-opsdroid-and-errbot
 redirect_to: https://opensource.com/article/18/3/python-chatops-libraries-opsdroid-and-errbot
 title: 'Python ChatOps Libraries: Opsdroid and Errbot'
 ---
-
-<script type="text/javascript">
-window.location.href = "{{ page.link-out }}";
-</script>
-
-If you are not redirected, please visit <a href="{{ post.link-out }}">this</a> link!

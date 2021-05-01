@@ -5,13 +5,6 @@ excerpt: Jeff Triplett is a consultant at REVSYS, a Director of the Python Softw
   about testing Django applications, TDD, and Python/Django community involvement.
 image: https://generator.opengraphimg.com/?atSymbol=true&author=webology&authorSize=text-2xl&style=modern&tags=&title=DjangoChat+Podcast
 layout: post
-link-out: https://django-chat.simplecast.com/episodes/jeff-triplett?share=true
 redirect_to: https://django-chat.simplecast.com/episodes/jeff-triplett?share=true
 title: DjangoChat Podcast
 ---
-
-<script type="text/javascript">
-window.location.href = "{{ page.link-out }}";
-</script>
-
-If you are not redirected, please visit <a href="{{ post.link-out }}">this</a> link!
