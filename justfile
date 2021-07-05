@@ -63,6 +63,11 @@ TAILWIND_CSS_VERSION := "latest"
     curlylint _includes/ _layouts/ _pages/ *.html
     rustywind --dry-run .
 
+@pip-compile:
+    pip install -U -r requirements.in
+    rm -rf requirements.txt
+    pip-compile requirements.in
+
 @serve:
     modd
 
