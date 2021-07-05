@@ -35,11 +35,11 @@ TAILWIND_CSS_VERSION := "latest"
     just build-taildwind production 2020.css
 
 @build-taildwind target='' filename='2020.css':
-    echo "{{target}} == {{filename}}"
-    JEKYLL_ENV={{target}} npx tailwindcss@{{TAILWIND_CSS_VERSION}} build \
+    echo "{{ target }} == {{ filename }}"
+    JEKYLL_ENV={{ target }} npx tailwindcss@{{ TAILWIND_CSS_VERSION }} build \
         src/index.css \
         --config src/tailwind.config.js \
-        --output assets/css/{{filename}}
+        --output assets/css/{{ filename }}
 
 @bump:
     bumpver update
@@ -54,9 +54,9 @@ TAILWIND_CSS_VERSION := "latest"
 
 @favicon:
     for size in 32 128 152 167 180 192 196 ; do \
-        convert "{{FAVICON}}" -resize "${size}x${size}" "./assets/images/favicon-${size}.png" ; \
+        convert "{{ FAVICON }}" -resize "${size}x${size}" "./assets/images/favicon-${size}.png" ; \
     done
-    convert "{{FAVICON}}" -resize 196x196 ./favicon.ico
+    convert "{{ FAVICON }}" -resize 196x196 ./favicon.ico
 
 @lint:
     black --check .
