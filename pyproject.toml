@@ -4,14 +4,13 @@ version = "2021.7.2"
 description = ""
 authors = ["Jeff Triplett <jeff.triplett@gmail.com>"]
 
-
 [tool.bumpver]
 current_version = "2021.7.2"
 version_pattern = "YYYY.MM.INC1"
 commit_message = ":bookmark: bump version {old_version} -> {new_version}"
 commit = true
+push = true
 tag = true
-# push = true
 
 [tool.bumpver.file_patterns]
 "pyproject.toml" = [
@@ -24,3 +23,7 @@ tag = true
 "package.json" = [
     '"version": "{version}"',
 ]
+
+[tool.isort]
+profile = "black"
+honor_noqa = true
