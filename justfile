@@ -41,6 +41,9 @@ TAILWIND_CSS_VERSION := "latest"
         --config src/tailwind.config.js \
         --output assets/css/{{filename}}
 
+@bump:
+    bumpver update
+
 @clean:
     rm -rf _site
 
@@ -58,6 +61,7 @@ TAILWIND_CSS_VERSION := "latest"
 @lint:
     black --check .
     curlylint _includes/ _layouts/ _pages/ *.html
+    rustywind --dry-run .
 
 @serve:
     modd
