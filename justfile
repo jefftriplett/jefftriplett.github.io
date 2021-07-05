@@ -1,5 +1,5 @@
 FAVICON := "./assets/images/dcus-2017-bw.jpg"
-TAILWIND_CSS_VERSION := "2.0.3"
+TAILWIND_CSS_VERSION := "latest"
 
 @_default:
     just --list
