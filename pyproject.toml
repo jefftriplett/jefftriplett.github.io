@@ -1,3 +1,10 @@
+[tool.poetry]
+name = "jefftriplett.github.io"
+version = "2021.7.1"
+description = ""
+authors = ["Jeff Triplett <jeff.triplett@gmail.com>"]
+
+
 [tool.bumpver]
 current_version = "2021.7.1"
 version_pattern = "YYYY.MM.INC1"
@@ -12,8 +19,8 @@ tag = true
     'version = "{version}"',
 ]
 "_config.yml" = [
-    'version = "{version}"',
+    "version: {version}",
 ]
 "package.json" = [
-    'version = "{version}"',
+    '"version": "{version}"',
 ]
