@@ -1,12 +1,11 @@
-version: "3.2"
+version: "3"
 
 services:
-
-  web:
-    image: jekyll/jekyll:3.8
-    command: ["jekyll", "serve", "--watch", "--profile", "--drafts", "--port", "8000"]
+  jekyll:
+    image: jekyll/jekyll:latest
+    command: jekyll serve --drafts --force_polling --watch --port 8000
     ports:
       - 8000:8000
     volumes:
-      - .:/srv/jekyll
-      - .vendor/bundle:/usr/local/bundle
+      - ./.vendor/bundle:/usr/local/bundle:cached
+      - .:/srv/jekyll:cached
