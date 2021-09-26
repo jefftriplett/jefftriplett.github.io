@@ -4,7 +4,7 @@ date: 2021-09-26 12:00:00-06:00
 layout: post
 location: Home @ Lawrence, Kansas United States
 slug: sunday-morning-coffee-notes-september-26th-2021
-title: September 26th, 2021
+title: Sunday Morning Coffee Notes for September 26th, 2021
 weather: 84˚F Clear.
 ---
 
