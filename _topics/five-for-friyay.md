@@ -1,6 +1,0 @@
----
-category: Five for Friyay
-layout: topic
-show_on_homepage: true
-sitemap: false
----
