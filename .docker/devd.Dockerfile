@@ -13,8 +13,8 @@ RUN curl -L https://github.com/cortesi/devd/releases/download/v${DEVD_VERSION}/d
 
 COPY . .
 
-EXPOSE 4000/TCP
+EXPOSE 8000/TCP
 
 ENTRYPOINT ["/usr/local/bin/devd", "--address=0.0.0.0", "--port=8000"]
 
-CMD ["/static"]
+CMD ["/srv/jekyll/_site"]
