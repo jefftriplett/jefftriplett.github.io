@@ -23,7 +23,7 @@ permalink: /now/
 
 - I co-wrote a series of articles on [OpenSource.com][] every month in 2018 with [Lacey Williams Henschel][].
 
-- I am working on several side projects and logging my progress on [wip.chat][] for public accountability.
+- I am working on several side projects and logging my progress on [wip.co][] for public accountability.
 
 *This page is inspired by [Aaron Sumner's Now Page][] which was inspired by [Derek Sivers's][Derek Sivers] [Now Page Movement][]. It's current as of October 3rd, 2021.*
 {:.my-4 .p-4 .bg-gray-100 .rounded-lg .shadow-md .overflow-hidden .border-t-2}
@@ -43,4 +43,4 @@ permalink: /now/
 [OpenSource.com]: https://opensource.com/users/jefftriplett
 [personal goals project]: https://github.com/jefftriplett/personal-goals
 [RevSys]: https://www.revsys.com/
-[wip.chat]: https://wip.chat/@jefftriplett
+[wip.co]: https://wip.co/@jefftriplett
