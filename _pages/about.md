@@ -13,9 +13,11 @@ Image courtesy of
 </div>
 </div>
 
-Jeff Triplett is a Partner at [REVSYS](https://revsys.com/) and a [Director of the Python Software Foundation](https://www.python.org/psf/records/board/history/#id2). The current President and co-founder of the [Django Events Foundation North America (DEFNA)](https://www.defna.org), the non-profit which has run DjangoCon US since 2015, he was awarded the [2019 Malcolm Tredinnick Memorial Prize](https://www.djangoproject.com/weblog/2019/dec/17/2019-malcolm-tredinnick-prize--jeff-triplett/) for his contributions to the Django community.
+Jeff Triplett is a Partner at [REVSYS](https://revsys.com/) and a Director and Treasurer of the [Python Software Foundation](https://www.python.org/psf/records/board/history/#id2). 
+The co-founder and former President of the [Django Events Foundation North America (DEFNA)](https://www.defna.org), the non-profit which has run DjangoCon US since 2015. 
+Jeff was awarded the [2019 Malcolm Tredinnick Memorial Prize](https://www.djangoproject.com/weblog/2019/dec/17/2019-malcolm-tredinnick-prize--jeff-triplett/) for his contributions to the Django community and was honored as a [Python Software Foundation Fellow](https://www.python.org/psf/fellows/#welcome-2018-q4-fellow-members) for his contributions to the Python community in 2018.
 
-Originally from [Sarcoxie, Missouri](http://en.wikipedia.org/wiki/Sarcoxie,_Missouri), he currently lives and works out of [Lawrence, Kansas](http://en.wikipedia.org/wiki/Lawrence,_Kansas).
+Originally from [Sarcoxie, Missouri](http://en.wikipedia.org/wiki/Sarcoxie,_Missouri), he now calls [Lawrence, Kansas](http://en.wikipedia.org/wiki/Lawrence,_Kansas) home.
 
 ----
 
@@ -24,7 +26,9 @@ Originally from [Sarcoxie, Missouri](http://en.wikipedia.org/wiki/Sarcoxie,_Miss
 ### [Revolution Systems (REVSYS)](http://revsys.com/) (2010-present)
 {:.mt-4 .-mb-4}
 
-I have been a developer for one of the premier Django consulting agencies since 2011. In 2019, I became a Partner. We specialize in Python, Django, Docker, performance, scaling, and team management.
+I have been a developer for one of the premier Django consulting agencies since 2011. 
+In 2019, I became a Partner. 
+We specialize in Python, Django, Docker, performance, scaling, and team management.
 
 ### Mediaphormedia (The World Company subsidiary) (2007-2010)
 {:.mt-4 .-mb-4}
@@ -34,7 +38,8 @@ I joined [The World Company](http://www.theworldco.net) in 2007 to work at [Djan
 ### Fast Freedom (2002-2007)
 {:.mt-4 .-mb-4}
 
-I was Director of Operations and started the website division/service for our company. I managed the hosting, development, wireless, and dial-up service and employees for five years.
+I was Director of Operations and started the website division/service for our company. 
+I managed the hosting, development, wireless, and dial-up service and employees for five years.
 
 ----
 
@@ -116,7 +121,8 @@ I have dabbled with open source since 2007.
 
 - [Espacios Abiertos Podcast](https://espaciosabiertos.dev/) Podcast interview [Alternative Projects: From idea to Product](https://espaciosabiertos.dev/jeff-triplett/)
 
-- [Django Chat](https://djangochat.com/) Podcast interview [Modern Django Development - Jeff Triplett](https://djangochat.com/episodes/docker-tailwind-and-more-jeff-triplett) - Jeff is a partner at REVSYS and a Director of the Python Software Foundation. We discuss modern development tools including Github Actions, Docker, Tailwind, and more.
+- [Django Chat](https://djangochat.com/) Podcast interview [Modern Django Development - Jeff Triplett](https://djangochat.com/episodes/docker-tailwind-and-more-jeff-triplett) - Jeff is a partner at REVSYS and a Director of the Python Software Foundation. 
+  We discuss modern development tools including Github Actions, Docker, Tailwind, and more.
 
 - [Productivity in Tech](https://productivityintech.com/) Podcast interview [Jeff Triplett Tells Us a Story of Django and Community!](https://productivityintech.transistor.fm/episodes/jeff-triplett-tells-us-a-story-of-django-and-community)
 
