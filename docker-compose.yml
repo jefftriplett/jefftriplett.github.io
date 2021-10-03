@@ -1,11 +1,23 @@
 version: "3"
 
 services:
-  jekyll:
-    image: jekyll/jekyll:latest
-    command: jekyll serve --drafts --force_polling --watch --port 8000
+
+  devd:
+    build:
+      context: .
+      dockerfile: .docker/devd.Dockerfile
+    command: --livewatch /static
     ports:
       - 8000:8000
+    volumes:
+      - .:/srv/jekyll:cached
+      - ./_site:/static
+
+  jekyll:
+    image: jekyll/jekyll:latest
+    command: jekyll serve --drafts --force_polling --watch --port 4000
+    ports:
+      - 4000:4000
     volumes:
       - ./.vendor/bundle:/usr/local/bundle:cached
       - .:/srv/jekyll:cached
