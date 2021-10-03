@@ -55,17 +55,17 @@ I was voted in by the community as a Director for the [Python Software Foundatio
 
 I am one of the three co-founders of DEFNA and have served as the President of the Board since 2015.
 
-### [2019 Malcolm Tredinnick Memorial Prize winner](https://www.djangoproject.com/weblog/2019/dec/17/2019-malcolm-tredinnick-prize--jeff-triplett/)
+### :star: [2019 Malcolm Tredinnick Memorial Prize winner](https://www.djangoproject.com/weblog/2019/dec/17/2019-malcolm-tredinnick-prize--jeff-triplett/)
 {:.mt-4 .-mb-4}
 
 I was awarded the Malcolm Tredinnick Memorial Prize in 2019 for contributions to the Django community.
 
-### [Python Software Foundation Fellow Member for Q4 2018](http://pyfound.blogspot.com/2019/01/python-software-foundation-fellow.html)
+### :star: [Python Software Foundation Fellow Member for Q4 2018](http://pyfound.blogspot.com/2019/01/python-software-foundation-fellow.html)
 {:.mt-4 .-mb-4}
 
 I was named a PSF Fellow Member in January 2019.
 
-### [2019 Opensource.com Community Awards winner](https://opensource.com/article/19/2/community-awards-2019#people)
+### :star: [2019 Opensource.com Community Awards winner](https://opensource.com/article/19/2/community-awards-2019#people)
 {:.mt-4 .-mb-4}
 
 I won an Opensource.com 2019 People's Choice Award.
@@ -114,7 +114,7 @@ I have dabbled with open source since 2007.
 
 - [Django Birthday 2015](https://djangobirthday.com/) Conference Chair & Organizer for Django's 10th birthday party :birthday:
 
-- [DjangoCon US 2014](https://2014.djangocon.us/) Organizer(ish) & Last-minute Program Chair
+- [DjangoCon US 2014](https://2014.djangocon.us/) Last-minute Program Chair & Organizer(ish)
 
 ## Interviews & Mentions
 {:.mt-8}
