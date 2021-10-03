@@ -36,6 +36,7 @@ exclude:
   - "*.py"
   - "*/src/*"
   - .bumpversion.cfg
+  - .docker
   - .gitignore
   - .vendor
   - _pages/categories.html
@@ -55,7 +56,7 @@ exclude:
   - purgecss.config.js
   - Rakefile
   - README.md
-  - requirements.txt
+  - requirements.*
   - src
   - staticman.yml
   - tailwind.config.js
