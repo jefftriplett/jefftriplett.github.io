@@ -1,0 +1,11 @@
+---
+layout: none
+permalink: _redirects
+sitemap: false
+---
+
+/home301 / 301
+/home302 / 302
+/home303 / 303
+{% assign redirects = site.posts | sort | where_exp:"redirect", "redirect.redirect_to" %}{% for post in redirects %}{{ post.url }} {{ post.redirect_to }} 301
+{% endfor %}
