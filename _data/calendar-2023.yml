@@ -1,0 +1,21 @@
+events:
+- start_date: 2023-01-01
+  title: New year
+- start_date: 2023-01-02
+  title: New year (Observed)
+- start_date: 2023-01-16
+  title: Birthday of Martin Luther King, Jr.
+- start_date: 2023-05-29
+  title: Memorial Day
+- start_date: 2023-07-04
+  title: Independence Day
+- start_date: 2023-09-04
+  title: Labor Day
+- start_date: 2023-11-10
+  title: Veterans Day (Observed)
+- start_date: 2023-11-11
+  title: Veterans Day
+- start_date: 2023-11-23
+  title: Thanksgiving Day
+- start_date: 2023-12-25
+  title: Christmas Day

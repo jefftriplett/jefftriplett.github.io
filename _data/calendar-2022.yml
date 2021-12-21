@@ -1,0 +1,21 @@
+events:
+- start_date: 2021-12-31
+  title: New year (Observed)
+- start_date: 2022-01-01
+  title: New year
+- start_date: 2022-01-17
+  title: Birthday of Martin Luther King, Jr.
+- start_date: 2022-05-30
+  title: Memorial Day
+- start_date: 2022-07-04
+  title: Independence Day
+- start_date: 2022-09-05
+  title: Labor Day
+- start_date: 2022-11-11
+  title: Veterans Day
+- start_date: 2022-11-24
+  title: Thanksgiving Day
+- start_date: 2022-12-25
+  title: Christmas Day
+- start_date: 2022-12-26
+  title: Christmas Day (Observed)

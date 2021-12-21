@@ -1,0 +1,17 @@
+events:
+- start_date: '2025-01-01'
+  title: New year
+- start_date: '2025-01-20'
+  title: Birthday of Martin Luther King, Jr.
+- start_date: '2025-05-26'
+  title: Memorial Day
+- start_date: '2025-07-04'
+  title: Independence Day
+- start_date: '2025-09-01'
+  title: Labor Day
+- start_date: '2025-11-11'
+  title: Veterans Day
+- start_date: '2025-11-27'
+  title: Thanksgiving Day
+- start_date: '2025-12-25'
+  title: Christmas Day
