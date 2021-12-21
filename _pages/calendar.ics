@@ -9,7 +9,7 @@ PRODID:http://jefftriplett.com/
 METHOD:PUBLISH
 {% for event in site.data.calendar.events %}BEGIN:VEVENT
 UID:{{ event.start_date | date: "%Y%m%d" }}@jefftriplett.com
-ORGANIZER;CN="Jeff Triplett":MAILTO:hello@jefftriplett.com
+ORGANIZER;CN="Jeff Triplett":MAILTO:ical@jefftriplett.com
 LOCATION:Lawrence\, Kansas
 SUMMARY:{{ event.title }}
 CLASS:PUBLIC
