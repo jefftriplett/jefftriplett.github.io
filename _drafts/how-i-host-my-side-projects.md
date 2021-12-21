@@ -6,12 +6,16 @@ slug: how-i-host-my-side-projects
 title: How I Host My Side Projects
 ---
 
-My goto server stack for side projects is Digital Ocean.
+Digital Ocean (DO) has been my go to hosting service for side projects going back almost a decade. 
+Not only do they hit a sweet stop both in terms of cost and performance, but they have a number of fee-add-ons which are easy to work with and hard to beat. 
+
+This is how and here is how I run all of my projects. 
+
 I have a dedicated web node, a monolithic server that only runs Docker and Docker Compose.
 I have a dedicated Postgres server.
 I have a dedicated Redis server.
 
-To keep my cluster secure, I use DO's firewall to prevent traffic from ever getting to my server.
+I use DO's firewall to prevent traffic from ever getting to my server to keep my cluster secure.
 I use DO's VPC so that my web node may communicate with Postgres and Redis only on a private network.
 These boxes are not accessible from the outside world.
 
@@ -23,21 +27,21 @@ When I need to upgrade the resources on my server, I create a new web node, and 
 Then I reassign my floating IP to the new node.
 
 I store all of my source code in a GitHub repository.
-I use a GitHub Action to test my projects.
-I use a GitHub Action to sync server configs and SSH to the box to reboot a service if a config file changes.
+I use a GitHub Action workflow to test my projects.
+I use a GitHub Action workflow to sync server configs and SSH to the box to reboot a service if a config file changes.
 I use a GitHub Action to build a production Docker image if my tests pass.
 I store my Docker images in GitHub's Container Registry.
 
 My web node runs over two dozen services.
-Every service has a folder along with a docker-compose.yml file and any config files that are needed to launch the service.
+Every service has a folder and a docker-compose.yml file and any config files needed to launch the service.
 
 I run a Watchtower service to poll my GitHub Registry for new image updates.
-When Watchtower finds a new image, it will pull the image, stop the existing container, starts a new container using the latest image, and will run an update command to manage migrations and any one-off commands that need to run for my service.
+When Watchtower finds a new image, it will pull the image, stop the existing container, start a new container using the latest image, and run an update command to manage migrations and any one-off commands that need to run for my service.
 Watchtower logs these updates to Slack, so I never have to SSH to a box to see what's going on.
 
 I run docker-crontab to manage cronjobs that each service may need.
 
-I run a Traefik service to manage routing traffic to each container.
+I run a Traefik service to manage to route traffic to each container.
 Each container uses LABELs to pass hints to Traefik.
 
 I use Chamber to manage secrets with AWS and KMS.
