@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Social Media Banner
 permalink: /social/
 sitemap: false
+title: Social Media Banner
 ---
 
 ## Contact / Social Media
 
 Here are a few ways to keep up with me online. If you have a question about this project, please consider opening a GitHub Issue.
 
-{% assign social_sorted = site.data.social.social | sort: 'order', 'last' %}
+{% assign social_sorted = site.data.social | sort: 'order', 'last' %}
 
 {% for social in social_sorted %}{% if social.featured %}
 [![]({{ social.icon }})]({{ social.url }}){% endif %}{% endfor %}
@@ -35,11 +35,11 @@ Here are a few ways to keep up with me online. If you have a question about this
 
 ## All Social Icons
 
-{% for social in site.data.social.social %}[![]({{ social.icon }})]({{ social.url }})
+{% for social in site.data.social %}[![]({{ social.icon }})]({{ social.url }})
 {% endfor %}
 
 <textarea id="all" rows="10" style="width: 100%">
-{% for social in site.data.social.social %}[![]({{ social.icon }})]({{ social.url }})
+{% for social in site.data.social %}[![]({{ social.icon }})]({{ social.url }})
 {% endfor %}
 </textarea>
 <button class="btn" data-clipboard-action="copy" data-clipboard-target="#all">

@@ -1,82 +1,79 @@
+- name: buymeacoffee
+  icon: /assets/images/social/coffee.png
+  url: https://www.buymeacoffee.com/webology
+  featured: true
+  order: 30
 
-social:
+- name: docker hub
+  icon: /assets/images/social/docker.png
+  url: https://hub.docker.com/u/jefftriplett/
+  featured: true
+  order: 40
 
-  - name: buymeacoffee
-    icon: /assets/images/social/coffee.png
-    url: https://www.buymeacoffee.com/webology
-    featured: true
-    order: 30
+- name: facebook
+  icon: /assets/images/social/facebook.png
+  url: https://www.facebook.com/jefftriplett
 
-  - name: docker hub
-    icon: /assets/images/social/docker.png
-    url: https://hub.docker.com/u/jefftriplett/
-    featured: true
-    order: 40
+- name: flickr
+  icon: /assets/images/social/flickr.png
+  url: https://www.flickr.com/photos/webology
 
-  - name: facebook
-    icon: /assets/images/social/facebook.png
-    url: https://www.facebook.com/jefftriplett
+- name: github
+  icon: /assets/images/social/github.png
+  url: https://github.com/jefftriplett
+  featured: true
+  order: 10
 
-  - name: flickr
-    icon: /assets/images/social/flickr.png
-    url: https://www.flickr.com/photos/webology
+- name: instagram
+  icon: /assets/images/social/instagram.png
+  url: https://www.instagram.com/jefftriplett/
 
-  - name: github
-    icon: /assets/images/social/github.png
-    url: https://github.com/jefftriplett
-    featured: true
-    order: 10
+- name: jeff triplett dot com
+  icon: /assets/images/social/globe.png
+  url: https://jefftriplett.com
+  featured: true
+  order: 20
 
-  - name: instagram
-    icon: /assets/images/social/instagram.png
-    url: https://www.instagram.com/jefftriplett/
+- name: keybase
+  icon: /assets/images/social/question-circle.png
+  url: https://keybase.io/jefftriplett
 
-  - name: jeff triplett dot com
-    icon: /assets/images/social/globe.png
-    url: https://jefftriplett.com
-    featured: true
-    order: 20
+- name: mastodon
+  icon: /assets/images/social/question-circle.png
+  url: https://mastodon.social/@webology
 
-  - name: keybase
-    icon: /assets/images/social/question-circle.png
-    url: https://keybase.io/jefftriplett
+- name: medium
+  icon: /assets/images/social/medium.png
+  url: https://medium.com/@webology
 
-  - name: mastodon
-    icon: /assets/images/social/question-circle.png
-    url: https://mastodon.social/@webology
+- name: myfitnesspal
+  icon: /assets/images/social/question-circle.png
+  url: http://www.myfitnesspal.com/profile/jefftriplett
 
-  - name: medium
-    icon: /assets/images/social/medium.png
-    url: https://medium.com/@webology
+- name: pinboard
+  icon: /assets/images/social/bookmark.png
+  url: https://pinboard.in/u:jefftriplett
 
-  - name: myfitnesspal
-    icon: /assets/images/social/question-circle.png
-    url: http://www.myfitnesspal.com/profile/jefftriplett
+- name: social
+  icon: /assets/images/social/star.png
+  url:
 
-  - name: pinboard
-    icon: /assets/images/social/bookmark.png
-    url: https://pinboard.in/u:jefftriplett
+- name: spotify
+  icon: /assets/images/social/spotify.png
+  url: https://open.spotify.com/user/jefftriplett
 
-  - name: social
-    icon: /assets/images/social/star.png
-    url:
+- name: twitch
+  icon: /assets/images/social/twitch.png
+  url: https://www.twitch.tv/jefftriplett
+  featured: true
+  order: 60
 
-  - name: spotify
-    icon: /assets/images/social/spotify.png
-    url: https://open.spotify.com/user/jefftriplett
+- name: twitter
+  icon: /assets/images/social/twitter.png
+  url: https://twitter.com/webology
+  featured: true
+  order: 50
 
-  - name: twitch
-    icon: /assets/images/social/twitch.png
-    url: https://www.twitch.tv/jefftriplett
-    featured: true
-    order: 60
-
-  - name: twitter
-    icon: /assets/images/social/twitter.png
-    url: https://twitter.com/webology
-    featured: true
-    order: 50
-
-  - name: youtube
-    icon: /assets/images/social/youtube.png
-    url:
+- name: youtube
+  icon: /assets/images/social/youtube.png
+  url:
