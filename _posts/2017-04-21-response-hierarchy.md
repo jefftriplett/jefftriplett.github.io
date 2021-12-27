@@ -16,7 +16,7 @@ Taking a queue from [Rands Response Hierarchy](http://randsinrepose.com/archives
 
 ## Spam
 
-I will never respond. Especially if it's Github related and you just saw my email because I starred a repo.
+I will never respond. Especially if it's GitHub related and you just saw my email because I starred a repo.
 
 ## LinkedIn
 

@@ -26,6 +26,6 @@ Most of my projects range from scratching personal itches, working on community 
 
 ----
 
-## 200+ more projects on Github
+## 200+ more projects on GitHub
 
-[See more projects on Github](https://github.com/jefftriplett)
+[See more projects on GitHub](https://github.com/jefftriplett)

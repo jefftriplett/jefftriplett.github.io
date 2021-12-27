@@ -2,11 +2,15 @@
 layout: default
 ---
 <article class="leading-normal">
-  <h1>
-    Topics labeled "{{ page.category }}"
+  <h1 class="font-semibold">
+    {% if page.category_verbose %}
+      {{ page.category_verbose }}
+    {% else %}
+      {{ page.category }}
+    {% endif %}
   </h1>
 
-  <div class="posts">
+  <div class="mt-8 posts">
     {% for post in site.categories[page.category] %}
       {% unless post.hidden %}
       <article class="flex mb-4">

@@ -122,7 +122,7 @@ I have dabbled with open source since 2007.
 - [Espacios Abiertos Podcast](https://espaciosabiertos.dev/) Podcast interview [Alternative Projects: From idea to Product](https://espaciosabiertos.dev/jeff-triplett/)
 
 - [Django Chat](https://djangochat.com/) Podcast interview [Modern Django Development - Jeff Triplett](https://djangochat.com/episodes/docker-tailwind-and-more-jeff-triplett) - Jeff is a partner at REVSYS and a Director of the Python Software Foundation. 
-  We discuss modern development tools including Github Actions, Docker, Tailwind, and more.
+  We discuss modern development tools including GitHub Actions, Docker, Tailwind, and more.
 
 - [Productivity in Tech](https://productivityintech.com/) Podcast interview [Jeff Triplett Tells Us a Story of Django and Community!](https://productivityintech.transistor.fm/episodes/jeff-triplett-tells-us-a-story-of-django-and-community)
 
