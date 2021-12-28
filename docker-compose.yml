@@ -5,6 +5,8 @@ services:
   devd:
     image: ghcr.io/jefftriplett/devd:latest
     command: --livewatch
+    expose:
+      - 8000
     ports:
       - 8000:8000
     volumes:
