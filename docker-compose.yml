@@ -3,22 +3,22 @@ version: "3"
 services:
 
   devd:
-    build:
-      context: .
-      dockerfile: .docker/devd.Dockerfile
-    command: --livewatch /srv/jekyll/_site
+    image: ghcr.io/jefftriplett/devd:latest
+    command: --livewatch
     ports:
       - 8000:8000
     volumes:
       - .:/srv/jekyll
-      # - ./_site:/static
 
   jekyll:
     image: jekyll/jekyll:latest
-    # command: jekyll serve --drafts --force_polling --watch --port 4000
-    command: jekyll build --drafts --force_polling --watch
+    command: jekyll serve --drafts --force_polling --watch --port 4000
+    environment:
+      - BUNDLE_PATH=/usr/local/bundle
+    expose:
+      - 4000
     ports:
       - 4000:4000
     volumes:
-      - .:/srv/jekyll
-      - ./.vendor/bundle:/usr/local/bundle:delegated
+      - .:/srv/jekyll:cached
+      - ./.vendor/bundle:/usr/local/bundle:cached
