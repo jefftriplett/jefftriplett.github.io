@@ -1,5 +1,6 @@
 bumpver
 pydantic
+pytest
 python-frontmatter
 python-slugify
 typer
