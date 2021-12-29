@@ -4,28 +4,45 @@ TAILWIND_CSS_VERSION := "latest"
 @_default:
     just --list
 
-@opengraph:
-    # tcardgen \
-    #     -f ./font/ \
-    #     -o ./output \
-    #     -t ./templates/template.png \
-    #     _posts/*.md
+# installs/updates all dependencies
+@bootstrap:
+    docker-compose pull
+    docker-compose build
 
-    tcardgen \
-        --config=./templates/template3.config.yaml \
-        -f ./font/ \
-        -o ./output \
-        _posts/*.md
+# invoked by continuous integration servers to run tests
+@cibuild:
+    docker-compose build
 
-#    tcardgen \
-#        -f path/to/fontDir \
-#        -o path/to/hugo/static/imgDir \
-#        -t path/to/templateFile \
-#        path/to/hugo/content/posts/*.md
+# opens a console
+@console:
+    echo "TODO: console"
+
+# starts app
+@server *ARGS:
+    just up {{ ARGS }}
+
+# sets up a project to be used for the first time
+@setup:
+    echo "TODO: setup"
+
+# runs tests
+@test *ARGS:
+    pytest {{ ARGS }}
+
+# updates a project to run at its current version
+@update:
+    -pip install -U pip
+    just pip-compile
+    docker-compose pull
+    -docker-compose build
+
+# ----
 
 @build:
-    just build-jekyll
-    just build-static
+    docker-compose pull
+    docker-compose build
+    # just build-jekyll
+    # just build-static
 
 @build-jekyll:
     jekyll build
@@ -47,6 +64,9 @@ TAILWIND_CSS_VERSION := "latest"
 @clean:
     rm -rf _site
 
+@down:
+    docker-compose down
+
 @embedme:
     npx embedme _drafts/**/*.md
     # TODO: https://github.com/DavidWells/markdown-magic
@@ -58,21 +78,35 @@ TAILWIND_CSS_VERSION := "latest"
     done
     convert "{{ FAVICON }}" -resize 196x196 ./favicon.ico
 
+@fmt:
+    just --fmt --unstable
+
 @lint:
     black --check .
     curlylint _includes/ _layouts/ _pages/ *.html
     rustywind --dry-run .
+
+@opengraph:
+    tcardgen \
+        --config=./templates/template3.config.yaml \
+        -f ./font/ \
+        -o ./output \
+        _posts/*.md
 
 @pip-compile:
     pip install -U -r requirements.in
     rm -rf requirements.txt
     pip-compile requirements.in
 
-@serve:
-    modd
+@serve *ARGS:
+    just server {{ ARGS }}
+    # modd
 
 @social:
     fmcardgen --config=./src/config.yml --recursive ./_posts/
 
 @static:
     just build
+
+@up *ARGS:
+    docker-compose up {{ ARGS }}
