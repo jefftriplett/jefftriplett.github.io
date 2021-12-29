@@ -4,6 +4,7 @@
 .jekyll-*
 .sass-cache
 .vendor
+.vscode
 _site
 build
 Gemfile.lock

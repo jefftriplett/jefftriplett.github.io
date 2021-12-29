@@ -35,6 +35,7 @@ exclude:
   - "*.conf"
   - "*.py"
   - "*/src/*"
+  - "*/tests/*"
   - .bumpversion.cfg
   - .docker
   - .gitignore
