@@ -13,20 +13,20 @@ For the millionth time, I upgraded macOS to the next major version (Monterey) an
 
 1. edit `/etc/sudoers`
 
-```shell
-sudo visudo
-```
+    ```shell
+    sudo visudo
+    ```
 
 2. Then find the admin group permission section:
 
-```shell
-%admin          ALL = (ALL) ALL
-```
+    ```shell
+    %admin          ALL = (ALL) ALL
+    ```
 
 3. Change to add `NOPASSWD:`
 
-```shell
-%admin          ALL = (ALL) NOPASSWD: ALL
-```
+    ```shell
+    %admin          ALL = (ALL) NOPASSWD: ALL
+    ```
 
 4. Profit until next year.
