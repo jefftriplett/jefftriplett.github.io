@@ -1,8 +1,10 @@
 ---
-title: DjangoCon.us
-github: https://github.com/djangocon
 archived: false
+github: https://github.com/djangocon
+slug: djangocon-us
+title: DjangoCon.us
 ---
+
 The website(s) for DjangoCon.us:
 
 - [djangocon/2021.djangocon.us](https://github.com/djangocon/2021.djangocon.us)

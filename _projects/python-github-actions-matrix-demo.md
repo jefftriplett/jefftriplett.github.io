@@ -1,7 +1,8 @@
 ---
-title: python-github-actions-matrix-demo
-github: https://github.com/jefftriplett/python-github-actions-matrix-demo
 archived: false
+github: https://github.com/jefftriplett/python-github-actions-matrix-demo
+slug: python-github-actions-matrix-demo
+title: python-github-actions-matrix-demo
 ---
 
 This repository is an example of how to use GitHub Actions Matrix feature.

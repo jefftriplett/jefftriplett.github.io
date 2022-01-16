@@ -1,7 +1,8 @@
 ---
-title: Is the Lead Safe?
-homepage: http://www.istheleadsafe.com
 archived: true
+homepage: http://www.istheleadsafe.com
+slug: is-the-lead-safe
+title: Is the Lead Safe?
 ---
 
 [My basketball at a glance website][1] dedicated to answering the basic

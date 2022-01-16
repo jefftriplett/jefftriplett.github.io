@@ -1,8 +1,9 @@
 ---
-title: LFK.im
+archived: false
 github: https://github.com/jefftriplett/lfk.im
 homepage: https://lfk.im
-archived: false
+slug: lfk-im
+title: LFK.im
 ---
 
 https://lfk.im
