@@ -1,6 +1,7 @@
 ---
 category: Side Projects
+emoji: 🔨
 layout: topic
-show_on_homepage: false
+show_on_homepage: true
 sitemap: false
 ---

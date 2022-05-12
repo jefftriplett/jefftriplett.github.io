@@ -27,31 +27,47 @@ Earlier this week, [Isa Buriticá](https://twitter.com/iris9112) asked me a grea
 
 ## Answer
 
-My go-to library of choice for creating test data, more commonly called “fixtures” in Django tests, is [`Model Bakery`](https://github.com/model-bakers/model_bakery). 
+My go-to library of choice for creating test data, more commonly called “fixtures” in Django tests, is [`Model Bakery`](https://github.com/model-bakers/model_bakery).
 
-With Model Bakery, you can pass in a Django model or model reference, and Bakery will create an object based on that model type. This fully-baked object includes valid test data so that each required field has the right type of data it needs.
+With Model Bakery, you can pass in a Django model or model reference, and Bakery will create an object based on that model type.
+This fully-baked object includes valid test data so that each required field has the right type of data it needs.
 
 Here is an example, based on their [docs](https://model-bakery.readthedocs.io/en/latest/basic_usage.html#basic-usage):
 
-<!-- embedme src/example-01.py -->
-```python 
+<!-- [[[cog
+import cog
+from pathlib import Path
+
+def embedme(filename: str) -> str:
+    path = Path(cog.inFile).parent.joinpath(filename)
+    content = path.read_text().strip()
+    cog.outl(f"```python\n{content}\n```")
+
+embedme("src/example-01.py")
+]]] -->
+```python
 from model_bakery import baker
 
 category = baker.make("news.Category")
 
 assert category.name
 ```
+<!-- [[[end]]] -->
 
-To create 1,000 categories for a  test, we pass the optional `_quantity` parameter to our `baker.make` method. Here is another example based on the [docs](https://model-bakery.readthedocs.io/en/latest/basic_usage.html#more-than-one-instance):
+To create 1,000 categories for a  test, we pass the optional `_quantity` parameter to our `baker.make` method.
+Here is another example based on the [docs](https://model-bakery.readthedocs.io/en/latest/basic_usage.html#more-than-one-instance):
 
-<!-- embedme src/example-02.py -->
-```python 
+<!-- [[[cog
+embedme("src/example-02.py")
+]]] -->
+```python
 from model_bakery import baker
 
 categories = baker.make("news.Category", _quantity=1000)
 
 assert len(categories) == 1000
 ```
+<!-- [[[end]]] -->
 
 ----
 
@@ -63,7 +79,9 @@ If you are using [`pytest`](https://github.com/pytest-dev/pytest) and [`pytest-d
 
 #### `tests/fixtures.py`
 
-<!-- embedme src/example-03-fixtures.py -->
+<!-- [[[cog
+embedme("src/example-03-fixtures.py")
+]]] -->
 ```python
 import pytest
 
@@ -79,12 +97,16 @@ def category(db):
 def post(db, category):
     return baker.make("news.Post", category=category, title="Post Title")
 ```
+<!-- [[[end]]] -->
 
-Pytest Fixtures are nice way to reduce the amount of boilerplate code you need for creating and testing objects. To use one of your new tests fixtures, you pass them in as a method argument and pytest will pass the fixture into the test function.
+pytest fixtures are nice way to reduce the amount of boilerplate code you need for creating and testing objects.
+To use one of your new tests fixtures, you pass them in as a method argument and pytest will pass the fixture into the test function.
 
 #### `tests/test_models.py`
 
-<!-- embedme src/example-04-test_models.py -->
+<!-- [[[cog
+embedme("src/example-04-test_models.py")
+]]] -->
 ```python
 def test_category(category):
     assert category.name == "Category Name"
@@ -93,6 +115,7 @@ def test_category(category):
 def test_post(post):
     assert post.title == "Post Title"
 ```
+<!-- [[[end]]] -->
 
 For more information about pytest.fixtures, check out the [pytest fixtures: explicit, modular, scalable](https://docs.pytest.org/en/latest/fixture.html) docs.
 
@@ -100,9 +123,12 @@ For more information about pytest.fixtures, check out the [pytest fixtures: expl
 
 ### Bonus Answer 2: It works well for generating test data
 
-Model Bakery also has a `prepare` method which is useful for creating valid test data for a Django model without saving it to our database. I use this method often for testing Django Forms and DRF POST methods. 
+Model Bakery also has a `prepare` method which is useful for creating valid test data for a Django model without saving it to our database.
+I use this method often for testing Django Forms and DRF POST methods.
 
-<!-- embedme src/example-05.py -->
+<!-- [[[cog
+embedme("src/example-05.py")
+]]] -->
 ```python
 from model_bakery import baker
 
@@ -114,7 +140,7 @@ def test_category_post(tp):
     obj = baker.prepare("news.Category")
 
     # Use a DRF ModelSerializer to give us JSON
-    payload = serializers.CategorySerializer(obj).data
+    payload = CategorySerializer(obj).data
 
     # Use a reverse lookup to find our endpoint's url
     url = tp.reverse("category-detail")
@@ -128,6 +154,7 @@ def test_category_post(tp):
     # Was our request valid?
     tp.response_200(response)
 ```
+<!-- [[[end]]] -->
 
 ----
 

@@ -1,5 +1,5 @@
 ---
-category: ☕ Sunday Morning Coffee Notes
+category: Sunday Morning Coffee Notes
 date: 2021-10-03 10:20:00-06:00
 layout: post
 location: Home @ Lawrence, Kansas United States

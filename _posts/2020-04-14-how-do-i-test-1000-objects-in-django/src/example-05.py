@@ -8,7 +8,7 @@ def test_category_post(tp):
     obj = baker.prepare("news.Category")
 
     # Use a DRF ModelSerializer to give us JSON
-    payload = serializers.CategorySerializer(obj).data
+    payload = CategorySerializer(obj).data
 
     # Use a reverse lookup to find our endpoint's url
     url = tp.reverse("category-detail")

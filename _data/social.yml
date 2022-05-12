@@ -54,13 +54,13 @@
   icon: /assets/images/social/bookmark.png
   url: https://pinboard.in/u:jefftriplett
 
-- name: social
-  icon: /assets/images/social/star.png
-  url:
+# - name: social
+#   icon: /assets/images/social/star.png
+#   url:
 
-- name: spotify
-  icon: /assets/images/social/spotify.png
-  url: https://open.spotify.com/user/jefftriplett
+# - name: spotify
+#   icon: /assets/images/social/spotify.png
+#   url: https://open.spotify.com/user/jefftriplett
 
 - name: twitch
   icon: /assets/images/social/twitch.png
@@ -74,6 +74,6 @@
   featured: true
   order: 50
 
-- name: youtube
-  icon: /assets/images/social/youtube.png
-  url:
+# - name: youtube
+#   icon: /assets/images/social/youtube.png
+#   url:

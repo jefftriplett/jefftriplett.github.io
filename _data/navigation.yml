@@ -95,19 +95,19 @@
   show_in_footer: true
   nofollow: true
 
-- title: <i class="text-base fab fa-medium" aria-hidden=true></i>
-  url: https://medium.com/@webology
-  aria-label: "Follow Jeff Triplett on Medium"
-  show_in_header: false
-  show_in_footer: true
-  nofollow: true
+# - title: <i class="text-base fab fa-medium" aria-hidden=true></i>
+#   url: https://medium.com/@webology
+#   aria-label: "Follow Jeff Triplett on Medium"
+#   show_in_header: false
+#   show_in_footer: true
+#   nofollow: true
 
-- title: <i class="text-base fab fa-spotify" aria-hidden=true></i>
-  url: https://open.spotify.com/user/jefftriplett
-  aria-label: "Follow Jeff Triplett on Spotify"
-  show_in_header: false
-  show_in_footer: true
-  nofollow: true
+# - title: <i class="text-base fab fa-spotify" aria-hidden=true></i>
+#   url: https://open.spotify.com/user/jefftriplett
+#   aria-label: "Follow Jeff Triplett on Spotify"
+#   show_in_header: false
+#   show_in_footer: true
+#   nofollow: true
 
 - title: <i class="text-base far fa-rss" aria-hidden=true></i>
   url: http://feeds.feedburner.com/JeffTriplett

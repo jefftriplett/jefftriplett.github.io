@@ -1,5 +1,6 @@
 ---
-category: ☕ Sunday Morning Coffee Notes
+category: Sunday Morning Coffee Notes
+emoji: ☕
 layout: topic
 show_on_homepage: true
 sitemap: false

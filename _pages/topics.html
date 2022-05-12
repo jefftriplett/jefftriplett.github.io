@@ -17,6 +17,7 @@ Here we generate all the categories.
   {% for topic in site.topics %}
     <h4 id="{{ topic.category | slugify }}">
       <a href="{{ topic.url }}">
+        {% if topic.emoji %}{{ topic.emoji }}{% endif %}
         {% if topic.category_verbose %}
           {{ topic.category_verbose }}
         {% else %}
