@@ -13,7 +13,7 @@ permalink: /now/
 
 - I am working on a weekly newsletter called [Django News][].
 
-- I am working on [DjangoCon US 2021][]  for this October.
+- I am working on [DjangoCon US 2022][] for this October.
 
 - I am working on [Django Packages][].
 
@@ -36,6 +36,7 @@ permalink: /now/
 [DjangoCon US 2019]: https://2019.djangocon.us/
 [DjangoCon US 2020]: https://2020.djangocon.us/
 [DjangoCon US 2021]: https://2021.djangocon.us/
+[DjangoCon US 2022]: https://2022.djangocon.us/
 [Is the Lead Safe]: http://www.istheleadsafe.com/
 [Keto diet]: https://www.reddit.com/r/keto/wiki/keto_in_a_nutshell
 [Lacey Williams Henschel]: https://opensource.com/users/laceynwilliams
