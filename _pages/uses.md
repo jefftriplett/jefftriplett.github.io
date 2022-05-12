@@ -6,7 +6,8 @@ permalink: /uses/
 
 ## Editor and Terminal
 
-- I use Sublime Text and I dabble with VS Code.
+- My main text editor is Sublime Text 4.
+- I run VS Code as a full-screen terminal with dev containers to run Docker and occasionally use the debugger. 
 - I use [iTerm2](https://www.iterm2.com/) for my terminal.
 - I mostly use Google Chrome
 - Most of my configs are in my [dotfiles repo](https://github.com/jefftriplett/dotfiles)
@@ -14,26 +15,27 @@ permalink: /uses/
 ## Desktop Apps
 
 - Alfred with Power Tools.
-- I backup my machines with Time Machine and Backblaze.
-- I currently use a 2019 16" MacBook Pro 2.4 GHz 8-Core Intel Core i9 with 64GB memory.
-- Previously, I used a 15" MacBook Pro with 16GB memory.
+- I back up my machines with Time Machine and Backblaze.
+- My main machine is a 2019 16" MacBook Pro 2.4 GHz 8-Core Intel Core i9 with 64GB memory.
+- My main development machine since 2007 has been a MacBook Pro. 
 
-## Office Setup
+## General
+
+I have both an office in downtown Lawrence and a home office and I do my best to mirror both environments sine we live in a hybrid world.
+
+
+
+## Office and Home Office Setup
 
 - My desk is a Jarvis Bamboo Standing Desk
-- My chair is an [Ikea Markus](https://www.ikea.com/us/en/catalog/products/00103102/) :thumbsdown:
-- My mouse is a cheap Amazon basics
+- My chair is an [Ikea Markus]() :thumbsdown:
 - Apple Magic Keyboard
-
-## Home Office Setup
-
-- My desk is a Jarvis Bamboo Standing Desk
-- Dual 28" 4k Monoprice monitors - These are great and have four inputs. I can play a game via my Switch on one while watching YouTube or getting unstuck in the other.
-- My chair is an [Ikea Markus](https://www.ikea.com/us/en/catalog/products/00103102/) :thumbsdown:
-- Apple Wired Keyboard with 10-key
+- My mouse is a cheap Amazon Basics (bought in bulk)
+- I run three external displays.
+  - Dual 28" 4k Monoprice monitors - These are great and have four inputs. 
+  - 27" 4k Monoprice monitor.
+- CalDigit Hub (
 - My microphone is a Blue Yeti
-- My mouse is a cheap Amazon basics
-- My keyboard is an older Apple wired keyboard with extended keys and the enter and F19 keys have been broken for probably 5 years.
 - Anker 10-port USB 3
 - USB switch
 
@@ -41,3 +43,6 @@ permalink: /uses/
 
 - Backpack
 - Travel Router?
+- 
+
+[Ikea Markus]: https://www.ikea.com/us/en/catalog/products/00103102/)
