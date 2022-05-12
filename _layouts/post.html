@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-<article class="w-full prose sm:prose md:prose-md lg:prose-lg xl:prose-xl sm:max-w-none">
-  <h1 class="font-semibold {% if page.draft %}text-red-700{% endif %}">
+<article class="prose dark:prose-invert sm:prose-md md:prose-lg lg:prose-lg xl:prose-xl max-w-none">
+  <h1 class="font-semibold {% if page.draft %}text-red-700 dark:text-red-300{% endif %}">
     {% assign topic = site.topics | where:"category", page.category | first %}
-    {% if topic.show_on_homepage %}
+    {% if page.category and topic.show_on_homepage %}
       {{ topic.category }}:
     {% endif %}
     {{ page.title | markdownify | remove:'<p>' | remove:'</p>' }}

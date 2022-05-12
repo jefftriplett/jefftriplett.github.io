@@ -15,7 +15,7 @@ layout: default
       {% unless post.hidden %}
       <article class="flex mb-4">
         <div class="w-2/3">
-          <a class="no-underline outline-none hover:underline hover:text-blue-800" href="{{ site.baseurl }}{{ post.url }}">
+          <a class="no-underline outline-none hover:underline dark:hover:text-blue-800 hover:text-blue-800" href="{{ site.baseurl }}{{ post.url }}">
             {% if post.category %}
               {% assign topic = site.topics | where:"category", post.category | first %}
               {% if topic.show_on_homepage %}

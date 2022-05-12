@@ -1,11 +1,13 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-  purge: {
-    enabled: process.env.JEKYLL_ENV == "production",
-    mode: "all",
-    content: ["./**/*.html", "./_site/**/*.html"],
-  },
+  content: [
+    './*.html',
+    './**/*.html',
+    './_site/*.html',
+    './_site/**/*.html'
+  ],
+  darkMode: 'media',
   theme: {
     extend: {
       fontFamily: {

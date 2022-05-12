@@ -9,7 +9,7 @@ redirect_from: /posts/about/raw/
 <img class="w-full rounded-lg" src="/assets/images/dcus-2017-bw.jpg" alt="Jeff Triplett" title="Jeff Triplett taken by Melanie Crutchfield">
 <div class="w-full text-sm text-center md:text-lg">
 Image courtesy of
-<a href="https://twitter.com/HelloMelanieC">Melanie Crutchfield</a>
+<a href="https://twitter.com/HelloMelanieC">Melanie&nbsp;Crutchfield</a>
 </div>
 </div>
 

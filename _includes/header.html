@@ -10,10 +10,10 @@
   {% for link in site.data.navigation %}
     {% if link.show_in_header == true %}
       <li class="inline-block px-1 py-2 md:px-2">
-        <a href="{{ link.url }}"{% if link.aria-label %}
-          aria-label="{{ link.aria-label }}"
+        <a href="{{ link.url }}"
+          {% if link.aria-label %}aria-label="{{ link.aria-label }}" title="{{ link.aria-label }}"{% endif %}
           {% if link.nofollow %}rel="nofollow" {% endif %}
-          title="{{ link.aria-label }}"{% endif %}>{{ link.title }}</a>
+        >{{ link.title }}</a>
       </li>
     {% endif %}
   {% endfor %}

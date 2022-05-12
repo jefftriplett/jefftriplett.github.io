@@ -1,19 +1,19 @@
-<nav class="w-full mb-3 text-center text-md">
+<nav class="w-full mb-3 text-center text-md dark:text-white">
   <ul>
   {% for link in site.data.navigation %}
     {% if link.show_in_footer == true %}
-      <li class="inline-block px-2 py-2 hover:text-blue-dark">
-        <a class="no-underline hover:underline hover:text-blue-dark"
-          href="{{ link.url }}"{% if link.aria-label %}
-          aria-label="{{ link.aria-label }}"
-          {% if link.nofollow %}rel="nofollow" {% endif %}
-          title="{{ link.aria-label }}"{% endif %}>{{ link.title }}</a>
+      <li class="inline-block px-2 py-2 hover:text-dark dark:hover:text-white">
+        <a class="no-underline hover:underline hover:text-dark dark:hover:text-white"
+          href="{{ link.url }}"
+          {% if link.aria-label %} aria-label="{{ link.aria-label }}" title="{{ link.aria-label }}"{% endif %}
+          {% if link.nofollow %} rel="nofollow" {% endif %}
+          >{{ link.title }}</a>
       </li>
     {% endif %}
   {% endfor %}
   </ul>
 </nav>
-<section class="w-full mb-4 text-sm text-center">
+<section class="w-full mb-4 text-sm text-center hover:text-dark dark:hover:text-white">
   <strong>jefftriplett.com</strong> and all contents copyright
   <time datetime="{{ site.time | date_to_xmlschema }}">2016&ndash;{{ site.time | date: '%Y' }}</time> by
   <span>Jeff Triplett</span> unless otherwise noted.
