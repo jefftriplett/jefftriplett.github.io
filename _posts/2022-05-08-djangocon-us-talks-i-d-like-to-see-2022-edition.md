@@ -3,8 +3,8 @@ category: DjangoCon
 date: 2022-05-08 23:30:00-05:00
 layout: post
 location: Home @ Lawrence, Kansas United States
-slug: djangocon-us-2022-talks-i-d-like-to-see
-title: DjangoCon US 2022 Talks I'd like to see
+slug: djangocon-us-talks-i-d-like-to-see-2022-edition
+title: 'DjangoCon US Talks I''d Like to See: 2022 Edition'
 weather: 67˚F Clear.
 ---
 
