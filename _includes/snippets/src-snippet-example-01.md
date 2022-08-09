@@ -1,4 +1,5 @@
-<!-- Snippet snippet-example-01 -->
+<!-- snippet-example-01-->
+
 ```python
 from model_bakery import baker
 

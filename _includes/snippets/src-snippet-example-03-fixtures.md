@@ -1,4 +1,5 @@
-<!-- Snippet snippet-example-03-fixtures -->
+<!-- snippet-example-03-fixtures-->
+
 ```python
 import pytest
 

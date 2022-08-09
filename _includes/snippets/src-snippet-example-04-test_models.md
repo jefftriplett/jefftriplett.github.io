@@ -1,4 +1,5 @@
-<!-- Snippet snippet-example-04-test_models -->
+<!-- snippet-example-04-test_models-->
+
 ```python
 def test_category(category):
     assert category.name == "Category Name"
