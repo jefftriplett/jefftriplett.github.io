@@ -60,7 +60,7 @@
   show_in_footer: true
   nofollow: true
 
-- title: <i class="text-base fas fa-construction" aria-hidden=true></i>
+- title: <i class="text-base fas fa-hard-hat" aria-hidden=true></i>
   url: https://wip.chat/@jefftriplett
   aria-label: "Follow Jeff Triplett on WIP"
   show_in_header: false
@@ -109,7 +109,7 @@
 #   show_in_footer: true
 #   nofollow: true
 
-- title: <i class="text-base far fa-rss" aria-hidden=true></i>
+- title: <i class="text-base fas fa-rss" aria-hidden=true></i>
   url: http://feeds.feedburner.com/JeffTriplett
   aria-label: "Subscribe!"
   show_in_header: true
