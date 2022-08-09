@@ -34,40 +34,12 @@ This fully-baked object includes valid test data so that each required field has
 
 Here is an example, based on their [docs](https://model-bakery.readthedocs.io/en/latest/basic_usage.html#basic-usage):
 
-<!-- [[[cog
-import cog
-from pathlib import Path
-
-def embedme(filename: str) -> str:
-    path = Path(cog.inFile).parent.joinpath(filename)
-    content = path.read_text().strip()
-    cog.outl(f"```python\n{content}\n```")
-
-embedme("src/example-01.py")
-]]] -->
-```python
-from model_bakery import baker
-
-category = baker.make("news.Category")
-
-assert category.name
-```
-<!-- [[[end]]] -->
+{% include snippets/src-snippet-example-01.md %}
 
 To create 1,000 categories for a  test, we pass the optional `_quantity` parameter to our `baker.make` method.
 Here is another example based on the [docs](https://model-bakery.readthedocs.io/en/latest/basic_usage.html#more-than-one-instance):
 
-<!-- [[[cog
-embedme("src/example-02.py")
-]]] -->
-```python
-from model_bakery import baker
-
-categories = baker.make("news.Category", _quantity=1000)
-
-assert len(categories) == 1000
-```
-<!-- [[[end]]] -->
+{% include snippets/src-snippet-example-02.md %}
 
 ----
 
@@ -79,43 +51,14 @@ If you are using [`pytest`](https://github.com/pytest-dev/pytest) and [`pytest-d
 
 #### `tests/fixtures.py`
 
-<!-- [[[cog
-embedme("src/example-03-fixtures.py")
-]]] -->
-```python
-import pytest
-
-from model_bakery import baker
-
-
-@pytest.fixture()
-def category(db):
-    return baker.make("news.Category", name="Category Name")
-
-
-@pytest.fixture()
-def post(db, category):
-    return baker.make("news.Post", category=category, title="Post Title")
-```
-<!-- [[[end]]] -->
+{% include snippets/src-snippet-example-03-fixtures.md %}
 
 pytest fixtures are nice way to reduce the amount of boilerplate code you need for creating and testing objects.
 To use one of your new tests fixtures, you pass them in as a method argument and pytest will pass the fixture into the test function.
 
 #### `tests/test_models.py`
 
-<!-- [[[cog
-embedme("src/example-04-test_models.py")
-]]] -->
-```python
-def test_category(category):
-    assert category.name == "Category Name"
-
-
-def test_post(post):
-    assert post.title == "Post Title"
-```
-<!-- [[[end]]] -->
+{% include snippets/src-snippet-example-04-test_models.md %}
 
 For more information about pytest.fixtures, check out the [pytest fixtures: explicit, modular, scalable](https://docs.pytest.org/en/latest/fixture.html) docs.
 
@@ -126,35 +69,7 @@ For more information about pytest.fixtures, check out the [pytest fixtures: expl
 Model Bakery also has a `prepare` method which is useful for creating valid test data for a Django model without saving it to our database.
 I use this method often for testing Django Forms and DRF POST methods.
 
-<!-- [[[cog
-embedme("src/example-05.py")
-]]] -->
-```python
-from model_bakery import baker
-
-from news.serializers import CategorySerializer
-
-
-def test_category_post(tp):
-    # Create a Category fixture
-    obj = baker.prepare("news.Category")
-
-    # Use a DRF ModelSerializer to give us JSON
-    payload = CategorySerializer(obj).data
-
-    # Use a reverse lookup to find our endpoint's url
-    url = tp.reverse("category-detail")
-
-    # Login as a valid test user
-    tp.client.login()
-
-    # Send our test payload to our endpoint
-    response = tp.client.post(url, payload, content_type="application/json")
-
-    # Was our request valid?
-    tp.response_200(response)
-```
-<!-- [[[end]]] -->
+{% include snippets/src-snippet-example-05.md %}
 
 ----
 
