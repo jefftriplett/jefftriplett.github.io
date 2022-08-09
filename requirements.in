@@ -1,7 +1,9 @@
 bumpver
+cogapp
 pydantic
 pytest
 python-frontmatter
 python-slugify
+snex
 typer
 workalendar
