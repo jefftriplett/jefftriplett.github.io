@@ -1,11 +1,11 @@
 [tool.poetry]
 name = "jefftriplett.github.io"
-version = "2022.5.2"
+version = "2022.8.1"
 description = ""
 authors = ["Jeff Triplett <jeff.triplett@gmail.com>"]
 
 [tool.bumpver]
-current_version = "2022.5.2"
+current_version = "2022.8.1"
 version_pattern = "YYYY.MM.INC1"
 commit_message = ":bookmark: bump version {old_version} -> {new_version}"
 commit = true

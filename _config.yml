@@ -136,5 +136,5 @@ jekyll-mentions:
   base_url: https://twitter.com
 
 # Custom vars
-version: 2022.5.2
+version: 2022.8.1
 google-fonts-family: PT+Serif:400,400italic,700|PT+Sans:400|Alegreya
