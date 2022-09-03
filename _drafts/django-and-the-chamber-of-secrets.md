@@ -18,15 +18,15 @@ Overall, I was happy with the setup, except for keeping sensitive environment va
 After asking some colleagues and friends, someone pointed out [Chamber][chamber] , which they also tried out.
 Turns out, Chamber was the best tool for the job.
 
-Since creating this setup, I have shared several gists with curios friends, and this post is meant to be more of an overview of options than it is to be a comprehensive guide to using Chamber. Enjoy!
+Since creating this setup, I have shared several gists with curious friends, and this post is meant to be more of an overview of options than it is to be a comprehensive guide to using Chamber. Enjoy!
 
 ## Prerequisites
 
-You'll need an AWS account. You'll want some basic Docker and Docker Compose knowledge. You'll want to follow the [Chamber's Installing][chamber-installing] instructions.
+You'll need an AWS account, some basic Docker and Docker Compose knowledge, need to follow [Chamber's Installing][chamber-installing] instructions.
 
 ## Setting up my environment
 
-Ironically, in my goal to eliminate individuals needing to use environment variables led me to need a few environment variables to bootstrap chamber.
+Ironically, my goal of eliminating individual environment variables led me to need four environment variables to bootstrap Chamber itself.
 The environment variables I'm using:
 
 - `AWS_ACCESS_KEY_ID`
@@ -73,29 +73,29 @@ Now that you have seen how we use Chamber in Docker and Docker Compose, this is 
 ### Listing our projects
 
 ```shell
-chamber list-services
+$ chamber list-services
 ```
 
 ```shell
-chamber list django-news.com/production
+$ chamber list django-news.com/production
 ```
 
 ### Write a new setting
 
 ```shell
-chamber write django-news.com/production DJANGO_DEBUG true
+$ chamber write django-news.com/production DJANGO_DEBUG true
 ```
 
 ### Delete an existing setting
 
 ```shell
-chamber delete django-news.com/production DJANGO_DEBUG
+$ chamber delete django-news.com/production DJANGO_DEBUG
 ```
 
 ### Export our settings into a dotenv (.env) file
 
 ```shell
-chamber export --format=dotenv django-news.com/production
+$ chamber export --format=dotenv django-news.com/production
 ```
 
 ## Conclusion
@@ -106,7 +106,8 @@ Using Chamber with KMS increased my monthly AWS bill by $0.01, which is money we
 ## Alternatives
 
 For a recent client project, I had a good experience using the 1Password CLI to share and load secrets into the environment.
-If you are working with a team, I would consider checking it out for your team in case it's a good fit. Check out their docs on the the feature here: [https://developer.1password.com/docs/cli/secrets-environment-variables/]
+If you are working with a team, I would consider checking it out for your team in case it's a good fit. 
+Check out their [Load secrets into the environment](https://developer.1password.com/docs/cli/secrets-environment-variables/) docs on the the feature here.
 
 ## Resources
 
