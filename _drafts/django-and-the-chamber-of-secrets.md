@@ -107,16 +107,7 @@ Using Chamber with KMS increased my monthly AWS bill by $0.01, which is money we
 
 For a recent client project, I had a good experience using the 1Password CLI to share and load secrets into the environment.
 If you are working with a team, I would consider checking it out for your team in case it's a good fit. 
-Check out their [Load secrets into the environment](https://developer.1password.com/docs/cli/secrets-environment-variables/) docs on the the feature here.
-
-## Resources
-
-- https://hub.docker.com/r/segment/chamber
-- https://search.gocenter.io/github.com/segmentio/chamber?tab=readme
-- https://github.com/Igor-Pchelko/aws-parameter-store-sample/tree/master/scripts
-- https://github.com/la-mar/permian-frac-exchange/blob/90ad4720e849678ba987e771be31548944dbab8e/Dockerfile.chamber
-- https://docs.aws.amazon.com/kms/latest/developerguide/kms-alias.html
-- https://aws.amazon.com/blogs/opensource/demystifying-entrypoint-cmd-docker/
+Check out their [Load secrets into the environment](https://developer.1password.com/docs/cli/secrets-environment-variables/) docs.
 
 [chamber-docker]: https://hub.docker.com/r/segment/chamber
 [chamber-installing]: https://github.com/segmentio/chamber#installing
