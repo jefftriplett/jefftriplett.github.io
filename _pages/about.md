@@ -50,6 +50,8 @@ I managed the hosting, development, wireless, and dial-up service and employees 
 
 I was voted in by the community as a Director for the [Python Software Foundation (PSF)](https://www.python.org/psf/) for the 2018 to 2020 term and then for a second term from 2020 to 2023.
 
+I served as the PSF's Treasurer from 2020 to 2022 and a Vice Chair from 2022 to 2023.
+
 ### [Django Events Foundation North America (DEFNA)](https://github.com/defna)
 {:.mt-4 .-mb-4}
 
@@ -97,6 +99,8 @@ I have dabbled with open source since 2007.
 
 ## Conference & Event Organizing
 {:.mt-8}
+
+- [DjangoCon US 2022](https://2022.djangocon.us/) Organizer
 
 - [DjangoCon US 2021](https://2021.djangocon.us/) Organizer
 
