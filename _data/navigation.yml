@@ -44,74 +44,71 @@
   aria-label: "Buy Jeff Triplett a coffee"
   show_in_header: false
   show_in_footer: false
-  nofollow: true
 
 - title: <i class="text-base fab fa-github" aria-hidden=true></i>
   url: https://github.com/jefftriplett
   aria-label: "Follow Jeff Triplett on GitHub"
   show_in_header: true
   show_in_footer: true
-  nofollow: true
 
 - title: <i class="text-base fab fa-twitter" aria-hidden=true></i>
   url: https://twitter.com/webology
   aria-label: "Follow Jeff Triplett on Twitter"
   show_in_header: true
   show_in_footer: true
-  nofollow: true
+
+- title: <i class="text-base fab fa-twitter" aria-hidden=true></i>
+  url: https://mastodon.social/@webology
+  aria-label: "Follow Jeff Triplett (@webology) on Mastodon"
+  rel: me
+  show_in_footer: true
+  show_in_header: false
+
 
 - title: <i class="text-base fas fa-hard-hat" aria-hidden=true></i>
   url: https://wip.chat/@jefftriplett
   aria-label: "Follow Jeff Triplett on WIP"
   show_in_header: false
   show_in_footer: true
-  nofollow: true
 
 - title: <i class="text-base fab fa-dev" aria-hidden=true></i>
   url: https://dev.to/jefftriplett
   aria-label: "Jeff Triplett's DEV Profile"
   show_in_header: false
   show_in_footer: true
-  nofollow: true
 
 - title: <i class="text-base fas fa-thumbtack" aria-hidden=true></i>
   url: https://pinboard.in/u:jefftriplett
   aria-label: "Follow Jeff Triplett on Pinboard"
   show_in_header: false
   show_in_footer: true
-  nofollow: true
 
 - title: <i class="text-base fab fa-instagram" aria-hidden=true></i>
   url: https://www.instagram.com/jefftriplett/
   aria-label: "Follow Jeff Triplett on Instagram"
   show_in_header: false
   show_in_footer: true
-  nofollow: true
 
 - title: <i class="text-base fab fa-flickr" aria-hidden=true></i>
   url: https://www.flickr.com/photos/webology
   aria-label: "Follow Jeff Triplett on Flickr"
   show_in_header: false
   show_in_footer: true
-  nofollow: true
 
 # - title: <i class="text-base fab fa-medium" aria-hidden=true></i>
 #   url: https://medium.com/@webology
 #   aria-label: "Follow Jeff Triplett on Medium"
 #   show_in_header: false
 #   show_in_footer: true
-#   nofollow: true
 
 # - title: <i class="text-base fab fa-spotify" aria-hidden=true></i>
 #   url: https://open.spotify.com/user/jefftriplett
 #   aria-label: "Follow Jeff Triplett on Spotify"
 #   show_in_header: false
 #   show_in_footer: true
-#   nofollow: true
 
 - title: <i class="text-base fas fa-rss" aria-hidden=true></i>
   url: http://feeds.feedburner.com/JeffTriplett
   aria-label: "Subscribe!"
   show_in_header: true
   show_in_footer: true
-  nofollow: true

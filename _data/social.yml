@@ -10,9 +10,9 @@
   featured: true
   order: 40
 
-- name: facebook
-  icon: /assets/images/social/facebook.png
-  url: https://www.facebook.com/jefftriplett
+# - name: facebook
+#   icon: /assets/images/social/facebook.png
+#   url: https://www.facebook.com/jefftriplett
 
 - name: flickr
   icon: /assets/images/social/flickr.png
@@ -40,6 +40,7 @@
 
 - name: mastodon
   icon: /assets/images/social/question-circle.png
+  rel: me
   url: https://mastodon.social/@webology
 
 - name: medium
