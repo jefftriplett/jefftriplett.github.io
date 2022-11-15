@@ -15,6 +15,12 @@ events:
   title: Veterans Day
 - start_date: 2022-11-24
   title: Thanksgiving Day
+- start_date: 2022-11-23
+  end_date: 2022-11-30
+  title: Thanksgiving Break
+- start_date: 2022-12-23
+  end_date: 2023-01-08
+  title: Holiday Break
 - start_date: 2022-12-25
   title: Christmas Day
 - start_date: 2022-12-26
