@@ -1,7 +1,8 @@
 {
   "subject": "acct:webology@mastodon.social",
   "aliases": [
-    "https://mastodon.online/@webology",
+    "https://mastodon.social/@webology",
+    "https://mastodon.social/users/webology"
   ],
   "links": [
     {
@@ -12,7 +13,7 @@
     {
       "rel": "self",
       "type": "application/activity+json",
-      "href": "https://mastodon.social/@webology"
+      "href": "https://mastodon.social/users/webology"
     },
     {
       "rel": "http://ostatus.org/schema/1.0/subscribe",
