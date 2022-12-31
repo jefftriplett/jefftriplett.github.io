@@ -51,19 +51,18 @@
   show_in_header: true
   show_in_footer: true
 
+- title: <i class="text-base fab fa-mastodon" aria-hidden=true></i>
+  url: https://mastodon.social/@webology
+  aria-label: "Follow Jeff Triplett (@webology) on Mastodon"
+  rel: me
+  show_in_footer: true
+  show_in_header: true
+
 - title: <i class="text-base fab fa-twitter" aria-hidden=true></i>
   url: https://twitter.com/webology
   aria-label: "Follow Jeff Triplett on Twitter"
   show_in_header: true
   show_in_footer: true
-
-- title: <i class="text-base fab fa-twitter" aria-hidden=true></i>
-  url: https://mastodon.social/@webology
-  aria-label: "Follow Jeff Triplett (@webology) on Mastodon"
-  rel: me
-  show_in_footer: true
-  show_in_header: false
-
 
 - title: <i class="text-base fas fa-hard-hat" aria-hidden=true></i>
   url: https://wip.chat/@jefftriplett
