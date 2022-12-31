@@ -64,6 +64,9 @@ TAILWIND_CSS_VERSION := "latest"
 @clean:
     rm -rf _site
 
+@cog:
+    cog -Pr ./README.md
+
 @down:
     docker-compose down
 
