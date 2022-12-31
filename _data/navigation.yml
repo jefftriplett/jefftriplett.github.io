@@ -64,6 +64,12 @@
   show_in_header: true
   show_in_footer: true
 
+- title: <i class="text-base fas fa-film" aria-hidden=true></i>
+  url: https://trakt.tv/users/jefftriplett
+  aria-label: "Follow Jeff Triplett on Trakt"
+  show_in_header: false
+  show_in_footer: true
+
 - title: <i class="text-base fas fa-hard-hat" aria-hidden=true></i>
   url: https://wip.chat/@jefftriplett
   aria-label: "Follow Jeff Triplett on WIP"
