@@ -1,4 +1,4 @@
----
+ ---
 layout: page
 title: What I'm Doing Now
 permalink: /now/
@@ -13,13 +13,13 @@ permalink: /now/
 
 - I am working on a weekly newsletter called [Django News][].
 
-- I am working on [DjangoCon US 2022][] for this October.
+- I am working on [DjangoCon US 2023][] for next year.
 
 - I am working on [Django Packages][].
 
 - One of my 2020 and 2021 regrets is that I never ran—checkout my [#jeffisrunning][] tweets on Twitter.
 
-- I have maintained a weekly [personal goals project][] on GitHub since late 2015. I stalled out a bit in 2018, 2019, 2020, and 2021 but it's on my radar to automate and restart.
+- I have maintained a weekly [personal goals project][] on GitHub since late 2015. I stalled out a bit in 2018, 2019, 2020, and 2021.
 
 - I co-wrote a series of articles on [OpenSource.com][] every month in 2018 with [Lacey Williams Henschel][].
 
@@ -37,6 +37,7 @@ permalink: /now/
 [DjangoCon US 2020]: https://2020.djangocon.us/
 [DjangoCon US 2021]: https://2021.djangocon.us/
 [DjangoCon US 2022]: https://2022.djangocon.us/
+[DjangoCon US 2023]: https://2023.djangocon.us/
 [Is the Lead Safe]: http://www.istheleadsafe.com/
 [Keto diet]: https://www.reddit.com/r/keto/wiki/keto_in_a_nutshell
 [Lacey Williams Henschel]: https://opensource.com/users/laceynwilliams
