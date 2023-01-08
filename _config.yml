@@ -14,6 +14,8 @@ permalink: :year/:title/  # permalink: date
 future: true
 paginate: 100
 
+timezone: US/Central
+
 plugins:
   # - jekyll-archives
   # - jekyll-coffeescript
