@@ -9,7 +9,7 @@ tags:
 - tailwindcss
 - pre-commit
 - pre-commit hooks
-title: Rustywind pre-commit hook
+title: Creating a Rustywind pre-commit hook
 weather: 62˚F Mostly Sunny
 ---
 
