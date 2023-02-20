@@ -29,6 +29,6 @@ repos:
         additional_dependencies:
           - rustywind@0.15.3
         entry: rustywind
-        args: [--write, templates]
+        args: [--write]
         types_or: [html]
 ```
