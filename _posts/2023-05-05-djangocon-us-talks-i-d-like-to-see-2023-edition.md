@@ -10,6 +10,8 @@ weather: 61˚F Rainy.
 
 Continuing in the tradition of my [2022][], [2018][], [2017][], and [2016][] "DjangoCon US Talks I'd like to see" posts, here is an update for 2023.
 
+The talk and tutorial deadline for this year is [May 15, 2023 at 6 PM EDT](https://time.is/0600PM_15_May_2023_in_Durham,_United_States?DjangoCon_US_CFP_Closes), but check the official [speaking page](https://2023.djangocon.us/speaking/) for updates and [submit your proposal.](https://pretalx.com/djangocon-us-2023/cfp)
+
 Also, don't miss our official post [Need Suggestions for a DjangoCon US 2023 Topic?](https://2023.djangocon.us/news/topic-suggestions-for-cfp/).
 
 ## Talks I'd like to see at DjangoCon US 2023
