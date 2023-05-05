@@ -67,6 +67,20 @@ These are primarily random topics I haven't seen covered or covered in enough de
 - Django apps and community - It would be nice to hear from the more significant apps and community projects 
 - DSF board - to see what's new and where they would like to guide the community
 
+## Share your thoughts and ideas
+
+If you want to share your thoughts and ideas for a good talk, here are three ways:
+
+### On the [Django Forum](https://forum.djangoproject.com/t/what-djangocon-us-talks-would-you-like-to-see/20740)
+
+### Mastodon
+
+<iframe src="https://mastodon.social/@webology/110316808166374035/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://mastodon.social/embed.js" async="async"></script>
+
+### Whatever remains of Twitter
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">🤔 Do you want to submit a talk for DjangoCon US 2023 but aren&#39;t sure what to talk about?<br><br>Here is my annual list of DjangoCon US talks I’d like to see in case it gives you some inspiration: <a href="https://t.co/ei8W0tDBwR">https://t.co/ei8W0tDBwR</a></p>&mdash; ✨ Jeff Triplett ✨ (@webology) <a href="https://twitter.com/webology/status/1654510282826457090?ref_src=twsrc%5Etfw">May 5, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 [2016]: https://jefftriplett.com/2016/djangocon-us-talks-id-like-to-see/
 [2017]: https://jefftriplett.com/2017/django-talks-id-like-to-see/
