@@ -33,7 +33,6 @@ I have been happily living in Lawrence, KS since 2007.
 
 🎮 [The Legend of Zelda: Tears of the Kingdom][]
 
-
 ----
 
 *This page is inspired by [Aaron Sumner's Now Page][] which was inspired by [Derek Sivers's][Derek Sivers] [Now Page Movement][]. It's current as of October 3rd, 2021.*
