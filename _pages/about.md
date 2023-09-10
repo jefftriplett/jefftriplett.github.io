@@ -39,15 +39,15 @@ I have been a developer for one of the premier Django consulting agencies since 
 In 2019, I became a Partner. 
 We specialize in Python, Django, Docker, performance, scaling, and team management.
 
-### [Python Software Foundation (PSF)](https://www.python.org/psf/records/board/history/#id2) (2018-present)
-{:.my-4}
-
-I was voted in by the community as a Director for the [Python Software Foundation (PSF)](https://www.python.org/psf/). I served as the PSF's Treasurer from 2020 to 2022 and more recently Vice Chair for the 2022 to 2023 term.
-
 ### [Django Events Foundation North America (DEFNA)](https://github.com/defna) (2015-present)
 {:.my-4}
 
-I am one of the three co-founders of DEFNA and have served as the President of the Board since 2015.
+I am one of the three co-founders of DEFNA and served as the President of the Board from 2015 to 2021 and then again from 2022 to 2023. 
+
+### [Python Software Foundation (PSF)](https://www.python.org/psf/records/board/history/#id2) (2018-2023)
+{:.my-4}
+
+I was voted in by the community as a Director for the [Python Software Foundation (PSF)](https://www.python.org/psf/). I served as the PSF's Treasurer from 2020 to 2022 and, more recently, Vice Chair for the 2022 to 2023 term.
 
 ----
 
@@ -56,7 +56,7 @@ I am one of the three co-founders of DEFNA and have served as the President of t
 ### Mediaphormedia (The World Company subsidiary) (2007-2010)
 {:.my-4}
 
-I joined [The World Company](http://www.theworldco.net) in 2007 to work at [Django Project's](http://djangoproject.com/) birth place. As a Senior Developer, I worked on [Ellington CMS](https://www.ellingtoncms.com/) and [Ellington Marketplace](https://www.ellingtoncms.com/marketplace/).
+I joined [The World Company](http://www.theworldco.net) in 2007 to work at [Django Project's](http://djangoproject.com/) birthplace. As a Senior Developer, I worked on [Ellington CMS](https://www.ellingtoncms.com/) and [Ellington Marketplace](https://www.ellingtoncms.com/marketplace/).
 
 ### Fast Freedom (2002-2007)
 {:.my-4}
@@ -73,7 +73,7 @@ I managed the hosting, development, wireless, and dial-up service and employees 
 
 I was awarded the Malcolm Tredinnick Memorial Prize in 2019 for contributions to the Django community.
 
-### [Python Software Foundation Fellow Member](http://pyfound.blogspot.com/2019/01/python-software-foundation-fellow.html)
+### [2019 Python Software Foundation Fellow Member](http://pyfound.blogspot.com/2019/01/python-software-foundation-fellow.html)
 {:.my-4}
 
 I was named a PSF Fellow Member in January 2019.
@@ -86,7 +86,7 @@ I won an Opensource.com 2019 People's Choice Award.
 ### [Django Code of Conduct Committee](https://www.djangoproject.com/foundation/committees/#conduct)
 {:.my-4}
 
-I joined the committee in 2016 as a member and I have served as co-chair since the end of 2016.
+I joined the committee in 2016 as a member, serving as chair and then later co-chair. 
 
 ### [Django Developer Member](https://www.djangoproject.com/foundation/developer-members/)
 {:.my-4}
