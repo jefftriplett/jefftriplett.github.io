@@ -48,10 +48,10 @@ TAILWIND_CSS_VERSION := "latest"
     jekyll build
 
 @build-static:
-    just build-taildwind development 2020.development.css
-    just build-taildwind production 2020.css
+    just build-tailwind development 2023.development.css
+    just build-tailwind production 2023.css
 
-@build-taildwind target='' filename='2020.css':
+@build-tailwind target='' filename='2023.css':
     echo "{{ target }} == {{ filename }}"
     JEKYLL_ENV={{ target }} npx tailwindcss@{{ TAILWIND_CSS_VERSION }} build \
         src/index.css \

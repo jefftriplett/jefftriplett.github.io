@@ -21,19 +21,19 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/fonts.css">
-{% if jekyll.environment == 'development' %}
-  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-{% else %}
-  <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/2020.css">
-{% endif %}
+  {% if jekyll.environment == 'development' %}
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  {% else %}
+    <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/2023.css">
+  {% endif %}
   <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/assets/css/pygments/monokai.css">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/assets/images/favicon-196.png">
   <meta name="theme-color" content="#ffffff">
   <meta name="twitter:dnt" content="on">
-{% seo title=false %}
-{% if page.categories %}{% for category in page.categories limit:1 %}
-  <meta content="{{ category }}" property="article:section">{% endfor %}{% endif %}
-{% if page.tags %}{% for tag in page.tags %}
-  <meta content="{{ tag }}" property="article:tag">{% endfor %}{% endif %}
+  {% seo title=false %}
+  {% if page.categories %}{% for category in page.categories limit:1 %}
+    <meta content="{{ category }}" property="article:section">{% endfor %}{% endif %}
+  {% if page.tags %}{% for tag in page.tags %}
+    <meta content="{{ tag }}" property="article:tag">{% endfor %}{% endif %}
 </head>
