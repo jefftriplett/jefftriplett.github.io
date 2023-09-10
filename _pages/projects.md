@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-Most of my projects range from scratching personal itches, working on community projects and initiatives, and OSS projects.
+Most of my projects range from scratching personal itches, working on community projects and initiatives, and open source projects.
 
 ----
 
@@ -26,6 +26,6 @@ Most of my projects range from scratching personal itches, working on community 
 
 ----
 
-## 200+ more projects on GitHub
+## 230+ more projects on GitHub
 
-[See more projects on GitHub](https://github.com/jefftriplett)
+[See more projects on GitHub](https://github.com/jefftriplett)

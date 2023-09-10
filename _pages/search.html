@@ -4,10 +4,10 @@ permalink: /search/
 title: Search
 ---
 
-<article class="leading-loose page">
-  <h1 class="font-semibold text-5xl">{{ page.title | markdownify | remove:'<p>' | remove:'</p>' }}</h1>
+<article class="w-full leading-loose border-white page">
+  <h1 class="pb-4 text-4xl font-semibold">{{ page.title | markdownify | remove:'<p>' | remove:'</p>' }}</h1>
   <div id="search-container">
-    <input class="w-full p-4 bg-gray-200 border border-4 border-gray-800 rounded-xl" type="text" id="search-input" placeholder="Search...">
+    <input class="p-4 w-full bg-gray-100 rounded-xl border-2 border-gray-900" type="text" id="search-input" placeholder="Search...">
     <ol id="results-container"></ol>
   </div>
 </article>
@@ -17,14 +17,14 @@ title: Search
 
 <!-- Configuration -->
 <script type="text/javascript">
-SimpleJekyllSearch({
-  searchInput: document.getElementById('search-input'),
-  resultsContainer: document.getElementById('results-container'),
-  json: '/search.json',
-  searchResultTemplate: '<li class="m-2"><a href="{url}" title="{desc}">{title}</a></li>',
-  noResultsText: 'No results found',
-  limit: 10,
-  fuzzy: false,
-  exclude: ['Welcome']
-})
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+    searchResultTemplate: '<li class="my-8 mx-4"><a href="{url}" title="{desc}">{title}</a></li>',
+    noResultsText: '<span class="my-8 mx-4">No results found</span>',
+    limit: 10,
+    fuzzy: false,
+    exclude: ['Welcome']
+  })
 </script>

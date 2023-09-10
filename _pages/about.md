@@ -6,7 +6,7 @@ redirect_from: /posts/about/raw/
 ---
 
 <div class="flex items-start">
-<div class="flex-0 w-3/4">
+<div class="w-3/4 flex-0">
 {% capture bio %}
 Jeff Triplett is a Partner at [REVSYS](https://revsys.com/) and a former Director and Vice Chair of the [Python Software Foundation](https://www.python.org/psf/records/board/history/#id2).
 The co-founder and former President of the [Django Events Foundation North America (DEFNA)](https://www.defna.org), the non-profit which has run DjangoCon US since 2015. 
@@ -18,9 +18,9 @@ Originally from [Sarcoxie, Missouri](http://en.wikipedia.org/wiki/Sarcoxie,_Miss
 {{ bio|markdownify }}
 </div>
 
-<div class="flex-1 w-64 md:w-96 ml-8 w-1/4">
+<div class="flex-1 ml-8 w-64 w-1/4 md:w-96">
 <img class="w-full rounded-lg" src="/assets/images/dcus-2017-bw.jpg" alt="Jeff Triplett" title="Jeff Triplett taken by Melanie Crutchfield">
-<div class="text-md text-center md:text-lg">
+<div class="text-center md:text-lg text-md">
 Image courtesy of
 <a href="https://twitter.com/HelloMelanieC">Melanie&nbsp;Crutchfield</a>
 </div>
