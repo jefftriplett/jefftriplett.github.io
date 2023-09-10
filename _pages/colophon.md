@@ -1,39 +1,36 @@
 ---
 layout: page
-title: Colophon
 permalink: /colophon/
+title: Colophon
 ---
 
-jefftriplett.com is hosted on [GitHub Pages][] with [Cloudflare][] an using [Jekyll][].
+jefftriplett.com runs on [GitHub Pages][] using [Jekyll][] and is served behind [Cloudflare][].
 
 The source code resides in my GitHub repo: [jefftriplett/jefftriplett.github.io][].
 
-I prefer to write in [Markdown][] using my favorite editor [Sublime Text 4][] and push updates via [Git][] than wasting my days solving the wrong problems.
+I prefer writing in [Markdown][] using my favorite writing app [Obsidian][].
 
-The theme was built with [Tailwind CSS][] and [tailwindcss-typography][].
+Everything else is hand-coded using my favorite editor, [Sublime Text 4][] and pushing updates via [git][].
+
+I wrote the "theme" using [Tailwind CSS][] and [Tailwind Typography][].
 
 The text on the site uses [Alegreya][], [PT Sans][], and [PT Serif][].
 
-Typography advice from [Top Ten Typography Tips][].
-
 The icons come from [Font Awesome][].
 
-Other indispensables: GitHub, Spotify, and written on my Apple MacBook Pro.
+Written on an Apple MacBook Pro (2019), Mac Mini Pro (2023), Mac Studio (2023), and occasionally an iPad.
 
 [Alegreya]: https://fonts.google.com/specimen/Alegreya
 [Cloudflare]: https://www.cloudflare.com
 [Font Awesome]: http://fontawesome.io/
-[Git]: https://git-scm.com/
+[git]: https://git-scm.com/
 [GitHub Pages]: https://pages.github.com/
 [jefftriplett/jefftriplett.github.io]: https://github.com/jefftriplett/jefftriplett.github.io
 [Jekyll]: https://jekyllrb.com/
 [Markdown]: https://daringfireball.net/projects/markdown/
+[Obsidian]: https://obsidian.md/
 [PT Sans]: https://fonts.google.com/specimen/PT+Sans
 [PT Serif]: https://fonts.google.com/specimen/PT+Serif
-[SASS]: http://sass-lang.com/
-[Skeleton-Sass]: https://github.com/whatsnewsaes/Skeleton-Sass
-[Skeleton]: http://getskeleton.com/
 [Sublime Text 4]: https://www.sublimetext.com/
 [Tailwind CSS]: http://tailwindcss.com
-[tailwindcss-typography]: https://github.com/tailwindlabs/tailwindcss-typography
-[Top Ten Typography Tips]: http://www.toptentypography.tips/
+[Tailwind Typography]: https://github.com/tailwindlabs/tailwindcss-typography
