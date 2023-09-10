@@ -6,13 +6,17 @@ import typer
 from datetime import datetime
 from dateutil.parser import parse
 from pathlib import Path
-from pydantic import BaseModel, ValidationError, validator
+from pydantic import BaseModel
+from pydantic import field_validator
+from pydantic import ValidationError
+from rich import print
 from slugify import slugify
 from typing import List, Optional
 from urllib.parse import urlencode
 
 
 DEFAULT_TZ = pytz.timezone("America/Chicago")
+SLUG_MAX_LENGTH = 64
 
 
 class FrontmatterModel(BaseModel):
@@ -20,13 +24,13 @@ class FrontmatterModel(BaseModel):
     Our base class for our default "Frontmatter" fields.
     """
 
-    date: Optional[str]  # TODO: Parse/fix...
+    date: Optional[str] = None  # TODO: Parse/fix...
     layout: str
-    permalink: Optional[str]
-    published: Optional[bool]
-    redirect_from: Optional[List[str]]
-    redirect_to: Optional[str]  # via the jekyll-redirect-from plugin
-    sitemap: Optional[bool]
+    permalink: Optional[str] = None
+    published: Optional[bool] = None
+    redirect_from: Optional[List[str]] = None
+    redirect_to: Optional[str] = None  # via the jekyll-redirect-from plugin
+    sitemap: Optional[bool] = None
     title: str
 
     class Config:
@@ -34,15 +38,15 @@ class FrontmatterModel(BaseModel):
 
 
 class PageModel(FrontmatterModel):
-    description: Optional[str]
-    heading: Optional[str]
-    layout: Optional[str]
-    title: Optional[str]
+    description: Optional[str] = None
+    heading: Optional[str] = None
+    layout: Optional[str] = None
+    title: Optional[str] = None
 
 
 class PostModel(FrontmatterModel):
     author: Optional[str] = None
-    categories: Optional[List[str]]
+    categories: Optional[List[str]] = None
     category: Optional[str] = "Personal"
     date: Optional[datetime] = None
     image: Optional[str] = None
@@ -51,18 +55,27 @@ class PostModel(FrontmatterModel):
     location: Optional[str] = None
     redirect_to: Optional[str] = None
     slug: Optional[str] = None
-    tags: Optional[List[str]]
+    tags: Optional[List[str]] = None
     title: str
     weather: Optional[str] = None
 
-    @validator("date", pre=True)
-    def parse_date(cls, value):
-        return parse(f"{value}").astimezone(DEFAULT_TZ)
+    @field_validator("date")
+    def validate_date(cls, value):
+        return parse(f"{value}").replace(microsecond=0).astimezone(DEFAULT_TZ)
         # if isinstance(f"{value}", str):
         #     return parse(f"{value}").astimezone(DEFAULT_TZ)
         # else:
         #     return value
         #     return value.astimezone(DEFAULT_TZ)
+
+
+class ProjectModel(FrontmatterModel):
+    archived: Optional[bool] = False
+    github: Optional[str] = None
+    homepage: Optional[str] = None
+    layout: Optional[str] = None
+    slug: Optional[str] = None
+    title: Optional[str] = None
 
 
 # class PostSchema(typesystem.Schema):
@@ -95,26 +108,73 @@ app = typer.Typer()
 
 
 @app.command()
+def draft(
+    title: str,
+    category: str = "Personal",
+    layout: str = "post",
+    location: str = "Home @ Lawrence, Kansas United States",
+    overwrite: bool = False,
+):
+    slug = slugify(f"{title}", max_length=SLUG_MAX_LENGTH, word_boundary=True)
+
+    filename = Path("_drafts", f"{slug}.md")
+    template = Path("_drafts", "_draft-template.md")
+
+    if template.exist():
+        template = template.read_text()
+    else:
+        template = ""
+
+    post = frontmatter.loads(template)
+    post["category"] = category
+    post["layout"] = layout
+    post["location"] = location
+    post["slug"] = slug
+    post["title"] = title
+
+    data = PostModel(**post.metadata)
+    post.metadata.update(data.dict(exclude_unset=True))
+
+    if overwrite or not filename.exists():
+        filename.write_text(frontmatter.dumps(post))
+
+
+@app.command()
+def publish(filename: Path, overwrite: bool = False):
+    if str(filename.parent) in ["_drafts"]:
+        doc = frontmatter.load(filename)
+        doc["date"] = datetime.now().replace(microsecond=0).astimezone(DEFAULT_TZ)
+        post = PostModel(**doc.metadata)
+        doc.metadata.update(post.dict(exclude_unset=True))
+        destination = Path("_posts", f"{post.date:%Y-%m-%d}-{filename.name}")
+        if overwrite or not destination.exists():
+            filename.rename(destination).write_text(f"{frontmatter.dumps(doc)}\n")
+            print(f"[yellow]{destination}[/yellow] was published")
+        else:
+            print(f"[red]{destination}[/red] already exists")
+
+
+@app.command()
 def dump(filename: str):
     try:
         data = frontmatter.load(filename)
         post = PostModel(**data.metadata)
-        slug = slugify(f"{post.title}")
-        typer.echo(f"{slug}")
-        typer.echo("----")
+        slug = slugify(f"{post.title}", max_length=SLUG_MAX_LENGTH, word_boundary=True)
+        print(f"{slug}")
+        print("----")
 
     except ValidationError as e:
-        typer.echo(e.json())
+        print(e.json())
 
 
 @app.command()
-def fix_redirect_to(folder: str):
+def fix_redirect_to(folder: Path):
     posts = sorted(Path(folder).glob("*.md"))
     for filename in posts:
         try:
             post = frontmatter.load(filename)
             if "link-out" in post.metadata:
-                typer.secho(f"{filename}", fg="white")
+                print(f"{filename}")
                 print(post.metadata["link-out"])
                 post.metadata["redirect_to"] = post.metadata["link-out"]
                 post.content = ""
@@ -122,11 +182,11 @@ def fix_redirect_to(folder: str):
                 filename.write_text(frontmatter.dumps(post))
 
         except ValidationError as e:
-            typer.secho(e.json(), fg="red")
+            print(e.json())
 
 
 @app.command()
-def fmt(folder: str):
+def fmt(folder: Path):
     filenames = sorted(Path(folder).glob("*.md"))
     for filename in filenames:
         try:
@@ -136,19 +196,20 @@ def fmt(folder: str):
             filename.write_text(frontmatter.dumps(post) + os.linesep)
 
         except ValidationError as e:
-            typer.secho(f"{filename}", fg="red")
-            typer.echo(e.json())
+            print(f"[red]{filename}[/red]")
+            print(e.json())
 
         except Exception as e:
-            typer.secho(f"{filename}::{e}", fg="red")
+            print(f"[red]{filename}[/red]")
+            print(e)
 
 
 @app.command()
-def process(folder: str, slug_max_length: int = 64):
+def process(folder: Path):
     posts = sorted(Path(folder).glob("**/*.md"))
     for filename in posts:
         if filename.stem not in ["README"]:
-            typer.secho(f"{filename}", fg="white")
+            print(f"{filename}")
             try:
                 try:
                     data = frontmatter.load(filename)
@@ -157,12 +218,12 @@ def process(folder: str, slug_max_length: int = 64):
                     post = PostModel(**data.metadata)
 
                 except ValidationError as e:
-                    typer.secho(e.json(), fg="red")
+                    print(e.json())
                     print(post.dict(exclude_none=True))
                     post = PostModel(**data.metadata)
 
                 slug = slugify(
-                    f"{post.title}", max_length=slug_max_length, word_boundary=True
+                    f"{post.title}", max_length=SLUG_MAX_LENGTH, word_boundary=True
                 )
 
                 if slug != post.slug:
@@ -170,9 +231,9 @@ def process(folder: str, slug_max_length: int = 64):
 
                 if "date" in post:
                     if isinstance(post["date"], str):
-                        date = parse(post["date"]).astimezone(DEFAULT_TZ)
+                        date = parse(post["date"]).replace(microsecond=0).astimezone(DEFAULT_TZ)
                     else:
-                        date = post["date"].astimezone(DEFAULT_TZ)
+                        date = post["date"].replace(microsecond=0).astimezone(DEFAULT_TZ)
 
                 data.metadata.update(**post.dict(exclude_none=True))
 
@@ -186,26 +247,73 @@ def process(folder: str, slug_max_length: int = 64):
 
                 if not filename.name.startswith("_"):
                     if filename != destination:
-                        typer.echo(f"renaming: {filename} to: {destination}")
+                        print(f"renaming: {filename} to: {destination}")
                         filename.rename(destination)
                         filename = Path(destination)
 
                     filename.write_text(frontmatter.dumps(data) + os.linesep)
 
             except ValidationError as e:
-                typer.secho(e.json(), fg="green")
+                print(e.json())
                 print(post.dict(exclude_none=True))
 
 
 @app.command()
-def update_opengraph_image(folder: str, debug: bool = False):
+def projects():
+    posts = sorted(Path("_projects").glob("**/*.md"))
+    for filename in posts:
+        print(f"{filename}")
+        try:
+            try:
+                data = frontmatter.load(filename)
+                if len(data.metadata) == 0:
+                    data["title"] = filename.stem
+                post = ProjectModel(**data.metadata)
+
+            except ValidationError as e:
+                print(e.json())
+                print(post.dict(exclude_none=True))
+                post = ProjectModel(**data.metadata)
+
+            slug = slugify(
+                f"{post.title}", max_length=SLUG_MAX_LENGTH, word_boundary=True
+            )
+
+            if slug != post.slug:
+                post.slug = slug
+
+            # if "date" in post:
+            #     if isinstance(post["date"], str):
+            #         date = parse(post["date"]).astimezone(DEFAULT_TZ)
+            #     else:
+            #         date = post["date"].astimezone(DEFAULT_TZ)
+
+            data.metadata.update(**post.dict(exclude_none=True))
+
+            destination = filename.parent.joinpath(f"{slug}{filename.suffix}")
+
+            if not filename.name.startswith("_"):
+                if filename != destination:
+                    print(f"renaming: {filename} to: {destination}")
+                    filename.rename(destination)
+                    filename = Path(destination)
+
+                filename.write_text(frontmatter.dumps(data) + os.linesep)
+
+        except ValidationError as e:
+            print(e.json())
+            print(post.dict(exclude_none=True))
+
+
+@app.command()
+def update_opengraph_image(folder: Path, debug: bool = False):
     filenames = Path(folder).glob("**/*.md")
     for filename in filenames:
         try:
             data = frontmatter.load(filename)
             # post = PostModel(**data.metadata)
             # slug = slugify(f"{post.title}")
-            typer.echo(f"{data.metadata['title']}")
+            print(f"{data.metadata['title']}")
             query = {
                 "atSymbol": "true",
                 "author": "webology",
@@ -226,11 +334,11 @@ def update_opengraph_image(folder: str, debug: bool = False):
             filename.write_text(frontmatter.dumps(data))
 
         except ValidationError as e:
-            typer.echo(e.json())
+            print(e.json())
 
 
 @app.command()
-def validate(folder: str):
+def validate(folder: Path):
     posts = sorted(Path(folder).glob("*.md"))
     for filename in posts:
         try:
@@ -238,11 +346,12 @@ def validate(folder: str):
             PostModel(**data.metadata)
 
         except ValidationError as e:
-            typer.secho(f"{filename}", fg="red")
-            typer.echo(e.json())
+            print(f"[red]{filename}[/red]")
+            print(e.json())
 
         except Exception as e:
-            typer.secho(f"{filename}::{e}", fg="red")
+            print(f"[red]{filename}[/red]")
+            print(e)
 
 
 if __name__ == "__main__":

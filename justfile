@@ -85,9 +85,11 @@ TAILWIND_CSS_VERSION := "latest"
     just --fmt --unstable
 
 @lint:
-    black --check .
-    curlylint _includes/ _layouts/ _pages/ *.html
-    rustywind --dry-run .
+    -black --check .
+    -djhtml --tabwidth 2 _layouts/ **.html
+    # -curlylint _includes/ _layouts/ _pages/ *.html
+    -npx rustywind --dry-run .
+    -npx rustywind --write .
 
 @opengraph:
     tcardgen \

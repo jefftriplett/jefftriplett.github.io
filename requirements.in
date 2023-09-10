@@ -4,6 +4,9 @@ pydantic
 pytest
 python-frontmatter
 python-slugify
+pytz
+rich
 snex
+tree_sitter
 typer
 workalendar
