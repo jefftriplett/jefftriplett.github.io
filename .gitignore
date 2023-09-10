@@ -2,6 +2,7 @@
 .bundle
 .cache
 .jekyll-*
+.obsidian
 .sass-cache
 .vendor
 .vscode
