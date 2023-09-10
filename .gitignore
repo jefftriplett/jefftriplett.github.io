@@ -9,3 +9,4 @@ _site
 build
 Gemfile.lock
 node_modules
+vendor
