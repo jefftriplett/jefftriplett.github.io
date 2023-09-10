@@ -13,6 +13,7 @@ relative_permalinks: false
 permalink: :year/:title/  # permalink: date
 future: true
 paginate: 100
+incremental: true
 
 timezone: US/Central
 
@@ -30,7 +31,7 @@ plugins:
   - jemoji
 
 include:
-  - _pages
+  - "_pages"
   - "/.well-known"
 
 exclude:
@@ -44,8 +45,6 @@ exclude:
   - .docker
   - .gitignore
   - .vendor
-  - _pages/categories.html
-  - _pages/tags.html
   - CNAME
   - docker-compose.yml
   - Gemfile

@@ -11,12 +11,15 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        body: ['"PT Serif"', ...defaultTheme.fontFamily.serif],
-        display: ['"PT Serif"', ...defaultTheme.fontFamily.serif],
-        // mono: ['Menlo', ...defaultTheme.fontFamily.mono],
-        mono: ['"PT Mono"', ...defaultTheme.fontFamily.mono],
-        sans: ['"PT Sans"', ...defaultTheme.fontFamily.sans],
-        serif: ['"PT Serif"', ...defaultTheme.fontFamily.serif],
+        body: ['Inter', ...defaultTheme.fontFamily.serif],
+        display: ['Inter', ...defaultTheme.fontFamily.serif],
+
+        // body: ['"PT Serif"', ...defaultTheme.fontFamily.serif],
+        // display: ['"PT Serif"', ...defaultTheme.fontFamily.serif],
+        // // mono: ['Menlo', ...defaultTheme.fontFamily.mono],
+        // mono: ['"PT Mono"', ...defaultTheme.fontFamily.mono],
+        // sans: ['"PT Sans"', ...defaultTheme.fontFamily.sans],
+        // serif: ['"PT Serif"', ...defaultTheme.fontFamily.serif],
       },
     },
   },
