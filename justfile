@@ -53,9 +53,9 @@ TAILWIND_CSS_VERSION := "latest"
 
 @build-tailwind target='' filename='2023.css':
     echo "{{ target }} == {{ filename }}"
-    JEKYLL_ENV={{ target }} npx tailwindcss@{{ TAILWIND_CSS_VERSION }} build \
-        src/index.css \
+    JEKYLL_ENV={{ target }} bun run tailwindcss build \
         --config src/tailwind.config.js \
+        --input src/index.css \
         --output assets/css/{{ filename }}
 
 @bump:
