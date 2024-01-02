@@ -24,5 +24,5 @@ services:
     ports:
       - 4000:4000
     volumes:
-      - .:/srv/jekyll:cached
-      - ./.vendor/bundle:/usr/local/bundle:cached
+      - .:/srv/jekyll
+      - ./.vendor/bundle:/usr/local/bundle
