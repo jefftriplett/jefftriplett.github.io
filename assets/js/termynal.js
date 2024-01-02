@@ -31,19 +31,19 @@ class Termynal {
         this.container = (typeof container === 'string') ? document.querySelector(container) : container;
         this.pfx = `data-${options.prefix || 'ty'}`;
         this.startDelay = options.startDelay
-            || parseFloat(this.container.getAttribute(`${this.pfx}-startDelay`)) || 600;
+        || parseFloat(this.container.getAttribute(`${this.pfx}-startDelay`)) || 600;
         this.typeDelay = options.typeDelay
-            || parseFloat(this.container.getAttribute(`${this.pfx}-typeDelay`)) || 90;
+        || parseFloat(this.container.getAttribute(`${this.pfx}-typeDelay`)) || 90;
         this.lineDelay = options.lineDelay
-            || parseFloat(this.container.getAttribute(`${this.pfx}-lineDelay`)) || 1500;
+        || parseFloat(this.container.getAttribute(`${this.pfx}-lineDelay`)) || 1500;
         this.progressLength = options.progressLength
-            || parseFloat(this.container.getAttribute(`${this.pfx}-progressLength`)) || 40;
+        || parseFloat(this.container.getAttribute(`${this.pfx}-progressLength`)) || 40;
         this.progressChar = options.progressChar
-            || this.container.getAttribute(`${this.pfx}-progressChar`) || '█';
-		this.progressPercent = options.progressPercent
-            || parseFloat(this.container.getAttribute(`${this.pfx}-progressPercent`)) || 100;
+        || this.container.getAttribute(`${this.pfx}-progressChar`) || '█';
+        this.progressPercent = options.progressPercent
+        || parseFloat(this.container.getAttribute(`${this.pfx}-progressPercent`)) || 100;
         this.cursor = options.cursor
-            || this.container.getAttribute(`${this.pfx}-cursor`) || '▋';
+        || this.container.getAttribute(`${this.pfx}-cursor`) || '▋';
         this.lineData = this.lineDataToElements(options.lineData || []);
         if (!options.noInit) this.init()
     }
@@ -61,9 +61,9 @@ class Termynal {
          */
         const containerStyle = getComputedStyle(this.container);
         this.container.style.width = containerStyle.width !== '0px' ?
-            containerStyle.width : undefined;
+        containerStyle.width : undefined;
         this.container.style.minHeight = containerStyle.height !== '0px' ?
-            containerStyle.height : undefined;
+        containerStyle.height : undefined;
 
         this.container.setAttribute('data-termynal', '');
         this.container.innerHTML = '';
@@ -122,12 +122,12 @@ class Termynal {
      */
     async progress(line) {
         const progressLength = line.getAttribute(`${this.pfx}-progressLength`)
-            || this.progressLength;
+        || this.progressLength;
         const progressChar = line.getAttribute(`${this.pfx}-progressChar`)
-            || this.progressChar;
+        || this.progressChar;
         const chars = progressChar.repeat(progressLength);
-		const progressPercent = line.getAttribute(`${this.pfx}-progressPercent`)
-			|| this.progressPercent;
+        const progressPercent = line.getAttribute(`${this.pfx}-progressPercent`)
+        || this.progressPercent;
         line.textContent = '';
         this.container.appendChild(line);
 
@@ -135,9 +135,9 @@ class Termynal {
             await this._wait(this.typeDelay);
             const percent = Math.round(i / chars.length * 100);
             line.textContent = `${chars.slice(0, i)} ${percent}%`;
-			if (percent>progressPercent) {
-				break;
-			}
+            if (percent>progressPercent) {
+                break;
+            }
         }
     }
 
