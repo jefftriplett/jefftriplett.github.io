@@ -14,7 +14,7 @@ One of my [personal goals](https://github.com/jefftriplett/personal-goals) for 2
 
 ## My experiment of the month
 
-I have searched for a good dashboard for my home and office for many years, but I never quite found the right solution. That is until I stumbled on [MagicMirror²](https://magicmirror.builders/). 
+I have searched for a good dashboard for my home and office for many years, but I never quite found the right solution. That is until I stumbled on [MagicMirror²](https://magicmirror.builders/).
 
 Over the weekend I decided to just go with it and I ordered a [Raspberry Pi 3](https://www.amazon.com/gp/search/ref=as_li_qf_sp_sr_tl?ie=UTF8&tag=jefftriplet07-20&keywords=B01CD5VC92&index=aps&camp=1789&creative=9325&linkCode=ur2&linkId=6d6316c841a4778fda7b1afc4f128c84) [(non-affiliate link)](https://www.amazon.com/Raspberry-Pi-RASP-PI-3-Model-Motherboard/dp/B01CD5VC92) to drive a spare monitor at work. I could not be happier with the results!
 
@@ -22,7 +22,7 @@ Over the weekend I decided to just go with it and I ordered a [Raspberry Pi 3](h
 
 <br>
 
-MagicMirror² has several built-in modules and is extendable through third-party plug-ins. I found modules for most of the services that I wanted to run on it including [Dark Sky](https://github.com/dmcinnes/MMM-forecast-io), [Todoist](https://github.com/cbrooker/MMM-Todoist), [Trello](https://github.com/Jopyth/MMM-Trello), [Twitter Trends](https://github.com/AdamMoses-GitHub/MMM-TwitterTrendsByPlace), and the built-in [Calendar](https://github.com/MichMich/MagicMirror/tree/develop/modules/default/calendar). 
+MagicMirror² has several built-in modules and is extendable through third-party plug-ins. I found modules for most of the services that I wanted to run on it including [Dark Sky](https://github.com/dmcinnes/MMM-forecast-io), [Todoist](https://github.com/cbrooker/MMM-Todoist), [Trello](https://github.com/Jopyth/MMM-Trello), [Twitter Trends](https://github.com/AdamMoses-GitHub/MMM-TwitterTrendsByPlace), and the built-in [Calendar](https://github.com/MichMich/MagicMirror/tree/develop/modules/default/calendar).
 
 Their documentation stepped me through writing my first two plug-ins using [Vue.js](https://vuejs.org/) which makes writing plug-ins a breeze. My JS skills are pretty rusty but I wrote a quick markdown to dashboard module which works for me but is not quite ready for public consumption.
 
@@ -32,7 +32,7 @@ Now that I'm a few days into using it, I wish I would have had this years ago.
 
 I absolutely love Tracy Osborn's ([@limedaring](https://twitter.com/limedaring)) Hello Web book series. This week Tracy announced that she is writing a third book called [Hello Web Design](https://www.kickstarter.com/projects/1868398473/hello-web-design-design-basics-for-non-designers) which just launched on Kickstarter.
 
-[Hello Web App](https://www.amazon.com/Hello-Web-App-Learn-Build-ebook/dp/B00U5MMZ2E/?tag={{site.amazon_affiliate_id}}) [(non-affiliate link)](https://www.amazon.com/Hello-Web-App-Learn-Build-ebook/dp/B00U5MMZ2E/) is my goto recommendation when someone asks me for help for how to get started with Django. When friends reach out to me with that next great idea that they want to build themselves, but they aren't sure where to get started, then Hello Web App to the rescue. I have given my copy away at least half a dozen times. 
+[Hello Web App](https://www.amazon.com/Hello-Web-App-Learn-Build-ebook/dp/B00U5MMZ2E/?tag={{site.amazon_affiliate_id}}) [(non-affiliate link)](https://www.amazon.com/Hello-Web-App-Learn-Build-ebook/dp/B00U5MMZ2E/) is my goto recommendation when someone asks me for help for how to get started with Django. When friends reach out to me with that next great idea that they want to build themselves, but they aren't sure where to get started, then Hello Web App to the rescue. I have given my copy away at least half a dozen times.
 
 Some of Tracy's Kickstarter reward levels include a copy of Hello Web App and her follow up book [Hello Web App: Intermediate Concepts](https://www.amazon.com/Hello-Web-App-Intermediate-Successful-ebook/dp/B01774NMEW/?tag={{site.amazon_affiliate_id}}) [(non-affiliate link)](https://www.amazon.com/Hello-Web-App-Intermediate-Successful-ebook/dp/B01774NMEW/). This is an excellent deal if you don't already own the set or if you just want an extra copy to give to a friend when they ask next time :)
 
@@ -46,11 +46,11 @@ I listen to a lot of music but I'm pretty bad at not paying attention to who I'm
 
 ## What I'm watching
 
-[An Unfortunate Series of Events](https://en.wikipedia.org/wiki/A_Series_of_Unfortunate_Events_(TV_series)) on Netflix is one of the most fun series that I have watched in quite some time. 
+[An Unfortunate Series of Events](https://en.wikipedia.org/wiki/A_Series_of_Unfortunate_Events_(TV_series)) on Netflix is one of the most fun series that I have watched in quite some time.
 
-I had high expectations with Neil Patrick Harris as Count Olaf who did not disappoint. I was also blown away by Malina Weissman (Violet) and Louis Hynes's (Klaus) performances as the Baudelaire children. 
+I had high expectations with Neil Patrick Harris as Count Olaf who did not disappoint. I was also blown away by Malina Weissman (Violet) and Louis Hynes's (Klaus) performances as the Baudelaire children.
 
-Patrick Warburton plays Lemony Snicket, the narrator, which some of you might know as a voice actor appearing as Brock Samson in Venture Brother and Joe Swanson on Family Guy. Some of you might also remember Patrick as Elaine's boyfriend on Seinfeld. 
+Patrick Warburton plays Lemony Snicket, the narrator, which some of you might know as a voice actor appearing as Brock Samson in Venture Brother and Joe Swanson on Family Guy. Some of you might also remember Patrick as Elaine's boyfriend on Seinfeld.
 
 ## Quote I'm pondering
 

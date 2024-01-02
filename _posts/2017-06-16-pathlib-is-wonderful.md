@@ -10,7 +10,7 @@ title: Pathlib Is Wonderful!
 weather: 82˚F - It was partly cloudy.
 ---
 
-[pathlib][] is a wonderful addition to the Python 3 standard library. The library is an "Object-oriented filesystem paths" module which combines the best of Python's file system modules like `os`, `os.path`, and `glob` to name a few. This simplifies the number of modules you'll have to import to work with files and folders. 
+[pathlib][] is a wonderful addition to the Python 3 standard library. The library is an "Object-oriented filesystem paths" module which combines the best of Python's file system modules like `os`, `os.path`, and `glob` to name a few. This simplifies the number of modules you'll have to import to work with files and folders.
 
 Here are some highlights that I have noticed in just a few days of playing with the pathlib.
 

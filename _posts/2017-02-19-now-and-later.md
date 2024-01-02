@@ -9,7 +9,7 @@ weather: It was 71˚F sunny and breezy.
 
 Last week I [wrote](/2017/now-page/) about my [Now][] page which I thought was a fun experiment.
 
-I had no idea if anyone actually read my blog post outside of a few friends. To my surprise, several friends were also inspired and created their own Now pages. 
+I had no idea if anyone actually read my blog post outside of a few friends. To my surprise, several friends were also inspired and created their own Now pages.
 
 I thought I'd highlight a few of these this week since I'm in the middle of trying to wrap up a few longer form blog posts. Enjoy!
 

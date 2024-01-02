@@ -19,12 +19,12 @@ Also, don't miss our official post [Need Suggestions for a DjangoCon US 2023 Top
 - What's new in Django 4.2?
 - What's new in Django 5.x?
 - What's new in Django Channels?
-- What's new in Python 3.11 and 3.12 for Django developers? 
+- What's new in Python 3.11 and 3.12 for Django developers?
 - What's new in Wagtail?
 
 ## Embracing HTML and lightweight front-end frameworks
 
-2023 is shaping up to be the year of "you probably don't need JavaScript," and hello, getting more done in less time. 
+2023 is shaping up to be the year of "you probably don't need JavaScript," and hello, getting more done in less time.
 
 Lightweight front-end frameworks like HTMx, Alpine JS, and Tailwind CSS allow more things to be done in HTML without requiring full-fledged JavaScript stacks, frameworks, or libraries. These frameworks focus on enhancing HTML and CSS capabilities and promoting simplicity, maintainability, and improved performance while offering powerful tools for building user interfaces.
 
@@ -48,7 +48,7 @@ With this in mind, I'd love to do a few talks based on these topics:
 
 ## Building
 
-These are primarily random topics I haven't seen covered or covered in enough detail yet: 
+These are primarily random topics I haven't seen covered or covered in enough detail yet:
 
 - Playwright (testing or building apps with it)
 - Pandas
@@ -62,9 +62,9 @@ These are primarily random topics I haven't seen covered or covered in enough de
 
 ## Panels
 
-- Django Fellows - could be current and past 
+- Django Fellows - could be current and past
 - Django/Python authors - now that we have several community members on their 2nd, 3rd, or 4th book, this could be fun.
-- Django apps and community - It would be nice to hear from the more significant apps and community projects 
+- Django apps and community - It would be nice to hear from the more significant apps and community projects
 - DSF board - to see what's new and where they would like to guide the community
 
 ## Share your thoughts and ideas

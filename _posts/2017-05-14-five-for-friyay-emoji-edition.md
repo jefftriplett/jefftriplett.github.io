@@ -12,7 +12,7 @@ weather: 74˚F Sunny with a cool breeze.
 
 I wrote most of this in a car on Friday, but I ran out of time to add screenshots and actually hit publish. Oops! Here's a Sunday version of my Friyay series!
 
-This week was all about Emoji and I wanted to share some of my favorite Emoji resources! 
+This week was all about Emoji and I wanted to share some of my favorite Emoji resources!
 
 ----
 

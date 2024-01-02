@@ -16,7 +16,7 @@ Despite spending most of my professional time working on backend Python and API 
 
 ## What I'm learning
 
-[Grid Garden](http://cssgridgarden.com/) by [Thomas H. Park](https://twitter.com/thomashpark) is a CSS game which teaches you how to learn CSS grid. 
+[Grid Garden](http://cssgridgarden.com/) by [Thomas H. Park](https://twitter.com/thomashpark) is a CSS game which teaches you how to learn CSS grid.
 
 I don't normally care for these types of games but I wanted an excuse to learn CSS grid and Thomas does a great job of teaching in a way that your mistakes are even educations which the grid doesn't quite work how I thought it should.
 
@@ -40,9 +40,9 @@ I don't normally care for these types of games but I wanted an excuse to learn C
 
 ## Library I'm using
 
-I used [html-proofer](https://github.com/gjtorikian/html-proofer) on this year's [DjangoCon US website](https://2017.djangocon.us/) to help spot errors in our rendered HTML files. html-proofer [integrates easily](https://github.com/djangocon/2017.djangocon.us/blob/master/Rakefile) with [Travis CI](https://travis-ci.org/) so that we can verify that a pull request doesn't contain a broken link, image, or cause any common accessibility issue. 
+I used [html-proofer](https://github.com/gjtorikian/html-proofer) on this year's [DjangoCon US website](https://2017.djangocon.us/) to help spot errors in our rendered HTML files. html-proofer [integrates easily](https://github.com/djangocon/2017.djangocon.us/blob/master/Rakefile) with [Travis CI](https://travis-ci.org/) so that we can verify that a pull request doesn't contain a broken link, image, or cause any common accessibility issue.
 
-Since one broken link on a header can impact dozens of pages, it's easy to start with 100s of errors. We started with almost 300 errors on the DjangoCon US website, but after 20 to 30 minutes I was down to only a few dozen errors. 
+Since one broken link on a header can impact dozens of pages, it's easy to start with 100s of errors. We started with almost 300 errors on the DjangoCon US website, but after 20 to 30 minutes I was down to only a few dozen errors.
 
 I have started using html-proofer in all of my projects as a result.
 

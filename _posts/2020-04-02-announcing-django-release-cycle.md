@@ -8,7 +8,7 @@ title: Announcing Django Release Cycle
 weather: 62˚F Overcast.
 ---
 
-[Django Release Cycle](https://jefftriplett.com/django-release-cycle/) is based on [Dustin Ingram](https://github.com/di)'s [Python Release Cycle](https://python-release-cycle.glitch.me/). 
+[Django Release Cycle](https://jefftriplett.com/django-release-cycle/) is based on [Dustin Ingram](https://github.com/di)'s [Python Release Cycle](https://python-release-cycle.glitch.me/).
 
 The goal of the project is to visually chart out Django releases along with their end-of-life dates based on data from Django's [Supported Versions](https://www.djangoproject.com/download/#supported-versions) documentation.
 

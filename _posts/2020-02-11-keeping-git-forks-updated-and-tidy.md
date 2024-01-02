@@ -8,9 +8,9 @@ title: Keeping Git Forks Updated and Tidy
 weather: 40˚F Partly Cloudy.
 ---
 
-From time to time, I need the ability to track upstream changes while keeping my git commit history clean, but I can never remember how. I also want to avoid messy merge commits because those are just the worst. 
+From time to time, I need the ability to track upstream changes while keeping my git commit history clean, but I can never remember how. I also want to avoid messy merge commits because those are just the worst.
 
-I'm going to assume that you have already forked a repository. I am going to use the `djangocon/2020.djangocon.us` repository as my example. 
+I'm going to assume that you have already forked a repository. I am going to use the `djangocon/2020.djangocon.us` repository as my example.
 
 ## To track changes
 
@@ -18,7 +18,7 @@ I'm going to assume that you have already forked a repository. I am going to use
 $ git remote add upstream git@github.com:djangocon/2020.djangocon.us
 ```
 
-## To update 
+## To update
 
 Every time I want to update my local `master` branch:
 

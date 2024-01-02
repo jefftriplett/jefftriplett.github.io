@@ -11,9 +11,9 @@ title: My Morning Routine
 weather: 93˚F - Clear.
 ---
 
-I ran across the [Do you have a morning routine?](https://dev.to/lukewestby/do-you-have-a-morning-routine-3j39) post and I thought it'd be fun to post my daily morning routine. 
+I ran across the [Do you have a morning routine?](https://dev.to/lukewestby/do-you-have-a-morning-routine-3j39) post and I thought it'd be fun to post my daily morning routine.
 
-My routine is 90% dependent on my son Oliver, who's eleven-months-old. While he's a great sleeper, the order changes based on him, and if he is awake or still sleeping when I get up. Typically, my day starts between 6 - 6:30 am, and I usually get to work between 7:15 - 8 am depending on all of these factors. 
+My routine is 90% dependent on my son Oliver, who's eleven-months-old. While he's a great sleeper, the order changes based on him, and if he is awake or still sleeping when I get up. Typically, my day starts between 6 - 6:30 am, and I usually get to work between 7:15 - 8 am depending on all of these factors.
 
 1. make my bed
 2. weigh myself

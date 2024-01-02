@@ -10,7 +10,7 @@ title: Phone Sanity
 weather: 30˚F and Chilly
 ---
 
-I recently upgraded from a cracked screen iPhone 6 to an iPhone 8 Plus and while I love this phone, I have had buyer's regret ever since. In hindsight, going from a large screen phone to an even larger screen phone was not what I wanted or should have done. Instead, I should have gone with much cheaper, updated iPhone SE and saved money. 
+I recently upgraded from a cracked screen iPhone 6 to an iPhone 8 Plus and while I love this phone, I have had buyer's regret ever since. In hindsight, going from a large screen phone to an even larger screen phone was not what I wanted or should have done. Instead, I should have gone with much cheaper, updated iPhone SE and saved money.
 
 If you aren't happy with your phone or if you are feeling tied down to it, I thought I'd dedicate a Five for Friyay to mobile phone and privacy tips which have made my phone usage better.
 
@@ -29,13 +29,13 @@ If you are feeling addicted to your phone, then changing your screen to Grayscal
 
 ![](https://i.kinja-img.com/gawker-media/image/upload/otlj3klxgbw5o1emyge1.jpg){: width="800px" }
 
-I switched my phone over earlier this week, and within a day, and I liked it so much, I installed the [Grayscale Black & White - High Contrast](https://chrome.google.com/webstore/detail/grayscale-black-white-hig/cjimlckjgclgboeebpjlipmokolejppk) Chrome extension to use when I'm feeling distracted by my browser. I find this to be soothing. 
+I switched my phone over earlier this week, and within a day, and I liked it so much, I installed the [Grayscale Black & White - High Contrast](https://chrome.google.com/webstore/detail/grayscale-black-white-hig/cjimlckjgclgboeebpjlipmokolejppk) Chrome extension to use when I'm feeling distracted by my browser. I find this to be soothing.
 
 ## Always Use a VPN
 
-If you travel or work out of a shared location, then you should invest in a VPN. I encourage everyone to use a VPN by default to avoid accidentally sending a plain text password down the wire. 
+If you travel or work out of a shared location, then you should invest in a VPN. I encourage everyone to use a VPN by default to avoid accidentally sending a plain text password down the wire.
 
-I have used [Private Internet Access](https://www.privateinternetaccess.com/) since 2013, and I have zero complaints. It just works for me, and it's easy to toggle off and on. 
+I have used [Private Internet Access](https://www.privateinternetaccess.com/) since 2013, and I have zero complaints. It just works for me, and it's easy to toggle off and on.
 
 IPA's service works well and is easy to install and update. They have a dedicated iOS application which automatically configures your VPN settings which is more accessible than manually keying in this information.
 
@@ -45,13 +45,13 @@ Still not sure if you need a VPN? Check out [Do you need a VPN?](https://blog.mo
 
 ## More Tips
 
-Ask MetaFilter's [Tips for divorcing my phone?](http://ask.metafilter.com/303818/Tips-for-divorcing-my-phone) is full of great ideas for using your phone less. 
+Ask MetaFilter's [Tips for divorcing my phone?](http://ask.metafilter.com/303818/Tips-for-divorcing-my-phone) is full of great ideas for using your phone less.
 
 ## Re-evaluate Your Phone Carrier and Stop Overpaying
 
 I switched from AT&T's "Unlimited" data plan which came with my first iPhone to [Cricket Wiress](https://www.cricketwireless.com/) which is a pre-paid phone service and it saved me $900 in the first year alone. The real kicker here is that AT&T owns Cricket Wireless, so my phone is still on the same network. Switching phone carriers decreased my bill from ~$110 a month to $35 and not a penny more.
 
-My plan includes 5G of data each month, and there are no penalties for going over. If you exceed 5G of bandwidth, they de-prioritize your account for the remainder of the month. This works so well that I have never noticed an impact on my phone. 
+My plan includes 5G of data each month, and there are no penalties for going over. If you exceed 5G of bandwidth, they de-prioritize your account for the remainder of the month. This works so well that I have never noticed an impact on my phone.
 
 It's worth pointing out that de-prioritizing isn't the same as throttling. Throttling limits your maximum download speed artificially even if the network isn't in use. De-prioritizing still lets you download at full speed but gives others first dibs. In my testing, this all happens so quickly, that I can't even notice a difference - as it should be.
 

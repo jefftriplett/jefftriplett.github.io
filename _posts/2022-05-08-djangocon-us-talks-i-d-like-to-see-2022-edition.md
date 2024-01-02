@@ -11,7 +11,7 @@ weather: 67˚F Clear.
 Continuing in the tradition of my [2018](https://jefftriplett.com/2018/djangocon-us-talks-i-d-like-to-see-2018-edition/), [2017](https://jefftriplett.com/2017/django-talks-id-like-to-see/), and [2016](https://jefftriplett.com/2016/djangocon-us-talks-id-like-to-see/) "DjangoCon US 2022 Talks I'd like to see" posts, here is an update for 2022. Also, don't miss our official post [Need Suggestions for a DjangoCon US 2022 Topic?](https://2022.djangocon.us/news/topic-suggestions-for-cfp/).
 
 Since it's been several years since I came up with my list, I wanted to revisit some ideas that I would like to watch.
-While most of these are heavily Django or Python-focused, historical, some of our best talks complement Django more than are about Django or Python direction. 
+While most of these are heavily Django or Python-focused, historical, some of our best talks complement Django more than are about Django or Python direction.
 We welcome and would love to see several of these too.
 
 ## Talks I'd like to see at DjangoCon US 2022
@@ -25,7 +25,7 @@ We welcome and would love to see several of these too.
 ## Embracing HTML
 
 - An intro to HTMx
-- An intro to Alpine JS 
+- An intro to Alpine JS
 - HTMx, after the basics
 - Tailwind CSS for Django developers - I'd start with the Tailwind CDN (to skip NPM overhead) and inspire/show us how to build something cool.
 
@@ -46,7 +46,7 @@ We welcome and would love to see several of these too.
 ## Building
 
 - A better Django Deployment story
-- An intro to Django Unicorn 
+- An intro to Django Unicorn
 - Building better full-text search with Django's `postgres.search`
 - Building better management commands (maybe with with `django-cick`)
 - Documentation for Django developers

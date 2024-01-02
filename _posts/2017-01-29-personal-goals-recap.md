@@ -8,11 +8,11 @@ title: Personal Goals Recap
 weather: It was 40˚F and cloudy.
 ---
 
-At the end of 2015, I ran across a blog post by Una Kravets' ([@una](https://twitter.com/una)) [Personal Goals](http://una.im/personal-goals-guide/#💁) project blog post. Una tracks her weekly, monthly, and overarching goals every week on Github and makes them public for accountability. 
+At the end of 2015, I ran across a blog post by Una Kravets' ([@una](https://twitter.com/una)) [Personal Goals](http://una.im/personal-goals-guide/#💁) project blog post. Una tracks her weekly, monthly, and overarching goals every week on Github and makes them public for accountability.
 
-Una's project left an impression on me and inspired me to start my own [Personal Goals](https://github.com/jefftriplett/personal-goals) project. I have been tracking my weekly goals ever since. At first, I felt super productive tacking my goals. I found the routine to be therapeutic when I was having a rough week. There was something cathartic about looking back over the many weeks and seeing things get done even if they were daily or monthly routines. 
+Una's project left an impression on me and inspired me to start my own [Personal Goals](https://github.com/jefftriplett/personal-goals) project. I have been tracking my weekly goals ever since. At first, I felt super productive tacking my goals. I found the routine to be therapeutic when I was having a rough week. There was something cathartic about looking back over the many weeks and seeing things get done even if they were daily or monthly routines.
 
-As someone who battles depression, projects like the Personal Goals project is a helpful way to look back when I'm not feeling as well to realize the progress that I have made. That gut-check helps me to snap my brain back where it needs to be. 
+As someone who battles depression, projects like the Personal Goals project is a helpful way to look back when I'm not feeling as well to realize the progress that I have made. That gut-check helps me to snap my brain back where it needs to be.
 
 When picking my goals, I started the year out with more than five. I ran across [Warren Buffett's "Two List"](http://lifehacker.com/prioritize-your-goals-with-warren-buffetts-two-list-sys-1639146039) system for prioritizing goals and I decided to only keep my top five goals. So far it's worked out well for me.
 
@@ -44,13 +44,13 @@ I'm finishing up 2016, 15 pounds lighter than I started the year with, but more 
 
 ### :chart_with_upwards_trend: Spend money wisely and save :dollar:
 
-Spending my money wisely was one area where I made the most ground. I started by tracking and categorizing my expenses every week in a spreadsheet. Then every month I'd work on reducing my biggest expense category after rent and I work on lowering it. Sometimes this meant calling my service provider or even switching services. 
+Spending my money wisely was one area where I made the most ground. I started by tracking and categorizing my expenses every week in a spreadsheet. Then every month I'd work on reducing my biggest expense category after rent and I work on lowering it. Sometimes this meant calling my service provider or even switching services.
 
-- I cut my Cable and Internet bill by $50 to $70 by calling my ISP and asking them to give me a better deal. After my monthly service price crept back up, I called them again. 
+- I cut my Cable and Internet bill by $50 to $70 by calling my ISP and asking them to give me a better deal. After my monthly service price crept back up, I called them again.
 
 - I reduced my monthly cell phone bill from ~$110 to $35 a month while keeping my same cell network. I have been a happy AT&T customer for well over decade but I wasn't happy with my monthly bill. I tried lowering my plan through AT&T, but they made that process next to impossible.
 
-  I asked my friend circle how much and what providers they commonly used. One of my friends had made the switch from AT&T to [Cricket Wireless](https://refer.cricketwireless.com/8vPd0Sc) and his bill was $35 a month with no strings attached. Cricket Wireless is owned by AT&T so my coverage area and reliability is the same as it ever was. My base data plan is 2.5Gs a month and I even went 4Gs over one month and there was no overage charge. 
+  I asked my friend circle how much and what providers they commonly used. One of my friends had made the switch from AT&T to [Cricket Wireless](https://refer.cricketwireless.com/8vPd0Sc) and his bill was $35 a month with no strings attached. Cricket Wireless is owned by AT&T so my coverage area and reliability is the same as it ever was. My base data plan is 2.5Gs a month and I even went 4Gs over one month and there was no overage charge.
 
 - I cut my monthly Internet hosting bills (yes, bills) by a third by consolidating and migrating a few older servers onto to newer servers and consolidating on to Digital Ocean. This included moving my blog from a paid monthly service to Github Pages which are free and easier to update.
 
@@ -58,7 +58,7 @@ Spending my money wisely was one area where I made the most ground. I started by
 
 - I reached out to a friend to get some help with my credit rating. I hadn’t had a credit card in over a decade which I thought was a good idea. Instead, my credit took a beating and was almost non-existent as a result of my reluctance to avoid any and all forms of debt.
 
-  After some advice from a friend, I registered accounts on both [Credit Karma](https://www.creditkarma.com) and [Credit Sesame](https://www.creditsesame.com/) to start monitoring my credit (note: I only use the *free* plans). 
+  After some advice from a friend, I registered accounts on both [Credit Karma](https://www.creditkarma.com) and [Credit Sesame](https://www.creditsesame.com/) to start monitoring my credit (note: I only use the *free* plans).
 
   I also registered for a credit card and now look forward to checking my credit score every month using the free services both of these website provide. My credit score increased by over a 100 points over the last nine months.
 
@@ -78,7 +78,7 @@ This goal also encouraged me to start blogging more often in 2017 which is now o
 
 ### :speech_balloon: More friend time
 
-This was one of my more abstract goals. For two years of running a conference, I found myself skipping social events. I'm kind of an internal extrovert (ambient?) who thrives on both friend and time by myself. That month after running a conference, I find myself needing my batteries recharged and being completely drained. 
+This was one of my more abstract goals. For two years of running a conference, I found myself skipping social events. I'm kind of an internal extrovert (ambient?) who thrives on both friend and time by myself. That month after running a conference, I find myself needing my batteries recharged and being completely drained.
 
 This past year wasn't as bad and I hosted a few friends at my place before and after the conference while was nice. I tried to not skip out on as many social events this year, but there's still a lot of work to go.
 

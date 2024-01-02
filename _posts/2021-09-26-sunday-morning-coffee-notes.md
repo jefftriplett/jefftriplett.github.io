@@ -62,7 +62,7 @@ This is the sixth and final September 21st video by Demi Adejuyigbe. It's a grea
 
 ## 🧀 How to Cut & Serve Every Different Kind of Cheese
 
-Yes, how to cut the cheese videos because of jokes. Seriously, though, this should be in a series of "useful things for adults." 
+Yes, how to cut the cheese videos because of jokes. Seriously, though, this should be in a series of "useful things for adults."
 
 {% include youtube.html id="fTgm36y884c" %}
 

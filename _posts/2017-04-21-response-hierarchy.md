@@ -32,7 +32,7 @@ I'll respond eventually. I don't always get DM notifications, but when eventuall
 
 ## Chat (Facebook or GChat)
 
-I'll respond eventually. 
+I'll respond eventually.
 
 If you message me on Facebook Chat, then if you aren't in my "other inbox", I'll reply. I have missed seeing messages for 9 to 16 months at a time because of this "feature".
 

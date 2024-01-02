@@ -23,9 +23,9 @@ I can 100% relate to Ana's tweet both as a conference organizer and for public s
 
 ## What I'm trying
 
-Between multiple clients and community commitments, I have been struggling to fit everything in without overworking. I stumbled on this [Start With a Full Calendar](https://medium.com/time-dorks/start-with-a-full-calendar-8da582cc4890#.ng0dg2j4f) article and it has really resonated with me. I have already started blocking out time chunks during the week to give me time to keep up with everything. 
+Between multiple clients and community commitments, I have been struggling to fit everything in without overworking. I stumbled on this [Start With a Full Calendar](https://medium.com/time-dorks/start-with-a-full-calendar-8da582cc4890#.ng0dg2j4f) article and it has really resonated with me. I have already started blocking out time chunks during the week to give me time to keep up with everything.
 
-I use [Calendly](https://calendly.com/) to automate scheduling meetings so this system blends perfectly with the service. 
+I use [Calendly](https://calendly.com/) to automate scheduling meetings so this system blends perfectly with the service.
 
 ## What I'm reading
 

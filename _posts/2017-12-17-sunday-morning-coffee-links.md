@@ -33,10 +33,10 @@ I love lists, todos, goals, and playlists. Here's a mix of them all.
 
 ## Advice And A Better Life
 
-- [Adam Smith: Road Lyfe](http://roadlyfe.com/quiet/) Adam gets it. He travels, takes every photo, and writes every word. Follow his blog. 
+- [Adam Smith: Road Lyfe](http://roadlyfe.com/quiet/) Adam gets it. He travels, takes every photo, and writes every word. Follow his blog.
 
 - [Swissmiss: 7 Things Every Kids Needs To Hear](http://www.swiss-miss.com/2017/12/7-things-every-kids-needs-to-hear.html)
- 
+
 > 1. I love you
 > 2. I’m proud of you
 > 3. I’m sorry
@@ -44,7 +44,7 @@ I love lists, todos, goals, and playlists. Here's a mix of them all.
 > 5. I’m listening
 > 6. This is your responsibility
 > 7. You’ve got what it takes
-> 
+>
 > – Josh Shipp
 
 - [Seth Godin: Slow and steady](http://sethgodin.typepad.com/seths_blog/2017/12/slow-and-steady.html)
@@ -61,7 +61,7 @@ I love lists, todos, goals, and playlists. Here's a mix of them all.
 
 - [Chris Guillebeau: Feeling Sad On The Holidays? Me Too. Here’s All I Know How To Do](https://chrisguillebeau.com/feeling-sad-on-the-holidays/)
 
-- [Cait Flanders: 60+ Minimalist Holiday Traditions](https://caitflanders.com/2017/12/13/minimalist-holiday-traditions/) I especially liked the "Traditions You Can Do with Your Kids" and "Traditions You Can Do for Others" sections. 
+- [Cait Flanders: 60+ Minimalist Holiday Traditions](https://caitflanders.com/2017/12/13/minimalist-holiday-traditions/) I especially liked the "Traditions You Can Do with Your Kids" and "Traditions You Can Do for Others" sections.
 
 ## Home Lab
 

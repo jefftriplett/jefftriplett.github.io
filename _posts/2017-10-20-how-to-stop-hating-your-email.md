@@ -11,7 +11,7 @@ title: How to Stop Hating Your Email
 weather: 75˚F and Clear
 ---
 
-Email is both a blessing and a curse. I love receiving emails from friends and community members who want to reach out or ask for advice. These are the highlights of my week some weeks. However, my email volume is high enough that it used to be difficult for me to sort everything out by priority. A few years ago, I felt like I was drowning in email without making progress so I did some research and came up with some rules to prevent email from being a major source of stress in my life. 
+Email is both a blessing and a curse. I love receiving emails from friends and community members who want to reach out or ask for advice. These are the highlights of my week some weeks. However, my email volume is high enough that it used to be difficult for me to sort everything out by priority. A few years ago, I felt like I was drowning in email without making progress so I did some research and came up with some rules to prevent email from being a major source of stress in my life.
 
 Here are some email tips which have served me well.
 
@@ -53,7 +53,7 @@ I was recently on paternity leave, so here's an example of what mine looked like
 
 > - For DjangoCon US requests, please reach out to the organizers <**email removed**>
 
-> Otherwise, please email me again when I return as this email will most likely be deleted. 
+> Otherwise, please email me again when I return as this email will most likely be deleted.
 
 And they were. I even had a few people follow-up after I was back to compliment me on doing so.
 
@@ -65,14 +65,14 @@ I try to use the shortest reply possible for emails. Most of the time a [two](ht
 
 ## Use Boomerang
 
-[Boomerang](http://www.boomeranggmail.com/) has so many great features but 
+[Boomerang](http://www.boomeranggmail.com/) has so many great features but
 scheduled messages and canned responses made me an instant believer.
 
 I use scheduled messages when I reply to something late at night which I know doesn't need an immediate response but I went to get off of my plate. I have also learned over the years that sending late night emails to clients or volunteers at 2 am sets a bad example and helps contribute to unhealthy work culture. Every time I email someone after midnight and they email me back minutes later, I feel bad. Now I schedule replies for non-emergencies for 9 am the next day.
 
 I use scheduled messages to set reminders for meetings, events, or other random things that need to be followed up on. Some people add these to a to-do list or to their calendar. I use Boomerang to get it off my plate.
 
-I under-utilize Boomerang's canned response feature, but a few years ago when I was running two conferences I adopted several default responses which saved me tons of time. 
+I under-utilize Boomerang's canned response feature, but a few years ago when I was running two conferences I adopted several default responses which saved me tons of time.
 
 [Tracy Osborn's](https://twitter.com/limedaring) [How I run a bootstrapped marketplace with eleven different properties and 5,000 vendors — by myself.](https://limedaring.com/articles/how-i-run-a-marketplace-with-eleven-different-properties-and-5000-vendors/) has a few Boomerang tips worth checking out too.
 
@@ -82,9 +82,9 @@ I under-utilize Boomerang's canned response feature, but a few years ago when I 
 
 ## My Favorite Email Clients
 
-[Kiwi for Gmail](http://kiwiforgmail.com/) is my hands down my favorite Gmail and Google Apps client. I have many Gmail accounts (personal, work, and non-profits) and trying to check them in a browser along with juggling different Google App accounts for Docs and Spreadsheets is a challenge. Thankfully, Kiwi was made to solve this problem and handles notifications and customs settings with ease. 
+[Kiwi for Gmail](http://kiwiforgmail.com/) is my hands down my favorite Gmail and Google Apps client. I have many Gmail accounts (personal, work, and non-profits) and trying to check them in a browser along with juggling different Google App accounts for Docs and Spreadsheets is a challenge. Thankfully, Kiwi was made to solve this problem and handles notifications and customs settings with ease.
 
-[Airmail for iOS](http://airmailapp.com/ios) is my favorite iPad email client hands down. While my goal is to never check email on my phone, I do write longer form emails on my iPad from time-to-time because the writing experience is great. Airmail has great support for threaded emails and even highlights each thread in a different color which makes reading them preferable to any desktop client I have ever used. This is one of the few times I can recommend using an iPad/iOS app over a desktop Mac app. 
+[Airmail for iOS](http://airmailapp.com/ios) is my favorite iPad email client hands down. While my goal is to never check email on my phone, I do write longer form emails on my iPad from time-to-time because the writing experience is great. Airmail has great support for threaded emails and even highlights each thread in a different color which makes reading them preferable to any desktop client I have ever used. This is one of the few times I can recommend using an iPad/iOS app over a desktop Mac app.
 
 [Airmail 3](http://airmailapp.com/) is their Mac version and it's great for checking non-Gmail accounts and replying to long threads. Airmail just works.
 

@@ -16,16 +16,16 @@ This is more of a WIP than the ink being dry.
 
 tl;dr My lingering thoughts about Twitter aka #birdsite for those on other networks.
 
-I haven't decided if I'm going to participate in [#DeactiDay](https://twitter.com/monteiro/status/1028315475296452609) yet. 
+I haven't decided if I'm going to participate in [#DeactiDay](https://twitter.com/monteiro/status/1028315475296452609) yet.
 ~~I'm leaning towards it.~~ (I opted out.)
-However, the platform is still too important for many marginalized and underrepresented voices. 
-It takes a tremendous amount of privilege to participate and to pretend that this problem is easily solved by jumping over to [Mastodon](https://mastodon.social/). 
+However, the platform is still too important for many marginalized and underrepresented voices.
+It takes a tremendous amount of privilege to participate and to pretend that this problem is easily solved by jumping over to [Mastodon](https://mastodon.social/).
 Participating is a personal choice and I respect you all regardless.
 
 ## Things to consider
 
 - [Sage Sharp's excellent thread](https://twitter.com/_sagesharp_/status/1030112338836221953) on why Mastodon comes with its own problems.
-- [Making Twitter Tolerable, One Glitch App At A Time](https://medium.com/glitch/making-twitter-tolerable-one-glitch-app-at-a-time-ad3022abe2bc) lives up to the promise of "Making Twitter Tolerable." 
+- [Making Twitter Tolerable, One Glitch App At A Time](https://medium.com/glitch/making-twitter-tolerable-one-glitch-app-at-a-time-ad3022abe2bc) lives up to the promise of "Making Twitter Tolerable."
   I immediately put these Glitch add-ons to good use:
     - Disable All Retweets via [turn-off-retweets](https://turn-off-retweets.glitch.me/)
     - Return to Chronological via [follow-management.](https://follow-management.glitch.me/)
@@ -39,7 +39,7 @@ Participating is a personal choice and I respect you all regardless.
 
 - I am syncing my Twitter friends list via [Mastodon's Friends Bridge](https://bridge.joinmastodon.org/friends).
 
-- I have filters setup to remove `from birbsite` and `@twitter.com` to avoid content republishing from Twitter to Mastodon. 
+- I have filters setup to remove `from birbsite` and `@twitter.com` to avoid content republishing from Twitter to Mastodon.
   After a week or two of seeing dozens of RTs in a row, this has made my overall experience better.
 
 - My preferred UI is [Halcyon](https://notabug.org/halcyon-suite/halcyon) which is a Twitter UI clone which is written in PHP. <br>

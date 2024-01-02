@@ -37,7 +37,7 @@ If you have ever faced burnout or if you are considering adding more to your pla
 
 > I should have known better to try all of that at once. I couldn’t fully dedicate time to the tasks of others and couldn’t really deliver. Managing the time I used to study and practice was difficult. And with job hunting, it ended up being one rejection after another. This period of time was filled with frustration that eventually turned into burnout and depression. I had doubts about my path and skills. I couldn’t get motivated and basically turned away from tech related things for months. That included people, events, and Twitter. It was by far one of the lowest periods in my life I had ever faced.
 
-I know several people who have faced this type of burnout. I have been there before too, but I was stuck in a few dead-end jobs along the way. 
+I know several people who have faced this type of burnout. I have been there before too, but I was stuck in a few dead-end jobs along the way.
 
 ## [How I live: Organizing my finances](https://hackernoon.com/how-i-live-organizing-my-finances-2a277b6c296c)
 
@@ -47,7 +47,7 @@ Now when I work with friends who are landing their first industry job, I try to 
 
 ## [How to automate your Mac OS X setup with Ansible](https://blog.vandenbrand.org/2016/01/04/how-to-automate-your-mac-os-x-setup-with-ansible/)
 
-I have most of my systems automated using [Ansible](https://www.ansible.com/) and I keep meaning to do a write-up about it. Ricbra's setup can give you some idea of how powerful and easy Ansible is to use. 
+I have most of my systems automated using [Ansible](https://www.ansible.com/) and I keep meaning to do a write-up about it. Ricbra's setup can give you some idea of how powerful and easy Ansible is to use.
 
 My [dotfiles](https://github.com/jefftriplett/dotfiles) setup is on GitHub and I use Ansible via a Makefile to make my setup repeatable without having to remember which command line flags and options need to be passed in. I make small changes to it all the time so check back for updates.
 

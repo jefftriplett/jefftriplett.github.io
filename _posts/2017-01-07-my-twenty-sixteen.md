@@ -44,7 +44,7 @@ I traveled to my hometown of Sarcoxie, MO to spend Easter with my parents.
 
 ## April
 
-I traveled to Kanopolis State Park, Kansas to cheer friends on at the 19th Annual Rockin K Trail Runs. A large group of us go every year and rent a series of cabins and camp out. It's one of the highlights of spring for me. 
+I traveled to Kanopolis State Park, Kansas to cheer friends on at the 19th Annual Rockin K Trail Runs. A large group of us go every year and rent a series of cabins and camp out. It's one of the highlights of spring for me.
 
 A friend of mine from Colorado asked me to dog sit her dog Sasha while she ran the Rockin K. She took first place in the marathon and Sasha didn't run away even though I think she wanted to.
 
@@ -60,7 +60,7 @@ We adopted Peanut a Pointer Mix.
 
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:42.96296296296296% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BFunztZJLkC/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Name pending. Because @jefftriplett &#39;s suggestion of &#34;Psycho&#34; seems a wee bit ominous.</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A photo posted by Nicole Green (@greenruns) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-05-22T23:46:08+00:00">May 22, 2016 at 4:46pm PDT</time></p></div></blockquote>
 
-I traveled to Sarcoxie, MO to spend Mother's Day with my parents. My parents adopted a stray dog and it started going everywhere with them. 
+I traveled to Sarcoxie, MO to spend Mother's Day with my parents. My parents adopted a stray dog and it started going everywhere with them.
 
 <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BFJv9BpxgHb/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A photo posted by Jeff Triplett (@jefftriplett)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-05-08T16:05:24+00:00">May 8, 2016 at 9:05am PDT</time></p></div></blockquote>
 
@@ -111,17 +111,17 @@ I took my second beginner Ukulele lessons with the Lawrence Parks and Rec.
 
 I traveled to Sarcoxie, MO to see my family over the Labor Day break.
 
-I traveled with my family to Stockton Lake to pick up an old fashioned tandem bike for my sister. 
+I traveled with my family to Stockton Lake to pick up an old fashioned tandem bike for my sister.
 
 ## October
 
 I started intermediate Ukulele lessons with the Lawrence Parks and Rec.
 
-Fire pit season began and many fires and beverages were drank warming outside. 
+Fire pit season began and many fires and beverages were drank warming outside.
 
 <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BLmoJORDtT6/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A photo posted by Jeff Triplett (@jefftriplett)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-10-16T00:23:30+00:00">Oct 15, 2016 at 5:23pm PDT</time></p></div></blockquote>
 
-I broke my every two year tradition of upgrading my iPhone to the latest major reversion. 
+I broke my every two year tradition of upgrading my iPhone to the latest major reversion.
 
 I traveled to Myrtle Beach for a family trip.
 
@@ -150,11 +150,11 @@ I went on two ugly sweater runs with friends. I walked.
 
 I attended my sixth annual SantaCon.
 
-I traveled back to my hometown of Sarcoxie, MO over the holidays to see my family for the Christmas break. 
+I traveled back to my hometown of Sarcoxie, MO over the holidays to see my family for the Christmas break.
 
 I celebrated another trip around the sun with a small group of friends.
 
-I ended 2016 with a wonderful evening with friends. 
+I ended 2016 with a wonderful evening with friends.
 
 ----
 
@@ -168,10 +168,10 @@ I ended 2016 with a wonderful evening with friends.
 
 ## Some TV Shows I watched this year
 
-There are some of the TV shows that I watched this year. Most of these I would background watched while working at night or on other projects. 
+There are some of the TV shows that I watched this year. Most of these I would background watched while working at night or on other projects.
 
 - American Crime Story
-- American Horror Story 
+- American Horror Story
 - Better Call Saul
 - Between
 - Black Mirror
@@ -225,7 +225,7 @@ There are some of the TV shows that I watched this year. Most of these I would b
 
 ## Some Movies I watched this year
 
-Most of these movies I background watched on Netflix but some I got to go watch at the movie theater. 
+Most of these movies I background watched on Netflix but some I got to go watch at the movie theater.
 
 - 10 Cloverfield Lane
 - 30 for 30: Winning Time: Reggie Miller vs. The New York Knicks
@@ -264,7 +264,7 @@ Most of these movies I background watched on Netflix but some I got to go watch 
 - Night Owls
 - Other People
 - Rams
-- Rogue One :thumbsup: 
+- Rogue One :thumbsup:
 - Run Boy Run
 - Sky
 - Spectral

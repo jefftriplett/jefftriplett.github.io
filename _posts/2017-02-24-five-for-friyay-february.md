@@ -18,7 +18,7 @@ I stumbled on [Dictation: The best Apple timesaver for perfectionists](https://m
 
 > I do, too. Perfectionists over-think, over-edit, and retype the same sentences again and over again, wasting minutes. And these minutes really add up.
 
-I spend hours upon hours writing and rewriting replies to emails. It's my single biggest weekly time sink and it's problem that I'm hoping that using Apple dictation can help me overcome. 
+I spend hours upon hours writing and rewriting replies to emails. It's my single biggest weekly time sink and it's problem that I'm hoping that using Apple dictation can help me overcome.
 
 ## What I'm watching
 
@@ -30,7 +30,7 @@ Jenn Schiffer's XOXO Festival talk on "No one expects the lady code troll" is a 
 
 [Mr. Money Mustache — Living Beautifully on $25-27K Per Year](http://tim.blog/2017/02/13/mr-money-mustache/)
 
-I have never been a huge Tim Ferris fan, but I have taken notice to his podcast and I find myself tuning in based on the guest and the subject. Pete Adeney (Mr. Money Mustache) was recently on his show and I found some of his advice to be enlightening. 
+I have never been a huge Tim Ferris fan, but I have taken notice to his podcast and I find myself tuning in based on the guest and the subject. Pete Adeney (Mr. Money Mustache) was recently on his show and I found some of his advice to be enlightening.
 
 This episode struck a chord with me because I have been focused on cutting my monthly expenses, increasing my savings, and investing more. If you are struggling with trying to improve in these areas then do yourself a favor and check out this episode.
 

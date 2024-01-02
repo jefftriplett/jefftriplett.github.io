@@ -17,14 +17,14 @@ title: 'Side Projects: Email is a Pain'
 weather: 59˚F Clear.
 ---
 
-I love working on side projects, but I hate setting up and configuring email for projects. 
-Not only is configuration a pain, but troubleshooting and then remembering to check a dozen+ mailboxes while juggling SPAM and misclassified emails is arduous at best. 
+I love working on side projects, but I hate setting up and configuring email for projects.
+Not only is configuration a pain, but troubleshooting and then remembering to check a dozen+ mailboxes while juggling SPAM and misclassified emails is arduous at best.
 
 A few months ago, I saw a recommendation on Twitter for [Forward Email](https://forwardemail.net), an email forwarding service.
-I decided to try it out on a whim, and I have been a happy customer ever since. 
+I decided to try it out on a whim, and I have been a happy customer ever since.
 
-Forward Email's secret sauce is that it's configurable with just a few DNS records, and then it just works. 
-Setting up a new domain is as easy logging in, registering your domain, and then configuring three DNS records: 
+Forward Email's secret sauce is that it's configurable with just a few DNS records, and then it just works.
+Setting up a new domain is as easy logging in, registering your domain, and then configuring three DNS records:
 
 ```
 MX   @  mx1.forwardemail.net  10

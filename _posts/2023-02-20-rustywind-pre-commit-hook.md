@@ -17,7 +17,7 @@ weather: 62˚F Mostly Sunny
 Thanks to Adam Johnson's [pre-commit: How to create hooks for unsupported tools](https://adamj.eu/tech/2023/02/09/pre-commit-hooks-unsupported-tools/).
 I created a [pre-commit](https://pre-commit.com/) hook for [rustywind](https://github.com/avencera/rustywind), which is a CLI tool that organizes, lints, and sorts [Tailwind CSS](https://tailwindcss.com/) classes.
 
-If you are comfortable with pre-commit, this should be a copy and paste for you to have nicely formatted Tailwind CSS linting/auto-formatting. 
+If you are comfortable with pre-commit, this should be a copy and paste for you to have nicely formatted Tailwind CSS linting/auto-formatting.
 
 ```yaml
 # .pre-commit-config.yaml

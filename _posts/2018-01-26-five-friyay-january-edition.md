@@ -10,11 +10,11 @@ title: January Edition
 weather: 58˚F and Cloudy
 ---
 
-I realized today if I didn't post on my blog that I was going to miss out on having a Five for Friyay in January. My lack of updates doesn't mean that I haven't been busy working. 
+I realized today if I didn't post on my blog that I was going to miss out on having a Five for Friyay in January. My lack of updates doesn't mean that I haven't been busy working.
 
-This past week I dusted off my Trello boards, did some spring cleaning, configured a Pinboard.in RSS-to-Trello importer via IFTTT.com, and I worked on a few tools to help me sort out some of the content avalanche that I have felt under as of late. 
+This past week I dusted off my Trello boards, did some spring cleaning, configured a Pinboard.in RSS-to-Trello importer via IFTTT.com, and I worked on a few tools to help me sort out some of the content avalanche that I have felt under as of late.
 
-Since I missed most of January, I decided to make this a Five(ish) for Friyay and to share more than five this week. 
+Since I missed most of January, I decided to make this a Five(ish) for Friyay and to share more than five this week.
 
 ## What I'm Reading
 
@@ -26,7 +26,7 @@ One of my colleagues, Lacey Williams Henschel, published a blog post [Five for F
 
 ## Podcast Episode I Listened to and Got a Lot Out Of
 
-I enjoyed Jason Scott's [Public Speaking: The Iron Sheik, No Stage Fright, A Rat for Office, Presentations, Tips for Talks, TED is Fake, In Your Head Lover, A Five Minute Offer](https://textfiles.libsyn.com/jason-scott-talks-his-way-out-of-it-0) episode a lot. If you love, hate, are indifferent but are still interested in public speaking then I think you'll enjoy it too. 
+I enjoyed Jason Scott's [Public Speaking: The Iron Sheik, No Stage Fright, A Rat for Office, Presentations, Tips for Talks, TED is Fake, In Your Head Lover, A Five Minute Offer](https://textfiles.libsyn.com/jason-scott-talks-his-way-out-of-it-0) episode a lot. If you love, hate, are indifferent but are still interested in public speaking then I think you'll enjoy it too.
 
 ## Utility I Open Sourced
 

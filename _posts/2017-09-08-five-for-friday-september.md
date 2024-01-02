@@ -12,7 +12,7 @@ weather: 82˚F and Clear
 
 ## What I'm Watching
 
-I grew up in rural Southwest Missouri and while I'm normally not a fan of country music, I make exceptions for some artists like Jason Isbel. [Jason Isbel: Tiny Desk Concert](http://www.npr.org/event/music/545844291/jason-isbell-tiny-desk-concert) is a fun deep dive into his personality and a preview of a few songs off of his new album. 
+I grew up in rural Southwest Missouri and while I'm normally not a fan of country music, I make exceptions for some artists like Jason Isbel. [Jason Isbel: Tiny Desk Concert](http://www.npr.org/event/music/545844291/jason-isbell-tiny-desk-concert) is a fun deep dive into his personality and a preview of a few songs off of his new album.
 
 <iframe width="600" height="338" src="https://www.npr.org/templates/event/embeddedVideo.php?storyId=545844291&mediaId=546167508" frameborder="0" scrolling="no"></iframe>
 
@@ -20,11 +20,11 @@ I grew up in rural Southwest Missouri and while I'm normally not a fan of countr
 
 ## What I'm Kickstarting
 
-[Luna Display](https://www.kickstarter.com/projects/767721702/luna-display) turns any iPad into a wireless, second display and it looks incredible. The app has full Apple Pencil support which allows you to sit on your couch and interact with your Mac using it. 
+[Luna Display](https://www.kickstarter.com/projects/767721702/luna-display) turns any iPad into a wireless, second display and it looks incredible. The app has full Apple Pencil support which allows you to sit on your couch and interact with your Mac using it.
 
 <iframe src="https://www.kickstarter.com/projects/767721702/luna-display/widget/video.html" width="600" height="348" frameborder="0" scrolling="no"></iframe>
 
-I have used and love [Duet Display](https://www.duetdisplay.com/) for many years and it's a godsend when I travel and I need to get work done. My only complaint is that the device has to be physically connected to my MacBook Pro. However, the app has never failed me and the speed is incredible. 
+I have used and love [Duet Display](https://www.duetdisplay.com/) for many years and it's a godsend when I travel and I need to get work done. My only complaint is that the device has to be physically connected to my MacBook Pro. However, the app has never failed me and the speed is incredible.
 
 ----
 
@@ -46,7 +46,7 @@ I find Seth Godin's approach to marketing fascinating, and listening to him walk
 
 ## Utility I'm Using
 
-If you are a macOS user and you are as obsessed at automating as many parts of your setup as I am, then [mas](https://github.com/mas-cli/mas) is worth checking out. Mas allows you to update your Mac App Store application from the command line. 
+If you are a macOS user and you are as obsessed at automating as many parts of your setup as I am, then [mas](https://github.com/mas-cli/mas) is worth checking out. Mas allows you to update your Mac App Store application from the command line.
 
 Mas is also supported by [homebrew-bundle](https://github.com/Homebrew/homebrew-bundle) which allows you to dump your entire [Homebrew](https://brew.sh/) apps, cask apps, and mas apps which make taking a quick snapshot of which apps and utilities that you have installed so you can easily restore it.
 

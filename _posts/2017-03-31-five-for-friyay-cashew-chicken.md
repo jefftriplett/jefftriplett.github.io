@@ -12,7 +12,7 @@ weather: 49˚F - It was Overcast.
 
 ## What I'm reading
 
-One of my favorite things about being back home in SWMO, is getting to eat Springfield Style Cashew Chicken. There's nothing quite like it and I rarely see it outside of SWMO. When I do see Cashew Chicken on a menu, it hardly resembles the classic version I grew up with and loved. 
+One of my favorite things about being back home in SWMO, is getting to eat Springfield Style Cashew Chicken. There's nothing quite like it and I rarely see it outside of SWMO. When I do see Cashew Chicken on a menu, it hardly resembles the classic version I grew up with and loved.
 
 This is David Leong's story who created Springfield Style Cashew Chicken more than 50 years ago: [Missouri Chinese: Two Cultures Claim This Chicken](http://www.nytimes.com/2009/03/11/dining/11cashew.html).
 
