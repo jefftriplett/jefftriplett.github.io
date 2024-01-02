@@ -9,7 +9,7 @@ redirect_from: /posts/about/raw/
 <div class="w-3/4 flex-0">
 {% capture bio %}
 Jeff Triplett is a Partner at [REVSYS](https://revsys.com/) and a former Director and Vice Chair of the [Python Software Foundation](https://www.python.org/psf/records/board/history/#id2).
-The co-founder and former President of the [Django Events Foundation North America (DEFNA)](https://www.defna.org), the non-profit which has run DjangoCon US since 2015. 
+The co-founder and former President of the [Django Events Foundation North America (DEFNA)](https://www.defna.org), the non-profit which has run DjangoCon US since 2015.
 
 Jeff was awarded the [2019 Malcolm Tredinnick Memorial Prize](https://www.djangoproject.com/weblog/2019/dec/17/2019-malcolm-tredinnick-prize--jeff-triplett/) for his contributions to the Django community and was honored as a [Python Software Foundation Fellow](https://www.python.org/psf/fellows/#welcome-2018-q4-fellow-members) for his contributions to the Python community in 2018.
 
@@ -35,14 +35,14 @@ Image courtesy of
 ### [Revolution Systems (REVSYS)](http://revsys.com/) (2010-present)
 {:.my-4}
 
-I have been a developer for one of the premier Django consulting agencies since 2011. 
-In 2019, I became a Partner. 
+I have been a developer for one of the premier Django consulting agencies since 2011.
+In 2019, I became a Partner.
 We specialize in Python, Django, Docker, performance, scaling, and team management.
 
 ### [Django Events Foundation North America (DEFNA)](https://github.com/defna) (2015-present)
 {:.my-4}
 
-I am one of the three co-founders of DEFNA and served as the President of the Board from 2015 to 2021 and then again from 2022 to 2023. 
+I am one of the three co-founders of DEFNA and served as the President of the Board from 2015 to 2021 and then again from 2022 to 2023.
 
 ### [Python Software Foundation (PSF)](https://www.python.org/psf/records/board/history/#id2) (2018-2023)
 {:.my-4}
@@ -61,7 +61,7 @@ I joined [The World Company](http://www.theworldco.net) in 2007 to work at [Djan
 ### Fast Freedom (2002-2007)
 {:.my-4}
 
-I was Director of Operations and started the website division/service for our company. 
+I was Director of Operations and started the website division/service for our company.
 I managed the hosting, development, wireless, and dial-up service and employees for five years.
 
 ----
@@ -86,7 +86,7 @@ I won an Opensource.com 2019 People's Choice Award.
 ### [Django Code of Conduct Committee](https://www.djangoproject.com/foundation/committees/#conduct)
 {:.my-4}
 
-I joined the committee in 2016 as a member, serving as chair and then later co-chair. 
+I joined the committee in 2016 as a member, serving as chair and then later co-chair.
 
 ### [Django Developer Member](https://www.djangoproject.com/foundation/developer-members/)
 {:.my-4}

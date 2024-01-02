@@ -1,15 +1,32 @@
-<aside class="w-full pt-3 my-3 border-t-2 border-dashed sm:my-8 flex">
-  {% if page.previous %}
-  <div class="w-1/2 mr-2 md:w-2/5">
-    <h5 class="text-sm font-bolder">Previous Post</h5>
-    <h3 class="text-xl"><a href="{{ page.previous.url }}">{{ page.previous.title }}</a></h3>
-  </div>
-  {% endif %}
-  {% if page.next %}
-  <div class="w-1/2 ml-2 md:w-2/5">
-    <h5 class="text-sm font-bolder">Next Post</h5>
-    <h3 class="text-xl"><a href="{{ page.next.url }}">{{ page.next.title }}</a></h3>
-  </div>
-  {% endif %}
-</aside>
+{% if page.previous or page.previous %}
+  <aside class="py-4 w-full border-t-2">
+    <section class="prose sm:prose-md md:prose-lg lg:prose-lg xl:prose-xl dark:prose-invert">
+      <h2 class="text-2xl font-semibold">More Articles</h2>
+    </section>
+  </aside>
 
+  {% if page.previous %}
+    <aside class="py-4 w-full">
+      <article class="prose mg:mx-16 sm:prose-md md:prose-lg lg:prose-lg xl:prose-xl dark:prose-invert">
+        <h3 class="text-xl"><a href="{{ page.previous.url }}">{{ page.previous.title }}</a></h3>
+        <time datetime="{{ page.previous.date | date_to_xmlschema }}">
+          <i class="text-base far fa-calendar" aria-hidden="true"></i>
+          {{ page.previous.date | date:"%B %e, %Y" }}
+        </time>
+      </article>
+    </aside>
+  {% endif %}
+
+  {% if page.next %}
+    <aside class="py-4 w-full">
+      <article class="prose mg:mx-16 sm:prose-md md:prose-lg lg:prose-lg xl:prose-xl dark:prose-invert">
+        <h3 class="text-xl"><a href="{{ page.next.url }}">{{ page.next.title }}</a></h3>
+        <time datetime="{{ page.next.date | date_to_xmlschema }}">
+          <i class="far fa-calendar" aria-hidden="true"></i>
+          {{ page.next.date | date:"%B %e, %Y" }}
+        </time>
+      </article>
+    </aside>
+  {% endif %}
+
+{% endif %}

@@ -4,14 +4,18 @@
 <!DOCTYPE html>
 <html lang="en">
   {% include head.html %}
-  <body class="container max-w-xs px-4 mx-auto text-xl dark:text-white dark:bg-slate-900 xl:max-w-5xl lg:max-w-4xl md:max-w-2xl sm:max-w-md">
-    <header class="flex flex-wrap pb-5 my-3 text-gray-800 align-baseline border-b-2 border-dashed dark:text-gray-200 h-18">
+  <body class="mx-auto text-lg text-gray-800 dark:text-gray-200 dark:bg-gray-900 ">
+    <header class="py-4 px-2 align-baseline border-b-2 border-slate-700">
       {% include header.html %}
     </header>
 
-    {{ content }}
+    <main class="py-4 px-2">
+      <section class="flex flex-wrap mx-auto w-full max-w-md md:max-w-2xl lg:max-w-5xl">
+        {{ content }}
+      </section>
+    </main>
 
-    <footer class="pt-3 my-3 border-t-2 border-dashed sm:my-8">
+    <footer class="py-4 px-2 border-t-2 lg:py-8 border-slate-700">
       {% include footer.html %}
     </footer>
     <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>

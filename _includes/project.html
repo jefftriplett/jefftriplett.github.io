@@ -1,12 +1,14 @@
-<details>
-  <summary>
+<article class="flex flex-col flex-wrap gap-2 p-2 min-h-48">
+  <div>
     <a href="{{ include.project.github }}">{{ include.project.title }}</a>
     {% if include.project.github %}
-    <span><a href="{{ include.project.github }}"><i class="text-gray-700 text-md fab fa-github" aria-hidden="true"></i></a></span>
+      <span><a href="{{ include.project.github }}"><i class="text-gray-700 text-md fab fa-github" aria-hidden="true"></i></a></span>
     {% endif %}
     {% if include.project.homepage %}
-    <span><a href="{{ include.project.homepage }}"><i class="text-gray-700 text-md far fa-home" aria-hidden="true"></i></a></span>
+      <span><a href="{{ include.project.homepage }}"><i class="text-gray-700 text-md fa fa-home" aria-hidden="true"></i></a></span>
     {% endif %}
-</summary>
-{{ include.project.content }}
-</details>
+  </div>
+  <div>
+    {{ include.project.content }}
+  </div>
+</article>

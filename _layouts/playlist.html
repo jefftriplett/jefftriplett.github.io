@@ -10,13 +10,13 @@ layout: default
   </a>
   <p><a href="{{ page.spotify }}">Listen on Spotify</a></p>
   <ul>
-  {% for track in page.tracks %}
-    <li>
-      <strong><a href="{{ track.spotify }}">{{ track.track }}</a></strong>
-      {{ track.artist }} -
-      {{ track.album }}
-      {% if track.starred %}:star:{% endif %}
-    </li>
-  {% endfor %}
+    {% for track in page.tracks %}
+      <li>
+        <strong><a href="{{ track.spotify }}">{{ track.track }}</a></strong>
+        {{ track.artist }} -
+        {{ track.album }}
+        {% if track.starred %}:star:{% endif %}
+      </li>
+    {% endfor %}
   </ul>
 </article>

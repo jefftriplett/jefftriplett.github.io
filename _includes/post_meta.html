@@ -1,34 +1,34 @@
-<aside class="w-full pt-3 my-3 border-t-2 border-dashed sm:my-8">
-  <h2 class="mt-4 text-xl font-semibold">Post Meta</h2>
-  <ul>
-    <li>
+<aside class="w-full leading-normal border-t-2">
+  <div class="text-gray-800 dark:text-white flex flex-col gap-1">
+    <h2 class="text-2xl font-semibold">Post Meta</h2>
+    <div class="text-xl">
+      <i class="text-base far fa-calendar" aria-hidden="true"></i>
       <time datetime="{{ page.date | date_to_xmlschema }}">
-        <i class="text-base far fa-calendar" aria-hidden="true"></i>
         Published: {{ page.date | date:"%B %e, %Y" }}
       </time>
-    </li>
+    </div>
 
     {% if page.updated %}
-    <li>
-      <time datetime="{{ page.updated | date_to_xmlschema }}">
+      <div>
         <i class="text-base far fa-calendar" aria-hidden="true"></i>
-        Updated: {{ page.updated | date:"%B %e, %Y" }}
-      </time>
-    </li>
+        <time datetime="{{ page.updated | date_to_xmlschema }}">
+          Updated: {{ page.updated | date:"%B %e, %Y" }}
+        </time>
+      </div>
     {% endif %}
 
     {% if page.location %}
-    <li>
-      <i class="text-base fas fa-map-marker" aria-hidden="true"></i>
-      In {{ page.location }}
-    </li>
+      <div>
+        <i class="text-base fas fa-map-marker" aria-hidden="true"></i>
+        In {{ page.location }}
+      </div>
     {% endif %}
 
     {% if page.weather %}
-    <li>
-      <i class="text-base fas fa-thermometer-half"></i>
-      {{ page.weather }}
-    </li>
+      <div>
+        <i class="text-base fas fa-thermometer-half"></i>
+        {{ page.weather }}
+      </div>
     {% endif %}
-  </ul>
+  </div>
 </aside>

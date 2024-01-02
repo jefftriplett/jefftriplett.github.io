@@ -3,19 +3,22 @@ layout: default
 title: Archives
 permalink: /archives/
 redirect_from:
-  - /blog/
-  - /posts/
+- /blog/
+- /posts/
 ---
-
-<section class="leading-normal">
+<section class="w-full">
   {% for post in site.posts %}
     {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
     {% unless post.hidden %}
+
       {% if year != lastyear %}
-        <h2 class="flex mb-4 font-semibold leading-normal dark:text-white">{{ year }}</h2>
+        <section class="bg-red-600 rounded rounded-xl">
+          <h2 class="py-1 px-2 text-3xl font-semibold leading-normal dark:text-gray-100">{{ year }}</h2>
+        </section>
       {% endif %}
-      <article class="flex mb-4">
-        <div class="w-2/3">
+
+      <article class="flex px-2 my-4">
+        <div class="w-2/3 text-2xl">
           <a class="no-underline outline-none" href="{{ site.baseurl }}{{ post.url }}">
             {% if post.category %}
               {% assign topic = site.topics | where:"category", post.category | first %}
@@ -27,7 +30,7 @@ redirect_from:
             {{ post.title | markdownify | remove:'<p>' | remove:'</p>' }}
 
             {% if post.redirect_to %}
-            <i class="text-base far fa-external-link" aria-hidden="true"></i>
+              <i class="text-base far fa-external-link" aria-hidden="true"></i>
             {% endif %}
           </a>
         </div>

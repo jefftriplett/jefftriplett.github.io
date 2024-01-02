@@ -1,21 +1,22 @@
-<h2 class="self-center w-full text-3xl md:w-1/4">
-  <a href="/">
-    {{ site.title }}
-  </a>
-  {% comment %}<small>{{ site.tagline }}</small>{% endcomment %}
-</h2>
-
-<nav class="self-center w-full md:w-3/4 md:text-right">
-  <ul>
-  {% for link in site.data.navigation %}
-    {% if link.show_in_header == true %}
-      <li class="inline-block px-1 py-2 md:px-2">
-        <a href="{{ link.url }}"
-          {% if link.aria-label %}aria-label="{{ link.aria-label }}" title="{{ link.aria-label }}"{% endif %}
-          {% if link.nofollow %}rel="nofollow" {% endif %}
-        >{{ link.title }}</a>
-      </li>
-    {% endif %}
-  {% endfor %}
-  </ul>
-</nav>
+<section class="flex flex-wrap mx-auto max-w-md md:max-w-2xl lg:max-w-5xl">
+  <h2 class="self-center w-full text-3xl md:w-1/4">
+    <a href="/">
+      {{ site.title }}
+    </a>
+    {% comment %}<small>{{ site.tagline }}</small>{% endcomment %}
+  </h2>
+  <nav class="self-center w-full md:w-3/4 md:text-right">
+    <ul>
+      {% for link in site.data.navigation %}
+        {% if link.show_in_header == true %}
+          <li class="inline-block py-2 px-1 md:px-2">
+            <a href="{{ link.url }}"
+               {% if link.aria-label %}aria-label="{{ link.aria-label }}" title="{{ link.aria-label }}"{% endif %}
+               {% if link.nofollow %}rel="nofollow" {% endif %}
+            >{{ link.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+</section>
