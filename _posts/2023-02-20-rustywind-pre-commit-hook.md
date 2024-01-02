@@ -10,6 +10,7 @@ tags:
 - pre-commit
 - pre-commit hooks
 title: Creating a Rustywind pre-commit hook
+updated: 2024-01-02 09:05:00-06:00
 weather: 62˚F Mostly Sunny
 ---
 
@@ -27,7 +28,7 @@ repos:
         name: rustywind Tailwind CSS class linter
         language: node
         additional_dependencies:
-          - rustywind@0.15.3
+          - rustywind@latest
         entry: rustywind
         args: [--write]
         types_or: [html]
