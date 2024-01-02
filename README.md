@@ -7,7 +7,7 @@ This is my personal website written with Jekyll using Markdown.
 ### To Install
 
 ```shell
-$ gem install bundler jekyll 
+$ gem install bundler jekyll
 ```
 
 ### To Serve Files
@@ -19,7 +19,7 @@ $ just run
 ### Tailwind
 
 ```shell
-$ just static 
+$ just static
 ```
 
 ## Inspiration

@@ -1,7 +1,7 @@
-import typer
-
 from datetime import datetime
 from pathlib import Path
+
+import typer
 from workalendar.usa import Kansas
 from yaml import dump
 

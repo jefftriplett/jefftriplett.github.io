@@ -19,6 +19,7 @@
   "homepage": "https://github.com/jefftriplett/jefftriplett.github.io#readme",
   "dependencies": {
     "@tailwindcss/typography": "^0.5.2",
+    "doctoc": "^2.2.0",
     "tailwindcss": "^3.0.24",
     "tailwindcss-debug-screens": "^2.2.1",
     "typeface-pt-mono": "^1.1.13",

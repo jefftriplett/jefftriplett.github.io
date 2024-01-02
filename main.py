@@ -1,18 +1,17 @@
-import frontmatter
 import os
+from datetime import datetime
+from pathlib import Path
+from urllib.parse import urlencode
+
+import frontmatter
 import pytz
 import typer
-
-from datetime import datetime
 from dateutil.parser import parse
-from pathlib import Path
 from pydantic import BaseModel
 from pydantic import field_validator
 from pydantic import ValidationError
 from rich import print
 from slugify import slugify
-from typing import List, Optional
-from urllib.parse import urlencode
 
 
 DEFAULT_TZ = pytz.timezone("America/Chicago")
@@ -24,13 +23,13 @@ class FrontmatterModel(BaseModel):
     Our base class for our default "Frontmatter" fields.
     """
 
-    date: Optional[str] = None  # TODO: Parse/fix...
+    date: str | None = None  # TODO: Parse/fix...
     layout: str
-    permalink: Optional[str] = None
-    published: Optional[bool] = None
-    redirect_from: Optional[List[str]] = None
-    redirect_to: Optional[str] = None  # via the jekyll-redirect-from plugin
-    sitemap: Optional[bool] = None
+    permalink: str | None = None
+    published: bool | None = None
+    redirect_from: list[str] | None = None
+    redirect_to: str | None = None  # via the jekyll-redirect-from plugin
+    sitemap: bool | None = None
     title: str
 
     class Config:
@@ -38,26 +37,26 @@ class FrontmatterModel(BaseModel):
 
 
 class PageModel(FrontmatterModel):
-    description: Optional[str] = None
-    heading: Optional[str] = None
-    layout: Optional[str] = None
-    title: Optional[str] = None
+    description: str | None = None
+    heading: str | None = None
+    layout: str | None = None
+    title: str | None = None
 
 
 class PostModel(FrontmatterModel):
-    author: Optional[str] = None
-    categories: Optional[List[str]] = None
-    category: Optional[str] = "Personal"
-    date: Optional[datetime] = None
-    image: Optional[str] = None
-    layout: Optional[str] = "post"
+    author: str | None = None
+    categories: list[str] | None = None
+    category: str | None = "Personal"
+    date: datetime | None = None
+    image: str | None = None
+    layout: str | None = "post"
     # location: Optional[str] = "Home @ Lawrence, Kansas United States"
-    location: Optional[str] = None
-    redirect_to: Optional[str] = None
-    slug: Optional[str] = None
-    tags: Optional[List[str]] = None
+    location: str | None = None
+    redirect_to: str | None = None
+    slug: str | None = None
+    tags: list[str] | None = None
     title: str
-    weather: Optional[str] = None
+    weather: str | None = None
 
     @field_validator("date")
     def validate_date(cls, value):
@@ -70,12 +69,12 @@ class PostModel(FrontmatterModel):
 
 
 class ProjectModel(FrontmatterModel):
-    archived: Optional[bool] = False
-    github: Optional[str] = None
-    homepage: Optional[str] = None
-    layout: Optional[str] = None
-    slug: Optional[str] = None
-    title: Optional[str] = None
+    archived: bool | None = False
+    github: str | None = None
+    homepage: str | None = None
+    layout: str | None = None
+    slug: str | None = None
+    title: str | None = None
 
 
 # class PostSchema(typesystem.Schema):
@@ -231,9 +230,15 @@ def process(folder: Path):
 
                 if "date" in post:
                     if isinstance(post["date"], str):
-                        date = parse(post["date"]).replace(microsecond=0).astimezone(DEFAULT_TZ)
+                        date = (
+                            parse(post["date"])
+                            .replace(microsecond=0)
+                            .astimezone(DEFAULT_TZ)
+                        )
                     else:
-                        date = post["date"].replace(microsecond=0).astimezone(DEFAULT_TZ)
+                        date = (
+                            post["date"].replace(microsecond=0).astimezone(DEFAULT_TZ)
+                        )
 
                 data.metadata.update(**post.dict(exclude_none=True))
 
