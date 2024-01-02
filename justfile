@@ -8,6 +8,7 @@ TAILWIND_CSS_VERSION := "latest"
 @bootstrap:
     docker-compose pull
     docker-compose build
+    python -m pip install --upgrade pre-commit
 
 # ----
 
@@ -21,10 +22,10 @@ TAILWIND_CSS_VERSION := "latest"
     JEKYLL_ENV=production jekyll build
 
 @build-static:
-    just build-tailwind development 2023.development.css
-    just build-tailwind production 2023.css
+    just build-tailwind development 2024.development.css
+    just build-tailwind production 2024.css
 
-@build-tailwind target='' filename='2023.css':
+@build-tailwind target='' filename='2024.css':
     echo "{{ target }} == {{ filename }}"
 
     # {{ TAILWIND_CSS_VERSION }}
@@ -73,11 +74,8 @@ TAILWIND_CSS_VERSION := "latest"
     just --fmt --unstable
 
 @lint:
-    -black --check .
-    -djhtml --tabwidth 2 _layouts/ **.html
-    # -curlylint _includes/ _layouts/ _pages/ *.html
-    -bunx rustywind --dry-run .
-    -bunx rustywind --write .
+    pre-commit run --all-files
+
 
 @opengraph:
     tcardgen \
@@ -90,6 +88,9 @@ TAILWIND_CSS_VERSION := "latest"
     pip install -U -r requirements.in
     rm -rf requirements.txt
     pip-compile requirements.in
+
+@pre-commit *ARGS:
+    pre-commit run {{ ARGS }} --all-files
 
 @pull:
     docker-compose pull
