@@ -9,16 +9,16 @@ sitemap: false
   <h2 class="flex mb-4 font-semibold leading-normal">Playlists</h2>
   {% for playlist in site.playlists %}
     {% unless playlist.hidden %}
-    <article class="max-w-sm mb-8 overflow-hidden rounded-lg shadow-lg">
-      <a href="{{ playlist.url }}" title="{{ playlist.playlist }}">
-        <img class="w-full" src="{{ playlist.playlist_image.url }}">
-        <div class="px-6 py-4">
-          <p class="text-base leading-none text-center text-grey-darkest">
-            {{ playlist.playlist }}
-          </p>
-        </div>
-      </a>
-    </article>
+      <article class="overflow-hidden mb-8 max-w-sm rounded-lg shadow-lg">
+        <a href="{{ playlist.url }}" title="{{ playlist.playlist }}">
+          <img class="w-full" src="{{ playlist.playlist_image.url }}">
+          <div class="py-4 px-6">
+            <p class="text-base leading-none text-center text-grey-darkest">
+              {{ playlist.playlist }}
+            </p>
+          </div>
+        </a>
+      </article>
     {% endunless %}
   {% endfor %}
 </section>

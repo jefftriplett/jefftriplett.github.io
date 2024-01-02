@@ -52,7 +52,7 @@ This has been life changing for me and has encouraged me to cut out a few bad ha
 
 ### Weight Tracking (YMMV)
 
-I track my weight with a Wyze Bluetooth scale. 
+I track my weight with a Wyze Bluetooth scale.
 
 ### Devices
 
