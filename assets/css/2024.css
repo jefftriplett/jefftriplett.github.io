@@ -1443,10 +1443,6 @@ pre {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
@@ -1565,6 +1561,11 @@ pre {
 .border-blue-300 {
   --tw-border-opacity: 1;
   border-color: rgb(147 197 253 / var(--tw-border-opacity));
+}
+
+.border-blue-950 {
+  --tw-border-opacity: 1;
+  border-color: rgb(23 37 84 / var(--tw-border-opacity));
 }
 
 .border-gray-200 {
@@ -1895,6 +1896,10 @@ pre {
 
 .text-opacity-100 {
   --tw-text-opacity: 1;
+}
+
+.underline {
+  text-decoration-line: underline;
 }
 
 .no-underline {
@@ -2840,6 +2845,10 @@ a.internal-link::after {
 
   .sm\:max-w-md {
     max-width: 28rem;
+  }
+
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .sm\:px-2 {
