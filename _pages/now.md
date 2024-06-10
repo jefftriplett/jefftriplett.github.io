@@ -4,13 +4,13 @@ title: What I'm Doing Now
 permalink: /now/
 ---
 
-## Location:
+## Location
 
-## 🏡 Lawrence (KS, USA)
+### 🏡 Lawrence (KS, USA)
 
 I have been happily living in Lawrence, KS, since 2007.
 
-## Working on:
+## Working on
 
 - I work full-time at [REVSYS][] for some fantastic clients.
   Some days, I write code, train developers, automate systems, secure websites, and manage humans.
@@ -19,7 +19,7 @@ I have been happily living in Lawrence, KS, since 2007.
 
 - I am working on several side projects and logging my progress on [wip.co][] for public accountability.
 
-## Projects I'm working on:
+## Projects I'm working on
 
 - [Django News][] newsletter
 - [Django Packages][]
@@ -33,6 +33,5 @@ I have been happily living in Lawrence, KS, since 2007.
 [Django Packages]: https://djangopackages.org/
 [DjangoCon US 2023]: https://2023.djangocon.us/
 [RevSys]: https://www.revsys.com/
-[The Legend of Zelda: Tears of the Kingdom]: https://www.zelda.com/tears-of-the-kingdom/
-[trakt.tv]: https://trakt.tv/users/jefftriplett
 [wip.co]: https://wip.co/@jefftriplett
+

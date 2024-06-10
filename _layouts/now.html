@@ -7,15 +7,17 @@ layout: default
 </article>
 
 <section class="grid grid-cols-1 gap-8 w-full">
-  <h3 class="font-semibold text-4xl">📺 Watching: Movies</h3>
+  <h3 class="font-semibold text-4xl">
+    <a class="hover:underline hover:text-blue-600" href="{% link _pages/movies.md %}">📺 Watching: Movies</a>
+  </h3>
   <div class="grid grid-cols-4 gap-8">
     {% assign sorted_movies = site.movies | sort: 'date' | reverse %}
     {% for movie in sorted_movies limit:4 %}
-      <article class="">
+      <article>
         <a href="{{ movie.link }}" class="no-underline">
           <figure class="flex flex-col gap-4">
             {% if movie.cover %}
-              <img class="rounded-md" src="{{ movie.cover }}" alt="Cover image for {{ movie.title }}">
+              <img class="rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" src="{{ movie.cover }}" alt="Cover image for {{ movie.title }}">
             {% endif %}
             <figcaption class="font-semibold text-center">{{ movie.title }}</figcaption>
           </figure>
@@ -26,15 +28,17 @@ layout: default
 </section>
 
 <section class="grid grid-cols-1 gap-8 w-full">
-  <h3 class="font-semibold text-4xl">📺 Watching: Series</h3>
+  <h3 class="font-semibold text-4xl">
+    <a class="hover:underline hover:text-blue-600" href="{% link _pages/series.md %}">📺 Watching: Series</a>
+  </h3>
   <div class="grid grid-cols-4 gap-8">
     {% assign sorted_series = site.series | sort: 'date' | reverse %}
     {% for series in sorted_series limit:4 %}
-      <article class="">
+      <article>
         <a href="{{ series.link }}" class="no-underline">
           <figure class="flex flex-col gap-4">
             {% if series.cover %}
-              <img class="rounded-md" src="{{ series.cover }}" alt="Cover image for {{ series.title }}">
+              <img class="rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" src="{{ series.cover }}" alt="Cover image for {{ series.title }}">
             {% endif %}
             <figcaption class="font-semibold text-center">{{ series.title }}</figcaption>
           </figure>
@@ -45,15 +49,17 @@ layout: default
 </section>
 
 <section class="grid grid-cols-1 gap-8 w-full">
-  <h3 class="font-semibold text-4xl">🎮 Playing: Games</h3>
+  <h3 class="font-semibold text-4xl">
+    <a class="hover:underline hover:text-blue-600" href="{% link _pages/games.md %}">🎮 Playing: Games</a>
+  </h3>
   <div class="grid grid-cols-4 gap-8">
     {% assign sorted_games = site.games | sort: 'date' | reverse %}
     {% for game in sorted_games limit:8 %}
-      <article class="">
+      <article>
         <a href="{{ game.link }}" class="no-underline">
           <figure class="flex flex-col gap-4">
             {% if game.cover %}
-              <img class="rounded-md" src="{{ game.cover }}" alt="Cover image for {{ game.title }}">
+              <img class="rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" src="{{ game.cover }}" alt="Cover image for {{ game.title }}">
             {% endif %}
             <figcaption class="font-semibold text-center">{{ game.title }}</figcaption>
           </figure>
