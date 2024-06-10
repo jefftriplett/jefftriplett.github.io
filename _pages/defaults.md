@@ -31,3 +31,7 @@ Catalogued by Robb Knight's [App Defaults](https://defaults.rknight.me)
 👔 Menu Bar: [Bartender](https://www.macbartender.com)  
 🤖 Containers: [Docker Compose](https://www.docker.com) + [OrbStack](https://orbstack.dev)  
 🎒 Backups: [Backblaze](https://www.backblaze.com)
+
+## Related Articles
+
+- [Default Apps 2023]({% link _posts/2023-12-14-default-apps-2023.md %})
