@@ -15,7 +15,7 @@ layout: default
         <a href="{{ movie.link }}" class="no-underline">
           <figure class="flex flex-col gap-4">
             {% if movie.cover %}
-              <img src="{{ movie.cover }}" alt="Cover image for {{ movie.title }}">
+              <img class="rounded-md" src="{{ movie.cover }}" alt="Cover image for {{ movie.title }}">
             {% endif %}
             <figcaption class="font-semibold text-center">{{ movie.title }}</figcaption>
           </figure>
@@ -34,7 +34,7 @@ layout: default
         <a href="{{ series.link }}" class="no-underline">
           <figure class="flex flex-col gap-4">
             {% if series.cover %}
-              <img src="{{ series.cover }}" alt="Cover image for {{ series.title }}">
+              <img class="rounded-md" src="{{ series.cover }}" alt="Cover image for {{ series.title }}">
             {% endif %}
             <figcaption class="font-semibold text-center">{{ series.title }}</figcaption>
           </figure>
@@ -53,7 +53,7 @@ layout: default
         <a href="{{ game.link }}" class="no-underline">
           <figure class="flex flex-col gap-4">
             {% if game.cover %}
-              <img src="{{ game.cover }}" alt="Cover image for {{ game.title }}">
+              <img class="rounded-md" src="{{ game.cover }}" alt="Cover image for {{ game.title }}">
             {% endif %}
             <figcaption class="font-semibold text-center">{{ game.title }}</figcaption>
           </figure>
@@ -63,7 +63,7 @@ layout: default
   </div>
 </section>
 
-<section class="grid grid-cols-1 gap-4 w-full my-4 p-4 rounded-lg border-2 border-white">
+<section class="grid grid-cols-1 gap-4 w-full my-4 p-4 rounded-md border-2 border-white">
   <p>
     This page is inspired by <a href="http://aaronsumner.com/pages/now.html">Aaron Sumner's Now Page</a> which was inspired by <a href="https://sivers.org/now">Derek Sivers's</a> <a href="http://nownownow.com/about">Now Page Movement</a>.
   </p>
