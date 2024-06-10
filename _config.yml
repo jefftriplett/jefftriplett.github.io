@@ -76,12 +76,18 @@ sass:
 collections:  # process the _data folder
   components:
     output: false
+  games:
+    output: false
   playlists:
     output: true
     permalink: /:collection/:name/
   projects:
     output: false
     permalink: /:collection/:name/
+  movies:
+    output: false
+  series:
+    output: false
   topics:
     output: true
     permalink: /:collection/:name/

@@ -1,0 +1,70 @@
+---
+layout: default
+---
+<article class="max-w-none prose prose-a:underline prose-a:px-1 prose-a:py-1 sm:prose-md md:prose-lg lg:prose-lg xl:prose-xl dark:prose-invert dark:prose-text-black">
+  <h1 class="font-semibold">{{ page.title | markdownify | remove:'<p>' | remove:'</p>' }}</h1>
+  {{ content }}
+</article>
+
+<section class="grid grid-cols-1 gap-8 w-full">
+  <h3 class="font-semibold text-4xl">📺 Watching: Movies</h3>
+  <div class="grid grid-cols-4 gap-8">
+    {% assign sorted_movies = site.movies | sort: 'date' | reverse %}
+    {% for movie in sorted_movies limit:4 %}
+      <article class="">
+        <a href="{{ movie.link }}" class="no-underline">
+          <figure class="flex flex-col gap-4">
+            {% if movie.cover %}
+              <img src="{{ movie.cover }}" alt="Cover image for {{ movie.title }}">
+            {% endif %}
+            <figcaption class="font-semibold text-center">{{ movie.title }}</figcaption>
+          </figure>
+        </a>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="grid grid-cols-1 gap-8 w-full">
+  <h3 class="font-semibold text-4xl">📺 Watching: Series</h3>
+  <div class="grid grid-cols-4 gap-8">
+    {% assign sorted_series = site.series | sort: 'date' | reverse %}
+    {% for series in sorted_series limit:4 %}
+      <article class="">
+        <a href="{{ series.link }}" class="no-underline">
+          <figure class="flex flex-col gap-4">
+            {% if series.cover %}
+              <img src="{{ series.cover }}" alt="Cover image for {{ series.title }}">
+            {% endif %}
+            <figcaption class="font-semibold text-center">{{ series.title }}</figcaption>
+          </figure>
+        </a>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="grid grid-cols-1 gap-8 w-full">
+  <h3 class="font-semibold text-4xl">🎮 Playing: Games</h3>
+  <div class="grid grid-cols-4 gap-8">
+    {% assign sorted_games = site.games | sort: 'date' | reverse %}
+    {% for game in sorted_games limit:8 %}
+      <article class="">
+        <a href="{{ game.link }}" class="no-underline">
+          <figure class="flex flex-col gap-4">
+            {% if game.cover %}
+              <img src="{{ game.cover }}" alt="Cover image for {{ game.title }}">
+            {% endif %}
+            <figcaption class="font-semibold text-center">{{ game.title }}</figcaption>
+          </figure>
+        </a>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="grid grid-cols-1 gap-4 w-full my-4 p-4 rounded-lg border-2 border-white">
+  <p>
+    This page is inspired by <a href="http://aaronsumner.com/pages/now.html">Aaron Sumner's Now Page</a> which was inspired by <a href="https://sivers.org/now">Derek Sivers's</a> <a href="http://nownownow.com/about">Now Page Movement</a>.
+  </p>
+</section>
