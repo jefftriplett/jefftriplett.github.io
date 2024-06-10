@@ -19,7 +19,6 @@ I have been happily living in Lawrence, KS, since 2007.
 
 - I am working on several side projects and logging my progress on [wip.co][] for public accountability.
 
-
 ## Projects I'm working on:
 
 - [Django News][] newsletter
