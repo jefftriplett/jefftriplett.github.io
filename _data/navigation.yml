@@ -29,6 +29,11 @@
   show_in_header: false
   show_in_footer: false
 
+- title: Slashes
+  url: /slashes/
+  show_in_header: false
+  show_in_footer: true
+
 - title: Now
   url: /now/
   show_in_header: false
