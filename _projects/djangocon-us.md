@@ -7,6 +7,7 @@ title: DjangoCon.us
 
 The website(s) for DjangoCon.us:
 
+- [djangocon/2024.djangocon.us](https://github.com/djangocon/2024.djangocon.us)
 - [djangocon/2023.djangocon.us](https://github.com/djangocon/2023.djangocon.us)
 - [djangocon/2022.djangocon.us](https://github.com/djangocon/2022.djangocon.us)
 - [djangocon/2021.djangocon.us](https://github.com/djangocon/2021.djangocon.us)
