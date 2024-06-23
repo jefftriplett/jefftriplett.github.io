@@ -76,6 +76,8 @@ sass:
 collections:  # process the _data folder
   components:
     output: false
+  appearances:
+    output: false
   games:
     output: false
   playlists:
