@@ -4,7 +4,7 @@ date: 2024-06-12T23:58:55.000000Z
 layout: post
 location: Home @ Lawrence, Kansas United States
 slug: amazon-delivery-a-true-story
-title: 📦 Amazon delivery: A true story
+title: "📦 Amazon delivery: A true story"
 redirect_to: https://micro.webology.dev/2024/06/12/amazon-delivery-a.html
 tags: 
 ---

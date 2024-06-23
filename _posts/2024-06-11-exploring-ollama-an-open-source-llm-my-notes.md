@@ -4,7 +4,7 @@ date: 2024-06-12T02:57:51.000000Z
 layout: post
 location: Home @ Lawrence, Kansas United States
 slug: exploring-ollama-an-open-source-llm-my-notes
-title: 📓 Exploring Ollama: An Open-Source LLM (my notes)
+title: "📓 Exploring Ollama: An Open-Source LLM (my notes)"
 redirect_to: https://micro.webology.dev/2024/06/11/exploring-ollama-an.html
 tags: 
 ---
