@@ -4,13 +4,13 @@
 <!DOCTYPE html>
 <html lang="en">
   {% include head.html %}
-  <body class="mx-auto text-lg text-gray-800 dark:text-gray-200 dark:bg-gray-900 grid grid-cols-1 gap-4">
+  <body class="flex flex-col gap-4 min-h-screen mx-auto text-lg text-gray-800 dark:text-gray-200 dark:bg-gray-900">
     <header class="py-4 px-2 align-baseline border-b-2 border-slate-700">
       {% include header.html %}
     </header>
 
-    <main class="py-4 px-2">
-      <section class="grid grid-cols=1 mx-auto w-full max-w-md md:max-w-2xl lg:max-w-5xl gap-12">
+    <main class="py-4 px-2 flex-grow">
+      <section class="grid grid-cols-1 mx-auto w-full max-w-md md:max-w-2xl lg:max-w-5xl gap-12">
         {{ content }}
       </section>
     </main>

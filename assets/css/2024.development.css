@@ -1367,6 +1367,10 @@ pre {
   min-height: 12rem;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .w-1\/3 {
   width: 33.333333%;
 }
@@ -1437,6 +1441,18 @@ pre {
 
 .flex-1 {
   flex: 1 1 0%;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.table-auto {
+  table-layout: auto;
+}
+
+.border-collapse {
+  border-collapse: collapse;
 }
 
 .grid-cols-1 {
@@ -1591,6 +1607,16 @@ pre {
 .border-red-300 {
   --tw-border-opacity: 1;
   border-color: rgb(252 165 165 / var(--tw-border-opacity));
+}
+
+.border-slate-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(100 116 139 / var(--tw-border-opacity));
+}
+
+.border-slate-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(71 85 105 / var(--tw-border-opacity));
 }
 
 .border-slate-700 {
@@ -2780,6 +2806,14 @@ a.internal-link::after {
 .\*\:border-white > * {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.\*\:p-2 > * {
+  padding: 0.5rem;
+}
+
+.\*\:text-left > * {
+  text-align: left;
 }
 
 .hover\:-translate-y-1:hover {
