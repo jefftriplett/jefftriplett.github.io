@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover: https://walter.trakt.tv/images/shows/000/170/597/posters/thumb/dcc3e5567e.jpg.webp
 date: 2024-06-24T03:58:56.000000Z
 link: https://trakt.tv/shows/dark-matter-2024
 title: "Dark Matter"
