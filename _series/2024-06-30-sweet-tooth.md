@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover: https://walter.trakt.tv/images/shows/000/162/098/posters/thumb/2882731586.jpg.webp
 date: 2024-07-01T03:08:34.000000Z
 link: https://trakt.tv/shows/sweet-tooth
 title: "Sweet Tooth"
