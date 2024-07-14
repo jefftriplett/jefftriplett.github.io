@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover: https://walter.trakt.tv/images/shows/000/155/511/posters/thumb/ded29d648f.jpg.webp
 date: 2024-07-14T01:38:56.000000Z
 link: https://trakt.tv/shows/vikings-valhalla
 title: "Vikings: Valhalla"
