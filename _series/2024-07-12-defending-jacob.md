@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover: https://walter.trakt.tv/images/shows/000/153/534/posters/thumb/2321b0868a.jpg.webp
 date: 2024-07-13T03:21:25.000000Z
 link: https://trakt.tv/shows/defending-jacob
 title: "Defending Jacob"
