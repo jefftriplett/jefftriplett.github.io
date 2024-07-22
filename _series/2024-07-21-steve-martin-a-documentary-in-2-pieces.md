@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover: https://walter.trakt.tv/images/shows/000/229/645/posters/thumb/9bdedb685a.jpg.webp
 date: 2024-07-22T02:32:14.000000Z
 link: https://trakt.tv/shows/steve-martin-a-documentary-in-2-pieces
 title: "STEVE! (martin) a documentary in 2 pieces"
