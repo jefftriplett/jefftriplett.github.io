@@ -1,6 +1,6 @@
 ---
 category: Movies
-cover: 
+cover: https://walter-r2.trakt.tv/images/movies/000/196/835/posters/thumb/3a0004597a.jpg.webp
 date: 2024-07-28T01:18:51.000000Z
 link: https://trakt.tv/movies/the-greatest-showman-2017
 title: "The Greatest Showman (2017)"

@@ -1,6 +1,6 @@
 ---
 category: Movies
-cover: 
+cover: https://walter-r2.trakt.tv/images/movies/000/488/280/posters/thumb/9b0f3165ff.jpg.webp
 date: 2024-08-04T00:32:26.000000Z
 link: https://trakt.tv/movies/kingdom-of-the-planet-of-the-apes-2024
 title: "Kingdom of the Planet of the Apes (2024)"

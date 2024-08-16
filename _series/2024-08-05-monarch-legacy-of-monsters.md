@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover: https://walter-r2.trakt.tv/images/shows/000/195/644/posters/thumb/160accc156.jpg.webp
 date: 2024-08-06T03:42:39.000000Z
 link: https://trakt.tv/shows/monarch-legacy-of-monsters
 title: "Monarch: Legacy of Monsters"

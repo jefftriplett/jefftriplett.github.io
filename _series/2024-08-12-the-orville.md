@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover: https://walter-r2.trakt.tv/images/shows/000/119/017/posters/thumb/640764c98a.jpg.webp
 date: 2024-08-13T03:26:45.000000Z
 link: https://trakt.tv/shows/the-orville
 title: "The Orville"

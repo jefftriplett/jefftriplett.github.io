@@ -1,6 +1,6 @@
 ---
 category: Movies
-cover: 
+cover: https://walter-r2.trakt.tv/images/movies/000/931/908/posters/thumb/fafb28e145.jpg.webp
 date: 2024-08-05T02:43:57.000000Z
 link: https://trakt.tv/movies/mountain-queen-the-summits-of-lhakpa-sherpa-2024
 title: "Mountain Queen: The Summits of Lhakpa Sherpa (2024)"
