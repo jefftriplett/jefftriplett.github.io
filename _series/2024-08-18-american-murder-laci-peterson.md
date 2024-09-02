@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover: https://walter-r2.trakt.tv/images/shows/000/251/287/posters/thumb/1733008010.jpg.webp
 date: 2024-08-19T03:40:24.000000Z
 link: https://trakt.tv/shows/american-murder-laci-peterson
 title: "American Murder: Laci Peterson"
