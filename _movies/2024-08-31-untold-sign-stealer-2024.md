@@ -1,6 +1,6 @@
 ---
 category: Movies
-cover: 
+cover: https://walter-r2.trakt.tv/images/movies/001/083/693/posters/thumb/c019a071dd.jpg.webp
 date: 2024-09-01T03:20:59.000000Z
 link: https://trakt.tv/movies/untold-sign-stealer-2024
 title: "Untold: Sign Stealer (2024)"
