@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover: https://walter-r2.trakt.tv/images/shows/000/206/919/posters/thumb/a389c1e237.jpg.webp
 date: 2024-08-23T03:38:24.000000Z
 link: https://trakt.tv/shows/average-joe-2023
 title: "Average Joe"
