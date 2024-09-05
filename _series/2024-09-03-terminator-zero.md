@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover: https://walter-r2.trakt.tv/images/shows/000/213/064/posters/thumb/c73f925f7e.jpg.webp
 date: 2024-09-04T04:04:14.000000Z
 link: https://trakt.tv/shows/terminator-zero
 title: "Terminator Zero"
