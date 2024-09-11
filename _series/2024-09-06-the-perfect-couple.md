@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover: https://walter-r2.trakt.tv/images/shows/000/202/577/posters/thumb/80d45d9485.jpg.webp
 date: 2024-09-07T04:03:01.000000Z
 link: https://trakt.tv/shows/the-perfect-couple
 title: "The Perfect Couple"
