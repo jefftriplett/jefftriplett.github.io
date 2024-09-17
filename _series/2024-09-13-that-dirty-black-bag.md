@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover: https://walter-r2.trakt.tv/images/shows/000/193/185/posters/thumb/fcc7015af9.jpg.webp
 date: 2024-09-14T02:51:26.000000Z
 link: https://trakt.tv/shows/that-dirty-black-bag
 title: "That Dirty Black Bag"
