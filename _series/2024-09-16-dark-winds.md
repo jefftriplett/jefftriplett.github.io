@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover: https://walter-r2.trakt.tv/images/shows/000/183/528/posters/thumb/982beaf10e.jpg.webp
 date: 2024-09-17T03:47:41.000000Z
 link: https://trakt.tv/shows/dark-winds
 title: "Dark Winds"
