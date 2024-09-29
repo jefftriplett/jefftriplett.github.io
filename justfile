@@ -77,8 +77,8 @@ TAILWIND_CSS_VERSION := "latest"
 @fmt:
     just --fmt --unstable
 
-@lint:
-    pre-commit run --all-files
+@lint *ARGS:
+    uv run --with pre-commit-uv pre-commit run {{ ARGS }} --all-files
 
 @opengraph:
     tcardgen \
@@ -87,13 +87,8 @@ TAILWIND_CSS_VERSION := "latest"
         -o ./output \
         _posts/*.md
 
-@pip-compile:
-    pip install -U -r requirements.in
-    rm -rf requirements.txt
-    pip-compile requirements.in
-
-@pre-commit *ARGS:
-    pre-commit run {{ ARGS }} --all-files
+@lock:
+    uv pip compile requirements.in
 
 @pull:
     docker-compose pull
@@ -148,8 +143,8 @@ TAILWIND_CSS_VERSION := "latest"
 
 # updates a project to run at its current version
 @update:
-    -pip install -U pip
-    -just pip-compile
+    -pip install --upgrade pip uv
+    -just lock
     -docker-compose pull
     -docker-compose build
 
