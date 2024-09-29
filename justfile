@@ -71,12 +71,14 @@ TAILWIND_CSS_VERSION := "latest"
     done
     convert "{{ FAVICON }}" -resize 196x196 ./favicon.ico
 
+@fetch-backlogged *ARGS:
+    uv run scripts/fetch-backlogged.py {{ ARGS }}
+
 @fmt:
     just --fmt --unstable
 
 @lint:
     pre-commit run --all-files
-
 
 @opengraph:
     tcardgen \
