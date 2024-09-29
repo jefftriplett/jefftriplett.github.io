@@ -36,8 +36,8 @@ TAILWIND_CSS_VERSION := "latest"
         --input src/index.css \
         --output assets/css/{{ filename }}
 
-@bump:
-    bumpver update
+@bump *ARGS:
+    uv run bumpver update {{ ARGS }}
 
 # invoked by continuous integration servers to run tests
 @cibuild:
