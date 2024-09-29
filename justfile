@@ -10,30 +10,9 @@ TAILWIND_CSS_VERSION := "latest"
     docker-compose pull
     docker-compose build
 
-# ----
-
 @build:
     docker-compose pull
     docker-compose build
-    # just build-jekyll
-    # just build-static
-
-@build-jekyll:
-    JEKYLL_ENV=production jekyll build
-
-@build-static:
-    just build-tailwind development 2024.development.css
-    just build-tailwind production 2024.css
-
-@build-tailwind target='' filename='2024.css':
-    echo "{{ target }} == {{ filename }}"
-
-    # {{ TAILWIND_CSS_VERSION }}
-
-    JEKYLL_ENV={{ target }} bun run tailwindcss build \
-        --config src/tailwind.config.js \
-        --input src/index.css \
-        --output assets/css/{{ filename }}
 
 @bump *ARGS:
     uv run bumpver update {{ ARGS }}
@@ -75,6 +54,9 @@ TAILWIND_CSS_VERSION := "latest"
 
 @fmt:
     just --fmt --unstable
+
+@jekyll-build:
+    JEKYLL_ENV=production jekyll build
 
 @lint *ARGS:
     uv run --with pre-commit-uv pre-commit run {{ ARGS }} --all-files
@@ -122,11 +104,25 @@ TAILWIND_CSS_VERSION := "latest"
 @static:
     just build
 
+@static-build:
+    just tailwind-build development 2024.development.css
+    just tailwind-build production 2024.css
+
 @stop:
     docker-compose down
 
 @tail:
     docker-compose logs --follow --tail 100
+
+@tailwind-build target='' filename='2024.css':
+    echo "{{ target }} == {{ filename }}"
+
+    # {{ TAILWIND_CSS_VERSION }}
+
+    JEKYLL_ENV={{ target }} bun run tailwindcss build \
+        --config src/tailwind.config.js \
+        --input src/index.css \
+        --output assets/css/{{ filename }}
 
 # runs tests
 @test *ARGS:
