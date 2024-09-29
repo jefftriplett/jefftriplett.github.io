@@ -19,6 +19,7 @@ I have been happily living in Lawrence, KS, since 2007.
 
 ## Projects I'm working on
 
+- [Django TV][]
 - [Django News Newsletter][]
 - [Django News Jobs][]
 - [Django Packages][]
@@ -31,6 +32,7 @@ I have been happily living in Lawrence, KS, since 2007.
 [Django News Jobs]: https://jobs.django-news.com
 [Django News Newsletter]: https://django-news.com
 [Django Packages]: https://djangopackages.org
+[Django TV]: https://djangotv.com
 [DjangoCon US 2024]: https://2024.djangocon.us
 [RevSys]: https://www.revsys.com
 [WIP projects]: {% link _pages/projects.md %}
