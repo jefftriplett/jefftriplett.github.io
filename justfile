@@ -9,7 +9,6 @@ TAILWIND_CSS_VERSION := "latest"
     pip install --upgrade pip uv
     docker-compose pull
     docker-compose build
-    uv pip install --upgrade pre-commit
 
 # ----
 
