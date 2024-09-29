@@ -6,9 +6,10 @@ TAILWIND_CSS_VERSION := "latest"
 
 # installs/updates all dependencies
 @bootstrap:
+    pip install --upgrade pip uv
     docker-compose pull
     docker-compose build
-    python -m pip install --upgrade pre-commit
+    uv pip install --upgrade pre-commit
 
 # ----
 
