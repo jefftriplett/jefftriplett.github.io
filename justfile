@@ -88,7 +88,7 @@ TAILWIND_CSS_VERSION := "latest"
         _posts/*.md
 
 @lock:
-    uv pip compile requirements.in
+    uv pip compile requirements.in --output-file requirements.txt
 
 @pull:
     docker-compose pull
