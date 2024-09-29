@@ -37,14 +37,18 @@ include:
 exclude:
   # - "*.js"
   - "*.conf"
+  - "*.config.js"
+  - "*.lock"
   - "*.py"
   - "*.yml"
+  - "*/scripts/*"
   - "*/src/*"
   - "*/tests/*"
   - .bumpversion.cfg
   - .docker
   - .gitignore
   - .vendor
+  - .venv
   - CNAME
   - docker-compose.yml
   - Gemfile
