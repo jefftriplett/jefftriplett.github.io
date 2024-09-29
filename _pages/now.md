@@ -19,8 +19,8 @@ I have been happily living in Lawrence, KS, since 2007.
 
 ## Projects I'm working on
 
-- [Django News Newsletter][] 
-- [Django News Jobs][] 
+- [Django News Newsletter][]
+- [Django News Jobs][]
 - [Django Packages][]
 - [Awesome Django][]
 - [DjangoCon US 2024][] conference in North America

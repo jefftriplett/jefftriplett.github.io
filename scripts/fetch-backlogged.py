@@ -9,14 +9,16 @@
 #     "typer",
 # ]
 # ///
-import typer
+from datetime import datetime
+from pathlib import Path
+
+import frontmatter
 import httpx
+import typer
 from bs4 import BeautifulSoup
 from pydantic import BaseModel
-from datetime import datetime
-import frontmatter
-from pathlib import Path
 from slugify import slugify
+
 
 class GameInfo(BaseModel):
     category: str = "Games"
@@ -25,37 +27,37 @@ class GameInfo(BaseModel):
     link: str
     title: str
 
+
 def scrape_game_info(url: str) -> GameInfo:
     with httpx.Client() as client:
         response = client.get(url)
-        soup = BeautifulSoup(response.text, 'html.parser')
+        soup = BeautifulSoup(response.text, "html.parser")
 
     # Extract title from og:title meta tag
-    title_meta = soup.find('meta', property='og:title')
-    title = title_meta['content'] if title_meta else "Unknown Title"
+    title_meta = soup.find("meta", property="og:title")
+    title = title_meta["content"] if title_meta else "Unknown Title"
 
     # Remove the year from the title if present
-    title = title.split('(')[0].strip()
+    title = title.split("(")[0].strip()
 
     # Extract cover image from itemprop="image" meta tag
-    cover_meta = soup.find('meta', attrs={'itemprop': 'image'})
-    cover_img = cover_meta['content'] if cover_meta else ""
+    cover_meta = soup.find("meta", attrs={"itemprop": "image"})
+    cover_img = cover_meta["content"] if cover_meta else ""
 
-    return GameInfo(
-        title=title,
-        link=url,
-        cover=cover_img
-    )
+    return GameInfo(title=title, link=url, cover=cover_img)
+
 
 def generate_frontmatter(game_info: GameInfo) -> str:
     post = frontmatter.Post("")
     post.metadata = game_info.dict()
     return frontmatter.dumps(post)
 
+
 def generate_filename(game_info: GameInfo) -> str:
     date_str = game_info.date.strftime("%Y-%m-%d")
     slug = slugify(game_info.title)
     return f"{date_str}-{slug}.md"
+
 
 def main(url: str):
     game_info = scrape_game_info(url)
@@ -70,6 +72,7 @@ def main(url: str):
         f.write(frontmatter_content)
 
     print(f"Game information saved to {output_file}")
+
 
 if __name__ == "__main__":
     typer.run(main)
