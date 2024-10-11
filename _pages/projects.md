@@ -23,8 +23,7 @@ permalink: /projects/
 
 {% assign projects = site.projects | where:"archived", true | sort:"title" %}
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-{% for project in projects %}
-{% include project.html project=project %}
+{% for project in projects %}{% include project.html project=project %}
 {% endfor %}
 </div>
 
