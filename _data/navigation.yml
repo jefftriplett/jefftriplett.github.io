@@ -9,6 +9,11 @@
   show_in_header: true
   show_in_footer: false
 
+- title: Micro Blog
+  url: https://micro.webology.dev
+  show_in_header: true
+  show_in_footer: false
+
 - title: Projects
   url: /projects/
   show_in_header: true
