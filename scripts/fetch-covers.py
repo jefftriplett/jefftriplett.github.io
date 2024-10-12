@@ -22,7 +22,7 @@ from rich import print
 class FrontmatterInfo(BaseModel):
     category: str = "Series"
     cover: str
-    date: str  # datetime = datetime.now()
+    date: str
     link: str
     title: str
 
@@ -36,7 +36,7 @@ def main(filename: str):
         response = client.get(url)
         soup = BeautifulSoup(response.text, "html.parser")
 
-        # Extract title from og:title meta tag
+        # Extract cover from og:image meta tag
         image = soup.find("meta", property="og:image").get("content")
         post["cover"] = image
 
