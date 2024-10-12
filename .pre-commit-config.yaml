@@ -18,7 +18,7 @@ repos:
     - id: check-pre-commit-ci-config
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0
+    rev: v5.0.0
     hooks:
       - id: check-added-large-files
       - id: check-case-conflict
@@ -40,23 +40,23 @@ repos:
       - id: djjs
         alias: autoformat
   - repo: https://github.com/adamchainz/django-upgrade
-    rev: 1.15.0
+    rev: 1.22.1
     hooks:
       - id: django-upgrade
         args: [--target-version, "5.0"]
         alias: autoformat
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.1.9
+    rev: v0.6.9
     hooks:
       - id: ruff
         args: [--fix, --exit-non-zero-on-fix]
       - id: ruff-format
   - repo: https://github.com/asottile/reorder-python-imports
-    rev: v3.12.0
+    rev: v3.14.0
     hooks:
       - id: reorder-python-imports
   - repo: https://github.com/asottile/pyupgrade
-    rev: v3.15.0
+    rev: v3.18.0
     hooks:
       - id: pyupgrade
         alias: autoformat
