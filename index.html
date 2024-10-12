@@ -8,20 +8,29 @@ redirect_from:
 ---
 
 <section class="grid grid-cols-1 sm:grid-cols-2 gap-6 mx-auto w-full max-w-md md:max-w-2xl lg:max-w-5xl">
+  <section class="gap-4 w-full leading-normal col-span-2 dark:text-white text-2xl">
+    <header class="">
+      <h2 class="text-4xl font-semibold leading-normal dark:text-yellow-200">Hello</h2>
+    </header>
+    <p>
+      Welcome to my corner of the internet.
+      If you aren't sure where to start, try my
+      <a class="outline-none underline hover:underline text-yellow-100 bhover:text-blue-600" href="{% link _pages/now.md %}">now</a> page.
+    </p>
+  </section>
 
   <section class="flex flex-col gap-4 w-full leading-normal">
     <header class="">
-      <h2 class="text-3xl font-semibold leading-normal dark:text-white">Micro Blog</h2>
+      <h2 class="text-4xl font-semibold leading-normal dark:text-yellow-200">Micro Blog</h2>
     </header>
     {% for post in site.posts %}
       {% unless post.hidden and post.category != "micro.blog" %}
-          <article class="flex flex-wrap text-gray-800 dark:text-white">
+          <article class="flex flex-wrap text-gray-800 dark:text-blue-100">
               <a class="outline-none no-underline hover:underline hover:text-blue-600 flex-rows gap-8" href="{{ site.baseurl }}{{ post.url }}">
                 {{ post.title | markdownify | remove:'<p>' | remove:'</p>' }}
 
                 <time datetime="{{ post.date | date_to_xmlschema }}">
-                  -
-                  {{ post.date | date:"%B %e, %Y" }}
+                  - {{ post.date | date:"%B %e, %Y" }}
                 </time>
 
                 {% if post.redirect_to %}
@@ -35,13 +44,16 @@ redirect_from:
   </section>
 
   <section class="flex flex-col gap-4 w-full leading-normal">
+    <header class="">
+      <h2 class="text-4xl font-semibold leading-normal dark:text-yellow-200">Writing</h2>
+    </header>
     {% for post in site.posts %}
       {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
       {% unless post.hidden %}
         {% unless post.category == "micro.blog" %}
           {% if year != lastyear %}
             <header class="">
-              <h2 class="text-3xl font-semibold leading-normal dark:text-white">{{ year }}</h2>
+              <h2 class="text-3xl font-semibold leading-normal dark:text-yellow-100">{{ year }}</h2>
             </header>
           {% endif %}
           <article class="flex flex-wrap text-gray-800 dark:text-white">
@@ -59,9 +71,9 @@ redirect_from:
               {% if post.redirect_to %}
                 <i class="text-base far fa-external-link" aria-hidden="true"></i>
               {% endif %}
+
               <time datetime="{{ post.date | date_to_xmlschema }}">
-                <i class="text-base far fa-calendar" aria-hidden="true"></i>
-                {{ post.date | date:"%B %e" }}
+                - {{ post.date | date:"%B %e, %Y" }}
               </time>
             </a>
           </article>
