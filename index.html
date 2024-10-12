@@ -25,19 +25,19 @@ redirect_from:
     </header>
     {% for post in site.posts %}
       {% unless post.hidden and post.category != "micro.blog" %}
-          <article class="flex flex-wrap text-gray-800 dark:text-blue-100">
-              <a class="outline-none no-underline hover:underline hover:text-blue-600 flex-rows gap-8" href="{{ site.baseurl }}{{ post.url }}">
-                {{ post.title | markdownify | remove:'<p>' | remove:'</p>' }}
+        <article class="flex flex-wrap text-gray-800 dark:text-blue-100">
+          <a class="outline-none no-underline hover:underline hover:text-blue-600 flex-rows gap-8" href="{{ site.baseurl }}{{ post.url }}">
+            {{ post.title | markdownify | remove:'<p>' | remove:'</p>' }}
 
-                <time datetime="{{ post.date | date_to_xmlschema }}">
-                  - {{ post.date | date:"%B %e, %Y" }}
-                </time>
+            <time datetime="{{ post.date | date_to_xmlschema }}">
+              - {{ post.date | date:"%B %e, %Y" }}
+            </time>
 
-                {% if post.redirect_to %}
-                  <i class="text-base far fa-external-link" aria-hidden="true"></i>
-                {% endif %}
-              </a>
-          </article>
+            {% if post.redirect_to %}
+              <i class="text-base far fa-external-link" aria-hidden="true"></i>
+            {% endif %}
+          </a>
+        </article>
       {% endunless %}
       {% capture lastyear %}{{ post.date | date: '%Y' }}{% endcapture %}
     {% endfor %}
