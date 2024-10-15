@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: https://walter.trakt.tv/images/shows/000/234/066/posters/medium/006eb3ff80.jpg
+cover: https://walter-r2.trakt.tv/images/shows/000/234/066/posters/thumb/006eb3ff80.jpg.webp
 date: 2024-10-12 01:46:05+00:00
 link: https://trakt.tv/shows/perfect-wife-the-mysterious-disappearance-of-sherri-papini
 title: 'Perfect Wife: The Mysterious Disappearance of Sherri Papini'
