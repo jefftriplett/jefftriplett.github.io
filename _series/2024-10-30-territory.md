@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover: https://walter-r2.trakt.tv/images/shows/000/220/513/posters/thumb/48766f0c6e.jpg.webp
 date: 2024-10-31T02:05:20.000000Z
 link: https://trakt.tv/shows/territory-2024
 title: "Territory"
