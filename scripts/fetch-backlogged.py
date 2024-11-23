@@ -59,19 +59,20 @@ def generate_filename(game_info: GameInfo) -> str:
     return f"{date_str}-{slug}.md"
 
 
-def main(url: str):
-    game_info = scrape_game_info(url)
-    frontmatter_content = generate_frontmatter(game_info)
+def main(urls: list[str]):
+    for url in urls:
+        game_info = scrape_game_info(url)
+        frontmatter_content = generate_frontmatter(game_info)
 
-    filename = generate_filename(game_info)
-    output_dir = Path("_games")
-    output_dir.mkdir(exist_ok=True)
-    output_file = output_dir / filename
+        filename = generate_filename(game_info)
+        output_dir = Path("_games")
+        output_dir.mkdir(exist_ok=True)
+        output_file = output_dir / filename
 
-    with output_file.open("w") as f:
-        f.write(frontmatter_content)
+        with output_file.open("w") as f:
+            f.write(frontmatter_content)
 
-    print(f"Game information saved to {output_file}")
+        print(f"Game information saved to {output_file}")
 
 
 if __name__ == "__main__":
