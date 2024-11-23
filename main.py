@@ -1,3 +1,17 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = [
+#     "bs4",
+#     "httpx",
+#     "pydantic",
+#     "python-dateutil",
+#     "python-frontmatter",
+#     "python-slugify",
+#     "pytz",
+#     "rich",
+#     "typer",
+# ]
+# ///
 import os
 from datetime import datetime
 from pathlib import Path
@@ -23,7 +37,7 @@ class FrontmatterModel(BaseModel):
     Our base class for our default "Frontmatter" fields.
     """
 
-    date: str | None = None  # TODO: Parse/fix...
+    date: datetime | None = None  # TODO: Parse/fix...
     layout: str
     permalink: str | None = None
     published: bool | None = None
