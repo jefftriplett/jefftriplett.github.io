@@ -6,6 +6,7 @@
 #     "pydantic",
 #     "python-frontmatter",
 #     "python-slugify",
+#     "rich",
 #     "typer",
 # ]
 # ///
@@ -17,6 +18,7 @@ import httpx
 import typer
 from bs4 import BeautifulSoup
 from pydantic import BaseModel
+from rich import print
 from slugify import slugify
 
 
@@ -28,9 +30,23 @@ class GameInfo(BaseModel):
     title: str
 
 
+def generate_filename(game_info: GameInfo) -> str:
+    date_str = game_info.date.strftime("%Y-%m-%d")
+    slug = slugify(game_info.title)
+    return f"{date_str}-{slug}.md"
+
+
+def generate_frontmatter(game_info: GameInfo) -> str:
+    post = frontmatter.Post("")
+    post.metadata = game_info.model_dump()
+    return frontmatter.dumps(post)
+
+
 def scrape_game_info(url: str) -> GameInfo:
     with httpx.Client() as client:
         response = client.get(url)
+        response.raise_for_status()
+
         soup = BeautifulSoup(response.text, "html.parser")
 
     # Extract title from og:title meta tag
@@ -44,35 +60,32 @@ def scrape_game_info(url: str) -> GameInfo:
     cover_meta = soup.find("meta", attrs={"itemprop": "image"})
     cover_img = cover_meta["content"] if cover_meta else ""
 
-    return GameInfo(title=title, link=url, cover=cover_img)
-
-
-def generate_frontmatter(game_info: GameInfo) -> str:
-    post = frontmatter.Post("")
-    post.metadata = game_info.dict()
-    return frontmatter.dumps(post)
-
-
-def generate_filename(game_info: GameInfo) -> str:
-    date_str = game_info.date.strftime("%Y-%m-%d")
-    slug = slugify(game_info.title)
-    return f"{date_str}-{slug}.md"
+    return GameInfo(cover=cover_img, link=url, title=title)
 
 
 def main(urls: list[str]):
+    output_dir = Path("_games")
+    output_dir.mkdir(exist_ok=True)
+
+    games = {}
+    filenames = Path("_games").glob("*.md")
+    for filename in filenames:
+        post = frontmatter.loads(filename.read_text())
+        game_info = GameInfo(**post.metadata)
+        games[game_info.link] = game_info
+
     for url in urls:
-        game_info = scrape_game_info(url)
-        frontmatter_content = generate_frontmatter(game_info)
+        if url not in games:
+            game_info = scrape_game_info(url)
+            frontmatter_content = generate_frontmatter(game_info)
 
-        filename = generate_filename(game_info)
-        output_dir = Path("_games")
-        output_dir.mkdir(exist_ok=True)
-        output_file = output_dir / filename
+            filename = generate_filename(game_info)
+            output_file = output_dir / filename
 
-        with output_file.open("w") as f:
-            f.write(frontmatter_content)
+            with output_file.open("w") as f:
+                f.write(frontmatter_content)
 
-        print(f"Game information saved to {output_file}")
+            print(f"Game information saved to {output_file}")
 
 
 if __name__ == "__main__":
