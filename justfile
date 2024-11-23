@@ -15,7 +15,7 @@ TAILWIND_CSS_VERSION := "latest"
     docker-compose build
 
 @bump *ARGS:
-    uv run bumpver update {{ ARGS }}
+    uv --quiet run bumpver update {{ ARGS }}
 
 # invoked by continuous integration servers to run tests
 @cibuild:
