@@ -91,32 +91,6 @@ class ProjectModel(FrontmatterModel):
     title: str | None = None
 
 
-# class PostSchema(typesystem.Schema):
-#     author = typesystem.String(allow_null=True)
-#     category = typesystem.Choice(
-#         choices=[
-#             "Django",
-#             "DjangoCon",
-#             "Five for Friyay",
-#             "Inspiration",
-#             "Personal",
-#             "Personal Goals",
-#             "Productivity",
-#             "Python",
-#             "Sunday Morning Coffee Links",
-#             "TIL",
-#         ],
-#         default="Personal",
-#     )
-#     date = typesystem.DateTime(allow_null=True)
-#     image = typesystem.String(allow_null=True)
-#     layout = typesystem.String(default="post")
-#     location = typesystem.String(default="Home @ Lawrence, Kansas United States")
-#     tags = typesystem.Array(items=typesystem.String(), allow_null=True)
-#     title = typesystem.String()
-#     weather = typesystem.String(allow_null=True)
-
-
 app = typer.Typer()
 
 
@@ -146,7 +120,7 @@ def draft(
     post["title"] = title
 
     data = PostModel(**post.metadata)
-    post.metadata.update(data.dict(exclude_unset=True))
+    post.metadata.update(data.model_dump(exclude_unset=True))
 
     if overwrite or not filename.exists():
         filename.write_text(frontmatter.dumps(post))
@@ -158,7 +132,7 @@ def publish(filename: Path, overwrite: bool = False):
         doc = frontmatter.load(filename)
         doc["date"] = datetime.now().replace(microsecond=0).astimezone(DEFAULT_TZ)
         post = PostModel(**doc.metadata)
-        doc.metadata.update(post.dict(exclude_unset=True))
+        doc.metadata.update(post.model_dump(exclude_unset=True))
         destination = Path("_posts", f"{post.date:%Y-%m-%d}-{filename.name}")
         if overwrite or not destination.exists():
             filename.rename(destination).write_text(f"{frontmatter.dumps(doc)}\n")
@@ -205,7 +179,7 @@ def fmt(folder: Path):
         try:
             post = frontmatter.loads(filename.read_text())
             data = PostModel(**post.metadata)
-            post.metadata.update(data.dict(exclude_unset=True))
+            post.metadata.update(data.model_dump(exclude_unset=True))
             filename.write_text(frontmatter.dumps(post) + os.linesep)
 
         except ValidationError as e:
@@ -232,7 +206,7 @@ def process(folder: Path):
 
                 except ValidationError as e:
                     print(e.json())
-                    print(post.dict(exclude_none=True))
+                    print(post.model_dump(exclude_none=True))
                     post = PostModel(**data.metadata)
 
                 slug = slugify(
@@ -254,7 +228,7 @@ def process(folder: Path):
                             post["date"].replace(microsecond=0).astimezone(DEFAULT_TZ)
                         )
 
-                data.metadata.update(**post.dict(exclude_none=True))
+                data.metadata.update(**post.model_dump(exclude_none=True))
 
                 if post.date:
                     destination = filename.parent.joinpath(
@@ -274,7 +248,7 @@ def process(folder: Path):
 
             except ValidationError as e:
                 print(e.json())
-                print(post.dict(exclude_none=True))
+                print(post.model_dump(exclude_none=True))
 
 
 @app.command()
@@ -291,7 +265,7 @@ def projects():
 
             except ValidationError as e:
                 print(e.json())
-                print(post.dict(exclude_none=True))
+                print(post.model_dump(exclude_none=True))
                 post = ProjectModel(**data.metadata)
 
             slug = slugify(
@@ -307,7 +281,7 @@ def projects():
             #     else:
             #         date = post["date"].astimezone(DEFAULT_TZ)
 
-            data.metadata.update(**post.dict(exclude_none=True))
+            data.metadata.update(**post.model_dump(exclude_none=True))
 
             destination = filename.parent.joinpath(f"{slug}{filename.suffix}")
 
@@ -321,7 +295,7 @@ def projects():
 
         except ValidationError as e:
             print(e.json())
-            print(post.dict(exclude_none=True))
+            print(post.model_dump(exclude_none=True))
 
 
 @app.command()
