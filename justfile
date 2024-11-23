@@ -50,7 +50,7 @@ TAILWIND_CSS_VERSION := "latest"
     convert "{{ FAVICON }}" -resize 196x196 ./favicon.ico
 
 @fetch-backlogged *ARGS:
-    uv run scripts/fetch-backlogged.py {{ ARGS }}
+    uv --quiet run scripts/fetch-backlogged.py {{ ARGS }}
 
 @fmt:
     just --fmt --unstable
@@ -59,7 +59,7 @@ TAILWIND_CSS_VERSION := "latest"
     JEKYLL_ENV=production jekyll build
 
 @lint *ARGS:
-    uv run --with pre-commit-uv pre-commit run {{ ARGS }} --all-files
+    uv tool run --with pre-commit-uv pre-commit run {{ ARGS }} --all-files
 
 @opengraph:
     tcardgen \
