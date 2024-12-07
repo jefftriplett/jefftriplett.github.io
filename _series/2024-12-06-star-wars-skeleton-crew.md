@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover: https://walter-r2.trakt.tv/images/shows/000/195/711/posters/thumb/db71e1c250.jpg.webp
 date: 2024-12-07T02:42:27.000000Z
 link: https://trakt.tv/shows/star-wars-skeleton-crew
 title: "Star Wars: Skeleton Crew"
