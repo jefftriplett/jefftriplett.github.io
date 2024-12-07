@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover: https://walter-r2.trakt.tv/images/shows/000/202/370/posters/thumb/5e10f1e420.jpg.webp
 date: 2024-12-06T04:31:56.000000Z
 link: https://trakt.tv/shows/the-madness
 title: "The Madness"
