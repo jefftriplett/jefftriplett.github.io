@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover: https://walter-r2.trakt.tv/images/shows/000/255/456/posters/thumb/eca67b08d6.jpg.webp
 date: 2024-12-08T05:20:54.000000Z
 link: https://trakt.tv/shows/tomorrow-and-i
 title: "Tomorrow and I"
