@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover: https://walter-r2.trakt.tv/images/shows/000/204/762/posters/thumb/2cba0cfd6f.jpg.webp
 date: 2024-12-11T02:52:04.000000Z
 link: https://trakt.tv/shows/black-doves
 title: "Black Doves"
