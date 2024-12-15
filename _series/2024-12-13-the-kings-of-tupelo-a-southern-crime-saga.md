@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover: https://walter-r2.trakt.tv/images/shows/000/264/812/posters/thumb/96ce6402c0.jpg.webp
 date: 2024-12-14T03:35:30.000000Z
 link: https://trakt.tv/shows/the-kings-of-tupelo-a-southern-crime-saga
 title: "The Kings of Tupelo: A Southern Crime Saga"
