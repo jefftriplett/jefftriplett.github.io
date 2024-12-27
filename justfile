@@ -6,9 +6,9 @@ TAILWIND_CSS_VERSION := "latest"
 
 # installs/updates all dependencies
 @bootstrap:
-    pip install --upgrade pip uv
-    docker-compose pull
-    docker-compose build
+    python -m pip install --upgrade pip uv
+    # docker-compose pull
+    # docker-compose build
 
 @build:
     docker-compose pull
@@ -51,6 +51,9 @@ TAILWIND_CSS_VERSION := "latest"
 
 @fetch-backlogged *ARGS:
     uv --quiet run scripts/fetch-backlogged.py {{ ARGS }}
+
+@fetch-covers ARGS:
+    uv --quiet run scripts/fetch-covers.py {{ ARGS }}
 
 @fmt:
     just --fmt --unstable
@@ -138,10 +141,10 @@ TAILWIND_CSS_VERSION := "latest"
 
 # updates a project to run at its current version
 @update:
-    -pip install --upgrade pip uv
+    -python -m pip install --upgrade pip uv
     -just lock
-    -docker-compose pull
-    -docker-compose build
+    # -docker-compose pull
+    # -docker-compose build
 
 @diff:
     -diff .editorconfig ~/.virtualenvs/webology.dev/src/webology.dev-git/.editorconfig
