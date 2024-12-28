@@ -4,7 +4,7 @@ date: 2024-10-25T17:36:35.000000Z
 layout: post
 location: Home @ Lawrence, Kansas United States
 slug: even-bad-code-is-admirable
-title: "📝 Even "bad" code is admirable"
+title: '📝 Even "bad" code is admirable'
 redirect_to: https://micro.webology.dev/2024/10/25/even-bad-code.html
 tags: 
 ---
