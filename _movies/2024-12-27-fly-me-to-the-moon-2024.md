@@ -1,6 +1,6 @@
 ---
 category: Movies
-cover: https://walter.trakt.tv/images/movies/000/769/001/posters/thumb/365722f0f3.jpg
+cover: https://walter-r2.trakt.tv/images/movies/000/769/001/posters/thumb/365722f0f3.jpg
 date: 2024-12-27 06:35:48+00:00
 link: https://trakt.tv/movies/fly-me-to-the-moon-2024-07-12
 title: Fly Me to the Moon (2024)
