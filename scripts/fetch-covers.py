@@ -41,8 +41,7 @@ def main(filename: str):
         post["cover"] = image
 
         output = frontmatter.dumps(post)
-        print(output)
-        Path(filename).write_text(output)
+        Path(filename).write_text(f"{output}\n")
 
 
 if __name__ == "__main__":

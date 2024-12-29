@@ -81,9 +81,7 @@ def main(urls: list[str]):
 
             filename = generate_filename(game_info)
             output_file = output_dir / filename
-
-            with output_file.open("w") as f:
-                f.write(frontmatter_content)
+            output_file.write_text(f"{frontmatter_content}\n")
 
             print(f"Game information saved to {output_file}")
 
