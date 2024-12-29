@@ -18,11 +18,14 @@ import httpx
 import typer
 from bs4 import BeautifulSoup
 from pydantic import BaseModel
+from pydantic import ConfigDict
 from rich import print
 from slugify import slugify
 
 
 class GameInfo(BaseModel):
+    model_config = ConfigDict(extra="allow")
+
     category: str = "Games"
     cover: str
     date: datetime = datetime.now()

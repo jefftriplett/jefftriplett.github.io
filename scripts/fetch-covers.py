@@ -16,10 +16,13 @@ import httpx
 import typer
 from bs4 import BeautifulSoup
 from pydantic import BaseModel
+from pydantic import ConfigDict
 from rich import print
 
 
 class FrontmatterInfo(BaseModel):
+    model_config = ConfigDict(extra="allow")
+
     category: str = "Series"
     cover: str
     date: str
@@ -41,6 +44,7 @@ def main(filename: str):
         post["cover"] = image
 
         output = frontmatter.dumps(post)
+        print(output)
         Path(filename).write_text(f"{output}\n")
 
 
