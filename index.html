@@ -7,15 +7,15 @@ redirect_from:
 - /posts/
 ---
 
-<section class="grid grid-cols-1 sm:grid-cols-2 gap-6 mx-auto w-full max-w-md md:max-w-2xl lg:max-w-5xl">
-  <section class="gap-4 w-full leading-normal col-span-2 dark:text-white text-2xl">
+<section class="grid grid-cols-1 gap-6 mx-auto w-full max-w-md sm:grid-cols-2 md:max-w-2xl lg:max-w-5xl">
+  <section class="col-span-2 gap-4 w-full text-2xl leading-normal dark:text-white">
     <header class="">
       <h2 class="text-4xl font-semibold leading-normal dark:text-yellow-200">Hello</h2>
     </header>
     <p>
       Welcome to my corner of the internet.
       If you aren't sure where to start, try my
-      <a class="outline-none underline hover:underline dark:text-yellow-100 bhover:text-blue-600" href="{% link _pages/now.md %}">now</a> page.
+      <a class="underline outline-none dark:text-yellow-100 hover:underline bhover:text-blue-600" href="{% link _pages/now.md %}">now</a> page.
     </p>
   </section>
 
@@ -26,7 +26,7 @@ redirect_from:
     {% for post in site.posts %}
       {% unless post.hidden and post.category != "micro.blog" %}
         <article class="flex flex-wrap text-gray-800 dark:text-blue-100">
-          <a class="outline-none no-underline hover:underline hover:text-blue-600 flex-rows gap-8" href="{{ site.baseurl }}{{ post.url }}">
+          <a class="gap-8 no-underline outline-none hover:text-blue-600 hover:underline flex-rows" href="{{ site.baseurl }}{{ post.url }}">
             {{ post.title | markdownify | remove:'<p>' | remove:'</p>' }}
 
             <time datetime="{{ post.date | date_to_xmlschema }}">
