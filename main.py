@@ -13,6 +13,7 @@
 # ]
 # ///
 import os
+from datetime import date
 from datetime import datetime
 from pathlib import Path
 from urllib.parse import urlencode
@@ -22,6 +23,7 @@ import pytz
 import typer
 from dateutil.parser import parse
 from pydantic import BaseModel
+from pydantic import ConfigDict
 from pydantic import field_validator
 from pydantic import ValidationError
 from rich import print
@@ -36,8 +38,9 @@ class FrontmatterModel(BaseModel):
     """
     Our base class for our default "Frontmatter" fields.
     """
+    model_config = ConfigDict(extra="allow")
 
-    date: datetime | None = None  # TODO: Parse/fix...
+    date: date | datetime | None = None  # TODO: Parse/fix...
     layout: str
     permalink: str | None = None
     published: bool | None = None
@@ -45,9 +48,6 @@ class FrontmatterModel(BaseModel):
     redirect_to: str | None = None  # via the jekyll-redirect-from plugin
     sitemap: bool | None = None
     title: str
-
-    class Config:
-        extra = "allow"
 
 
 class PageModel(FrontmatterModel):
@@ -91,7 +91,7 @@ class ProjectModel(FrontmatterModel):
     title: str | None = None
 
 
-app = typer.Typer()
+app = typer.Typer(no_args_is_help=True)
 
 
 @app.command()
