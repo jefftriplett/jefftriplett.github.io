@@ -1,6 +1,6 @@
 ---
 category: Movies
-cover: https://walter-r2.trakt.tv/images/movies/000/420/170/posters/thumb/5e78743d17.jpg
+cover: https://walter-r2.trakt.tv/images/movies/000/420/170/posters/thumb/5e78743d17.jpg.webp
 date: 2024-12-21 05:43:41+00:00
 link: https://trakt.tv/movies/snake-eyes-g-i-joe-origins-2021
 title: 'Snake Eyes: G.I. Joe Origins (2021)'

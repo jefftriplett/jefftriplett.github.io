@@ -1,6 +1,6 @@
 ---
 category: Movies
-cover: https://walter-r2.trakt.tv/images/movies/000/734/869/posters/thumb/03504312e9.jpg
+cover: https://walter-r2.trakt.tv/images/movies/000/734/869/posters/thumb/03504312e9.jpg.webp
 date: 2024-12-20 06:52:02+00:00
 link: https://trakt.tv/movies/beetlejuice-beetlejuice-2024
 title: Beetlejuice Beetlejuice (2024)

@@ -1,6 +1,6 @@
 ---
 category: Movies
-cover: https://walter-r2.trakt.tv/images/movies/000/387/368/posters/thumb/b722967d01.jpg
+cover: https://walter-r2.trakt.tv/images/movies/000/387/368/posters/thumb/b722967d01.jpg.webp
 date: 2024-12-21 07:08:25+00:00
 link: https://trakt.tv/movies/the-dead-don-t-die-2019
 title: The Dead Don't Die (2019)

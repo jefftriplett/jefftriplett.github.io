@@ -1,6 +1,6 @@
 ---
 category: Movies
-cover: https://walter-r2.trakt.tv/images/movies/000/656/266/posters/thumb/5e17a4de1b.jpg
+cover: https://walter-r2.trakt.tv/images/movies/000/656/266/posters/thumb/5e17a4de1b.jpg.webp
 date: 2024-12-25 05:28:22+00:00
 link: https://trakt.tv/movies/godzilla-x-kong-the-new-empire-2024
 title: 'Godzilla x Kong: The New Empire (2024)'
