@@ -6,4 +6,3 @@ slug: what-the-python-software-foundation-does-and-doesn-t-do
 title: "What the Python Software Foundation Does and (Doesn't) Do?"
 type: Video
 ---
-
