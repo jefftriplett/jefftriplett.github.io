@@ -39,6 +39,7 @@ class FrontmatterModel(BaseModel):
     """
     Our base class for our default "Frontmatter" fields.
     """
+
     model_config = ConfigDict(extra="allow")
 
     date: date | datetime | None = None  # TODO: Parse/fix...
@@ -92,7 +93,11 @@ class ProjectModel(FrontmatterModel):
     title: str | None = None
 
 
-app = typer.Typer(no_args_is_help=True)
+app = typer.Typer(
+    add_help_option=False,
+    no_args_is_help=True,
+    rich_markup_mode="rich",
+)
 
 
 @app.command()
