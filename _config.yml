@@ -84,14 +84,17 @@ collections:  # process the _data folder
     output: false
   games:
     output: false
+  movies:
+    output: false
   playlists:
     output: true
+    permalink: /:collection/:name/
+  products:
+    output: false
     permalink: /:collection/:name/
   projects:
     output: false
     permalink: /:collection/:name/
-  movies:
-    output: false
   series:
     output: false
   topics:
