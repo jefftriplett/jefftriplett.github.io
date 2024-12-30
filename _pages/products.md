@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "🛍️ Products"
+title: "🛍️ Consuming: Products"
 permalink: /products/
 ---
 
 <section class="grid grid-cols-1 gap-8 w-full">
-  <h1 class="font-semibold text-4xl">🛍️ Products</h1>
+  <h1 class="font-semibold text-4xl">🛍️ Consuming: Products</h1>
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
     {% assign sorted_products = site.products | sort: 'date' | reverse %}
     {% for product in sorted_products %}
