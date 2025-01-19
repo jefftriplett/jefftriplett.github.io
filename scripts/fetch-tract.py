@@ -31,26 +31,27 @@ class FrontmatterInfo(BaseModel):
     title: str
 
 
-def main(filename: str):
-    doc = Path(filename).read_text()
-    post = frontmatter.loads(doc)
-    url = post["link"]
+def main(filenames: list[str]):
+    for filename in filenames:
+        doc = Path(filename).read_text()
+        post = frontmatter.loads(doc)
+        url = post["link"]
 
-    with httpx.Client() as client:
-        response = client.get(url)
-        soup = BeautifulSoup(response.text, "html.parser")
+        with httpx.Client() as client:
+            response = client.get(url)
+            soup = BeautifulSoup(response.text, "html.parser")
 
-        # Extract cover from og:image meta tag
-        image = soup.find("img", class_="real", itemprop="image").get("data-original")
+            # Extract cover from og:image meta tag
+            image = soup.find("img", class_="real", itemprop="image").get("data-original")
 
-        if not image.endswith(".webp"):
-            image = f"{image}.webp"
+            if not image.endswith(".webp"):
+                image = f"{image}.webp"
 
-        post["cover"] = image
+            post["cover"] = image
 
-        output = frontmatter.dumps(post)
-        print(output)
-        Path(filename).write_text(f"{output}\n")
+            output = frontmatter.dumps(post)
+            print(output)
+            Path(filename).write_text(f"{output}\n")
 
 
 if __name__ == "__main__":
