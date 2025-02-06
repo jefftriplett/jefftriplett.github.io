@@ -89,6 +89,9 @@ collections:  # process the _data folder
   playlists:
     output: true
     permalink: /:collection/:name/
+  printing:
+    output: false
+    permalink: /:collection/:name/
   products:
     output: false
     permalink: /:collection/:name/
