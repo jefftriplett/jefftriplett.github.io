@@ -9,7 +9,7 @@
     <ul class="flex flex-wrap justify-center md:justify-end">
       {% for link in site.data.navigation %}
         {% if link.show_in_header == true %}
-          <li class="inline-block py-1 px-1 text-sm sm:text-base sm:py-2 md:px-2">
+          <li class="inline-block py-1 px-1 text-sm sm:py-2 sm:text-base md:px-2">
             <a href="{{ link.url }}"
                class="hover:underline"
                {% if link.aria-label %}aria-label="{{ link.aria-label }}" title="{{ link.aria-label }}"{% endif %}

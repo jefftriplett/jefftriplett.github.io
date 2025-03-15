@@ -1,22 +1,22 @@
 ---
 layout: default
 ---
-<article class="leading-loose max-w-none prose sm:prose-md md:prose-lg lg:prose-lg xl:prose-xl dark:prose-invert">
+<article class="max-w-none leading-loose prose sm:prose-md md:prose-lg lg:prose-lg xl:prose-xl dark:prose-invert">
   <h1 class="font-semibold">
     {{ page.playlist }}
   </h1>
-  <a href="{{ page.spotify }}" title="{{ page.playlist }}" class="block max-w-full overflow-hidden">
-    <img src="{{ page.playlist_image.url }}" height="{{ page.playlist_image.height }}" width="{{ page.playlist_image.width }}" 
-         class="w-full max-w-xs sm:max-w-sm md:max-w-md rounded-md" alt="{{ page.playlist }}">
+  <a href="{{ page.spotify }}" title="{{ page.playlist }}" class="block overflow-hidden max-w-full">
+    <img src="{{ page.playlist_image.url }}" height="{{ page.playlist_image.height }}" width="{{ page.playlist_image.width }}"
+         class="w-full max-w-xs rounded-md sm:max-w-sm md:max-w-md" alt="{{ page.playlist }}">
   </a>
-  <p><a href="{{ page.spotify }}" class="inline-flex items-center gap-2">
+  <p><a href="{{ page.spotify }}" class="inline-flex gap-2 items-center">
     <i class="fab fa-spotify" aria-hidden="true"></i> Listen on Spotify
   </a></p>
-  <ul class="pl-0 sm:pl-5 list-none sm:list-disc space-y-2">
+  <ul class="pl-0 space-y-2 list-none sm:pl-5 sm:list-disc">
     {% for track in page.tracks %}
-      <li class="py-1 border-b border-gray-200 dark:border-gray-700 sm:border-0">
+      <li class="py-1 border-b border-gray-200 sm:border-0 dark:border-gray-700">
         <strong><a href="{{ track.spotify }}">{{ track.track }}</a></strong>
-        <div class="text-sm sm:text-base sm:inline">
+        <div class="text-sm sm:inline sm:text-base">
           {{ track.artist }} -
           {{ track.album }}
           {% if track.starred %}<span class="text-yellow-500">★</span>{% endif %}
