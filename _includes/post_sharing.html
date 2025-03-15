@@ -1,15 +1,15 @@
-<aside class="overflow-hidden p-4 my-4 bg-gray-100 rounded-lg border-t-2 shadow-md">
-  <h3>Sharing</h3>
+<aside class="overflow-hidden p-4 my-4 rounded-md border-2 shadow-md bg-gray-100 dark:bg-gray-800">
+  <h3 class="text-2xl font-semibold">Sharing</h3>
   <div class="flex">
     <ul>
-      <li class="inline-block">
+      <li class="inline-block py-2 px-4">
         <a href="https://twitter.com/intent/tweet?url={{ site.url | url_encode }}{{ page.url | url_encode }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}&text={{ page.title | markdownify | strip_html | strip_newlines | truncate: 100 }}" rel="nofollow" target="_blank" title="Share on Twitter">
-          Twitter
+          <i class="text-base fab fa-twitter" aria-hidden="true"></i> Twitter
         </a>
       </li>
-      <li class="inline-block">
+      <li class="inline-block py-2 px-4">
         <a href="https://facebook.com/sharer.php?u={{ site.url | url_encode }}{{ page.url | url_encode }}" rel="nofollow" target="_blank" title="Share on Facebook">
-          Facebook
+          <i class="text-base fab fa-facebook" aria-hidden="true"></i> Facebook
         </a>
       </li>
     </ul>
