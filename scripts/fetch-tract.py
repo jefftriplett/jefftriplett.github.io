@@ -42,7 +42,9 @@ def main(filenames: list[str]):
             soup = BeautifulSoup(response.text, "html.parser")
 
             # Extract cover from og:image meta tag
-            image = soup.find("img", class_="real", itemprop="image").get("data-original")
+            image = soup.find("img", class_="real", itemprop="image").get(
+                "data-original"
+            )
 
             if not image.endswith(".webp"):
                 image = f"{image}.webp"
