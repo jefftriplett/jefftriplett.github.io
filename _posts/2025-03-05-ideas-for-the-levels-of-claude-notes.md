@@ -4,7 +4,7 @@ date: 2025-03-06T00:57:07.000000Z
 layout: post
 location: Home @ Lawrence, Kansas United States
 slug: ideas-for-the-levels-of-claude-notes
-title: "🤖 Ideas for "The Levels of Claude" Notes"
+title: '🤖 Ideas for "The Levels of Claude" Notes'
 redirect_to: https://micro.webology.dev/2025/03/05/ideas-for-the-levels-of/
 tags: 
 ---

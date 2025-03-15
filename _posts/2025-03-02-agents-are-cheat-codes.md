@@ -4,7 +4,7 @@ date: 2025-03-02T19:34:36.000000Z
 layout: post
 location: Home @ Lawrence, Kansas United States
 slug: agents-are-cheat-codes
-title: "🤖 "Agents" are Cheat Codes"
+title: '🤖 "Agents" are Cheat Codes'
 redirect_to: https://micro.webology.dev/2025/03/02/agents-are-cheat-codes/
 tags: 
 ---
