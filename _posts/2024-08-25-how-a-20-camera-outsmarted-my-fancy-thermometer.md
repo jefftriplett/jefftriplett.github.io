@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: how-a-20-camera-outsmarted-my-fancy-thermometer
 title: "🌡️ How a $20 Camera Outsmarted My Fancy Thermometer"
 redirect_to: https://micro.webology.dev/2024/08/25/how-a-camera.html
-tags: 
+tags:
 ---
 
 My ThermoWorks Signals thermometer’s battery was dead, so I connected it to my Anker 737 Power Bank (24,000mAh for the curious) to get me by.

@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: using-claude-3-5-sonnet-to-refactor-one-of-brian-okken-s-python-projects
 title: "🚜 Using Claude 3.5 Sonnet to refactor one of Brian Okken's Python projects"
 redirect_to: https://micro.webology.dev/2024/08/25/using-claude-sonnet.html
-tags: 
+tags:
 ---
 
 Brian Okken [posted](https://mastodon.social/@brianokken@fosstodon.org/113023568032444293) and published his [Top pytest Plugins](https://pythontest.com/top-pytest-plugins/) script and then a follow-up post, [Finding the top pytest plugins](https://pythontest.com/pytest/finding-top-pytest-plugins/), which was pretty cool.

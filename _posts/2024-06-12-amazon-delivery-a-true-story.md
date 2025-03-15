@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: amazon-delivery-a-true-story
 title: "📦 Amazon delivery: A true story"
 redirect_to: https://micro.webology.dev/2024/06/12/amazon-delivery-a.html
-tags: 
+tags:
 ---
 
 Amazon: Buy now and have it by 4 am, or pay $1.99 for garage delivery, which you don’t have, or in a week.

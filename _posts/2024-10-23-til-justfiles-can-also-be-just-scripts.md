@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: til-justfiles-can-also-be-just-scripts
 title: "TIL Justfiles can also be Just Scripts"
 redirect_to: https://micro.webology.dev/2024/10/23/til-justfiles-can.html
-tags: 
+tags:
 ---
 
 TIL that Justfiles can turn into Just Scripts by adding `#!/usr/bin/env just --justfile` to the top of the file and running `chmod +x` on the file.

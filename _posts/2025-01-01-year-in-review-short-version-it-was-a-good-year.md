@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: year-in-review-short-version-it-was-a-good-year
 title: "🎊 Year in review (short version) - It was a good year"
 redirect_to: https://micro.webology.dev/2025/01/01/year-in-review-short-version.html
-tags: 
+tags:
 ---
 
 I love end-of-year posts and reading everyone’s posts. Every year, I draft one, and then I give up on publishing it around March or April after a comically long time. I’m going for shorter than longer this year because a lot happened this year, but most important is how I felt closing 2024 out. Overall, 2024 was a good year despite its many ups and downs.

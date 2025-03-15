@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: django-modelform-template-starting-point
 title: 🧱 Django ModelForm Template starting point
 redirect_to: https://micro.webology.dev/2024/06/08/django-modelform-template.html
-tags: 
+tags:
 ---
 
 Recently, I have been doing a lot of Django formwork. I start with a basic template like `&#123;&#123; form.as_div }}` or `&#123;&#123; form|crispy }}` until it grows uncomfortable.

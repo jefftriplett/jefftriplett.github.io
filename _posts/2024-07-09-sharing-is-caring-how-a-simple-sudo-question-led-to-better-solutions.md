@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: sharing-is-caring-how-a-simple-sudo-question-led-to-better-solutions
 title: "🔓 Sharing is Caring: How a Simple Sudo Question Led to Better Solutions"
 redirect_to: https://micro.webology.dev/2024/07/09/sharing-is-caring.html
-tags: 
+tags:
 ---
 
 One of the fun discoveries of blogging is finding your article in search results while trying to solve a problem.

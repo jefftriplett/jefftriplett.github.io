@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: stop-scheduling-security-updates-and-deprecating-major-features-over-holidays
 title: "🚫 Stop scheduling security updates and deprecating major features over holidays"
 redirect_to: https://micro.webology.dev/2024/09/03/stop-scheduling-security.html
-tags: 
+tags:
 ---
 
 I know people outside the US 🙄 at this, but please stop releasing major security updates and backward incompatible changes over major US, international, and religious holidays.

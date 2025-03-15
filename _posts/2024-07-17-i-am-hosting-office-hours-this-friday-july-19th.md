@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: i-am-hosting-office-hours-this-friday-july-19th
 title: "📅 I am hosting Office Hours this Friday, July 19th"
 redirect_to: https://micro.webology.dev/2024/07/17/i-am-hosting.html
-tags: 
+tags:
 ---
 
 I am hosting Office Hours this [Friday, July 19th, 2024, from 2:00 pm to 4:15 pm Central Time](https://time.is/0200PM_19_July_2024_in_CT?Jeff%27s_Office_Hours).

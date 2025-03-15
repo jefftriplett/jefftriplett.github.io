@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: office-hours-for-november-and-december-2024
 title: "📅 Office Hours for November and December 2024"
 redirect_to: https://micro.webology.dev/2024/11/19/office-hours-for.html
-tags: 
+tags:
 ---
 
 This Friday, I am hosting office hours, and here is our schedule to finish out 2024.

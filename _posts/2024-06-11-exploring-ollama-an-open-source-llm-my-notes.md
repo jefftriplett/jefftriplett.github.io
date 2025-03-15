@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: exploring-ollama-an-open-source-llm-my-notes
 title: "📓 Exploring Ollama: An Open-Source LLM (my notes)"
 redirect_to: https://micro.webology.dev/2024/06/11/exploring-ollama-an.html
-tags: 
+tags:
 ---
 
 I have meant to do a proper write-up on the [Ollama](https://ollama.com) project for a while. Instead of putting it off any longer, I decided to publish my outline and notes, hoping that someone might find it helpful if you wanted to run your own local, offline LLM.

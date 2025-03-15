@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: my-notes-on-publishing-a-python-package-with-uv-and-building-a-custom-github-action-for-files-to-claude-xml
 title: "📓 My notes on publishing a Python package with UV and building a custom GitHub Action for files-to-claude-xml"
 redirect_to: https://micro.webology.dev/2024/10/16/my-notes-on.html
-tags: 
+tags:
 ---
 
 My new Python application [files-to-claude-xml](https://pypi.org/project/files-to-claude-xml/) is now on PyPI, which means they are packaged and pip installable. My preferred way of running `files-to-claude-xml` is via UV’s tool run, which will install it if it still needs to be installed and then execute it.
@@ -60,7 +60,7 @@ To use this action, I wrote this example workflow, which runs from [files-to-cla
       <span style="color:#f92672">with</span>:
         <span style="color:#f92672">files</span>: |<span style="color:#e6db74">
 </span><span style="color:#e6db74">          README.md
-</span><span style="color:#e6db74">          main.py</span>          
+</span><span style="color:#e6db74">          main.py</span>  
         <span style="color:#f92672">output</span>: <span style="color:#e6db74">'_claude.xml'</span>
         <span style="color:#f92672">verbose</span>: <span style="color:#e6db74">'true'</span>
     - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Upload XML artifact</span>

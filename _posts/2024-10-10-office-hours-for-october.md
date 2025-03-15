@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: office-hours-for-october
 title: "📅 Office Hours for October"
 redirect_to: https://micro.webology.dev/2024/10/10/office-hours-october.html
-tags: 
+tags:
 ---
 
 This Friday, I am hosting office hours, and here is our schedule for October.

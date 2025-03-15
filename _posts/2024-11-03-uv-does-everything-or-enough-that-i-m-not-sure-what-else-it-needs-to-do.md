@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: uv-does-everything-or-enough-that-i-m-not-sure-what-else-it-needs-to-do
 title: "🤷 UV does everything or enough that I'm not sure what else it needs to do"
 redirect_to: https://micro.webology.dev/2024/11/03/uv-does-everything.html
-tags: 
+tags:
 ---
 
 UV feels like one of those old infomercials where it solves everything, which is where we have landed in the Python world.

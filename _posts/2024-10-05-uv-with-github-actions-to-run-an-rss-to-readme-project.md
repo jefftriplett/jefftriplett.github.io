@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: uv-with-github-actions-to-run-an-rss-to-readme-project
 title: "UV with GitHub Actions to run an RSS to README project"
 redirect_to: https://micro.webology.dev/2024/10/05/uv-with-github.html
-tags: 
+tags:
 ---
 
 2024-10-05 UV with GitHub Actions to run an RSS to README project
@@ -78,7 +78,7 @@ Our `schedule.yml` GitHub Action workflow runs twice daily or whenever we push a
 </span><span style="color:#e6db74">          uv run fetch-rss.py \
 </span><span style="color:#e6db74">              --section=news \
 </span><span style="color:#e6db74">              --readme-path=profile/README.md \
-</span><span style="color:#e6db74">              https://django-news.com/issues.rss</span>          
+</span><span style="color:#e6db74">              https://django-news.com/issues.rss</span>  
 
 
       - <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">stefanzweifel/git-auto-commit-action@v5</span>

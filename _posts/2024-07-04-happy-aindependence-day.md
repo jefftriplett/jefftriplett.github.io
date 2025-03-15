@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: happy-aindependence-day
 title: "🎆 🤖 Happy AIndependence Day"
 redirect_to: https://micro.webology.dev/2024/07/04/happy-aindependence-day.html
-tags: 
+tags:
 ---
 
 To everyone in the United States, Happy Independence Day and Happy AIndependence Day to everyone else.

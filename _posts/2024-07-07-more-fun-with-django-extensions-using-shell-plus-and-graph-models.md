@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: more-fun-with-django-extensions-using-shell-plus-and-graph-models
 title: "🧰 More fun with Django Extensions using `shell_plus` and `graph_models`"
 redirect_to: https://micro.webology.dev/2024/07/07/more-fun-with.html
-tags: 
+tags:
 ---
 
 [Yesterday](https://micro.webology.dev/2024/07/06/django-extensions-is.html), I wrote about [Django Extensions](https://github.com/django-extensions/django-extensions) `show_urls` management command because it’s useful. I have Mastodon posted/tooted about it \[previously\](<https://mastodon.social/@webology/110271223054909764>, but I didn’t expect it to possibly [lead to it being added to Django](https://github.com/django/django/pull/18347), and yet here we are. My favorite byproduct of blogging is when someone talks about something they like, and someone asks, “What if” or “Why doesn’t?” and then they get inspired to look into it and contribute. This post might have led to one new contribution to Django. 🎉

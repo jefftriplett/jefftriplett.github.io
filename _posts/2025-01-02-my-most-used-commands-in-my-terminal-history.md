@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: my-most-used-commands-in-my-terminal-history
 title: "🐚 My most used commands in my terminal history"
 redirect_to: https://micro.webology.dev/2025/01/02/my-most-used-commands-in.html
-tags: 
+tags:
 ---
 
 2025-01-02 My most used commands in my terminal history

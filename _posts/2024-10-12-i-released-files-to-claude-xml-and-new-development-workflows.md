@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: i-released-files-to-claude-xml-and-new-development-workflows
 title: "🤖 I released files-to-claude-xml and new development workflows"
 redirect_to: https://micro.webology.dev/2024/10/12/i-released-filestoclaudexml.html
-tags: 
+tags:
 ---
 
 After months of using and sharing this tool via a private gist, I finally carved out some time to release [files-to-claude-xml](https://github.com/jefftriplett/files-to-claude-xml).

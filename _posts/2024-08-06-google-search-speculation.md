@@ -6,13 +6,13 @@ location: Home @ Lawrence, Kansas United States
 slug: google-search-speculation
 title: "🔍 Google Search speculation 🔥"
 redirect_to: https://micro.webology.dev/2024/08/06/google-search-speculation.html
-tags: 
+tags:
 ---
 
 Eric Holscher posted this [post](https://mastodon.social/@ericholscher@fosstodon.org/112917186548638471) today, and I wanted to share my speculation.
 
 > Calling it now:
-> 
+>
 > - Google stops paying Apple &amp; Mozilla for search
 > - Apple ships search (probably buys DDG or similar)
 > - Apple pays Mozilla to be default search engine

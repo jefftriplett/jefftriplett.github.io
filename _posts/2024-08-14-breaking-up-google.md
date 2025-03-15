@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: breaking-up-google
 title: "🔥 Breaking Up Google"
 redirect_to: https://micro.webology.dev/2024/08/14/breaking-up-google.html
-tags: 
+tags:
 ---
 
 Here are my thoughts on John Gruber’s recent article and notes on the [Google Monopoly](https://daringfireball.net/linked/2024/08/14/us-google-breakup).

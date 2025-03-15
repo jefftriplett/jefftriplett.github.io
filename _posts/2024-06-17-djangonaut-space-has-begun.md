@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: djangonaut-space-has-begun
 title: Djangonaut Space has begun
 redirect_to: https://micro.webology.dev/2024/06/17/djangonaut-space-has.html
-tags: 
+tags:
 ---
 
 This is my first time helping out with [Djangonaut Space](https://djangonaut.space) as a Navigator for the [Django Packages](https://djangopackages.org) project.

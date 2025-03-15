@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: weeknotes-for-week-48-november-25-to-december-1
 title: "📓 Weeknotes for Week 48: November 25 to December 1"
 redirect_to: https://micro.webology.dev/2024/12/01/weeknotes-for-week.html
-tags: 
+tags:
 ---
 
 Family

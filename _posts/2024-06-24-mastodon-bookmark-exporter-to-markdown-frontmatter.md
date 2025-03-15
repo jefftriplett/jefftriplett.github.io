@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: mastodon-bookmark-exporter-to-markdown-frontmatter
 title: "🚜 Mastodon Bookmark exporter to Markdown/Frontmatter"
 redirect_to: https://micro.webology.dev/2024/06/24/mastodon-bookmark-exporter.html
-tags: 
+tags:
 ---
 
 I wrote a Mastodon Bookmark exporter tool over the weekend and decided to polish it up and release it tonight.

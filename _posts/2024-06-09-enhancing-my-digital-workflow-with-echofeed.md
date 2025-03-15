@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: enhancing-my-digital-workflow-with-echofeed
 title: ✨ Enhancing My Digital Workflow with Echofeed
 redirect_to: https://micro.webology.dev/2024/06/09/enhancing-my-digital.html
-tags: 
+tags:
 ---
 
 I dove into [Echofeed](https://echofeed.app) this weekend, and I set up three new Echos that consume RSS feeds of various services.

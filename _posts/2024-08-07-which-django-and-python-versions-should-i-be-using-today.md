@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: which-django-and-python-versions-should-i-be-using-today
 title: "⬆️ Which Django and Python versions should I be using today?"
 redirect_to: https://micro.webology.dev/2024/08/07/which-django-and.html
-tags: 
+tags:
 ---
 
 [Django 5.1 was released](https://www.djangoproject.com/weblog/2024/aug/07/django-51-released/), and I was reminded of the article I wrote earlier this year about [Choosing the Right Python and Django Versions for Your Projects](https://micro.webology.dev/2024/02/01/choosing-the-right.html).

@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: office-hours-at-a-glance
 title: "🗓️ Office Hours at a Glance"
 redirect_to: https://micro.webology.dev/2025/02/19/office-hours-at-a-glance/
-tags: 
+tags:
 ---
 
 I have been hosting a weekly(ish) office for a few years now. Most Fridays start around 2:30 PM Central because that works well for me. These started as an excuse for me to work on open source and side projects and became a banter for many remote people.

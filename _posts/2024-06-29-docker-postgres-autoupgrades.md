@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: docker-postgres-autoupgrades
 title: "🐘 Docker Postgres Autoupgrades"
 redirect_to: https://micro.webology.dev/2024/06/29/docker-postgres-autoupgrades.html
-tags: 
+tags:
 ---
 
 Upgrading Postgres in Docker environments can be daunting, but keeping your database up-to-date is essential for performance, security, and access to new features. While there are numerous guides on manually upgrading Postgres, the process can often be complex and error-prone. Fortunately, the [pgautoupgrade](https://hub.docker.com/r/pgautoupgrade/pgautoupgrade) Docker image simplifies this process, automating the upgrade dance for us.

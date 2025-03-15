@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: why-i-deleted-firefox-from-my-machines-this-weekend
 title: "🔥 Why I deleted Firefox from my machines this weekend"
 redirect_to: https://micro.webology.dev/2024/07/14/why-i-deleted.html
-tags: 
+tags:
 ---
 
 I no longer trust or believe in Mozilla, so I deleted Firefox from my machines this weekend.

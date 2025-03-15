@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: what-to-do-when-your-ipad-won-t-turn-off-or-is-frozen
 title: "🔄 What to do when your iPad won't turn off or is frozen"
 redirect_to: https://micro.webology.dev/2024/07/21/what-to-do.html
-tags: 
+tags:
 ---
 
 As a parent, the few times an iPad freezes are rare but always seem to happen at the worst possible time and place.

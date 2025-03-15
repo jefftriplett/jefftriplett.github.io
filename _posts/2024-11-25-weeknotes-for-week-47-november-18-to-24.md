@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: weeknotes-for-week-47-november-18-to-24
 title: "📓 Weeknotes for Week 47: November 18 to 24"
 redirect_to: https://micro.webology.dev/2024/11/25/weeknotes-for-week.html
-tags: 
+tags:
 ---
 
 It’s been months since I published my weeknotes even though I have been drafting them. This week is more about getting back into the habit.

@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: on-the-psf-bylaw-changes
 title: "💬 On the PSF Bylaw changes"
 redirect_to: https://micro.webology.dev/2024/07/02/on-the-psf.html
-tags: 
+tags:
 ---
 
 The Python Software Foundation has three bylaw changes up for a vote in this year’s election. I support all there.

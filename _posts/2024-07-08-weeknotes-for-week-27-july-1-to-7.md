@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: weeknotes-for-week-27-july-1-to-7
 title: "📓 Weeknotes for Week 27: July 1 to 7"
 redirect_to: https://micro.webology.dev/2024/07/08/weeknotes-for-week.html
-tags: 
+tags:
 ---
 
 The last week was a blur between the holiday, travel, and cramming a lot of work. My notes this week are more glossed over than most

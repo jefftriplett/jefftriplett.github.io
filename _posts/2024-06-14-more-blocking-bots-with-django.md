@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: more-blocking-bots-with-django
 title: 🤖 More Blocking Bots with Django ❌
 redirect_to: https://micro.webology.dev/2024/06/14/more-blocking-bots.html
-tags: 
+tags:
 ---
 
 Tonight, I ran across [Robb Knight’s](https://rknight.me/) [Blocking Bots with Nginx](https://rknight.me/blog/blocking-bots-with-nginx/), which fits well with two pieces I have already written about.

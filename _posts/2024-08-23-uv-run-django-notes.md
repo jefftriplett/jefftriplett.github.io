@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: uv-run-django-notes
 title: "📓 UV Run Django Notes"
 redirect_to: https://micro.webology.dev/2024/08/23/uv-run-django.html
-tags: 
+tags:
 ---
 
 I wanted to know how hard it would be to turn one of my [django-startproject](https://github.com/jefftriplett/django-startproject) projects into a `uv run` friendly project. As it turns out, it worked, and the steps were more than reasonable.

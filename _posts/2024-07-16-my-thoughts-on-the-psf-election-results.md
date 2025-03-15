@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: my-thoughts-on-the-psf-election-results
 title: "🗳️ My thoughts on the PSF Election results"
 redirect_to: https://micro.webology.dev/2024/07/16/my-thoughts-on.html
-tags: 
+tags:
 ---
 
 A few weeks ago, I wrote about this year’s PSF Election, three [proposed bylaws changes](https://micro.webology.dev/2024/07/02/on-the-psf.html), and how I intended to vote. I’m happy that the membership overwhelmingly approved all three proposed bylaw changes. Here is this [year’s results](https://opavote.com/results/5004101476679680).

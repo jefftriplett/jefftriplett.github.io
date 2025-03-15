@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: colorado-spring
 title: 🏔️ Colorado Spring
 redirect_to: https://micro.webology.dev/2024/06/15/colorado-springs-this.html
-tags: 
+tags:
 ---
 
 🏔️ Colorado Springs

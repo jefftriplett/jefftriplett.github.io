@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: ollama-llama-3-1-red-pajama
 title: "🦙 Ollama Llama 3.1 Red Pajama"
 redirect_to: https://micro.webology.dev/2024/07/24/ollama-llama-red.html
-tags: 
+tags:
 ---
 
 For a few weeks, I told friends I was excited to see if the new Llama 3.1 release was as good as it was being hyped.
@@ -22,7 +22,7 @@ Yesterday, Llama 3.1 was released, and I was impressed that the [Ollama](https:/
 ➜ brew services start ollama
 
 <span style="color:#75715e"># This takes a while (defaults to the llama3.1:8b model)</span>
-➜ ollama pull llama3.1:latest 
+➜ ollama pull llama3.1:latest
 
 <span style="color:#75715e"># (optional) This takes a longer time</span>
 ➜ ollama pull llama3.1:70b
@@ -42,9 +42,9 @@ The answer to <span style="color:#ae81ff">2</span> + <span style="color:#ae81ff"
 
 <span style="color:#75715e">## Accessing Ollama Llama 3.1 with Python</span>
 
-The Ollama project has an <span style="color:#f92672">[</span><span style="color:#e6db74">`</span>ollama-python<span style="color:#e6db74">`</span><span style="color:#f92672">](</span>https://github.com/ollama/ollama-python<span style="color:#f92672">)</span> library, which I use to build applications. 
+The Ollama project has an <span style="color:#f92672">[</span><span style="color:#e6db74">`</span>ollama-python<span style="color:#e6db74">`</span><span style="color:#f92672">](</span>https://github.com/ollama/ollama-python<span style="color:#f92672">)</span> library, which I use to build applications.
 
-My demo has a bit of flare because there are a few options, like <span style="color:#e6db74">`</span>--stream,<span style="color:#e6db74">`</span> that improve the quality of life <span style="color:#66d9ef">while</span> waiting <span style="color:#66d9ef">for</span> Ollama to <span style="color:#66d9ef">return</span> results. 
+My demo has a bit of flare because there are a few options, like <span style="color:#e6db74">`</span>--stream,<span style="color:#e6db74">`</span> that improve the quality of life <span style="color:#66d9ef">while</span> waiting <span style="color:#66d9ef">for</span> Ollama to <span style="color:#66d9ef">return</span> results.
 
 <span style="color:#e6db74">```</span>python
 <span style="color:#75715e"># hello-llama.py</span>

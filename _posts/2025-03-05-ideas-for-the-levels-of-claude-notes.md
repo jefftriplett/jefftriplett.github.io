@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: ideas-for-the-levels-of-claude-notes
 title: '🤖 Ideas for "The Levels of Claude" Notes'
 redirect_to: https://micro.webology.dev/2025/03/05/ideas-for-the-levels-of/
-tags: 
+tags:
 ---
 
 Lately, I have been conversing more with friends, colleagues, clients, and online friends about Claude and coding tools.

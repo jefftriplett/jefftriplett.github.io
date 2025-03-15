@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: python-click-django-click-and-typer-notes
 title: "Python Click, django-click, and Typer notes"
 redirect_to: https://micro.webology.dev/2025/01/22/python-click-djangoclick-and-typer/
-tags: 
+tags:
 ---
 
 One of the most significant Python innovations in my development toolchain was the [Click](https://click.palletsprojects.com) utility, which simplified the creation of Python scripts. Click changed how I approach writing one-off Python scripts and made it easier for me to write better developer experiences around those scripts.
@@ -57,11 +57,11 @@ Suppose we were writing this example with Typer. In that case, we could simplify
 <span style="color:#f92672">import</span> typer
 
 
-app <span style="color:#f92672">=</span> typer<span style="color:#f92672">.</span>Typer() 
+app <span style="color:#f92672">=</span> typer<span style="color:#f92672">.</span>Typer()
 
 
 [<span style="color:#a6e22e">@app</span>](https:<span style="color:#f92672">//</span>micro<span style="color:#f92672">.</span>blog<span style="color:#f92672">/</span>app)()
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">command</span>(urls: list[str]): 
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">command</span>(urls: list[str]):
     <span style="color:#66d9ef">for</span> url <span style="color:#f92672">in</span> urls:
         do_something(url<span style="color:#f92672">=</span>url)
 

@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: my-big-list-of-ai-llm-tools-notes-and-how-i-m-using-them
 title: "🤖 My big list of AI/LLM tools, notes, and how I'm using them"
 redirect_to: https://micro.webology.dev/2025/01/29/my-big-list-of-aillm/
-tags: 
+tags:
 ---
 
 I have been using, working, and running commercial and local LLMs for years, but I never got around to sharing the tools and applications I use. Here are some quick notes, tools, and resources I have landed on and use daily.
@@ -20,8 +20,8 @@ I do all of my development on Macs. These tools make running local LLMs accessib
 - [Ollamac](https://github.com/kevinhermawan/Ollamac) is a GUI client for Ollama that lets you write prompts, save history, and allow you to pick models to test out quickly.
 - [Tailscale](https://tailscale.com) I use Tailscale on all of my devices, which gives me access to my work M2 Mac Studio and home office Mac Mini Pro, which both run Ollama, from anywhere in the world. This makes prototyping at home quick but then I can run a larger model from my work machine and it’s so fast, it feels like the machine is running in my house.
 - [OpenAI Bundle](https://goodsnooze.gumroad.com/l/openai-bundle)—I bought this bundle because it was the cheapest way to get a bunch of AI apps, including four of Jordi Bruin’s apps. I have used these for a few years.
-    
-    
+
+
     - [MacWhisper](https://goodsnooze.gumroad.com/l/macwhisper) - I use MacWhisper to turn voice notes and podcasts into plain text files for my notes and sometimes blog articles.
     - [Voices](https://goodsnooze.gumroad.com/l/voices) - I use Voices when I find a large blog post and want to listen to it while working.
 - [Claude for Desktop](https://claude.ai/download) gets a lot of crap for being “yet another Electron app” instead of a custom-built macOS app, but the people saying that don’t know what they are talking about. The Claude Desktop has voice support and keyboard hotkeys, which make the app incredibly useful. More importantly, Claude Desktop also supports [Model Context Protocol](https://modelcontextprotocol.io), which lets Claude access your file system, git, and anything else you want to access. It’s incredibly powerful, and there’s nothing quite like it.
@@ -38,10 +38,10 @@ Even though you can run models locally, even the smallest models with a signific
 I look for three things when I’m evaluating a model:
 
 - A number of parameters are measured in Billions.
-- Context length 
+- Context length
     - The input context length, which effectively the model’s memory
     - The output context length, which is how big the answer can be
-- The type of model: 
+- The type of model:
     - **Default Models** are general-purpose models like GPT-4 and Llama 3.3.
     - **Vision Models** and process and read visual data like images and videos.
     - **Tool Models** can call external tools and APIs and perform custom actions to which you give them access.

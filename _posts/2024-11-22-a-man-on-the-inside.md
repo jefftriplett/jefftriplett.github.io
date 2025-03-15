@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: a-man-on-the-inside
 title: "📺 A Man on the Inside"
 redirect_to: https://micro.webology.dev/2024/11/22/a-man-on.html
-tags: 
+tags:
 ---
 
 I’m about 30 or 40 years too young for [A Man on the Inside](https://trakt.tv/shows/a-man-on-the-inside), but I enjoyed it.

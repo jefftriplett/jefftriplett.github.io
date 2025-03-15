@@ -6,11 +6,11 @@ location: Home @ Lawrence, Kansas United States
 slug: of-course-google-is-a-monopoly
 title: "🧐 Of course, Google is a monopoly"
 redirect_to: https://micro.webology.dev/2024/08/05/of-course-google.html
-tags: 
+tags:
 ---
 
 > “After having carefully considered and weighed the witness testimony and evidence, the court reaches the following conclusion: Google is a monopolist, and it has acted as one to maintain its monopoly,” the ruling states.
-> 
+>
 > [www.theguardian.com/technolog…](https://www.theguardian.com/technology/article/2024/aug/05/google-loses-antitrust-lawsuit)
 
 Of course, Google is a monopoly. They have been for over a decade and closer to two decades.

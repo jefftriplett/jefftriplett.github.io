@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: django-extensions-is-useful-even-if-you-only-use-show-urls
 title: "Django Extensions is useful even if you only use show_urls"
 redirect_to: https://micro.webology.dev/2024/07/06/django-extensions-is.html
-tags: 
+tags:
 ---
 
 Yes, [Django Extensions](https://github.com/django-extensions/django-extensions) package is worth installing, especially for its show\_urls command, which can be very useful for debugging and understanding your project’s URL configurations.
@@ -55,9 +55,9 @@ $ python -m manage show_urls | grep admin
 </div>In this case, I was looking for `admin:index` which I can now add to my HTML document this menu link/snippet:
 
 <div class="highlight">```html
-... 
+...
 <<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">"{% url 'admin:index' %}"</span>>Django Admin</<span style="color:#f92672">a</span>>
-... 
+...
 
 ```
 

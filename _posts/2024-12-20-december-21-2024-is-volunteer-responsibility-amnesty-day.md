@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: december-21-2024-is-volunteer-responsibility-amnesty-day
 title: "🗓️ December 21, 2024, is Volunteer Responsibility Amnesty Day"
 redirect_to: https://micro.webology.dev/2024/12/20/december-is-volunteer.html
-tags: 
+tags:
 ---
 
 December 21 is [Volunteer Responsibility Amnesty Day](https://www.volunteeramnestyday.net), one of two days every year that allows you to build out your responsibility inventory and decide what you have time for.

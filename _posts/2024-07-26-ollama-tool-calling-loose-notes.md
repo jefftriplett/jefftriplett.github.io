@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: ollama-tool-calling-loose-notes
 title: "🦙 Ollama Tool Calling Loose Notes"
 redirect_to: https://micro.webology.dev/2024/07/26/ollama-tool-calling.html
-tags: 
+tags:
 ---
 
 I spent a [few hours this week](https://micro.webology.dev/2024/07/24/ollama-llama-red.html) working with the Ollama project and trying to get tool calling to work with the LangChain library.

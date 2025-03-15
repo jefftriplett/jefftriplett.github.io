@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: office-hours-for-june-8th
 title: "📅 Office Hours for June 8th"
 redirect_to: https://micro.webology.dev/2024/06/27/office-hours-for.html
-tags: 
+tags:
 ---
 
 It’s been a week, but I’m hosting Office Hours this [Friday at 2:30 pm](https://time.is/0230PM_28_June_2024_in_CT?Jeff%27s_Office_Hours).

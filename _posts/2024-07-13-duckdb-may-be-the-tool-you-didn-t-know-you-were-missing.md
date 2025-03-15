@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: duckdb-may-be-the-tool-you-didn-t-know-you-were-missing
 title: "🦆 DuckDB may be the tool you didn't know you were missing"
 redirect_to: https://micro.webology.dev/2024/07/12/duckdb-may-be.html
-tags: 
+tags:
 ---
 
 🤔 I haven’t fully figured out [DuckDB](https://duckdb.org) yet, but it’s worth trying out if you are a Python dev who likes to work on data projects or gets frequently tasked with data import projects.

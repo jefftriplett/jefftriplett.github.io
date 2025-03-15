@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: django-migration-operations-aka-how-to-rename-tables
 title: "🐘 Django Migration Operations aka how to Rename Tables"
 redirect_to: https://micro.webology.dev/2024/07/15/django-migration-operations.html
-tags: 
+tags:
 ---
 
 Renaming a table in Django seems more complex than it is. Last week, a client asked me how much pain it might be to rename a Django model from Party to Customer. We already used the model’s `verbose_name`, so it has been referencing the new name for months.

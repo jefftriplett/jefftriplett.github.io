@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: uv-updates-and-pep-723-simplifying-python-packaging-and-scripting
 title: "🐍 UV Updates and PEP 723: Simplifying Python Packaging and Scripting"
 redirect_to: https://micro.webology.dev/2024/08/21/uv-updates-and.html
-tags: 
+tags:
 ---
 
 The [uv: Unified Python packaging](https://astral.sh/blog/uv-unified-python-packaging) update brings fresh air to the Python community, with several improvements streamlining the development process. One exciting addition is an early preview of [PEP 723](https://peps.python.org/pep-0723/), also known as [Single-file scripts](https://astral.sh/blog/uv-unified-python-packaging#single-file-scripts).

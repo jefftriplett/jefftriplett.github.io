@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: psf-elections-how-i-am-voting
 title: "🗳️ PSF Elections how I am voting"
 redirect_to: https://micro.webology.dev/2024/07/03/psf-elections-how.html
-tags: 
+tags:
 ---
 
 This was written while driving to Chicago (technically from the passenger seat). Still, a few people contacted me and asked me how I vote for PSF directors, so I wanted to share.

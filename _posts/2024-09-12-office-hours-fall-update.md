@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: office-hours-fall-update
 title: "📅 Office Hours Fall Update"
 redirect_to: https://micro.webology.dev/2024/09/12/office-hours-fall.html
-tags: 
+tags:
 ---
 
 This Friday, I am hosting Office Hours before I travel to [DjangoCon US](https://2024.djangocon.us) (organizer) and the [Black Python Devs Leadership Summit](https://blackpythondevs.com/leadership-summit-2024/) (speaker) in Durham, NC.

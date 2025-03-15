@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: weeknotes-for-week-25-june-17-to-23
 title: "Weeknotes for Week 25: June 17 to 23"
 redirect_to: https://micro.webology.dev/2024/06/23/weeknotes-for-week.html
-tags: 
+tags:
 ---
 
 Last week, my side of the family drove out to Colorado Springs, Colorado, and we rented a house for the week. The trip was great; seeing family was good, and watching the kids spend time with family they don’t get to see very often was the highlight for me. The mountains were great, but I don’t want to ride a train from 8k to 14k feet of altitude soon.

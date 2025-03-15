@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: why-do-the-django-and-python-communities-use-so-many-google-forms
 title: "🤷 Why do the Django and Python communities use so many Google Forms?"
 redirect_to: https://micro.webology.dev/2024/12/17/why-do-the.html
-tags: 
+tags:
 ---
 
 Last week, I wrote but didn’t publish some notes about why the Django and Python communities use so many Google Forms.

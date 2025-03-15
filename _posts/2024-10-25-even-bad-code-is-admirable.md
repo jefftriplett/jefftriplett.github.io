@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: even-bad-code-is-admirable
 title: '📝 Even "bad" code is admirable'
 redirect_to: https://micro.webology.dev/2024/10/25/even-bad-code.html
-tags: 
+tags:
 ---
 
 Some of my favorite projects are what we would consider really “bad” code, but their apps either work or sort of work.

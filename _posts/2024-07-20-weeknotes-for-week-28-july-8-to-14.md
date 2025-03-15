@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: weeknotes-for-week-28-july-8-to-14
 title: "📓 Weeknotes for Week 28: July 8 to 14"
 redirect_to: https://micro.webology.dev/2024/07/20/weeknotes-for-week.html
-tags: 
+tags:
 ---
 
 *I’m running a week behind on this.*

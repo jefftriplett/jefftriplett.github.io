@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: office-hours-update
 title: 🍩 Office Hours Update
 redirect_to: https://micro.webology.dev/2024/06/13/office-hours-update.html
-tags: 
+tags:
 ---
 
 As promised, I will be [hosting Office Hours](https://micro.webology.dev/2024/06/12/office-hours-summer.html) this week.

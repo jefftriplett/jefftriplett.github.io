@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: no-office-hours-on-july-5th-but
 title: "📅 No Office Hours on July 5th, but..."
 redirect_to: https://micro.webology.dev/2024/07/05/no-office-hours.html
-tags: 
+tags:
 ---
 
 No Office Hours this week (July 5th), but we will return next Friday, July 12th, 2024, [2:30 pm to 4:30 pm](https://time.is/0230PM_12_July_2024_in_CT?Jeff%27s_Office_Hours) and for what I hope is the rest of the summer. See my [Office Hours Summer Schedule](https://micro.webology.dev/2024/06/12/office-hours-summer.html) for details.

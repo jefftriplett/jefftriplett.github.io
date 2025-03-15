@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: macos-bartender-app-to-ice-app
 title: "🚜 macOS Bartender app to Ice app"
 redirect_to: https://micro.webology.dev/2024/07/12/macos-bartender-app.html
-tags: 
+tags:
 ---
 
 I upgraded my Macs to macOS Sonoma a few weeks ago. While everything has been uneventful, the Bartender app pinged me one too many times about upgrading to Bartender 5, which has several Sonoma-only features.

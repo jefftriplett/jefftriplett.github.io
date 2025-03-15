@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: please-publish-and-share-more
 title: "Please publish and share more"
 redirect_to: https://micro.webology.dev/2024/11/02/please-publish-and.html
-tags: 
+tags:
 ---
 
 Friends, I encourage you to publish more, indirectly meaning you should write more and then share it.

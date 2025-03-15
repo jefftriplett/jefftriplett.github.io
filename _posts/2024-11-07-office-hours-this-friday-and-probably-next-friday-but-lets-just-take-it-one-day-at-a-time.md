@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: office-hours-this-friday-and-probably-next-friday-but-lets-just-take-it-one-day-at-a-time
 title: "📅 Office Hours this Friday and probably next Friday, but lets just take it one day at a time"
 redirect_to: https://micro.webology.dev/2024/11/07/office-hours-this.html
-tags: 
+tags:
 ---
 
 I wasn’t planning on hosting office hours this week, but given the events of the week, it feels like a damn good way to end the week.

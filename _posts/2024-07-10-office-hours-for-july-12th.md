@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: office-hours-for-july-12th
 title: "📅 Office Hours for July 12th"
 redirect_to: https://micro.webology.dev/2024/07/10/office-hours-for.html
-tags: 
+tags:
 ---
 
 Office Hours returns this [Friday, July 12th, 2024, from 2:30 pm to 4:30 pm Central Time](https://time.is/0230PM_12_July_2024_in_CT?Jeff%27s_Office_Hours).

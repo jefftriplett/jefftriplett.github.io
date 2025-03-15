@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: using-just-and-compose-for-interactive-django-and-python-debugging-sessions
 title: "🐳 Using Just and Compose for interactive Django and Python debugging sessions"
 redirect_to: https://micro.webology.dev/2024/06/29/using-just-and.html
-tags: 
+tags:
 ---
 
 When I wrote REST APIs, I spent weeks and months writing tests and debugging without looking at the front end. It’s all JSON, after all.
@@ -15,7 +15,7 @@ For most of my projects, I will open two or three tabs. I’m running Docker Com
 
 <div class="highlight">```shell
 <span style="color:#75715e"># tab 1</span>
-$ just up 
+$ just up
 
 ```
 
@@ -48,7 +48,7 @@ $ just start
 # stop our web container
 $ just stop web
 
-# start our web container with "--service-ports" 
+# start our web container with "--service-ports"
 # just start-web-with-debug
 
 ```

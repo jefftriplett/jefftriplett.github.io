@@ -6,13 +6,13 @@ location: Home @ Lawrence, Kansas United States
 slug: pinboard-what-a-waste
 title: "📌 Pinboard... what a waste"
 redirect_to: https://micro.webology.dev/2024/08/02/pinboard-what-a.html
-tags: 
+tags:
 ---
 
 Earlier this year, I wrote about why I [dumped Pinboard](https://micro.webology.dev/2024/04/11/on-leaving-pinboard.html) after a decade of usage.
 
 > Why I gave up on Pinboard
-> 
+>
 > I could write thousands of words about how frustrating being a paid user was, but I’ll sum it up as running Pinboard wasn’t a priority for Pinboard’s founder, and it painfully showed. 👎
 
 This aged well.

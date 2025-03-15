@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: rethinking-django-s-command-line-tool-why-we-should-rename-django-admin
 title: "🤔 Rethinking Django's Command-Line Tool: Why We Should Rename `django-admin`"
 redirect_to: https://micro.webology.dev/2025/01/08/rethinking-djangos-commandline-tool-why/
-tags: 
+tags:
 ---
 
 Django has been a key tool for Python web developers for many years. But as new frameworks like FastAPI become prevalent, it’s important to ensure Django stays easy for new and experienced developers. Recently, a [discussion thread](https://forum.djangoproject.com/t/name-the-main-command-django/37230) received over 60 comments about changing Django’s main command from `django-admin` to something else, like `django`. The thread also explored other `django-cmd` possibilities, showcasing many ideas. While the conversation was broad, I want to focus on why renaming `django-admin` is a good idea.

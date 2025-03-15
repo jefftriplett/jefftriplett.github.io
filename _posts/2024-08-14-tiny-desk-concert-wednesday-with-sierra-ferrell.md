@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: tiny-desk-concert-wednesday-with-sierra-ferrell
 title: "🎻 Tiny Desk Concert Wednesday with Sierra Ferrell"
 redirect_to: https://micro.webology.dev/2024/08/14/tiny-desk-concert.html
-tags: 
+tags:
 ---
 
 🎻 Happy Tiny Desk Concert Wednesday, everyone!

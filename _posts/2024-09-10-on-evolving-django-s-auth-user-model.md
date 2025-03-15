@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: on-evolving-django-s-auth-user-model
 title: "🚜 On Evolving Django's `auth.User` model"
 redirect_to: https://micro.webology.dev/2024/09/10/on-evolving-djangos.html
-tags: 
+tags:
 ---
 
 I need to re-read/re-listen to Carlton’s [Evolving Django’s `auth.User`](https://buttondown.com/carlton/archive/evolving-djangos-authuser/) Stack Report before I have a firm opinion, but I saw his [Mastodon post](https://mastodon.social/@carlton@fosstodon.org/113113728832109272) and I thought it was worth sharing some initial thoughts.

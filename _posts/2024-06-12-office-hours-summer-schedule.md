@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: office-hours-summer-schedule
 title: 📅 Office Hours Summer Schedule
 redirect_to: https://micro.webology.dev/2024/06/12/office-hours-summer.html
-tags: 
+tags:
 ---
 
 We have a few family trips scheduled over the next month, so I am posting my summer office hours schedule.

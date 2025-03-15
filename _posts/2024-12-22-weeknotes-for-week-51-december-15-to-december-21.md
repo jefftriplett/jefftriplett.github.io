@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: weeknotes-for-week-51-december-15-to-december-21
 title: "🎄 Weeknotes for Week 51: December 15 to December 21"
 redirect_to: https://micro.webology.dev/2024/12/22/weeknotes-for-week-december-to.html
-tags: 
+tags:
 ---
 
 I mostly finished my holiday shopping this week. I picked up a few gifts for my family throughout the year and then randomly stressed out last week, thinking I didn’t have enough. I picked up a few last-minute items, and everyone was in good shape outside of a few gift cards. Now, to wrap everything…

@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: 8bitdo-golden-silver-limited-edition-controllers
 title: "🎮 8BitDo Golden/Silver Limited Edition controllers"
 redirect_to: https://micro.webology.dev/2024/07/11/bitdo-goldensilver-limited.html
-tags: 
+tags:
 ---
 
 My favorite third-party video game hardware company, 8BitDo, announced its 11th-anniversary limited edition controllers, [SN30 Pro - Golden/Silver Limited Edition](https://www.8bitdo.com/sn30-pro-usb-limited/).

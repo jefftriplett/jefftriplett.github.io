@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: a-just-recipe-to-back-and-restore-a-postgres-database
 title: "🐘 A Just recipe to back and restore a Postgres database"
 redirect_to: https://micro.webology.dev/2024/06/28/a-just-recipe.html
-tags: 
+tags:
 ---
 
 I have used this [casey/just](https://github.com/casey/just) recipe to help backup and restore my Postgres databases from my Docker containers.

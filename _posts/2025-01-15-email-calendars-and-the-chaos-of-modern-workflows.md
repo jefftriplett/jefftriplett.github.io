@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: email-calendars-and-the-chaos-of-modern-workflows
 title: "📩 Email, Calendars, and the Chaos of Modern Workflows"
 redirect_to: https://micro.webology.dev/2025/01/15/email-calendars-and-the-chaos/
-tags: 
+tags:
 ---
 
 I was feeling overloaded with emails this week, and then I remembered that my out-of-office auto-responder told people they should contact me after the first of the year if they needed me to reply.

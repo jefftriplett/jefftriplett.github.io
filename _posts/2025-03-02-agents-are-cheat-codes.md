@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: agents-are-cheat-codes
 title: '🤖 "Agents" are Cheat Codes'
 redirect_to: https://micro.webology.dev/2025/03/02/agents-are-cheat-codes/
-tags: 
+tags:
 ---
 
 Lately, I have been trying to wrap my brain around AI Agents, so as a starting point, I have been using [Pydantic AI’s Agent](https://ai.pydantic.dev/agents/) class/framework to build “Agents”.

@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: new-project-to-shorten-django-admin-to-django-because-we-are-not-monsters
 title: "New project to shorten django-admin to django because we are not monsters"
 redirect_to: https://micro.webology.dev/2024/12/14/new-project-to.html
-tags: 
+tags:
 ---
 
 One of the biggest mysteries in Django is why I have to run `django-admin` from my terminal instead of just running `django`. Confusingly, `django-admin` has nothing to do with Django’s admin app.
@@ -25,7 +25,7 @@ uv pip install django-cli-no-admin
 pip install django-cli-no-admin
 
 <span style="color:#75715e"># to use it...</span>
-django --version 
+django --version
 
 ```
 

@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: the-best-nfl-broadcast-teams-and-telecast-quality-ranked
 title: "🏈 The best NFL broadcast teams and telecast quality, ranked"
 redirect_to: https://micro.webology.dev/2025/01/12/the-best-nfl-broadcast-teams/
-tags: 
+tags:
 ---
 
 [John Gruber](https://mastodon.social/@gruber/113779696867783170) posted his picks a few weeks ago, and I couldn’t disagree more.

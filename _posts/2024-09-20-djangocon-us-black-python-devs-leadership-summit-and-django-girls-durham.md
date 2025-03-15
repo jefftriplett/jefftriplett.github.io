@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: djangocon-us-black-python-devs-leadership-summit-and-django-girls-durham
 title: "🧳 DjangoCon US, Black Python Devs Leadership Summit, and Django Girls Durham"
 redirect_to: https://micro.webology.dev/2024/09/20/djangocon-us-black.html
-tags: 
+tags:
 ---
 
 I’m heading to Durham, NC, for seven days of [DjangoCon US](https://2024.djangocon.us) this Friday. This is my 10th year volunteering and the 9th year that [DEFNA](https://www.defna.org), the non-profit I co-founded, has run a DjangoCon US event. Here is an overview of the week.

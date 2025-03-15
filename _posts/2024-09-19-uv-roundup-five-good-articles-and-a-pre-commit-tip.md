@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: uv-roundup-five-good-articles-and-a-pre-commit-tip
 title: "🤠 UV Roundup: Five good articles and a pre-commit tip"
 redirect_to: https://micro.webology.dev/2024/09/19/uv-roundup-five.html
-tags: 
+tags:
 ---
 
 I have written quite a bit about [UV](https://micro.webology.dev/categories/uv/) on my [micro blog](https://micro.webology.dev), and I am happy to see more and more people adopt it. I have stumbled on so many good articles recently that I wanted to share them because every article points out something new or different about why UV works well for them.

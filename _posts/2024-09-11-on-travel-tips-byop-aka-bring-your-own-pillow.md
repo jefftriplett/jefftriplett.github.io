@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: on-travel-tips-byop-aka-bring-your-own-pillow
 title: "🛌 On travel tips BYOP aka bring your own pillow"
 redirect_to: https://micro.webology.dev/2024/09/11/on-travel-tips.html
-tags: 
+tags:
 ---
 
 🎒 While some of my friends and colleagues can pack everything they need in a small backpack for a week’s travel, I am not that person.

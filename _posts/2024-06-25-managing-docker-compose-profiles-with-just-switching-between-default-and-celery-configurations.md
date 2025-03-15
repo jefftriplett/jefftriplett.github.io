@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: managing-docker-compose-profiles-with-just-switching-between-default-and-celery-configurations
 title: "🐳 Managing Docker Compose Profiles with Just: Switching Between Default and Celery Configurations"
 redirect_to: https://micro.webology.dev/2024/06/25/managing-docker-compose.html
-tags: 
+tags:
 ---
 
 For a recent client project, we wanted to toggle between various Docker Compose profiles to run the project with or without Celery.

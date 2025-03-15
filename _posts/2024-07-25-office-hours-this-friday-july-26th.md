@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: office-hours-this-friday-july-26th
 title: "📅 Office Hours this Friday, July 26th"
 redirect_to: https://micro.webology.dev/2024/07/25/office-hours-this.html
-tags: 
+tags:
 ---
 
 I am hosting Office Hours this [Friday, July 26th, 2024, from 2:30 pm to 4:30 pm Central Time](https://time.is/0230PM_26_July_2024_in_CT?Jeff%27s_Office_Hours).

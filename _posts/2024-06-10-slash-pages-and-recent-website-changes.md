@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: slash-pages-and-recent-website-changes
 title: 🏗️ Slash pages and recent website changes
 redirect_to: https://micro.webology.dev/2024/06/10/slash-pages-and.html
-tags: 
+tags:
 ---
 
 As part of my recent [Echofeed discovery](https://micro.webology.dev/2024/06/09/enhancing-my-digital.html), I updated my [now](https://jefftriplett.com/now/) page to list the most recent video games I’m playing and movies and series I’m watching. These are all data streams that [Echofeed](https://echofeed.app) collects and publishes for me.

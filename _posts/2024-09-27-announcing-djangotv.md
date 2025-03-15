@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: announcing-djangotv
 title: "🎉 Announcing DjangoTV"
 redirect_to: https://micro.webology.dev/2024/09/27/announcing-djangotv.html
-tags: 
+tags:
 ---
 
 Friends, I’m launching a half-finished website idea that I have been playing around with for a while. [djangotv.com](https://djangotv.com) is focused on promoting and searching Django videos to make discovery easier.

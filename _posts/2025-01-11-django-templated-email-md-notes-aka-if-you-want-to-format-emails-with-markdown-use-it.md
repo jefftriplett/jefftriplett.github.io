@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: django-templated-email-md-notes-aka-if-you-want-to-format-emails-with-markdown-use-it
 title: "django-templated-email-md notes aka if you want to format emails with Markdown, use it"
 redirect_to: https://micro.webology.dev/2025/01/11/djangotemplatedemailmd-notes-aka-if-you/
-tags: 
+tags:
 ---
 
 I launched [Django News Jobs](https://jobs.django-news.com) two DjangoCon USs ago, and I somehow put off deploying emails until this week. So, every day or two, I check my Review Jobs queue to see if there’s anything new to approve or reject.
@@ -35,7 +35,7 @@ For the curious, the code looks like:
 
 <span style="color:#f92672">...</span>
 
-<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Job</span>(models<span style="color:#f92672">.</span>Model):	
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Job</span>(models<span style="color:#f92672">.</span>Model):
     <span style="color:#f92672">...</span>
 
     <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">send_job_new_email</span>(self):
@@ -102,7 +102,7 @@ Django-Q2 is painless to configure. Using it involves importing `async_task` and
 
 <span style="color:#f92672">...</span>
 
-<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Job</span>(models<span style="color:#f92672">.</span>Model):	
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Job</span>(models<span style="color:#f92672">.</span>Model):
     <span style="color:#f92672">...</span>
 
     <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">send_job_new_email</span>(self):

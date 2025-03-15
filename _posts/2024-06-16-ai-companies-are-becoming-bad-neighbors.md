@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: ai-companies-are-becoming-bad-neighbors
 title: 🤖 AI companies are becoming bad neighbors
 redirect_to: https://micro.webology.dev/2024/06/16/ai-companies-are.html
-tags: 
+tags:
 ---
 
 This week, we learned that [Perplexity AI Is Lying about Their User Agent](https://rknight.me/blog/perplexity-ai-is-lying-about-its-user-agent/). I have long suspected that many AI crawlers ignore Robots.txt, which has led me to write a block by User-Agent middleware. This has also led services like [omg.lol](https://home.omg.lol) to start [Blocking Bad Bots](https://omglol.news/2024/06/16/blocking-bad-bots) by default.

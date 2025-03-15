@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: python-uv-run-with-shebangs
 title: "🐍 Python UV run with shebangs"
 redirect_to: https://micro.webology.dev/2024/08/22/python-uv-run.html
-tags: 
+tags:
 ---
 
 This [UV shebang](https://simonwillison.net/2024/Aug/21/usrbinenv-uv-run/) trick that Simon Willison linked up is a nice pattern, and I plan to rebuild some of my one-off scripts in my [dotfiles](https://github.com/jefftriplett/dotfiles) using it.

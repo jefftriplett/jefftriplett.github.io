@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: bad-monkey
 title: "📺 Bad Monkey"
 redirect_to: https://micro.webology.dev/2024/10/11/bad-monkey-i.html
-tags: 
+tags:
 ---
 
 📺 Bad Monkey

@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: weeknotes-for-week-26-june-24-to-30
 title: "📓 Weeknotes for Week 26: June 24 to 30"
 redirect_to: https://micro.webology.dev/2024/07/01/weeknotes-for-week.html
-tags: 
+tags:
 ---
 
 Family

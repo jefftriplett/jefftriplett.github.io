@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: the-legend-of-zelda-echoes-of-wisdom-review
 title: "🎮 The Legend of Zelda: Echoes of Wisdom review 👍"
 redirect_to: https://micro.webology.dev/2024/10/14/the-legend-of.html
-tags: 
+tags:
 ---
 
 My oldest kiddo and I finished The Legend of Zelda: Echoes of Wisdom tonight. The 2D Zelda games are some of my favorite games of all time.
