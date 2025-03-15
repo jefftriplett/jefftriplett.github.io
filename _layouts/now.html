@@ -7,19 +7,19 @@ layout: default
 </article>
 
 <section class="grid grid-cols-1 gap-8 w-full">
-  <h3 class="text-4xl font-semibold">
+  <h3 class="text-2xl sm:text-3xl md:text-4xl font-semibold">
     <a class="hover:text-blue-600 hover:underline" href="{% link _pages/movies.md %}">📺 Watching: Movies</a>
   </h3>
-  <div class="grid grid-cols-4 gap-8">
+  <div class="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 sm:gap-6 md:gap-8">
     {% assign sorted_movies = site.movies | sort: 'date' | reverse %}
     {% for movie in sorted_movies limit:4 %}
       <article>
         <a href="{{ movie.link }}" class="no-underline">
-          <figure class="flex flex-col gap-4">
+          <figure class="flex flex-col gap-2 sm:gap-4">
             {% if movie.cover %}
-              <img class="rounded-md transition duration-300 ease-in-out delay-150 hover:scale-110 hover:-translate-y-1" src="{{ movie.cover }}" alt="Cover image for {{ movie.title }}">
+              <img class="rounded-md transition duration-300 ease-in-out hover:scale-110 hover:-translate-y-1" src="{{ movie.cover }}" alt="Cover image for {{ movie.title }}">
             {% endif %}
-            <figcaption class="font-semibold text-center">{{ movie.title }}</figcaption>
+            <figcaption class="font-semibold text-center text-sm sm:text-base">{{ movie.title }}</figcaption>
           </figure>
         </a>
       </article>
@@ -28,19 +28,19 @@ layout: default
 </section>
 
 <section class="grid grid-cols-1 gap-8 w-full">
-  <h3 class="text-4xl font-semibold">
+  <h3 class="text-2xl sm:text-3xl md:text-4xl font-semibold">
     <a class="hover:text-blue-600 hover:underline" href="{% link _pages/series.md %}">📺 Watching: Series</a>
   </h3>
-  <div class="grid grid-cols-4 gap-8">
+  <div class="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 sm:gap-6 md:gap-8">
     {% assign sorted_series = site.series | sort: 'date' | reverse %}
     {% for series in sorted_series limit:4 %}
       <article>
         <a href="{{ series.link }}" class="no-underline">
-          <figure class="flex flex-col gap-4">
+          <figure class="flex flex-col gap-2 sm:gap-4">
             {% if series.cover %}
-              <img class="rounded-md transition duration-300 ease-in-out delay-150 hover:scale-110 hover:-translate-y-1" src="{{ series.cover }}" alt="Cover image for {{ series.title }}">
+              <img class="rounded-md transition duration-300 ease-in-out hover:scale-110 hover:-translate-y-1" src="{{ series.cover }}" alt="Cover image for {{ series.title }}">
             {% endif %}
-            <figcaption class="font-semibold text-center">{{ series.title }}</figcaption>
+            <figcaption class="font-semibold text-center text-sm sm:text-base">{{ series.title }}</figcaption>
           </figure>
         </a>
       </article>
@@ -49,19 +49,19 @@ layout: default
 </section>
 
 <section class="grid grid-cols-1 gap-8 w-full">
-  <h3 class="text-4xl font-semibold">
+  <h3 class="text-2xl sm:text-3xl md:text-4xl font-semibold">
     <a class="hover:text-blue-600 hover:underline" href="{% link _pages/games.md %}">🎮 Playing: Games</a>
   </h3>
-  <div class="grid grid-cols-4 gap-8">
+  <div class="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 sm:gap-6 md:gap-8">
     {% assign sorted_games = site.games | sort: 'date' | reverse %}
     {% for game in sorted_games limit:8 %}
       <article>
         <a href="{{ game.link }}" class="no-underline">
-          <figure class="flex flex-col gap-4">
+          <figure class="flex flex-col gap-2 sm:gap-4">
             {% if game.cover %}
-              <img class="rounded-md transition duration-300 ease-in-out delay-150 hover:scale-110 hover:-translate-y-1" src="{{ game.cover }}" alt="Cover image for {{ game.title }}">
+              <img class="rounded-md transition duration-300 ease-in-out hover:scale-110 hover:-translate-y-1" src="{{ game.cover }}" alt="Cover image for {{ game.title }}">
             {% endif %}
-            <figcaption class="font-semibold text-center">{{ game.title }}</figcaption>
+            <figcaption class="font-semibold text-center text-sm sm:text-base">{{ game.title }}</figcaption>
           </figure>
         </a>
       </article>
@@ -70,19 +70,19 @@ layout: default
 </section>
 
 <section class="grid grid-cols-1 gap-8 w-full">
-  <h3 class="text-4xl font-semibold">
+  <h3 class="text-2xl sm:text-3xl md:text-4xl font-semibold">
     <a class="hover:text-blue-600 hover:underline" href="{% link _pages/products.md %}">🛍️ Consuming: Products</a>
   </h3>
-  <div class="grid grid-cols-4 gap-8">
+  <div class="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 sm:gap-6 md:gap-8">
     {% assign sorted_products = site.products | sort: 'date' | reverse %}
     {% for product in sorted_products limit:4 %}
       <article>
         <a href="{{ product.link }}" class="no-underline">
-          <figure class="flex flex-col gap-4">
+          <figure class="flex flex-col gap-2 sm:gap-4">
             {% if product.cover %}
-              <img class="rounded-md transition duration-300 ease-in-out delay-150 hover:scale-110 hover:-translate-y-1" src="{{ product.cover }}" alt="Product image for {{ product.title }}">
+              <img class="rounded-md transition duration-300 ease-in-out hover:scale-110 hover:-translate-y-1" src="{{ product.cover }}" alt="Product image for {{ product.title }}">
             {% endif %}
-            <figcaption class="font-semibold text-center">{{ product.title }}</figcaption>
+            <figcaption class="font-semibold text-center text-sm sm:text-base">{{ product.title }}</figcaption>
           </figure>
         </a>
       </article>
