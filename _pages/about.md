@@ -27,38 +27,38 @@ Originally from [Sarcoxie, Missouri](http://en.wikipedia.org/wiki/Sarcoxie,_Miss
 
 ----
 
-## Present
+## <span class="text-indigo-600 dark:text-indigo-400">Present</span>
 
-### [Revolution Systems (REVSYS)](http://revsys.com/) (2010-present)
+### <span class="text-emerald-600 dark:text-emerald-400">[Revolution Systems (REVSYS)](http://revsys.com/) (2010-present)</span>
 {:.my-4}
 
 Jeff has been a developer at one of the premier Django consulting agencies since 2011. In 2019, he became a Partner. The agency specializes in Python, Django, Docker, performance, scaling, and team management.
 
-### [Django Software Foundation (DSF)](https://www.djangoproject.com/foundation/#board) (2024-present)
+### <span class="text-emerald-600 dark:text-emerald-400">[Django Software Foundation (DSF)](https://www.djangoproject.com/foundation/#board) (2024-present)</span>
 {:.my-4}
 
 Jeff joined the DSF in 2024 as a director.
 
-### [Django Events Foundation North America (DEFNA)](https://github.com/defna) (2015-present)
+### <span class="text-emerald-600 dark:text-emerald-400">[Django Events Foundation North America (DEFNA)](https://github.com/defna) (2015-present)</span>
 {:.my-4}
 
 Jeff is one of the three co-founders of DEFNA. He served as President of the Board from 2015 to 2021, and again from 2022 to 2023.
 
-### [Python Software Foundation (PSF)](https://www.python.org/psf/records/board/history/#id2) (2018-2023)
+### <span class="text-emerald-600 dark:text-emerald-400">[Python Software Foundation (PSF)](https://www.python.org/psf/records/board/history/#id2) (2018-2023)</span>
 {:.my-4}
 
 Jeff was elected by the community as a Director of the [Python Software Foundation (PSF)](https://www.python.org/psf/). He served as Treasurer from 2020 to 2022 and subsequently as Vice Chair from 2022 to 2023.
 
 ----
 
-## Previous employment
+## <span class="text-amber-600 dark:text-amber-400">Previous employment</span>
 
-### Mediaphormedia (The World Company subsidiary) (2007-2010)
+### <span class="text-amber-600 dark:text-amber-400">Mediaphormedia (The World Company subsidiary) (2007-2010)</span>
 {:.my-4}
 
 I joined [The World Company](http://www.theworldco.net) in 2007 to work at [Django Project's](http://djangoproject.com/) birthplace. As a Senior Developer, I worked on [Ellington CMS](https://www.ellingtoncms.com/) and [Ellington Marketplace](https://www.ellingtoncms.com/marketplace/).
 
-### Fast Freedom (2002-2007)
+### <span class="text-amber-600 dark:text-amber-400">Fast Freedom (2002-2007)</span>
 {:.my-4}
 
 I was Director of Operations and started the website division/service for our company.
@@ -66,39 +66,39 @@ I managed the hosting, development, wireless, and dial-up service and employees 
 
 ----
 
-## Past
+## <span class="text-purple-600 dark:text-purple-400">Past</span>
 
-### [2019 Malcolm Tredinnick Memorial Prize winner](https://www.djangoproject.com/weblog/2019/dec/17/2019-malcolm-tredinnick-prize--jeff-triplett/)
+### <span class="text-purple-600 dark:text-purple-400">[2019 Malcolm Tredinnick Memorial Prize winner](https://www.djangoproject.com/weblog/2019/dec/17/2019-malcolm-tredinnick-prize--jeff-triplett/)</span>
 {:.my-4}
 
 I was awarded the Malcolm Tredinnick Memorial Prize in 2019 for contributions to the Django community.
 
-### [2019 Python Software Foundation Fellow Member](http://pyfound.blogspot.com/2019/01/python-software-foundation-fellow.html)
+### <span class="text-purple-600 dark:text-purple-400">[2019 Python Software Foundation Fellow Member](http://pyfound.blogspot.com/2019/01/python-software-foundation-fellow.html)</span>
 {:.my-4}
 
 I was named a PSF Fellow Member in January 2019.
 
-### [2019 Opensource.com Community Awards winner](https://opensource.com/article/19/2/community-awards-2019#people)
+### <span class="text-purple-600 dark:text-purple-400">[2019 Opensource.com Community Awards winner](https://opensource.com/article/19/2/community-awards-2019#people)</span>
 {:.my-4}
 
 I won an Opensource.com 2019 People's Choice Award.
 
-### [Django Code of Conduct Committee](https://www.djangoproject.com/foundation/committees/#conduct)
+### <span class="text-purple-600 dark:text-purple-400">[Django Code of Conduct Committee](https://www.djangoproject.com/foundation/committees/#conduct)</span>
 {:.my-4}
 
 I joined the committee in 2016 as a member, serving as chair and then later co-chair.
 
-### [Django Developer Member](https://www.djangoproject.com/foundation/developer-members/)
+### <span class="text-purple-600 dark:text-purple-400">[Django Developer Member](https://www.djangoproject.com/foundation/developer-members/)</span>
 {:.my-4}
 
 I was nominated in 2015 and have served as a member ever since.
 
-### [Python Software Foundation Contributing Member](https://www.python.org/psf/membership/)
+### <span class="text-purple-600 dark:text-purple-400">[Python Software Foundation Contributing Member](https://www.python.org/psf/membership/)</span>
 {:.my-4}
 
 I joined the Python Software Foundation in 2015.
 
-### Conference & Event Organizing
+### <span class="text-purple-600 dark:text-purple-400">Conference & Event Organizing</span>
 {:.my-4}
 
 - [DjangoCon US 2023](https://2023.djangocon.us/) Organizer
@@ -123,12 +123,12 @@ I joined the Python Software Foundation in 2015.
 
 - [DjangoCon US 2014](https://2014.djangocon.us/) Last-minute Program Chair & Organizer(ish)
 
-### DjangoPony.com
+### <span class="text-purple-600 dark:text-purple-400">DjangoPony.com</span>
 {:.my-4}
 
 I'm the co-creator of the [Django Pony website](http://www.djangopony.com/) and helped add fuel to the fire to the Django meme.
 
-## Interviews & Mentions
+## <span class="text-sky-600 dark:text-sky-400">Interviews & Mentions</span>
 {:.mt-8}
 
 - [Espacios Abiertos Podcast](https://espaciosabiertos.dev/) Podcast interview [Alternative Projects: From idea to Product](https://espaciosabiertos.dev/jeff-triplett/)
