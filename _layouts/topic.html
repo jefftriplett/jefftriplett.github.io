@@ -26,7 +26,7 @@ layout: default
               {{ post.title | markdownify | remove:'<p>' | remove:'</p>' }}
 
               {% if post.redirect_to %}
-                <i class="far fa-external-link" aria-hidden="true"></i>
+                <i class="far fa-external-link" aria-hidden="true"></i><span class="sr-only">External link</span>
               {% endif %}
             </a>
           </div>

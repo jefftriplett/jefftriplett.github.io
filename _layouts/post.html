@@ -15,7 +15,9 @@ layout: default
     {% if page.tags.size > 0 %}
       <section>
         <span>Filed under: </span>
-        {% for tag in page.tags %}<a href="?tags={{ tag }}">{{ tag }}</a>{% if forloop.last != true %},{% endif %} {% endfor %}
+        {% for tag in page.tags %}
+          <a href="?tags={{ tag }}">{{ tag }}</a>{% if forloop.last != true %}, {% endif %}
+        {% endfor %}
       </section>
     {% endif %}
 
