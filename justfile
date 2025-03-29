@@ -1,4 +1,4 @@
-FAVICON := "./assets/images/dcus-2017-bw.jpg"
+FAVICON := "./assets/images/2025-brickman.jpg"
 TAILWIND_CSS_VERSION := "latest"
 
 @_default:

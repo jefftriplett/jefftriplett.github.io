@@ -19,11 +19,7 @@ Originally from [Sarcoxie, Missouri](http://en.wikipedia.org/wiki/Sarcoxie,_Miss
 </div>
 
 <div class="flex-1 ml-8 w-64 w-1/4 md:w-96">
-<img class="w-full rounded-lg" src="/assets/images/dcus-2017-bw.jpg" alt="Jeff Triplett" title="Jeff Triplett taken by Melanie Crutchfield">
-<div class="text-center md:text-lg text-md">
-Image courtesy of
-<a href="https://twitter.com/HelloMelanieC">Melanie&nbsp;Crutchfield</a>
-</div>
+<img class="w-full rounded-lg" src="/assets/images/2025-brickman.jpg" alt="Jeff Triplett" title="Jeff Triplett's image in the style of brick man">
 </div>
 
 </div>

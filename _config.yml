@@ -108,7 +108,7 @@ defaults:  # Frontmatter fallback settings
   - scope:
       path: ""
     values:
-      image: /assets/images/dcus-2017-bw.jpg
+      image: /assets/images/2025-brickman.jpg
 
 # Amazon Tracking ID
 
@@ -121,7 +121,7 @@ author: webology
 facebook:
   app_id: 182545102225662
 
-logo: /assets/images/dcus-2017-bw.jpg
+logo: /assets/images/2025-brickman.jpg
 
 social:
   name: Jeff Triplett
