@@ -56,13 +56,12 @@ Jeff was elected by the community as a Director of the [Python Software Foundati
 ### <span class="text-amber-600 dark:text-amber-400">Mediaphormedia (The World Company subsidiary) (2007-2010)</span>
 {:.my-4}
 
-I joined [The World Company](http://www.theworldco.net) in 2007 to work at [Django Project's](http://djangoproject.com/) birthplace. As a Senior Developer, I worked on [Ellington CMS](https://www.ellingtoncms.com/) and [Ellington Marketplace](https://www.ellingtoncms.com/marketplace/).
+Jeff joined [The World Company](http://www.theworldco.net) in 2007 to work at [Django Project's](http://djangoproject.com/) birthplace. As a Senior Developer, he worked on [Ellington CMS](https://www.ellingtoncms.com/) and [Ellington Marketplace](https://www.ellingtoncms.com/marketplace/).
 
 ### <span class="text-amber-600 dark:text-amber-400">Fast Freedom (2002-2007)</span>
 {:.my-4}
 
-I was Director of Operations and started the website division/service for our company.
-I managed the hosting, development, wireless, and dial-up service and employees for five years.
+Jeff was Director of Operations and started the website division/service for the company. He managed the hosting, development, wireless, and dial-up service and employees for five years.
 
 ----
 
@@ -71,32 +70,32 @@ I managed the hosting, development, wireless, and dial-up service and employees 
 ### <span class="text-purple-600 dark:text-purple-400">[2019 Malcolm Tredinnick Memorial Prize winner](https://www.djangoproject.com/weblog/2019/dec/17/2019-malcolm-tredinnick-prize--jeff-triplett/)</span>
 {:.my-4}
 
-I was awarded the Malcolm Tredinnick Memorial Prize in 2019 for contributions to the Django community.
+Jeff was awarded the Malcolm Tredinnick Memorial Prize in 2019 for contributions to the Django community.
 
 ### <span class="text-purple-600 dark:text-purple-400">[2019 Python Software Foundation Fellow Member](http://pyfound.blogspot.com/2019/01/python-software-foundation-fellow.html)</span>
 {:.my-4}
 
-I was named a PSF Fellow Member in January 2019.
+Jeff was named a PSF Fellow Member in January 2019.
 
 ### <span class="text-purple-600 dark:text-purple-400">[2019 Opensource.com Community Awards winner](https://opensource.com/article/19/2/community-awards-2019#people)</span>
 {:.my-4}
 
-I won an Opensource.com 2019 People's Choice Award.
+Jeff won an Opensource.com 2019 People's Choice Award.
 
 ### <span class="text-purple-600 dark:text-purple-400">[Django Code of Conduct Committee](https://www.djangoproject.com/foundation/committees/#conduct)</span>
 {:.my-4}
 
-I joined the committee in 2016 as a member, serving as chair and then later co-chair.
+Jeff joined the committee in 2016 as a member, serving as chair and then later co-chair.
 
 ### <span class="text-purple-600 dark:text-purple-400">[Django Developer Member](https://www.djangoproject.com/foundation/developer-members/)</span>
 {:.my-4}
 
-I was nominated in 2015 and have served as a member ever since.
+Jeff was nominated in 2015 and has served as a member ever since.
 
 ### <span class="text-purple-600 dark:text-purple-400">[Python Software Foundation Contributing Member](https://www.python.org/psf/membership/)</span>
 {:.my-4}
 
-I joined the Python Software Foundation in 2015.
+Jeff joined the Python Software Foundation in 2015.
 
 ### <span class="text-purple-600 dark:text-purple-400">Conference & Event Organizing</span>
 {:.my-4}
@@ -107,7 +106,7 @@ I joined the Python Software Foundation in 2015.
 
 - [DjangoCon US 2021](https://2021.djangocon.us/) Organizer
 
-- [DjangoCon US 2020](https://2020.djangocon.us/) Organizer (we canceled 2020)
+- [DjangoCon US 2020](https://2020.djangocon.us/) Organizer (canceled due to COVID-19)
 
 - [DjangoCon US 2019](https://2019.djangocon.us/) Organizer
 
@@ -126,7 +125,7 @@ I joined the Python Software Foundation in 2015.
 ### <span class="text-purple-600 dark:text-purple-400">DjangoPony.com</span>
 {:.my-4}
 
-I'm the co-creator of the [Django Pony website](http://www.djangopony.com/) and helped add fuel to the fire to the Django meme.
+Jeff is the co-creator of the [Django Pony website](http://www.djangopony.com/) and helped add fuel to the fire to the Django meme.
 
 ## <span class="text-sky-600 dark:text-sky-400">Interviews & Mentions</span>
 {:.mt-8}
