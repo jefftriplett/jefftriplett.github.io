@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<section class="w-full">
+<div class="w-full">
   <article class="prose prose-a:underline prose-a:px-1 prose-a:py-1 sm:prose-md md:prose-lg lg:prose-lg xl:prose-xl dark:prose-invert">
-    <h1 class="font-semibold {% if page.draft %}text-red-700 dark:text-red-300{% endif %}">
+    <h1 class="mb-4 font-semibold {% if page.draft %}text-red-700 dark:text-red-300{% endif %}">
       {% assign topic = site.topics | where:"category", page.category | first %}
       {% if page.category and topic.show_on_homepage %}
         {{ topic.category }}:
@@ -13,19 +13,19 @@ layout: default
     </h1>
 
     {% if page.tags.size > 0 %}
-      <section>
+      <div class="flex flex-wrap items-center gap-1 mb-6 text-sm text-gray-600 dark:text-gray-400">
         <span>Filed under: </span>
         {% for tag in page.tags %}
-          <a href="?tags={{ tag }}">{{ tag }}</a>{% if forloop.last != true %}, {% endif %}
+          <a href="?tags={{ tag }}" class="px-2 py-1 rounded-full bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700">{{ tag }}</a>{% if forloop.last != true %} {% endif %}
         {% endfor %}
-      </section>
+      </div>
     {% endif %}
 
-    <section>
+    <div class="mt-8">
       {{ content }}
-    </section>
+    </div>
   </article>
-</section>
+</div>
 
 <!-- Sharing -->
 {% comment %}
