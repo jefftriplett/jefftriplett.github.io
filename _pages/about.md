@@ -8,10 +8,7 @@ redirect_from: /posts/about/raw/
 <div class="flex items-start">
 <div class="w-3/4 flex-0">
 {% capture bio %}
-Jeff Triplett is a Partner at [REVSYS](https://revsys.com/) and a former Director and Vice Chair of the [Python Software Foundation](https://www.python.org/psf/records/board/history/#id2).
-The co-founder and former President of the [Django Events Foundation North America (DEFNA)](https://www.defna.org), the non-profit which has run DjangoCon US since 2015.
-
-Jeff was awarded the [2019 Malcolm Tredinnick Memorial Prize](https://www.djangoproject.com/weblog/2019/dec/17/2019-malcolm-tredinnick-prize--jeff-triplett/) for his contributions to the Django community and was honored as a [Python Software Foundation Fellow](https://www.python.org/psf/fellows/#welcome-2018-q4-fellow-members) for his contributions to the Python community in 2018.
+Jeff Triplett is a Partner at [REVSYS](https://revsys.com/) and a director on the [Django Software Foundation (DSF)](https://www.djangoproject.com/foundation/#board). Jeff is the co-founder and former President of the [Django Events Foundation North America (DEFNA)](https://www.defna.org), the non-profit which has run DjangoCon US since 2015 and a former Director and Vice Chair of the [Python Software Foundation](https://www.python.org/psf/records/board/history/#id2). Jeff was awarded the [2019 Malcolm Tredinnick Memorial Prize](https://www.djangoproject.com/weblog/2019/dec/17/2019-malcolm-tredinnick-prize--jeff-triplett/) for his contributions to the Django community and was honored as a [Python Software Foundation Fellow](https://www.python.org/psf/fellows/#welcome-2018-q4-fellow-members) for his contributions to the Python community in 2018.
 
 Originally from [Sarcoxie, Missouri](http://en.wikipedia.org/wiki/Sarcoxie,_Missouri), he now calls [Lawrence, Kansas](http://en.wikipedia.org/wiki/Lawrence,_Kansas) home with his two kids, partner, and smelly dog.
 {% endcapture %}
@@ -31,19 +28,22 @@ Originally from [Sarcoxie, Missouri](http://en.wikipedia.org/wiki/Sarcoxie,_Miss
 ### [Revolution Systems (REVSYS)](http://revsys.com/) (2010-present)
 {:.my-4}
 
-I have been a developer for one of the premier Django consulting agencies since 2011.
-In 2019, I became a Partner.
-We specialize in Python, Django, Docker, performance, scaling, and team management.
+Jeff has been a developer at one of the premier Django consulting agencies since 2011. In 2019, he became a Partner. The agency specializes in Python, Django, Docker, performance, scaling, and team management.
+
+### [Django Software Foundation (DSF)](https://www.djangoproject.com/foundation/#board) (2024-present)
+{:.my-4}
+
+Jeff joined the DSF in 2024 as a director.
 
 ### [Django Events Foundation North America (DEFNA)](https://github.com/defna) (2015-present)
 {:.my-4}
 
-I am one of the three co-founders of DEFNA and served as the President of the Board from 2015 to 2021 and then again from 2022 to 2023.
+Jeff is one of the three co-founders of DEFNA. He served as President of the Board from 2015 to 2021, and again from 2022 to 2023.
 
 ### [Python Software Foundation (PSF)](https://www.python.org/psf/records/board/history/#id2) (2018-2023)
 {:.my-4}
 
-I was voted in by the community as a Director for the [Python Software Foundation (PSF)](https://www.python.org/psf/). I served as the PSF's Treasurer from 2020 to 2022 and, more recently, Vice Chair for the 2022 to 2023 term.
+Jeff was elected by the community as a Director of the [Python Software Foundation (PSF)](https://www.python.org/psf/). He served as Treasurer from 2020 to 2022 and subsequently as Vice Chair from 2022 to 2023.
 
 ----
 
