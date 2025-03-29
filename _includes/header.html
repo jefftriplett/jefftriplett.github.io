@@ -1,11 +1,13 @@
-<section class="flex flex-wrap mx-auto max-w-md md:max-w-2xl lg:max-w-5xl">
-  <h2 class="self-center w-full text-2xl sm:text-3xl md:w-1/4">
-    <a href="/">
-      {{ site.title }}
-    </a>
+<div class="flex flex-wrap mx-auto max-w-md md:max-w-2xl lg:max-w-5xl">
+  <div class="self-center w-full text-2xl sm:text-3xl md:w-1/4">
+    <h1 class="m-0 font-bold">
+      <a href="/" class="no-underline hover:underline">
+        {{ site.title }}
+      </a>
+    </h1>
     {% comment %}<small>{{ site.tagline }}</small>{% endcomment %}
-  </h2>
-  <nav class="self-center w-full md:w-3/4 md:text-right">
+  </div>
+  <nav class="self-center w-full md:w-3/4 md:text-right" aria-label="Main Navigation">
     <ul class="flex flex-wrap justify-center md:justify-end">
       {% for link in site.data.navigation %}
         {% if link.show_in_header == true %}
@@ -13,11 +15,11 @@
             <a href="{{ link.url }}"
                class="hover:underline"
                {% if link.aria-label %}aria-label="{{ link.aria-label }}" title="{{ link.aria-label }}"{% endif %}
-               {% if link.nofollow %}rel="nofollow" {% endif %}
+               {% if link.nofollow %}rel="nofollow"{% endif %}
             >{{ link.title }}</a>
           </li>
         {% endif %}
       {% endfor %}
     </ul>
   </nav>
-</section>
+</div>

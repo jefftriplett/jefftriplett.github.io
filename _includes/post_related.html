@@ -16,14 +16,14 @@
               {{ post.title | markdownify | remove:'<p>' | remove:'</p>' }}
 
               {% if post.redirect_to %}
-                <i class="text-base far fa-external-link" aria-hidden="true"></i>
+                <i class="text-base far fa-external-link" aria-hidden="true"></i><span class="sr-only">External link</span>
               {% endif %}
             </a>
           </div>
           <div class="w-1/3 text-right">
-            <time datetime="{{ post.date | date_to_xmlschema }}">
+            <time datetime="{{ post.date | date_to_xmlschema }}" class="flex items-center justify-end gap-2">
               <i class="text-base far fa-calendar" aria-hidden="true"></i>
-              {{ post.date | date:"%B %e" }}
+              <span>{{ post.date | date:"%B %e" }}</span>
             </time>
           </div>
         </article>

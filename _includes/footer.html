@@ -1,23 +1,23 @@
-<section class="mx-auto max-w-md text-sm text-center md:max-w-2xl lg:max-w-5xl dark:hover:text-white hover:text-dark">
-  <nav class="mb-3 w-full text-center dark:text-white text-md">
-    <ul>
+<div class="mx-auto max-w-md text-sm text-center md:max-w-2xl lg:max-w-5xl">
+  <nav class="mb-4 w-full text-center" aria-label="Footer Navigation">
+    <ul class="flex flex-wrap justify-center">
       {% for link in site.data.navigation %}
         {% if link.show_in_footer == true %}
-          <li class="inline-block py-1 px-1 sm:py-2 sm:px-2 dark:hover:text-white hover:text-dark">
-            <a class="no-underline hover:underline dark:hover:text-white hover:text-dark"
+          <li class="inline-block py-1 px-1 sm:py-2 sm:px-2">
+            <a class="no-underline hover:underline hover:text-blue-600 dark:hover:text-blue-400"
                href="{{ link.url }}"
-               rel="{% if link.rel %} {{ link.rel }}{% else %}nofollow{% endif %}"
-               {% if link.aria-label %} aria-label="{{ link.aria-label }}" title="{{ link.aria-label }}"{% endif %}
+               rel="{% if link.rel %}{{ link.rel }}{% else %}nofollow{% endif %}"
+               {% if link.aria-label %}aria-label="{{ link.aria-label }}" title="{{ link.aria-label }}"{% endif %}
             >{{ link.title }}</a>
           </li>
         {% endif %}
       {% endfor %}
     </ul>
   </nav>
-  <p class="mb-4 w-full text-sm text-center dark:hover:text-white hover:text-dark">
+  <p class="mb-4 w-full text-sm text-center text-gray-700 dark:text-gray-300">
     <strong>jefftriplett.com</strong> and all contents copyright
     <time datetime="{{ site.time | date_to_xmlschema }}">2016&ndash;{{ site.time | date: '%Y' }}</time> by
     <span>Jeff Triplett</span> unless otherwise noted.
     &mdash; <span>v{{ site.version }}</span>
   </p>
-</section>
+</div>

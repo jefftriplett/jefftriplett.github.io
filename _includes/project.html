@@ -2,10 +2,10 @@
   <div>
     <a href="{{ include.project.github }}">{{ include.project.title }}</a>
     {% if include.project.github %}
-      <span><a href="{{ include.project.github }}"><i class="text-base text-gray-700 fab fa-github" aria-hidden="true"></i></a></span>
+      <span><a href="{{ include.project.github }}" aria-label="GitHub repository for {{ include.project.title }}"><i class="text-base text-gray-700 dark:text-gray-300 fab fa-github" aria-hidden="true"></i><span class="sr-only">GitHub</span></a></span>
     {% endif %}
     {% if include.project.homepage %}
-      <span><a href="{{ include.project.homepage }}"><i class="text-base text-gray-700 fas fa-home" aria-hidden="true"></i></a></span>
+      <span><a href="{{ include.project.homepage }}" aria-label="Homepage for {{ include.project.title }}"><i class="text-base text-gray-700 dark:text-gray-300 fas fa-home" aria-hidden="true"></i><span class="sr-only">Homepage</span></a></span>
     {% endif %}
   </div>
   <div>

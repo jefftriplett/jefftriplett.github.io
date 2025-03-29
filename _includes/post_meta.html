@@ -1,7 +1,7 @@
 <aside class="w-full leading-normal border-t-2">
   <div class="flex flex-col gap-1 text-gray-800 dark:text-white">
     <h2 class="text-2xl font-semibold">Post Meta</h2>
-    <div class="text-xl">
+    <div class="text-xl flex items-center gap-2">
       <i class="text-base far fa-calendar" aria-hidden="true"></i>
       <time datetime="{{ page.date | date_to_xmlschema }}">
         Published: {{ page.date | date:"%B %e, %Y" }}
@@ -9,7 +9,7 @@
     </div>
 
     {% if page.updated %}
-      <div>
+      <div class="flex items-center gap-2">
         <i class="text-base far fa-calendar" aria-hidden="true"></i>
         <time datetime="{{ page.updated | date_to_xmlschema }}">
           Updated: {{ page.updated | date:"%B %e, %Y" }}
@@ -18,16 +18,16 @@
     {% endif %}
 
     {% if page.location %}
-      <div>
+      <div class="flex items-center gap-2">
         <i class="text-base fas fa-map-marker" aria-hidden="true"></i>
-        In {{ page.location }}
+        <span>In {{ page.location }}</span>
       </div>
     {% endif %}
 
     {% if page.weather %}
-      <div>
-        <i class="text-base fas fa-thermometer-half"></i>
-        {{ page.weather }}
+      <div class="flex items-center gap-2">
+        <i class="text-base fas fa-thermometer-half" aria-hidden="true"></i>
+        <span>{{ page.weather }}</span>
       </div>
     {% endif %}
   </div>
