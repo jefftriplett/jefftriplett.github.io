@@ -1,14 +1,32 @@
-<article class="flex flex-col flex-wrap gap-2 p-2 min-h-48">
-  <div>
-    <a href="{{ include.project.github }}">{{ include.project.title }}</a>
-    {% if include.project.github %}
-      <span><a href="{{ include.project.github }}" aria-label="GitHub repository for {{ include.project.title }}"><i class="text-base text-gray-700 dark:text-gray-300 fab fa-github" aria-hidden="true"></i><span class="sr-only">GitHub</span></a></span>
-    {% endif %}
-    {% if include.project.homepage %}
-      <span><a href="{{ include.project.homepage }}" aria-label="Homepage for {{ include.project.title }}"><i class="text-base text-gray-700 dark:text-gray-300 fas fa-home" aria-hidden="true"></i><span class="sr-only">Homepage</span></a></span>
-    {% endif %}
-  </div>
-  <div>
-    {{ include.project.content }}
+<article class="flex flex-col bg-white dark:bg-gray-800 rounded-lg shadow-md transition-all duration-200 hover:shadow-lg overflow-hidden min-h-48 h-full border border-gray-200 dark:border-gray-700">
+  <div class="p-4 flex-1 flex flex-col">
+    <header class="mb-1">
+      <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200">
+        {% if include.project.github %}
+          <a href="{{ include.project.github }}" class="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">{{ include.project.title }}</a>
+        {% elsif include.project.homepage %}
+          <a href="{{ include.project.homepage }}" class="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">{{ include.project.title }}</a>
+        {% else %}
+          {{ include.project.title }}
+        {% endif %}
+      </h3>
+    </header>
+    <div class="text-gray-700 dark:text-gray-300 mb-2 flex-1">
+      {{ include.project.content }}
+    </div>
+    <div class="mt-1 flex space-x-3">
+      {% if include.project.github %}
+        <a href="{{ include.project.github }}" class="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200 transition-colors" aria-label="GitHub repository for {{ include.project.title }}">
+          <i class="fab fa-github text-lg" aria-hidden="true"></i>
+          <span class="sr-only">GitHub</span>
+        </a>
+      {% endif %}
+      {% if include.project.homepage %}
+        <a href="{{ include.project.homepage }}" class="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200 transition-colors" aria-label="Homepage for {{ include.project.title }}">
+          <i class="fas fa-external-link-alt text-lg" aria-hidden="true"></i>
+          <span class="sr-only">Homepage</span>
+        </a>
+      {% endif %}
+    </div>
   </div>
 </article>
