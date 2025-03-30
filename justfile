@@ -144,6 +144,7 @@ alias add-series := add-tract
 
 # build Tailwind CSS in both dev and production modes
 @static-build:
+    # npx update-browserslist-db@latest
     just tailwind-build development 2024.development.css
     just tailwind-build production 2024.css
 
