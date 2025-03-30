@@ -19,13 +19,13 @@ alias add-series := add-tract
 # installs/updates all dependencies
 @bootstrap:
     python -m pip install --upgrade pip uv
-    # docker-compose pull
-    # docker-compose build
+    # docker compose pull
+    # docker compose build
 
 # build docker containers
 @build:
-    docker-compose pull
-    docker-compose build
+    docker compose pull
+    docker compose build
 
 # bump version numbers using bumpver
 @bump *ARGS:
@@ -33,7 +33,7 @@ alias add-series := add-tract
 
 # invoked by continuous integration servers to run tests
 @cibuild:
-    docker-compose build
+    docker compose build
 
 # remove generated files
 @clean:
@@ -49,12 +49,12 @@ alias add-series := add-tract
 
 # deploy site to production server
 @deploy:
-    docker-compose run --rm jekyll jekyll build
+    docker compose run --rm jekyll jekyll build
     rsync -av _site/ node3.cog.gs:/srv/sites/jefftriplett.com/
 
 # stop docker containers
 @down:
-    docker-compose down
+    docker compose down
 
 # embed code snippets into markdown files
 @embedme:
@@ -103,11 +103,11 @@ alias add-series := add-tract
 
 # pull latest docker images
 @pull:
-    docker-compose pull
+    docker compose pull
 
 # restart docker containers
 @restart:
-    docker-compose restart
+    docker compose restart
 
 # alias for server command
 @serve *ARGS:
@@ -150,11 +150,11 @@ alias add-series := add-tract
 
 # stop docker containers
 @stop:
-    docker-compose down
+    docker compose down
 
 # tail docker logs
 @tail:
-    docker-compose logs --follow --tail 100
+    docker compose logs --follow --tail 100
 
 # build Tailwind CSS with specified target and filename
 @tailwind-build target='' filename='2024.css':
@@ -179,19 +179,19 @@ alias add-series := add-tract
 
 # start docker containers
 @up *ARGS:
-    docker-compose up {{ ARGS }}
+    docker compose up {{ ARGS }}
 
 # updates a project to run at its current version
 @update:
     -python -m pip install --upgrade pip uv
     -just lock
-    # -docker-compose pull
-    # -docker-compose build
+    # -docker compose pull
+    # -docker compose build
 
 # compare files with webology.dev repository
 @diff:
     -diff .editorconfig ~/.virtualenvs/webology.dev/src/webology.dev-git/.editorconfig
     -diff .gitignore ~/.virtualenvs/webology.dev/src/webology.dev-git/.gitignore
-    -diff docker-compose.yml ~/.virtualenvs/webology.dev/src/webology.dev-git/docker-compose.yml
+    -diff docker compose.yml ~/.virtualenvs/webology.dev/src/webology.dev-git/docker compose.yml
     -diff Gemfile ~/.virtualenvs/webology.dev/src/webology.dev-git/Gemfile
     -diff justfile ~/.virtualenvs/webology.dev/src/webology.dev-git/justfile
