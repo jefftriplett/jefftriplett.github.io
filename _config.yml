@@ -13,7 +13,7 @@ relative_permalinks: false
 permalink: :year/:title/  # permalink: date
 future: true
 paginate: 100
-incremental: true
+incremental: false
 
 timezone: US/Central
 
@@ -100,6 +100,10 @@ collections:  # process the _data folder
     permalink: /:collection/:name/
   series:
     output: false
+  timelines:
+    output: true
+    sort_by: date
+    reverse: true
   topics:
     output: true
     permalink: /:collection/:name/
