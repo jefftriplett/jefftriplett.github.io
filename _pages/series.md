@@ -11,7 +11,7 @@ permalink: /series/
     {% for series in sorted_series %}
       <article>
         <a href="{{ series.link }}" class="no-underline">
-          <figure class="flex flex-col gap-4">
+          <figure class="flex flex-col gap-2 sm:gap-4 min-h-80">
             {% if series.cover %}
               <img class="rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" src="{{ series.cover }}" alt="Cover image for {{ series.title }}">
             {% endif %}

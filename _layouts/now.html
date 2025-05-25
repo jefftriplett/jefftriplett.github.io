@@ -15,7 +15,7 @@ layout: default
     {% for movie in sorted_movies limit:4 %}
       <article>
         <a href="{{ movie.link }}" class="no-underline" aria-label="View details for {{ movie.title }}">
-          <figure class="flex flex-col gap-2 sm:gap-4">
+          <figure class="flex flex-col gap-2 sm:gap-4 min-h-80">
             {% if movie.cover %}
               <img class="rounded-md transition duration-300 ease-in-out hover:scale-110 hover:-translate-y-1" src="{{ movie.cover }}" alt="Cover image for {{ movie.title }}">
             {% endif %}
@@ -36,7 +36,7 @@ layout: default
     {% for series in sorted_series limit:4 %}
       <article>
         <a href="{{ series.link }}" class="no-underline" aria-label="View details for {{ series.title }}">
-          <figure class="flex flex-col gap-2 sm:gap-4">
+          <figure class="flex flex-col gap-2 sm:gap-4 min-h-80">
             {% if series.cover %}
               <img class="rounded-md transition duration-300 ease-in-out hover:scale-110 hover:-translate-y-1" src="{{ series.cover }}" alt="Cover image for {{ series.title }}">
             {% endif %}
@@ -57,7 +57,7 @@ layout: default
     {% for game in sorted_games limit:8 %}
       <article>
         <a href="{{ game.link }}" class="no-underline" aria-label="View details for {{ game.title }}">
-          <figure class="flex flex-col gap-2 sm:gap-4">
+          <figure class="flex flex-col gap-2 sm:gap-4 min-h-80">
             {% if game.cover %}
               <img class="rounded-md transition duration-300 ease-in-out hover:scale-110 hover:-translate-y-1" src="{{ game.cover }}" alt="Cover image for {{ game.title }}">
             {% endif %}
@@ -78,7 +78,7 @@ layout: default
     {% for product in sorted_products limit:4 %}
       <article>
         <a href="{{ product.link }}" class="no-underline" aria-label="View details for {{ product.title }}">
-          <figure class="flex flex-col gap-2 sm:gap-4">
+          <figure class="flex flex-col gap-2 sm:gap-4 min-h-80">
             {% if product.cover %}
               <img class="rounded-md transition duration-300 ease-in-out hover:scale-110 hover:-translate-y-1" src="{{ product.cover }}" alt="Product image for {{ product.title }}">
             {% endif %}
