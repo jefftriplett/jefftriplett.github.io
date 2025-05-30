@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: on-daring-fireball-gate
 title: "⚾ On Daring Fireball Gate"
 redirect_to: https://micro.webology.dev/2025/03/27/on-daring-fireball-gate/
-tags: 
+tags:
 ---
 
 This post caught my eye this afternoon: [mastodon.social/@daringfi…](https://mastodon.social/@daringfireball/114235193603919597)

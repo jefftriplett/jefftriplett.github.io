@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: i-miss-visual-basic
 title: "🤷‍♂️ I miss Visual Basic"
 redirect_to: https://micro.webology.dev/2025/05/11/i-miss-visual-basic/
-tags: 
+tags:
 ---
 
 I miss Visual Basic. I could build something meaningful with it in 15 to 30 minutes in a way that I have never seen anything since then, even come close to.

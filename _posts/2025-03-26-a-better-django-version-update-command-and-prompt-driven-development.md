@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: a-better-django-version-update-command-and-prompt-driven-development
 title: "🤖 A better Django version/update command and Prompt-driven-development"
 redirect_to: https://micro.webology.dev/2025/03/26/a-better-django-versionupdate-command/
-tags: 
+tags:
 ---
 
 Late last year, I wrote [`django-cli-no-admin,`](https://github.com/jefftriplett/django-cli-no-admin) a proof-of-concept Python library whose goal was to shorten Django’s default `django-admin` command to just `django`. I published the

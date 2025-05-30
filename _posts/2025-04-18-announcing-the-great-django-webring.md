@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: announcing-the-great-django-webring
 title: "💍 Announcing The Great Django Webring"
 redirect_to: https://micro.webology.dev/2025/04/18/announcing-the-great-django-webring/
-tags: 
+tags:
 ---
 
 Blogging is back, so why not bring back Webrings, too?

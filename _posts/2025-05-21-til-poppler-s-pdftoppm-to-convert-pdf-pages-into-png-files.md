@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: til-poppler-s-pdftoppm-to-convert-pdf-pages-into-png-files
 title: "TIL Poppler's pdftoppm to convert PDF pages into PNG files"
 redirect_to: https://micro.webology.dev/2025/05/21/til-popplers-pdftoppm-to-convert/
-tags: 
+tags:
 ---
 
 Today I learned about [`pdftoppm`](https://www.xpdfreader.com/pdftoppm-man.html), a simple CLI tool that can convert each page of a PDF into separate image files.

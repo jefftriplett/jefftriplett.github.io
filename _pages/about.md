@@ -8,9 +8,9 @@ redirect_from: /posts/about/raw/
 <div class="flex items-start">
 <div class="w-3/4 flex-0">
 {% capture bio %}
-Jeff Triplett is a Partner at [REVSYS](https://revsys.com/) and a director on the [Django Software Foundation (DSF)](https://www.djangoproject.com/foundation/#board). 
+Jeff Triplett is a Partner at [REVSYS](https://revsys.com/) and a director on the [Django Software Foundation (DSF)](https://www.djangoproject.com/foundation/#board).
 
-Jeff is the co-founder and former President of the [Django Events Foundation North America (DEFNA)](https://www.defna.org), the non-profit which has run DjangoCon US since 2015 and a former Director and Vice Chair of the [Python Software Foundation](https://www.python.org/psf/records/board/history/#id2). 
+Jeff is the co-founder and former President of the [Django Events Foundation North America (DEFNA)](https://www.defna.org), the non-profit which has run DjangoCon US since 2015 and a former Director and Vice Chair of the [Python Software Foundation](https://www.python.org/psf/records/board/history/#id2).
 
 Jeff was awarded the [2019 Malcolm Tredinnick Memorial Prize](https://www.djangoproject.com/weblog/2019/dec/17/2019-malcolm-tredinnick-prize--jeff-triplett/) for his contributions to the Django community and was honored as a [Python Software Foundation Fellow](https://www.python.org/psf/fellows/#welcome-2018-q4-fellow-members) for his contributions to the Python community in 2018.
 

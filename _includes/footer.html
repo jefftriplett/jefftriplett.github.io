@@ -4,7 +4,7 @@
       {% for link in site.data.navigation %}
         {% if link.show_in_footer == true %}
           <li class="inline-block py-1 px-1 sm:py-2 sm:px-2">
-            <a class="no-underline hover:underline hover:text-blue-600 dark:hover:text-blue-400"
+            <a class="no-underline hover:text-blue-600 hover:underline dark:hover:text-blue-400"
                href="{{ link.url }}"
                rel="{% if link.rel %}{{ link.rel }}{% else %}nofollow{% endif %}"
                {% if link.aria-label %}aria-label="{{ link.aria-label }}" title="{{ link.aria-label }}"{% endif %}

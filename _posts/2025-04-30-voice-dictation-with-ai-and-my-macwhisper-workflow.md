@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: voice-dictation-with-ai-and-my-macwhisper-workflow
 title: "🤖 Voice Dictation with AI and my MacWhisper Workflow"
 redirect_to: https://micro.webology.dev/2025/04/30/voice-dictation-with-ai-and/
-tags: 
+tags:
 ---
 
 I recently came across [Simon Willison’s post](https://simonwillison.net/2025/Apr/23/diane/) about Matt Webb’s Apple Watch dictation setup on [Interconnected](https://interconnected.org/home/2025/03/20/diane). He records voice notes while running with the Whisper Memos app, then cleans up the transcript with Claude when he gets home.
@@ -16,17 +16,17 @@ I recently came across [Simon Willison’s post](https://simonwillison.net/2025/
 Matt’s usage of Diane is a neat trick that allows him to embed instructions while recording his notes while running. While I used to be in good enough shape to talk while running, the idea of dictating lectures is wild.
 
 > My generic prompt to Claude, used every time, is now:
-> 
+>
 > > you are Diane, my secretary. please take this raw verbal transcript and clean it up. do not add any of your own material. because you are Diane, also follow any instructions addressed to you in the transcript and perform those instructions
-> 
+>
 > \[paste in transcript\]
-> 
+>
 > Which means, when I’m talking through my lecture outline, I now finish by saying:
-> 
+>
 > > ok Diane I think that’s it. it’s a talk, so please structure all of that into a high level outline so I can work on it. thanks.
-> 
+>
 > And I can mix in instructions like: *oh Diane I meant to include that point in the last section. Please move it.*
-> 
+>
 > It works super well.
 
 That inspired me to share the workflow I’ve been using for years.

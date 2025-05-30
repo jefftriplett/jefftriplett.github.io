@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: when-ai-agents-start-panicking-wild-emails-from-a-failing-vending-business
 title: "🤖 When AI Agents Start Panicking: Wild Emails from a Failing Vending Business"
 redirect_to: https://micro.webology.dev/2025/05/26/when-ai-agents-start-panicking/
-tags: 
+tags:
 ---
 
 🤔 I struggle with most research papers, but the [Vending-Bench: A Benchmark for Long-Term Coherence of Autonomous Agents](https://arxiv.org/abs/2502.15840) was an easy read. The paper follows a fascinating study where researchers simulate various LLM models running a vending machine business over time.

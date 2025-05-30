@@ -112,7 +112,7 @@ alias add-series := add-tract
 # restart docker containers
 @restart:
     docker compose restart
-    
+
 # force a complete Jekyll rebuild
 @rebuild:
     docker compose stop jekyll

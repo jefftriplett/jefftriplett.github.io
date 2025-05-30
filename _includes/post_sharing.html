@@ -3,22 +3,22 @@
   <div class="flex">
     <ul class="flex flex-wrap">
       <li class="inline-block py-2 px-4">
-        <a href="https://twitter.com/intent/tweet?url={{ site.url | url_encode }}{{ page.url | url_encode }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}&text={{ page.title | markdownify | strip_html | strip_newlines | truncate: 100 }}" 
-           rel="nofollow noopener" 
-           target="_blank" 
+        <a href="https://twitter.com/intent/tweet?url={{ site.url | url_encode }}{{ page.url | url_encode }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}&text={{ page.title | markdownify | strip_html | strip_newlines | truncate: 100 }}"
+           rel="nofollow noopener"
+           target="_blank"
            aria-label="Share this post on Twitter"
-           class="flex items-center gap-2 hover:text-blue-500 transition-colors duration-200">
-          <i class="text-base fab fa-twitter" aria-hidden="true"></i> 
+           class="flex gap-2 items-center transition-colors duration-200 hover:text-blue-500">
+          <i class="text-base fab fa-twitter" aria-hidden="true"></i>
           <span>Twitter</span>
         </a>
       </li>
       <li class="inline-block py-2 px-4">
-        <a href="https://facebook.com/sharer.php?u={{ site.url | url_encode }}{{ page.url | url_encode }}" 
-           rel="nofollow noopener" 
-           target="_blank" 
+        <a href="https://facebook.com/sharer.php?u={{ site.url | url_encode }}{{ page.url | url_encode }}"
+           rel="nofollow noopener"
+           target="_blank"
            aria-label="Share this post on Facebook"
-           class="flex items-center gap-2 hover:text-blue-700 transition-colors duration-200">
-          <i class="text-base fab fa-facebook" aria-hidden="true"></i> 
+           class="flex gap-2 items-center transition-colors duration-200 hover:text-blue-700">
+          <i class="text-base fab fa-facebook" aria-hidden="true"></i>
           <span>Facebook</span>
         </a>
       </li>

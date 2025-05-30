@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: office-hours-for-may-2025
 title: "🗓️ Office Hours for May 2025"
 redirect_to: https://micro.webology.dev/2025/05/08/office-hours-for-may/
-tags: 
+tags:
 ---
 
 This Friday, I’m hosting a **morning edition** of my office hours, and here is my schedule for the rest of May:

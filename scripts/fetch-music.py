@@ -13,8 +13,8 @@
 # ///
 from datetime import datetime
 from pathlib import Path
-import re
-from urllib.parse import parse_qs, urlparse
+from urllib.parse import parse_qs
+from urllib.parse import urlparse
 
 import frontmatter
 import httpx
@@ -54,7 +54,7 @@ def extract_spotify_info(url: str) -> MusicInfo:
     """Extract info from Spotify URLs"""
     # Extract Spotify ID from URL
     spotify_id = url.split("/")[-1].split("?")[0]
-    
+
     with httpx.Client() as client:
         response = client.get(url)
         response.raise_for_status()
@@ -68,12 +68,7 @@ def extract_spotify_info(url: str) -> MusicInfo:
     cover_meta = soup.find("meta", property="og:image")
     cover = cover_meta["content"] if cover_meta else ""
 
-    return MusicInfo(
-        cover=cover,
-        link=url,
-        title=title,
-        spotify_id=spotify_id
-    )
+    return MusicInfo(cover=cover, link=url, title=title, spotify_id=spotify_id)
 
 
 def extract_youtube_info(url: str) -> MusicInfo:
@@ -84,7 +79,7 @@ def extract_youtube_info(url: str) -> MusicInfo:
         youtube_id = parsed_url.path[1:]
     else:
         youtube_id = parse_qs(parsed_url.query).get("v", [""])[0]
-    
+
     with httpx.Client() as client:
         response = client.get(url)
         response.raise_for_status()
@@ -97,17 +92,12 @@ def extract_youtube_info(url: str) -> MusicInfo:
     # Extract cover image from og:image meta tag
     cover_meta = soup.find("meta", property="og:image")
     cover = cover_meta["content"] if cover_meta else ""
-    
+
     # Use maxresdefault for better quality if available
     if youtube_id and not cover:
         cover = f"https://i.ytimg.com/vi/{youtube_id}/maxresdefault.jpg"
 
-    return MusicInfo(
-        cover=cover,
-        link=url,
-        title=title,
-        youtube_id=youtube_id
-    )
+    return MusicInfo(cover=cover, link=url, title=title, youtube_id=youtube_id)
 
 
 def scrape_music_info(url: str) -> MusicInfo:
