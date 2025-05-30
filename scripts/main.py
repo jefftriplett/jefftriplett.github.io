@@ -224,13 +224,13 @@ def process(folder: Path):
 
                 if "date" in post:
                     if isinstance(post["date"], str):
-                        date = (
+                        post["date"] = (
                             parse(post["date"])
                             .replace(microsecond=0)
                             .astimezone(DEFAULT_TZ)
                         )
                     else:
-                        date = (
+                        post["date"] = (
                             post["date"].replace(microsecond=0).astimezone(DEFAULT_TZ)
                         )
 
