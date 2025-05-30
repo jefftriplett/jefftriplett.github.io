@@ -17,6 +17,10 @@ I have been happily living in Lawrence, KS, since 2007.
 
 - I am working on several side projects and logging my progress on [wip.co][] for public accountability.
 
+## What I'm listening to
+
+I enjoy a wide range of music and frequently discover new tracks. Check out my [music collection](/music/) to see what I'm currently enjoying.
+
 ## Projects I'm working on
 
 - [Django TV][]

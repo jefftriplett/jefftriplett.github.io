@@ -86,6 +86,8 @@ collections:  # process the _data folder
     output: false
   movies:
     output: false
+  music:
+    output: false
   playlists:
     output: true
     permalink: /:collection/:name/
