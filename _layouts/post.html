@@ -13,10 +13,10 @@ layout: default
     </h1>
 
     {% if page.tags.size > 0 %}
-      <div class="flex flex-wrap items-center gap-1 mb-6 text-sm text-gray-600 dark:text-gray-400">
+      <div class="flex flex-wrap gap-1 items-center mb-6 text-sm text-gray-600 dark:text-gray-400">
         <span>Filed under: </span>
         {% for tag in page.tags %}
-          <a href="?tags={{ tag }}" class="px-2 py-1 rounded-full bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700">{{ tag }}</a>{% if forloop.last != true %} {% endif %}
+          <a href="?tags={{ tag }}" class="py-1 px-2 bg-gray-100 rounded-full dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700">{{ tag }}</a>{% if forloop.last != true %} {% endif %}
         {% endfor %}
       </div>
     {% endif %}
