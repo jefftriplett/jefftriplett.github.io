@@ -9,6 +9,10 @@ TAILWIND_CSS_VERSION := "latest"
 @add-games *ARGS:
     uv --quiet run scripts/fetch-backlogged.py {{ ARGS }}
 
+# fetch and add music entries (Spotify/YouTube)
+@add-music *ARGS:
+    uv --quiet run scripts/fetch-music.py {{ ARGS }}
+
 # fetch and add tract entries (movies/TV series)
 @add-tract *ARGS:
     uv --quiet run scripts/fetch-tract.py {{ ARGS }}
