@@ -31,7 +31,7 @@ class FrontmatterInfo(BaseModel):
     title: str
 
 
-def main(filename: list[str]):
+def main(filenames: list[str]):
     for filename in filenames:
         doc = Path(filename).read_text()
         post = frontmatter.loads(doc)
