@@ -78,11 +78,11 @@ alias add-series := add-tract
     convert "{{ FAVICON }}" -resize 196x196 ./favicon.ico
 
 # fetch game entries from backlogged.co
-@fetch-backlogged *ARGS:
+@add-backlogged *ARGS:
     uv --quiet run scripts/fetch-backlogged.py {{ ARGS }}
 
 # fetch album/book covers
-@fetch-covers ARGS:
+@add-covers ARGS:
     uv --quiet run scripts/fetch-covers.py {{ ARGS }}
 
 # format justfile
