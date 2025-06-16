@@ -34,8 +34,8 @@ $ just static
 
 <!-- [[[cog
 import cog
-import requests
-response = requests.get("https://raw.githubusercontent.com/jefftriplett/actions/main/footer.txt")
+import httpx
+response = import httpx.get("https://raw.githubusercontent.com/jefftriplett/actions/main/footer.txt")
 response.raise_for_status()
 print(response.text.strip())
 ]]] -->
