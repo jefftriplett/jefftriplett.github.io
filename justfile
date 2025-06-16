@@ -142,7 +142,7 @@ alias add-series := add-tract
 
 # run snex server
 @snex:
-    snex run
+    uvx snex run
 
 # generate social media card images
 @social:

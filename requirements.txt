@@ -4,16 +4,9 @@ annotated-types==0.7.0
     # via pydantic
 bumpver==2023.1129
     # via -r requirements.in
-certifi==2024.8.30
-    # via requests
-charset-normalizer==3.3.2
-    # via requests
-chevron==0.14.0
-    # via snex
 click==8.1.7
     # via
     #   bumpver
-    #   snex
     #   typer
 cogapp==3.4.1
     # via -r requirements.in
@@ -21,12 +14,8 @@ colorama==0.4.6
     # via bumpver
 convertdate==2.4.0
     # via workalendar
-idna==3.10
-    # via requests
 iniconfig==2.0.0
     # via pytest
-jinja2==3.1.5
-    # via snex
 lexid==2021.1006
     # via bumpver
 looseversion==1.3.0
@@ -35,16 +24,10 @@ lunardate==0.2.2
     # via workalendar
 markdown-it-py==3.0.0
     # via rich
-markupsafe==2.1.5
-    # via jinja2
 mdurl==0.1.2
     # via markdown-it-py
-more-itertools==10.5.0
-    # via snex
 packaging==24.1
     # via pytest
-pathspec==0.12.1
-    # via snex
 pluggy==1.5.0
     # via pytest
 pydantic==2.9.2
@@ -68,11 +51,7 @@ python-slugify==8.0.4
 pytz==2024.2
     # via -r requirements.in
 pyyaml==6.0.2
-    # via
-    #   python-frontmatter
-    #   snex
-requests==2.32.3
-    # via snex
+    # via python-frontmatter
 rich==13.8.1
     # via
     #   -r requirements.in
@@ -81,14 +60,10 @@ shellingham==1.5.4
     # via typer
 six==1.16.0
     # via python-dateutil
-snex==3000.2.1
-    # via -r requirements.in
 text-unidecode==1.3
     # via python-slugify
 toml==0.10.2
     # via bumpver
-tree-sitter==0.23.0
-    # via -r requirements.in
 typer==0.12.5
     # via -r requirements.in
 typing-extensions==4.12.2
@@ -96,7 +71,5 @@ typing-extensions==4.12.2
     #   pydantic
     #   pydantic-core
     #   typer
-urllib3==2.2.3
-    # via requests
 workalendar==17.0.0
     # via -r requirements.in

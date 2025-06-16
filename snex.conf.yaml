@@ -1,0 +1,15 @@
+default:
+  output_path: "_includes/snippets"
+  output_template: "<!-- Snippet {{name}} -->\n```{{lang}}\n{{{snippet}}}\n```\n"
+  comment_prefix: "# "
+  comment_suffix: ""
+
+src:
+  lang: "python"
+  root: "."
+  glob: "**/*.py"
+
+# github:
+#   comment_prefix: "# "
+#   lang: "python"
+#   path: "https://raw.githubusercontent.com/jwbargsten/snex/master/src/snex/core.py"
