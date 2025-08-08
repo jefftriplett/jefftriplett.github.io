@@ -96,7 +96,7 @@ layout: default
   </h3>
   <div class="grid grid-cols-2 gap-4 sm:grid-cols-2 sm:gap-6 md:grid-cols-3 md:gap-8 lg:grid-cols-4">
     {% assign sorted_products = site.products | sort: 'date' | reverse %}
-    {% for product in sorted_products limit:4 %}
+    {% for product in sorted_products limit:8 %}
       <article>
         <a href="{{ product.link }}" class="no-underline" aria-label="View details for {{ product.title }}">
           <figure class="flex flex-col gap-2 sm:gap-4 min-h-80">
