@@ -11,11 +11,13 @@ permalink: /games/
     {% for game in sorted_games %}
       <article>
         <a href="{{ game.link }}" class="no-underline">
-          <figure class="flex flex-col gap-2 sm:gap-4 min-h-80">
+          <figure class="flex flex-col gap-2 sm:gap-4 h-full">
             {% if game.cover %}
-              <img class="rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" src="{{ game.cover }}" alt="Cover image for {{ game.title }}">
+              <div class="aspect-[2/3] overflow-hidden rounded-md">
+                <img class="w-full h-full object-cover transition duration-300 ease-in-out hover:scale-110" src="{{ game.cover }}" alt="Cover image for {{ game.title }}">
+              </div>
             {% endif %}
-            <figcaption class="font-semibold text-center">{{ game.title }}</figcaption>
+            <figcaption class="text-sm sm:text-base font-semibold text-center">{{ game.title }}</figcaption>
           </figure>
         </a>
       </article>
