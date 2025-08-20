@@ -11,11 +11,13 @@ permalink: /products/
     {% for product in sorted_products %}
       <article>
         <a href="{{ product.link }}" class="no-underline">
-          <figure class="flex flex-col gap-2 sm:gap-4 min-h-80">
+          <figure class="flex flex-col gap-2 sm:gap-4 h-full">
             {% if product.cover %}
-              <img class="rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" src="{{ product.cover }}" alt="Cover image for {{ product.title }}">
+              <div class="aspect-[2/3] overflow-hidden rounded-md">
+                <img class="w-full h-full object-cover transition duration-300 ease-in-out hover:scale-110" src="{{ product.cover }}" alt="Cover image for {{ product.title }}">
+              </div>
             {% endif %}
-            <figcaption class="font-semibold text-center">{{ product.title }}</figcaption>
+            <figcaption class="text-sm sm:text-base font-semibold text-center">{{ product.title }}</figcaption>
           </figure>
         </a>
       </article>
