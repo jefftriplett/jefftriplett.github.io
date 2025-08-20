@@ -15,10 +15,10 @@ layout: default
     {% for movie in sorted_movies limit:4 %}
       <article>
         <a href="{{ movie.link }}" class="no-underline" aria-label="View details for {{ movie.title }}">
-          <figure class="flex flex-col gap-2 sm:gap-4 h-full">
+          <figure class="flex flex-col gap-2 h-full sm:gap-4">
             {% if movie.cover %}
-              <div class="aspect-[2/3] overflow-hidden rounded-md">
-                <img class="w-full h-full object-cover transition duration-300 ease-in-out hover:scale-110" src="{{ movie.cover }}" alt="Cover image for {{ movie.title }}">
+              <div class="overflow-hidden rounded-md aspect-[2/3]">
+                <img class="object-cover w-full h-full transition duration-300 ease-in-out hover:scale-110" src="{{ movie.cover }}" alt="Cover image for {{ movie.title }}">
               </div>
             {% endif %}
             <figcaption class="text-sm font-semibold text-center sm:text-base">{{ movie.title }}</figcaption>
@@ -38,10 +38,10 @@ layout: default
     {% for series in sorted_series limit:4 %}
       <article>
         <a href="{{ series.link }}" class="no-underline" aria-label="View details for {{ series.title }}">
-          <figure class="flex flex-col gap-2 sm:gap-4 h-full">
+          <figure class="flex flex-col gap-2 h-full sm:gap-4">
             {% if series.cover %}
-              <div class="aspect-[2/3] overflow-hidden rounded-md">
-                <img class="w-full h-full object-cover transition duration-300 ease-in-out hover:scale-110" src="{{ series.cover }}" alt="Cover image for {{ series.title }}">
+              <div class="overflow-hidden rounded-md aspect-[2/3]">
+                <img class="object-cover w-full h-full transition duration-300 ease-in-out hover:scale-110" src="{{ series.cover }}" alt="Cover image for {{ series.title }}">
               </div>
             {% endif %}
             <figcaption class="text-sm font-semibold text-center sm:text-base">{{ series.title }}</figcaption>
@@ -61,10 +61,10 @@ layout: default
     {% for game in sorted_games limit:8 %}
       <article>
         <a href="{{ game.link }}" class="no-underline" aria-label="View details for {{ game.title }}">
-          <figure class="flex flex-col gap-2 sm:gap-4 h-full">
+          <figure class="flex flex-col gap-2 h-full sm:gap-4">
             {% if game.cover %}
-              <div class="aspect-[2/3] overflow-hidden rounded-md">
-                <img class="w-full h-full object-cover transition duration-300 ease-in-out hover:scale-110" src="{{ game.cover }}" alt="Cover image for {{ game.title }}">
+              <div class="overflow-hidden rounded-md aspect-[2/3]">
+                <img class="object-cover w-full h-full transition duration-300 ease-in-out hover:scale-110" src="{{ game.cover }}" alt="Cover image for {{ game.title }}">
               </div>
             {% endif %}
             <figcaption class="text-sm font-semibold text-center sm:text-base">{{ game.title }}</figcaption>
@@ -84,10 +84,10 @@ layout: default
     {% for item in sorted_music limit:4 %}
       <article>
         <a href="{{ item.link }}" class="no-underline" aria-label="View details for {{ item.title }}">
-          <figure class="flex flex-col gap-2 sm:gap-4 h-full">
+          <figure class="flex flex-col gap-2 h-full sm:gap-4">
             {% if item.cover %}
-              <div class="aspect-[2/3] overflow-hidden rounded-md">
-                <img class="w-full h-full object-cover transition duration-300 ease-in-out hover:scale-110" src="{{ item.cover }}" alt="Cover image for {{ item.title }}">
+              <div class="overflow-hidden rounded-md aspect-[2/3]">
+                <img class="object-cover w-full h-full transition duration-300 ease-in-out hover:scale-110" src="{{ item.cover }}" alt="Cover image for {{ item.title }}">
               </div>
             {% endif %}
             <figcaption class="text-sm font-semibold text-center sm:text-base">{{ item.title }}</figcaption>
@@ -107,10 +107,10 @@ layout: default
     {% for product in sorted_products limit:8 %}
       <article>
         <a href="{{ product.link }}" class="no-underline" aria-label="View details for {{ product.title }}">
-          <figure class="flex flex-col gap-2 sm:gap-4 h-full">
+          <figure class="flex flex-col gap-2 h-full sm:gap-4">
             {% if product.cover %}
-              <div class="aspect-[2/3] overflow-hidden rounded-md">
-                <img class="w-full h-full object-cover transition duration-300 ease-in-out hover:scale-110" src="{{ product.cover }}" alt="Product image for {{ product.title }}">
+              <div class="overflow-hidden rounded-md aspect-[2/3]">
+                <img class="object-cover w-full h-full transition duration-300 ease-in-out hover:scale-110" src="{{ product.cover }}" alt="Product image for {{ product.title }}">
               </div>
             {% endif %}
             <figcaption class="text-sm font-semibold text-center sm:text-base">{{ product.title }}</figcaption>
