@@ -1,10 +1,10 @@
 <div class="mx-auto max-w-md text-sm text-center md:max-w-2xl lg:max-w-5xl">
   <nav class="mb-4 w-full text-center" aria-label="Footer Navigation">
-    <ul class="flex flex-wrap justify-center">
+    <ul class="flex flex-wrap justify-center gap-x-3 gap-y-2">
       {% for link in site.data.navigation %}
         {% if link.show_in_footer == true %}
-          <li class="inline-block py-1 px-1 sm:py-2 sm:px-2">
-            <a class="no-underline hover:text-blue-600 hover:underline dark:hover:text-blue-400"
+          <li class="inline-block">
+            <a class="no-underline hover:text-blue-600 hover:underline dark:hover:text-blue-400 whitespace-nowrap"
                href="{{ link.url }}"
                rel="{% if link.rel %}{{ link.rel }}{% else %}nofollow{% endif %}"
                {% if link.aria-label %}aria-label="{{ link.aria-label }}" title="{{ link.aria-label }}"{% endif %}
@@ -14,10 +14,10 @@
       {% endfor %}
     </ul>
   </nav>
-  <p class="mb-4 w-full text-sm text-center text-gray-700 dark:text-gray-300">
+  <p class="mb-4 px-4 w-full text-xs sm:text-sm text-center text-gray-700 dark:text-gray-300">
     <strong>jefftriplett.com</strong> and all contents copyright
     <time datetime="{{ site.time | date_to_xmlschema }}">2016&ndash;{{ site.time | date: '%Y' }}</time> by
     <span>Jeff Triplett</span> unless otherwise noted.
-    &mdash; <span>v{{ site.version }}</span>
+    <span class="block sm:inline">&mdash; <span>v{{ site.version }}</span></span>
   </p>
 </div>

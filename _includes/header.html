@@ -1,5 +1,5 @@
-<div class="flex flex-wrap mx-auto max-w-md md:max-w-2xl lg:max-w-5xl">
-  <div class="self-center w-full text-2xl sm:text-3xl md:w-1/4">
+<div class="flex flex-col sm:flex-row sm:items-center mx-auto max-w-md md:max-w-2xl lg:max-w-5xl">
+  <div class="self-center w-full text-2xl sm:text-3xl md:w-1/3 text-center sm:text-left mb-3 sm:mb-0">
     <h1 class="m-0 font-bold">
       <a href="/" class="no-underline hover:underline">
         {{ site.title }}
@@ -7,13 +7,13 @@
     </h1>
     {% comment %}<small>{{ site.tagline }}</small>{% endcomment %}
   </div>
-  <nav class="self-center w-full md:w-3/4 md:text-right" aria-label="Main Navigation">
-    <ul class="flex flex-wrap justify-center md:justify-end">
+  <nav class="self-center w-full md:w-2/3 md:text-right" aria-label="Main Navigation">
+    <ul class="flex flex-wrap justify-center md:justify-end gap-x-2 gap-y-1">
       {% for link in site.data.navigation %}
         {% if link.show_in_header == true %}
-          <li class="inline-block py-1 px-1 text-sm sm:py-2 sm:text-base md:px-2">
+          <li class="inline-block py-1 px-1 text-sm sm:text-base">
             <a href="{{ link.url }}"
-               class="hover:underline"
+               class="hover:underline whitespace-nowrap"
                {% if link.aria-label %}aria-label="{{ link.aria-label }}" title="{{ link.aria-label }}"{% endif %}
                {% if link.nofollow %}rel="nofollow"{% endif %}
             >{{ link.title }}</a>
