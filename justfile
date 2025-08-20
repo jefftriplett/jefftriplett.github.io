@@ -172,10 +172,7 @@ alias add-series := add-tract
 
 # build Tailwind CSS with specified target and filename
 @tailwind-build target='' filename='2024.css':
-    echo "{{ target }} == {{ filename }}"
-
-    # {{ TAILWIND_CSS_VERSION }}
-
+    echo "Building Tailwind CSS: {{ target }} -> {{ filename }}"
     JEKYLL_ENV={{ target }} bun run tailwindcss build \
         --config src/tailwind.config.js \
         --input src/index.css \
