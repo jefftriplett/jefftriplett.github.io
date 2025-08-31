@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: office-hours-for-late-august
 title: "🗓️ Office Hours for Late August"
 redirect_to: https://micro.webology.dev/2025/08/21/office-hours-for-late-august/
-tags: 
+tags:
 ---
 
 I’m hosting office hours on the next two Fridays in August.

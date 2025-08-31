@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: ditching-cloud-apis-how-i-set-up-local-text-to-speech-with-kokoro-tts-and-python
 title: "Ditching Cloud APIs: How I Set Up Local Text-to-Speech with Kokoro TTS and Python"
 redirect_to: https://micro.webology.dev/2025/07/02/ditching-cloud-apis-how-i/
-tags: 
+tags:
 ---
 
 Today, I fired up the [Voices](https://github.com/nazdridoy/kokoro-tts) macOS app, which I occasionally use to convert blog posts or documentation text to audio files that I can take on the go. I usually use one of OpenAI’s Whisper APIs, but today I noticed there was a new option called Kokoro, which is a local voice model. I was interested in the model and tried out a few voices. Two or three of them were amazing for a local model.
@@ -27,7 +27,7 @@ cd kokoro-tts
 
 uv add numpy
 
-uv sync 
+uv sync
 
 wget https://github.com/nazdridoy/kokoro-tts/releases/download/v1.0.0/voices-v1.0.bin
 

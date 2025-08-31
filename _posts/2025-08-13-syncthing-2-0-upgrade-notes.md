@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: syncthing-2-0-upgrade-notes
 title: "Syncthing 2.0 Upgrade Notes"
 redirect_to: https://micro.webology.dev/2025/08/13/syncthing-upgrade-notes/
-tags: 
+tags:
 ---
 
 [Syncthing 2.0](https://github.com/syncthing/syncthing/releases/tag/v2.0.0) was released last week, and I upgraded my Macs and my Intel NUC. I’m pleased with the performance. I never had complaints about it being slow, but the new app is much faster. I like that they’re using a SQLite database, which makes it easier to write hacks or tools to check the data.

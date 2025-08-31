@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: vibeops-using-claude-code-on-cheap-vps-servers
 title: "🤖 VibeOps: Using Claude Code on Cheap VPS Servers"
 redirect_to: https://micro.webology.dev/2025/08/06/vibeops-using-claude-code-on/
-tags: 
+tags:
 ---
 
 Today I came across [Pieter Levels' post](https://x.com/levelsio/status/1953022273595506910) about “VibeOps,” a workflow that involves SSHing to a cheap VPS server and installing Claude Code directly on it. I’m running this setup on a cheap Hetzner box. While this approach might sound risky at first, when combined with a secure networking solution like [Tailscale](https://tailscale.com) and properly configured as a Tailnet, it becomes both safe and worth experimenting with.

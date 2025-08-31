@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: office-hours-for-june
 title: "🗓️ Office Hours for June"
 redirect_to: https://micro.webology.dev/2025/05/29/office-hours-for-june/
-tags: 
+tags:
 ---
 
 I’m hosting a regular afternoon edition **tomorrow (Friday, May 30)** to wrap up the month of May.
