@@ -37,7 +37,7 @@ alias add-series := add-tract
 
 # bump version numbers using bumpver
 @bump *ARGS:
-    uv --quiet run bumpver update {{ ARGS }}
+    uv tool --quiet run bumpver update {{ ARGS }}
 
 # invoked by continuous integration servers to run tests
 @cibuild:
