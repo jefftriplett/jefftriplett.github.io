@@ -78,6 +78,9 @@ sass:
   style: compressed
 
 collections:  # process the _data folder
+  agents:
+    output: false
+    permalink: /:collection/:name/
   components:
     output: false
   appearances:
