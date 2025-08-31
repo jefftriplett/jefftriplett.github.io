@@ -7,6 +7,11 @@ slug: voice-dictation-with-ai-and-my-macwhisper-workflow
 title: "🤖 Voice Dictation with AI and my MacWhisper Workflow"
 redirect_to: https://micro.webology.dev/2025/04/30/voice-dictation-with-ai-and/
 tags:
+- ai
+- claude
+- tools
+- workflow
+- dictation
 ---
 
 I recently came across [Simon Willison’s post](https://simonwillison.net/2025/Apr/23/diane/) about Matt Webb’s Apple Watch dictation setup on [Interconnected](https://interconnected.org/home/2025/03/20/diane). He records voice notes while running with the Whisper Memos app, then cleans up the transcript with Claude when he gets home.
