@@ -13,8 +13,8 @@ permalink: /products/
         <a href="{{ product.link }}" class="no-underline">
           <figure class="flex flex-col gap-2 sm:gap-4 h-full">
             {% if product.cover %}
-              <div class="aspect-[2/3] overflow-hidden rounded-md">
-                <img class="w-full h-full object-cover transition duration-300 ease-in-out hover:scale-110" src="{{ product.cover }}" alt="Cover image for {{ product.title }}">
+              <div class="aspect-square overflow-hidden rounded-md">
+                <img class="w-full h-full object-contain bg-white transition duration-300 ease-in-out hover:scale-110" src="{{ product.cover }}" alt="Cover image for {{ product.title }}">
               </div>
             {% endif %}
             <figcaption class="text-sm sm:text-base font-semibold text-center">{{ product.title }}</figcaption>
