@@ -8,23 +8,32 @@ redirect_from:
 ---
 
 <div class="flex flex-col gap-8 mx-auto w-full max-w-md md:max-w-2xl lg:max-w-5xl">
-  <!-- Hello Section - Full Width -->
-  <section class="gap-4 w-full text-xl sm:text-2xl leading-normal dark:text-white">
-    <header>
-      <h2 class="text-3xl sm:text-4xl font-semibold leading-normal dark:text-yellow-200">Hello</h2>
-    </header>
-    <p>
-      Welcome to my corner of the internet.
+  <!-- Hello Section with Projects Style -->
+  <section class="w-full">
+    <p class="mb-6 text-3xl font-light text-gray-700 sm:text-4xl dark:text-gray-300">
+      Hello! I'm Jeff Triplett. I work on <span class="text-emerald-600 dark:text-emerald-400">Django</span> and <span class="text-amber-600 dark:text-amber-400">Python</span> projects, contribute to <span class="text-indigo-600 dark:text-indigo-400">open source</span>, and help organize community events.
+    </p>
+    <p class="mb-4 text-2xl text-gray-600 dark:text-gray-400">
+      I work on a bunch of projects like: 
+      <a href="https://django-news.com" class="text-emerald-600 underline dark:text-emerald-400 hover:text-emerald-800 dark:hover:text-emerald-300">Django News</a>, 
+      <a href="https://djangotv.com" class="text-emerald-600 underline dark:text-emerald-400 hover:text-emerald-800 dark:hover:text-emerald-300">DjangoTV</a>, 
+      <a href="https://djangopackages.org" class="text-emerald-600 underline dark:text-emerald-400 hover:text-emerald-800 dark:hover:text-emerald-300">Django Packages</a>, 
+      <a href="https://awesomedjango.org" class="text-emerald-600 underline dark:text-emerald-400 hover:text-emerald-800 dark:hover:text-emerald-300">Awesome Django</a>, 
+      and <a href="{% link _pages/projects.md %}" class="text-indigo-600 underline dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300">many more</a>.
+    </p>
+    <p class="text-xl text-gray-600 dark:text-gray-400">
       If you aren't sure where to start, try my
-      <a class="underline outline-none dark:text-yellow-100 hover:text-blue-600" href="{% link _pages/now.md %}">now</a> page.
+      <a class="text-blue-600 underline dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300" href="{% link _pages/now.md %}">now</a> page.
     </p>
   </section>
+
+  <div class="my-8 border-t border-gray-200 dark:border-gray-700"></div>
 
   <!-- Two Column Grid for Blog Sections -->
   <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-12">
     <section class="flex flex-col gap-4 w-full leading-normal">
       <header>
-        <h2 class="text-3xl sm:text-4xl font-semibold leading-normal dark:text-yellow-200">Micro Blog</h2>
+        <h2 class="text-3xl font-semibold leading-normal sm:text-4xl dark:text-yellow-200">Micro Blog</h2>
       </header>
       {% for post in site.posts %}
         {% unless post.hidden and post.category != "micro.blog" %}
@@ -35,7 +44,7 @@ redirect_from:
                 - {{ post.date | date:"%B %e, %Y" }}
               </time>
               {% if post.redirect_to %}
-                <i class="text-sm far fa-external-link ml-1" aria-hidden="true"></i>
+                <i class="ml-1 text-sm far fa-external-link" aria-hidden="true"></i>
               {% endif %}
             </a>
           </article>
@@ -46,7 +55,7 @@ redirect_from:
 
     <section class="flex flex-col gap-4 w-full leading-normal">
       <header>
-        <h2 class="text-3xl sm:text-4xl font-semibold leading-normal dark:text-yellow-200">Writing</h2>
+        <h2 class="text-3xl font-semibold leading-normal sm:text-4xl dark:text-yellow-200">Writing</h2>
       </header>
       {% for post in site.posts %}
         {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
@@ -54,7 +63,7 @@ redirect_from:
           {% unless post.category == "micro.blog" %}
             {% if year != lastyear %}
               <header>
-                <h3 class="text-2xl sm:text-3xl font-semibold leading-normal dark:text-yellow-100">{{ year }}</h3>
+                <h3 class="text-2xl font-semibold leading-normal sm:text-3xl dark:text-yellow-100">{{ year }}</h3>
               </header>
             {% endif %}
             <article class="text-gray-800 dark:text-white">
@@ -70,7 +79,7 @@ redirect_from:
                   {{ post.title | markdownify | remove:'<p>' | remove:'</p>' }}
                 </span>
                 {% if post.redirect_to %}
-                  <i class="text-sm far fa-external-link ml-1" aria-hidden="true"></i>
+                  <i class="ml-1 text-sm far fa-external-link" aria-hidden="true"></i>
                 {% endif %}
                 <time class="text-sm text-gray-600 dark:text-gray-400" datetime="{{ post.date | date_to_xmlschema }}">
                   - {{ post.date | date:"%B %e, %Y" }}
