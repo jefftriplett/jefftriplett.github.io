@@ -1787,10 +1787,6 @@ pre {
   padding: 0.5rem;
 }
 
-.p-3 {
-  padding: 0.75rem;
-}
-
 .p-4 {
   padding: 1rem;
 }
@@ -3113,10 +3109,6 @@ a.internal-link::after {
 
   .sm\:border-0 {
     border-width: 0px;
-  }
-
-  .sm\:p-4 {
-    padding: 1rem;
   }
 
   .sm\:px-4 {

@@ -11,7 +11,7 @@ permalink: /agents/
 ## <span class="text-purple-600 dark:text-purple-400">Active Agents</span>
 
 {% assign agents = site.agents | where:"archived", false | sort:"title" %}
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 my-6">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 my-6">
 {% for agent in agents %}
 {% include agent.html agent=agent %}
 {% endfor %}
@@ -23,7 +23,7 @@ permalink: /agents/
 
 ## <span class="text-amber-600 dark:text-amber-400">Archived Agents</span>
 
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 my-6">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 my-6">
 {% for agent in archived_agents %}
 {% include agent.html agent=agent %}
 {% endfor %}

@@ -11,7 +11,7 @@ permalink: /projects/
 ## <span class="text-emerald-600 dark:text-emerald-400">Active Projects</span>
 
 {% assign projects = site.projects | where:"archived", false | sort:"title" %}
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 my-6">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 my-6">
 {% for project in projects %}
 {% include project.html project=project %}
 {% endfor %}
@@ -22,7 +22,7 @@ permalink: /projects/
 ## <span class="text-amber-600 dark:text-amber-400">Archived Projects</span>
 
 {% assign projects = site.projects | where:"archived", true | sort:"title" %}
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 my-6">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 my-6">
 {% for project in projects %}
 {% include project.html project=project %}
 {% endfor %}
