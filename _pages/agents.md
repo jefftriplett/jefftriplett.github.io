@@ -17,20 +17,20 @@ permalink: /agents/
 {% endfor %}
 </div>
 
+{% assign archived_agents = site.agents | where:"archived", true | sort:"title" %}
+{% if archived_agents.size > 0 %}
 <div class="my-8 border-t border-gray-200 dark:border-gray-700"></div>
 
 ## <span class="text-amber-600 dark:text-amber-400">Archived Agents</span>
 
-{% assign agents = site.agents | where:"archived", true | sort:"title" %}
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 my-6">
-{% for agent in agents %}
+{% for agent in archived_agents %}
 {% include agent.html agent=agent %}
 {% endfor %}
 </div>
+{% endif %}
 
 <div class="my-8 border-t border-gray-200 dark:border-gray-700"></div>
-
-## <span class="text-indigo-600 dark:text-indigo-400">More experiments on GitHub</span>
 
 <div class="my-6 text-center">
   <a href="https://github.com/jefftriplett" class="inline-block px-6 py-3 font-medium text-white bg-purple-600 rounded-lg hover:bg-purple-700 transition-all duration-200 shadow-md hover:shadow-lg dark:bg-purple-700 dark:hover:bg-purple-800">

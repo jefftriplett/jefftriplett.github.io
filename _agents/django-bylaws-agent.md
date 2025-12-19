@@ -1,5 +1,6 @@
 ---
 archived: false
+github: https://github.com/jefftriplett/django-bylaws-agent
 slug: django-bylaws-agent
 title: Django Bylaws Agent
 ---

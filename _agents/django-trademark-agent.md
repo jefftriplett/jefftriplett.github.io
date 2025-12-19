@@ -1,5 +1,6 @@
 ---
 archived: false
+github: https://github.com/jefftriplett/django-trademark-agent
 slug: django-trademark-agent
 title: Django Trademark Agent
 ---

@@ -19,6 +19,11 @@
   show_in_header: true
   show_in_footer: false
 
+- title: Agents
+  url: /agents/
+  show_in_header: true
+  show_in_footer: false
+
 - title: Let's Work Together
   url: https://www.revsys.com/
   show_in_header: false

@@ -1,5 +1,6 @@
 ---
 archived: false
+github: https://github.com/jefftriplett/django-working-groups-agent
 slug: django-working-groups-agent
 title: Django Working Groups Agent
 ---
