@@ -1,9 +1,9 @@
 ---
 category: Podcasts
-date: 2020-06-17T23:59:58.000000Z
+date: 2020-12-03T00:00:00.000000Z
 link: https://djangochat.com/episodes/docker-tailwind-and-more-jeff-triplett
-slug: djangochat-modern-django-development-jeff-triplett
-title: "DjangoChat: Modern Django Development - Jeff Triplett"
+slug: django-chat-docker-tailwind-and-more-jeff-triplett
+title: "Django Chat: Docker, Tailwind, and More - Jeff Triplett"
 type: Podcast
 ---
 

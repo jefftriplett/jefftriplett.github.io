@@ -1,32 +1,16 @@
 ---
-layout: default
+layout: page
 permalink: /appearances/
 title: "Appearances"
 ---
 
-<section class="grid grid-cols-1 gap-8 w-full">
-  <h1 class="font-semibold text-4xl">Appearances</h1>
-  <table class="table-auto border-collapse border border-slate-500">
-    <thead>
-        <tr class="*:text-left *:p-2">
-            <th class="border border-slate-600">Date</th>
-            <th class="border border-slate-600">Type</th>
-            <th class="border border-slate-600">Title</th>
-        </tr>
-    </thead>
-    <tbody>
-    {% assign sorted_appearances = site.appearances | sort: 'date' | reverse %}
-    {% for appearance in sorted_appearances %}
-      <tr class="*:p-2">
-        <td class="border border-slate-600">{{ appearance.date | date:"%Y, %B %e" }}</td>
-        <td class="border border-slate-600">{{ appearance.type }}</td>
-        <td class="border border-slate-600">
-            <a href="{{ appearance.link }}" class="no-underline">
-                {{ appearance.title }}
-            </a>
-        </td>
-      </tr>
-    {% endfor %}
-    </tbody>
-  </table>
-</section>
+<p class="text-4xl font-light text-gray-700 dark:text-gray-300">Podcasts, interviews, and other <span class="text-purple-600 dark:text-purple-400">appearances</span> I've made over the years.</p>
+
+<div class="my-8 border-t border-gray-200 dark:border-gray-700"></div>
+
+{% assign sorted_appearances = site.appearances | sort: 'date' | reverse %}
+<div class="grid grid-cols-1 gap-4 my-6">
+{% for appearance in sorted_appearances %}
+{% include appearance.html appearance=appearance %}
+{% endfor %}
+</div>
