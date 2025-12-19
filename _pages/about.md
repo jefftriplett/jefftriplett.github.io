@@ -37,7 +37,7 @@ Jeff has been a developer at one of the premier Django consulting agencies since
 ### <span class="text-emerald-600 dark:text-emerald-400">[Django Software Foundation (DSF)](https://www.djangoproject.com/foundation/#board) (2024-present)</span>
 {:.my-4}
 
-Jeff joined the DSF in 2024 as a director.
+Jeff joined the DSF in 2024 as a director and became President in 2025.
 
 ### <span class="text-emerald-600 dark:text-emerald-400">[Django Events Foundation North America (DEFNA)](https://github.com/defna) (2015-present)</span>
 {:.my-4}
