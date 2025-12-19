@@ -4,7 +4,7 @@ date: 2025-11-20T00:37:48.000000Z
 layout: post
 location: Home @ Lawrence, Kansas United States
 slug: the-vibe-coding-keyboard-how-i-made-my-walk-and-talk-setup-even-more-awesome
-title: "The "Vibe Coding Keyboard" How I Made My Walk-and-Talk Setup Even More Awesome"
+title: 'The "Vibe Coding Keyboard" How I Made My Walk-and-Talk Setup Even More Awesome'
 redirect_to: https://micro.webology.dev/2025/11/19/the-vibe-coding-keyboard-how/
 tags:
 ---
