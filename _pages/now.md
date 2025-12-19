@@ -8,7 +8,7 @@ permalink: /now/
 
 ### 🏡 Lawrence (KS, USA)
 
-It's officially fall 2025 in Lawrence, KS. I'm enjoying football season on the eve of college basketball season and hanging out with my family.
+It's winter 2025 in Lawrence, KS. Football season is almost over but basketball is in its prime. We are getting ready for a long winter and I'm enjoying video games with my kids and spending time with my family until winter break.
 
 ## Working on
 
