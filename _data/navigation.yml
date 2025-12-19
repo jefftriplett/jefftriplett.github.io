@@ -5,7 +5,7 @@
   show_in_footer: true
 
 - title: Posts
-  url: /
+  url: /archives/
   show_in_header: true
   show_in_footer: false
 
@@ -21,6 +21,11 @@
 
 - title: Agents
   url: /agents/
+  show_in_header: true
+  show_in_footer: false
+
+- title: Appearances
+  url: /appearances/
   show_in_header: true
   show_in_footer: false
 

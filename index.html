@@ -2,9 +2,6 @@
 layout: default
 title: Home
 permalink: /
-redirect_from:
-- /blog/
-- /posts/
 ---
 
 <div class="flex flex-col gap-8 mx-auto w-full max-w-md md:max-w-2xl lg:max-w-5xl">
@@ -40,67 +37,85 @@ redirect_from:
 
   <div class="my-8 border-t border-gray-200 dark:border-gray-700"></div>
 
-  <!-- Two Column Grid for Blog Sections -->
-  <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-12">
-    <section class="flex flex-col gap-4 w-full leading-normal">
-      <header>
-        <h2 class="text-3xl font-semibold leading-normal sm:text-4xl dark:text-yellow-200">Micro Blog</h2>
-      </header>
-      {% for post in site.posts %}
-        {% unless post.hidden and post.category != "micro.blog" %}
-          <article class="text-gray-800 dark:text-blue-100">
-            <a class="block no-underline outline-none hover:text-blue-600 hover:underline" href="{{ site.baseurl }}{{ post.url }}">
-              <span class="break-words">{{ post.title | markdownify | remove:'<p>' | remove:'</p>' }}</span>
-              <time class="text-sm text-gray-600 dark:text-gray-400" datetime="{{ post.date | date_to_xmlschema }}">
+  <!-- Latest Posts -->
+  <section class="w-full">
+    <header class="mb-4">
+      <h2 class="text-3xl font-semibold leading-normal sm:text-4xl dark:text-yellow-200">Latest Posts</h2>
+    </header>
+    <div class="flex flex-col gap-3">
+      {% for post in site.posts limit:20 %}
+        {% unless post.hidden %}
+          <article class="text-gray-800 dark:text-gray-200">
+            <a class="block outline-none no-underline hover:underline hover:text-blue-600 {% if post.draft %}text-red-700 dark:text-red-300{% endif %}" href="{{ site.baseurl }}{{ post.url }}">
+              <span class="text-lg">
+                {% if post.category %}
+                  {% assign topic = site.topics | where:"category", post.category | first %}
+                  {% if topic.show_on_homepage %}
+                    {% if topic.emoji %}{{ topic.emoji }}{% endif %}
+                    {{ post.category }}:
+                  {% endif %}
+                {% endif %}
+                {{ post.title | markdownify | remove:'<p>' | remove:'</p>' }}
+              </span>
+              {% if post.redirect_to %}
+                <i class="ml-1 text-base far fa-external-link" aria-hidden="true"></i>
+              {% endif %}
+              <time class="text-base text-gray-500 dark:text-gray-400" datetime="{{ post.date | date_to_xmlschema }}">
                 - {{ post.date | date:"%B %e, %Y" }}
               </time>
-              {% if post.redirect_to %}
-                <i class="ml-1 text-sm far fa-external-link" aria-hidden="true"></i>
-              {% endif %}
             </a>
           </article>
         {% endunless %}
-        {% capture lastyear %}{{ post.date | date: '%Y' }}{% endcapture %}
       {% endfor %}
-    </section>
+    </div>
+    <a href="/archives/" class="inline-block mt-4 text-lg text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">View all posts →</a>
+  </section>
 
-    <section class="flex flex-col gap-4 w-full leading-normal">
-      <header>
-        <h2 class="text-3xl font-semibold leading-normal sm:text-4xl dark:text-yellow-200">Writing</h2>
-      </header>
-      {% for post in site.posts %}
-        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-        {% unless post.hidden %}
-          {% unless post.category == "micro.blog" %}
-            {% if year != lastyear %}
-              <header>
-                <h3 class="text-2xl font-semibold leading-normal sm:text-3xl dark:text-yellow-100">{{ year }}</h3>
-              </header>
-            {% endif %}
-            <article class="text-gray-800 dark:text-white">
-              <a class="block outline-none no-underline hover:underline hover:text-blue-600 {% if post.draft %}text-red-700 dark:text-red-300{% endif %}" href="{{ site.baseurl }}{{ post.url }}">
-                <span class="break-words">
-                  {% if post.category %}
-                    {% assign topic = site.topics | where:"category", post.category | first %}
-                    {% if topic.show_on_homepage %}
-                      {% if topic.emoji %}{{ topic.emoji }}{% endif %}
-                      {{ post.category }}:
-                    {% endif %}
-                  {% endif %}
-                  {{ post.title | markdownify | remove:'<p>' | remove:'</p>' }}
-                </span>
-                {% if post.redirect_to %}
-                  <i class="ml-1 text-sm far fa-external-link" aria-hidden="true"></i>
-                {% endif %}
-                <time class="text-sm text-gray-600 dark:text-gray-400" datetime="{{ post.date | date_to_xmlschema }}">
-                  - {{ post.date | date:"%B %e, %Y" }}
-                </time>
-              </a>
-            </article>
-          {% endunless %}
-        {% endunless %}
-        {% capture lastyear %}{{ post.date | date: '%Y' }}{% endcapture %}
-      {% endfor %}
-    </section>
-  </div>
+  <div class="my-8 border-t border-gray-200 dark:border-gray-700"></div>
+
+  <!-- Latest Appearances -->
+  <section class="w-full">
+    <header class="flex justify-between items-center mb-4">
+      <h2 class="text-3xl font-semibold leading-normal sm:text-4xl dark:text-yellow-200">Latest Appearances</h2>
+      <a href="/appearances/" class="text-purple-600 hover:text-purple-800 dark:text-purple-400 dark:hover:text-purple-300">View all →</a>
+    </header>
+    {% assign sorted_appearances = site.appearances | sort: 'date' | reverse %}
+    <div class="grid grid-cols-1 gap-4">
+    {% for appearance in sorted_appearances limit:6 %}
+      {% include appearance.html appearance=appearance %}
+    {% endfor %}
+    </div>
+  </section>
+
+  <div class="my-8 border-t border-gray-200 dark:border-gray-700"></div>
+
+  <!-- Latest Projects -->
+  <section class="w-full">
+    <header class="flex justify-between items-center mb-4">
+      <h2 class="text-3xl font-semibold leading-normal sm:text-4xl dark:text-yellow-200">Latest Projects</h2>
+      <a href="/projects/" class="text-emerald-600 hover:text-emerald-800 dark:text-emerald-400 dark:hover:text-emerald-300">View all →</a>
+    </header>
+    {% assign projects = site.projects | where:"archived", false | sort:"title" %}
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+    {% for project in projects limit:6 %}
+      {% include project.html project=project %}
+    {% endfor %}
+    </div>
+  </section>
+
+  <div class="my-8 border-t border-gray-200 dark:border-gray-700"></div>
+
+  <!-- Latest Agents -->
+  <section class="w-full">
+    <header class="flex justify-between items-center mb-4">
+      <h2 class="text-3xl font-semibold leading-normal sm:text-4xl dark:text-yellow-200">Latest Agents</h2>
+      <a href="/agents/" class="text-purple-600 hover:text-purple-800 dark:text-purple-400 dark:hover:text-purple-300">View all →</a>
+    </header>
+    {% assign agents = site.agents | where:"archived", false | sort:"title" %}
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+    {% for agent in agents limit:6 %}
+      {% include agent.html agent=agent %}
+    {% endfor %}
+    </div>
+  </section>
 </div>
