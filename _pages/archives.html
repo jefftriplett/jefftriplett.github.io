@@ -18,7 +18,7 @@ redirect_from:
       <h2 class="mt-8 mb-4 text-2xl font-semibold text-blue-600 dark:text-blue-400">{{ year }}</h2>
     {% endif %}
     <article class="py-2">
-      <a class="block no-underline hover:text-blue-600 hover:underline text-gray-800 dark:text-gray-200" href="{{ site.baseurl }}{{ post.url }}">
+      <a class="block text-gray-800 no-underline dark:text-gray-200 hover:text-blue-600 hover:underline" href="{{ site.baseurl }}{{ post.url }}">
         <span class="text-lg">
           {% if post.category %}
             {% assign topic = site.topics | where:"category", post.category | first %}

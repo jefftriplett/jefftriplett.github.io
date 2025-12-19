@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: how-i-accidentally-spent-over-62-million-openai-tokens
 title: "🤖 How I Accidentally Spent Over 62 Million OpenAI Tokens"
 redirect_to: https://micro.webology.dev/2025/11/22/how-i-accidentally-spent-over/
-tags: 
+tags:
 ---
 
 I’ve been fighting a runaway [OpenAI](https://openai.com) bill for the last few weeks. I was worried I was leaking one of my API keys in a non-obvious way, possibly in one of my public projects.

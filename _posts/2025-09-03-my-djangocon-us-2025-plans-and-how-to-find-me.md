@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: my-djangocon-us-2025-plans-and-how-to-find-me
 title: "My DjangoCon US 2025 Plans (and How to Find Me)"
 redirect_to: https://micro.webology.dev/2025/09/03/my-djangocon-us-plans-and/
-tags: 
+tags:
 ---
 
 I will be in Chicago this Saturday through next week for [DjangoCon US 2025](https://2025.djangocon.us) (September 8-12). I hope to see people there in person. If you can’t make it, please consider getting an [online ticket](https://ti.to/defna/djangocon-us-2025). They are relatively inexpensive, you get three full days out of them, and they help support the conference. More importantly, it helps support future conference events so we can continue to offer virtual attendance. It’s important that our online sales do well enough to help us cover our online costs and help fund our grants, along with our annual Django Software Foundation donation.

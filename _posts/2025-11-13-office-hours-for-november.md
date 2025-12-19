@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: office-hours-for-november
 title: "📅 Office Hours for November"
 redirect_to: https://micro.webology.dev/2025/11/13/office-hours-for-november/
-tags: 
+tags:
 ---
 
 I’m hosting office hours on the next two Fridays in November.

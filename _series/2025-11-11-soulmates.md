@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover:
 date: 2025-11-12T04:07:50.000000Z
 link: https://trakt.tv/shows/soulmates-2020
 title: "Soulmates"

@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: i-do-not-want-discord-s-nitro
 title: "⛔ I Do Not Want Discord's Nitro"
 redirect_to: https://micro.webology.dev/2025/09/24/i-do-not-want-discords/
-tags: 
+tags:
 ---
 
 I do not want Discord’s Nitro.  

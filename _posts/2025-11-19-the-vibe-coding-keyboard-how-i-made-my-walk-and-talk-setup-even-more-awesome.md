@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: the-vibe-coding-keyboard-how-i-made-my-walk-and-talk-setup-even-more-awesome
 title: "The "Vibe Coding Keyboard" How I Made My Walk-and-Talk Setup Even More Awesome"
 redirect_to: https://micro.webology.dev/2025/11/19/the-vibe-coding-keyboard-how/
-tags: 
+tags:
 ---
 
 So, picture this: you’re working at a walking desk, you’ve got a cool voice-to-text tool like [MacWhisper](https://goodsnooze.gumroad.com/l/macwhisper) running, and you want to control it all with just a couple of dedicated keys. That was the dream that led me to build what I now call my “Vibe Coding Keyboard.”

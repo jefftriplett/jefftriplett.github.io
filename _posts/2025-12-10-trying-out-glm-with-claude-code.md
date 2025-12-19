@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: trying-out-glm-with-claude-code
 title: "🤖 Trying Out GLM with Claude Code"
 redirect_to: https://micro.webology.dev/2025/12/10/trying-out-glm-with-claude/
-tags: 
+tags:
 ---
 
 My friend [Trey Hunner](https://treyhunner.com) showed me the GLM set of models before Thanksgiving. While traveling to see family, I somehow messed up my Claude Code setup because of a wrapper I have with [mise-en-place](https://mise.jdx.dev). I couldn’t use it for a while, and that made me realize I really need a backup for Claude Code.

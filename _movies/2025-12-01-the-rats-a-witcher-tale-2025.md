@@ -1,6 +1,6 @@
 ---
 category: Movies
-cover: 
+cover:
 date: 2025-12-02T05:32:40.000000Z
 link: https://trakt.tv/movies/the-rats-a-witcher-tale-2025
 title: "The Rats: A Witcher Tale (2025)"

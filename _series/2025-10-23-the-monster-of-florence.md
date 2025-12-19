@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover:
 date: 2025-10-24T01:53:17.000000Z
 link: https://trakt.tv/shows/the-monster-of-florence-2025
 title: "The Monster of Florence"

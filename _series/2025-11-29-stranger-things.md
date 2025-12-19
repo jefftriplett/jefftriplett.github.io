@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover:
 date: 2025-11-30T03:33:15.000000Z
 link: https://trakt.tv/shows/stranger-things
 title: "Stranger Things"

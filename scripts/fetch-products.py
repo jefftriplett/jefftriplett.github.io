@@ -66,7 +66,7 @@ def scrape_product_info(url: str) -> ProductInfo:
     cover_meta = soup.find("meta", property="og:image")
     if not cover_meta:
         cover_meta = soup.find("meta", attrs={"itemprop": "image"})
-    
+
     cover_img = cover_meta["content"] if cover_meta else ""
 
     return ProductInfo(cover=cover_img, link=url, title=title)

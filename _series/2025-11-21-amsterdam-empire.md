@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover:
 date: 2025-11-22T04:26:39.000000Z
 link: https://trakt.tv/shows/amsterdam-empire
 title: "Amsterdam Empire"

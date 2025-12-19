@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover:
 date: 2025-12-03T05:30:50.000000Z
 link: https://trakt.tv/shows/playing-gracie-darling
 title: "Playing Gracie Darling"

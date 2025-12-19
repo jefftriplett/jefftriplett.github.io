@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover:
 date: 2025-12-12T20:35:29.000000Z
 link: https://trakt.tv/shows/beowulf-return-to-the-shieldlands
 title: "Beowulf: Return to the Shieldlands"

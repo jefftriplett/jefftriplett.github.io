@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover:
 date: 2025-12-18T04:00:47.000000Z
 link: https://trakt.tv/shows/castle-rock
 title: "Castle Rock"

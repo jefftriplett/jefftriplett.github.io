@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover:
 date: 2025-11-07T02:48:11.000000Z
 link: https://trakt.tv/shows/heweliusz
 title: "Heweliusz"

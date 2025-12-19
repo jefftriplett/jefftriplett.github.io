@@ -4,9 +4,9 @@
       <h3 class="text-base font-semibold text-gray-800 sm:text-lg dark:text-gray-200">
         {% if include.agent.github %}
           <a href="{{ include.agent.github }}" class="transition-colors hover:text-purple-600 dark:hover:text-purple-400">{{ include.agent.title }}</a>
-        {% elsif include.agent.homepage %}
+          {% elsif include.agent.homepage %}
           <a href="{{ include.agent.homepage }}" class="transition-colors hover:text-purple-600 dark:hover:text-purple-400">{{ include.agent.title }}</a>
-        {% elsif include.agent.blog_post %}
+          {% elsif include.agent.blog_post %}
           <a href="{{ include.agent.blog_post }}" class="transition-colors hover:text-purple-600 dark:hover:text-purple-400">{{ include.agent.title }}</a>
         {% else %}
           {{ include.agent.title }}

@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: on-github-copilot-cli-and-prompts-as-code
 title: "🤖 On GitHub Copilot CLI and prompts as code"
 redirect_to: https://micro.webology.dev/2025/10/04/on-github-copilot-cli-and/
-tags: 
+tags:
 ---
 
 I checked out William Vincent’s [The Secret Prompts in GitHub Copilot CLI](https://wsvincent.com/copilot-cli-secret-prompts/) tonight, and I wanted to share a few tips and what stood out to me.

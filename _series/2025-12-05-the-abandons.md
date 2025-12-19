@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover:
 date: 2025-12-06T05:23:32.000000Z
 link: https://trakt.tv/shows/the-abandons
 title: "The Abandons"
