@@ -1,5 +1,6 @@
 ---
 archived: false
+github: https://github.com/jefftriplett/django-dep-10-12-agent
 slug: django-dep-10-12
 title: Django DEP 10-12 Agent
 ---
