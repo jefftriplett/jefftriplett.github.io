@@ -1,6 +1,6 @@
 ---
 category: Movies
-cover:
+cover: https://media.themoviedb.org/t/p/w300_and_h450_face/qCOGGi8JBVEZMc3DVby8rUivyXz.jpg
 date: 2025-12-15T05:24:25.000000Z
 link: https://trakt.tv/movies/wake-up-dead-man-a-knives-out-mystery-2025
 title: "Wake Up Dead Man: A Knives Out Mystery (2025)"
