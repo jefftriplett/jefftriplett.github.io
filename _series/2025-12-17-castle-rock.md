@@ -1,6 +1,6 @@
 ---
 category: Series
-cover:
+cover: https://media.themoviedb.org/t/p/w300_and_h450_face/6dnUpv9ghx84pgxlMOb4uuJrWDs.jpg
 date: 2025-12-18T04:00:47.000000Z
 link: https://trakt.tv/shows/castle-rock
 title: "Castle Rock"

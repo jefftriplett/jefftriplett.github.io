@@ -1,6 +1,6 @@
 ---
 category: Series
-cover:
+cover: https://media.themoviedb.org/t/p/w300_and_h450_face/cVxVGwHce6xnW8UaVUggaPXbmoE.jpg
 date: 2025-11-30T03:33:15.000000Z
 link: https://trakt.tv/shows/stranger-things
 title: "Stranger Things"

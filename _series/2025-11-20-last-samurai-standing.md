@@ -1,6 +1,6 @@
 ---
 category: Series
-cover:
+cover: https://media.themoviedb.org/t/p/w300_and_h450_face/wKNEFlrs68rzweVzfwkjWmkJqu7.jpg
 date: 2025-11-21T04:29:46.000000Z
 link: https://trakt.tv/shows/last-samurai-standing
 title: "Last Samurai Standing"

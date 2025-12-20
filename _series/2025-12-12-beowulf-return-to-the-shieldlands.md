@@ -1,6 +1,6 @@
 ---
 category: Series
-cover:
+cover: https://media.themoviedb.org/t/p/w300_and_h450_face/yfsNeyRYclfCe1bDM3xVYEpuxEE.jpg
 date: 2025-12-12T20:35:29.000000Z
 link: https://trakt.tv/shows/beowulf-return-to-the-shieldlands
 title: "Beowulf: Return to the Shieldlands"
