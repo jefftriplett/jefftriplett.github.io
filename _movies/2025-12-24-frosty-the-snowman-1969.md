@@ -1,6 +1,6 @@
 ---
 category: Movies
-cover: 
+cover: https://media.themoviedb.org/t/p/w300_and_h450_face/gw7ie4W3iW8nefnZ4kuw8dgYNM2.jpg 
 date: 2025-12-25T02:57:00.000000Z
 link: https://trakt.tv/movies/frosty-the-snowman-1969
 title: "Frosty the Snowman (1969)"
