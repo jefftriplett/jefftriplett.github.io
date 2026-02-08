@@ -1,6 +1,6 @@
 ---
 category: Movies
-cover: 
+cover: https://media.themoviedb.org/t/p/w300_and_h450_face/bk9rCfidmjoe4uLHAsUWGjD8urZ.jpg
 date: 2026-01-18T05:33:00.000000Z
 link: https://trakt.tv/movies/suitcase-killer-the-melanie-mcguire-story-2022
 title: "Suitcase Killer: The Melanie McGuire Story (2022)"

@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover: https://media.themoviedb.org/t/p/w300_and_h450_face/3uRQi9HDEAGSadoKee1UHoFCaU9.jpg
 date: 2026-01-24T01:48:00.000000Z
 link: https://trakt.tv/shows/agatha-christie-s-seven-dials
 title: "Agatha Christie's Seven Dials"
