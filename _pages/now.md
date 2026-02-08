@@ -8,7 +8,7 @@ permalink: /now/
 
 ### 🏡 Lawrence (KS, USA)
 
-It's Winter 2026 in Lawrence, KS. Football season is almost over but basketball is in its prime. We are getting ready for a long winter and I'm enjoying video games with my kids and spending time with my family until winter break.
+It's Winter 2026 in Lawrence, KS. Football season is over but basketball is in its prime. We are in the middle of winter and hoping for warmer weather. I'm enjoying video games with my kids and spending time with my family.
 
 ## Working on
 
