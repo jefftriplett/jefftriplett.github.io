@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class="container mx-auto w-full h-full max-w-3xl px-4">
+  <div class="relative p-4 md:p-10 h-full wrap">
+    <div class="absolute h-full border border-gray-700 border-opacity-20 border-2-2 left-8 md:left-10"></div>
+
+    {% assign sorted_timelines = site.timelines | sort: 'date' | reverse %}
+    {% for timeline in sorted_timelines %}
+      {% assign is_even = forloop.index | modulo: 2 %}
+      
+      <!-- single-sided timeline -->
+      <div class="flex items-center mb-10 w-full">
+        <div class="flex z-20 items-center w-12 h-12 md:w-16 md:h-16 bg-gray-800 rounded-full shadow-xl flex-shrink-0">
+          <div class="mx-auto text-lg md:text-2xl font-semibold text-white">{{ timeline.emoji }}</div>
+        </div>
+
+        {% if is_even == 0 %}
+          <!-- Even items - blue theme -->
+          <div class="ml-4 md:ml-6 py-3 px-4 md:py-4 md:px-6 w-full bg-blue-50 rounded-lg shadow-xl border border-blue-100 dark:bg-blue-950 dark:border-blue-800">
+            <h3 class="mb-1 text-lg md:text-xl font-bold text-blue-800 dark:text-blue-200">{{ timeline.title }}</h3>
+            <div class="mb-2 md:mb-3 text-xs md:text-sm font-medium italic text-blue-600 dark:text-blue-400">{{ timeline.date | date: "%B %Y" }}</div>
+            <p class="text-xs md:text-sm tracking-wide leading-snug text-blue-700 dark:text-blue-300">
+              {{ timeline.content | strip_html | strip }}
+            </p>
+          </div>
+        {% else %}
+          <!-- Odd items - gray theme -->
+          <div class="ml-4 md:ml-6 py-3 px-4 md:py-4 md:px-6 w-full bg-white rounded-lg shadow-xl border border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+            <h3 class="mb-1 text-lg md:text-xl font-bold text-gray-800 dark:text-gray-200">{{ timeline.title }}</h3>
+            <div class="mb-2 md:mb-3 text-xs md:text-sm font-medium italic text-gray-600 dark:text-gray-400">{{ timeline.date | date: "%B %Y" }}</div>
+            <p class="text-xs md:text-sm tracking-wide leading-snug text-gray-700 dark:text-gray-300">
+              {{ timeline.content | strip_html | strip }}
+            </p>
+          </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div>

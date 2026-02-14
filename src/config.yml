@@ -1,0 +1,24 @@
+template: assets/images/template.png
+output: assets/images/cards/{file_stem}.png
+
+fonts:
+  - name: regular
+    path: "src/RobotoCondensed/RobotoCondensed-Regular.ttf"
+  - name: bold
+    path: "src/RobotoCondensed/RobotoCondensed-Bold.ttf"
+  - name: light
+    path: "src/RobotoCondensed/RobotoCondensed-Light.ttf"
+
+defaults:
+  font: regular
+  font_size: 50
+
+fields:
+  - source: title
+    font: bold
+    font_size: 64
+    max_width: 960
+    x: 120
+    y: 120
+    padding:
+      left: 5

@@ -1,0 +1,21 @@
+- url: https://django.news/social/
+  height: 1024
+  output: ./assets/shots/django-news-social.png
+  quality: 80
+
+- url: https://2022.djangocon.us/speaking/twitter/
+  height: 1024
+  output: ./assets/shots/2022-djangocon-us-speaking-twitter.png
+  quality: 80
+
+- url: https://2022.djangocon.us/speaking/youtube/
+  height: 1024
+  output: ./assets/shots/2022-djangocon-us-speaking-youtube.png
+  quality: 80
+
+# - url: https://www.example.com/
+#   height: 400
+#   output: example.jpg
+#   quality: 80
+#   selector:
+#   width: 400
