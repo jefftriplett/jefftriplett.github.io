@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover: https://media.themoviedb.org/t/p/w300_and_h450_face/cgzHLXOEILDwvj19tggt3ZLsfTF.jpg
 date: 2026-02-25T05:23:00.000000Z
 link: https://trakt.tv/shows/nero-the-assassin
 title: "Néro the Assassin"

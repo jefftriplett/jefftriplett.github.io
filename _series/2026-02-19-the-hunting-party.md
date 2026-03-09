@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover: https://media.themoviedb.org/t/p/w300_and_h450_face/kXUfQGa7BoW856hDYAFtZLtiAAQ.jpg
 date: 2026-02-20T03:46:00.000000Z
 link: https://trakt.tv/shows/the-hunting-party
 title: "The Hunting Party"

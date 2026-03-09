@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover: https://media.themoviedb.org/t/p/w300_and_h450_face/bfB8P3Fv7jCGcrwIMF70mN1Atm0.jpg
 date: 2026-03-06T04:34:00.000000Z
 link: https://trakt.tv/shows/major-grom-against-the-rules
 title: "Major Grom: Against the Rules"

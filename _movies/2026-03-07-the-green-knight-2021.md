@@ -1,6 +1,6 @@
 ---
 category: Movies
-cover: 
+cover: https://media.themoviedb.org/t/p/w300_and_h450_face/if4hw3Ou5Sav9Em7WWHj66mnywp.jpg
 date: 2026-03-08T03:36:00.000000Z
 link: https://trakt.tv/movies/the-green-knight-2021
 title: "The Green Knight (2021)"
