@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: jordan-baird-s-ice-beta-fixed-my-macos-tahoe-menu-bar-issues
 title: "Jordan Baird's Ice beta fixed my macOS Tahoe menu bar issues"
 redirect_to: https://micro.webology.dev/2026/02/19/jordan-bairds-ice-beta-fixed/
-tags: 
+tags:
 ---
 
 If you use a Mac, you’ve probably noticed that the menu bar fills up with icons pretty quickly. [Bartender](https://www.macbartender.com) and [Ice](https://github.com/jordanbaird/Ice) (sadly, now an unfortunate name) are apps that let you manage and hide unwanted icons from your macOS menu bar so it stays clean and uncluttered.

@@ -2,10 +2,10 @@
 Inspired by: https://github.com/HackSoftware/Django-Styleguide/blob/master/tools/update_toc.py
 """
 import re
-import typer
-
 from pathlib import Path
 from subprocess import check_output
+
+import typer
 
 
 TOC_BEGIN = "<!-- toc -->"

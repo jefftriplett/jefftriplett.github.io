@@ -18,19 +18,18 @@ https://mastodon.social/@webology/111579624607228631
 
 ## :question: What?
 
-The goal is to work on some open-source work projects (some code, docs, and community) with a small group. 
+The goal is to work on some open-source work projects (some code, docs, and community) with a small group.
 
-All you need to do is bring something that you want to work on. 
+All you need to do is bring something that you want to work on.
 
-We are all remote so it's a nice excuse to have some office banter and talk to people we may only know online. 
+We are all remote so it's a nice excuse to have some office banter and talk to people we may only know online.
 
 ## ℹ️ Rules
 
 - 👍 Join because you want to work on something with a small group
 
-- 👍 Be mindful and respectful of everyone's time. 
+- 👍 Be mindful and respectful of everyone's time.
 
 - ⚠️ No marketing your product or service
 
 - 👍 Be mindful of the [Python Code of Conduct](https://www.python.org/psf/conduct/)
-

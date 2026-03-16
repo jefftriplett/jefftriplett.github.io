@@ -1,7 +1,5 @@
 # :snippet snippet-example-05
-
 from model_bakery import baker
-
 from news.serializers import CategorySerializer
 
 
@@ -23,5 +21,6 @@ def test_category_post(tp):
 
     # Was our request valid?
     tp.response_200(response)
+
 
 # :endsnippet

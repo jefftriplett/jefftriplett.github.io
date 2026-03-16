@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: how-i-use-django-simple-nav-for-dashboards-command-palettes-and-more
 title: "How I Use django-simple-nav for Dashboards, Command Palettes, and More"
 redirect_to: https://micro.webology.dev/2026/02/26/how-i-use-djangosimplenav-for/
-tags: 
+tags:
 ---
 
 I first got exposed to [django-simple-nav](https://github.com/westerveltco/django-simple-nav) while working with [Josh Thomas](https://github.com/joshuadavidthomas) at [the Westervelt Corporation](https://github.com/westerveltco) over the last two or three years. It quickly became a go-to library in my toolkit. django-simple-nav lets you define nav items and groupings in Python, then hand them off to a Django template to render. I use it for sidebars, headers, dashboards, and other spots where I need a menu.

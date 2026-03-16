@@ -6,7 +6,7 @@ location: Home @ Lawrence, Kansas United States
 slug: my-displays-keep-rearranging-and-displayplacer-fixed-it
 title: "My displays keep rearranging and displayplacer fixed it"
 redirect_to: https://micro.webology.dev/2026/02/18/my-displays-keep-rearranging-and/
-tags: 
+tags:
 ---
 
 Today I learned about [displayplacer](https://github.com/jakehilborn/displayplacer) - “macOS command line utility to configure multi-display resolutions and arrangements.”
