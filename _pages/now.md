@@ -8,7 +8,7 @@ permalink: /now/
 
 ### 🏡 Lawrence (KS, USA)
 
-It's Spring 2026 in Lawrence, KS. March Madness is just wrapping up and basketball is in full swing. I'm enjoying video games with my kids and spending time with my family.
+It's Spring 2026 in Lawrence, KS. I'm enjoying video games with my kids and spending time with my family.
 
 ## Working on
 
