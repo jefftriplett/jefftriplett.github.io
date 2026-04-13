@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover: https://resizing.flixster.com/WynWAvMsBy_UnyVy20B-8cjeSdM=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvODdhZTk2NDctZmE4YS00MjM5LWI1YzMtNjY4YmU2MjZmZGI0LmpwZw==
 date: 2026-04-10T04:54:00.000000Z
 link: https://trakt.tv/shows/trust-me-the-false-prophet
 title: "Trust Me: The False Prophet"
