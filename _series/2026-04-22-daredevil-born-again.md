@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover: https://media.themoviedb.org/t/p/w300_and_h450_face/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg
 date: 2026-04-23T03:14:00.000000Z
 link: https://trakt.tv/shows/daredevil-born-again
 title: "Daredevil: Born Again"
