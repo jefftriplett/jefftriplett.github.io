@@ -1,6 +1,6 @@
 ---
 category: Series
-cover: 
+cover: https://media.themoviedb.org/t/p/w300_and_h450_face/mwKj9ERGFXsWot0nXgQ5yMQf9I7.jpg
 date: 2026-04-27T02:11:00.000000Z
 link: https://trakt.tv/shows/marvel-zombies
 title: "Marvel Zombies"
