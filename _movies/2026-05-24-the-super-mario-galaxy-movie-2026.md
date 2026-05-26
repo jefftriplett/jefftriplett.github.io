@@ -1,6 +1,6 @@
 ---
 category: Movies
-cover: 
+cover: https://media.themoviedb.org/t/p/w300_and_h450_face/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg
 date: 2026-05-25T01:59:00.000000Z
 link: https://trakt.tv/movies/the-super-mario-galaxy-movie-2026
 title: "The Super Mario Galaxy Movie (2026)"
