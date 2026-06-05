@@ -2,7 +2,6 @@
 # /// script
 # requires-python = ">=3.12"
 # dependencies = [
-#     "bs4",
 #     "httpx",
 #     "pydantic",
 #     "python-frontmatter",
@@ -10,12 +9,13 @@
 #     "typer",
 # ]
 # ///
+import os
 from pathlib import Path
+from urllib.parse import urlparse
 
 import frontmatter
 import httpx
 import typer
-from bs4 import BeautifulSoup
 from pydantic import BaseModel
 from pydantic import ConfigDict
 from rich import print
@@ -31,29 +31,55 @@ class FrontmatterInfo(BaseModel):
     title: str
 
 
+TRAKT_API = "https://api.trakt.tv"
+
+
+def parse_trakt_url(url: str) -> tuple[str, str]:
+    parts = urlparse(url).path.strip("/").split("/")
+    return parts[0], parts[1]
+
+
+def fetch_cover(media_type: str, slug: str, client_id: str) -> str:
+    headers = {
+        "Content-Type": "application/json",
+        "trakt-api-version": "2",
+        "trakt-api-key": client_id,
+    }
+    url = f"{TRAKT_API}/{media_type}/{slug}?extended=full,images"
+    with httpx.Client() as client:
+        response = client.get(url, headers=headers)
+        response.raise_for_status()
+        data = response.json()
+
+    posters = data.get("images", {}).get("poster", [])
+    if not posters:
+        raise RuntimeError(f"No poster returned for {media_type}/{slug}")
+
+    cover = posters[0]
+    if not cover.startswith(("http://", "https://")):
+        cover = f"https://{cover}"
+    # Normalize to the historical CDN host + size used across the site.
+    cover = cover.replace("//media.trakt.tv/", "//walter.trakt.tv/")
+    cover = cover.replace("/posters/medium/", "/posters/thumb/")
+    return cover
+
+
 def main(filenames: list[str]):
+    client_id = os.environ.get("TRAKT_CLIENT_ID")
+    if not client_id:
+        raise typer.BadParameter(
+            "TRAKT_CLIENT_ID is not set. Copy .envrc.example to .envrc, "
+            "fill in your Trakt API client id, and run `direnv allow`."
+        )
+
     for filename in filenames:
-        doc = Path(filename).read_text()
-        post = frontmatter.loads(doc)
-        url = post["link"]
+        post = frontmatter.loads(Path(filename).read_text())
+        media_type, slug = parse_trakt_url(post["link"])
+        post["cover"] = fetch_cover(media_type, slug, client_id)
 
-        with httpx.Client() as client:
-            response = client.get(url)
-            soup = BeautifulSoup(response.text, "html.parser")
-
-            # Extract cover from og:image meta tag
-            image = soup.find("img", class_="real", itemprop="image").get(
-                "data-original"
-            )
-
-            if not image.endswith(".webp"):
-                image = f"{image}.webp"
-
-            post["cover"] = image
-
-            output = frontmatter.dumps(post)
-            print(output)
-            Path(filename).write_text(f"{output}\n")
+        output = frontmatter.dumps(post)
+        print(output)
+        Path(filename).write_text(f"{output}\n")
 
 
 if __name__ == "__main__":

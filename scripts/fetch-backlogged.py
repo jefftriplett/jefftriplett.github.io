@@ -3,7 +3,7 @@
 # requires-python = ">=3.12"
 # dependencies = [
 #     "bs4",
-#     "httpx",
+#     "playwright",
 #     "pydantic",
 #     "python-frontmatter",
 #     "python-slugify",
@@ -15,9 +15,9 @@ from datetime import datetime
 from pathlib import Path
 
 import frontmatter
-import httpx
 import typer
 from bs4 import BeautifulSoup
+from playwright.sync_api import sync_playwright
 from pydantic import BaseModel
 from pydantic import ConfigDict
 from rich import print
@@ -46,12 +46,20 @@ def generate_frontmatter(game_info: GameInfo) -> str:
     return frontmatter.dumps(post)
 
 
-def scrape_game_info(url: str) -> GameInfo:
-    with httpx.Client() as client:
-        response = client.get(url)
-        response.raise_for_status()
+def fetch_html(url: str, wait_selector: str = 'meta[property="og:title"]') -> str:
+    # Headed browser bypasses Cloudflare's JS challenge that blocks plain HTTP.
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=False)
+        page = browser.new_context().new_page()
+        page.goto(url, wait_until="domcontentloaded", timeout=60_000)
+        page.wait_for_selector(wait_selector, state="attached", timeout=120_000)
+        html = page.content()
+        browser.close()
+        return html
 
-        soup = BeautifulSoup(response.text, "html.parser")
+
+def scrape_game_info(url: str) -> GameInfo:
+    soup = BeautifulSoup(fetch_html(url), "html.parser")
 
     # Extract title from og:title meta tag
     title_meta = soup.find("meta", property="og:title")

@@ -27,8 +27,13 @@ alias add-series := add-tract
 # installs/updates all dependencies
 @bootstrap:
     python -m pip install --upgrade pip uv
+    just install-playwright
     # docker compose pull
     # docker compose build
+
+# install the Chromium browser used by the fetch scripts
+@install-playwright:
+    uv --quiet run --with playwright playwright install chromium
 
 # build docker containers
 @build:

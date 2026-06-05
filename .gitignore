@@ -1,6 +1,7 @@
 .asset-cache
 .bundle
 .cache
+.envrc
 .jekyll-*
 .obsidian
 .sass-cache
