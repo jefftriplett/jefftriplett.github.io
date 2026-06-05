@@ -8,7 +8,7 @@ permalink: /now/
 
 ### 🏡 Lawrence (KS, USA)
 
-It's Spring 2026 in Lawrence, KS. I'm enjoying video games with my kids and spending time with my family.
+It's Summer 2026 in Lawrence, KS. I'm spending most of my time driving my kids to camps, sports, and practices.
 
 ## Working on
 
