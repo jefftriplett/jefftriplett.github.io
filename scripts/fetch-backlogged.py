@@ -13,6 +13,7 @@
 # ///
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import urljoin
 
 import frontmatter
 import typer
@@ -22,6 +23,8 @@ from pydantic import BaseModel
 from pydantic import ConfigDict
 from rich import print
 from slugify import slugify
+
+BASE_URL = "https://backloggd.com"
 
 
 class GameInfo(BaseModel):
@@ -72,10 +75,53 @@ def scrape_game_info(url: str) -> GameInfo:
     cover_meta = soup.find("meta", attrs={"itemprop": "image"})
     cover_img = cover_meta["content"] if cover_meta else ""
 
+    # DLC pages return the generic Backloggd banner — fall back to the
+    # in-page hero image (lazy-loaded igdb URL).
+    if "meta_banner" in cover_img:
+        for img in soup.find_all("img"):
+            candidate = img.get("data-src") or img.get("src") or ""
+            if "images.igdb.com" in candidate:
+                if candidate.startswith("//"):
+                    candidate = "https:" + candidate
+                cover_img = candidate
+                break
+
     return GameInfo(cover=cover_img, link=url, title=title)
 
 
-def main(urls: list[str]):
+def scrape_profile_game_urls(profile_url: str) -> list[str]:
+    soup = BeautifulSoup(
+        fetch_html(profile_url, wait_selector='a.cover-link[href^="/games/"]'),
+        "html.parser",
+    )
+    urls: list[str] = []
+    seen: set[str] = set()
+    for a in soup.select('a.cover-link[href^="/games/"]'):
+        href = a.get("href", "")
+        full = urljoin(BASE_URL, href)
+        if not full.endswith("/"):
+            full += "/"
+        if full not in seen:
+            seen.add(full)
+            urls.append(full)
+    return urls
+
+
+def main(
+    urls: list[str] = typer.Argument(None, help="Backloggd game URLs to fetch."),
+    user: str = typer.Option(
+        None,
+        "--user",
+        "-u",
+        help="Backloggd username — pull recent games from their profile.",
+    ),
+    limit: int = typer.Option(
+        0,
+        "--limit",
+        "-n",
+        help="Stop after fetching this many new entries (0 = no limit).",
+    ),
+):
     output_dir = Path("_games")
     output_dir.mkdir(exist_ok=True)
 
@@ -86,16 +132,37 @@ def main(urls: list[str]):
         game_info = GameInfo(**post.metadata)
         games[game_info.link] = game_info
 
-    for url in urls:
-        if url not in games:
-            game_info = scrape_game_info(url)
-            frontmatter_content = generate_frontmatter(game_info)
+    targets: list[str] = list(urls or [])
+    if user:
+        profile_url = f"{BASE_URL}/u/{user}/games/"
+        print(f"Scraping profile: {profile_url}")
+        targets.extend(scrape_profile_game_urls(profile_url))
 
-            filename = generate_filename(game_info)
-            output_file = output_dir / filename
-            output_file.write_text(f"{frontmatter_content}\n")
+    if not targets:
+        print("[yellow]No URLs to process. Pass game URLs or --user USERNAME.[/]")
+        raise typer.Exit(code=1)
 
-            print(f"Game information saved to {output_file}")
+    added = 0
+    for url in targets:
+        if url in games:
+            continue
+
+        game_info = scrape_game_info(url)
+        frontmatter_content = generate_frontmatter(game_info)
+
+        filename = generate_filename(game_info)
+        output_file = output_dir / filename
+        output_file.write_text(f"{frontmatter_content}\n")
+
+        games[url] = game_info
+        added += 1
+        print(f"Game information saved to {output_file}")
+
+        if limit and added >= limit:
+            print(f"[cyan]Reached --limit {limit}, stopping.[/]")
+            break
+
+    print(f"[green]Done. Added {added} new game(s).[/]")
 
 
 if __name__ == "__main__":
