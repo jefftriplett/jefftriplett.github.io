@@ -8,7 +8,7 @@ redirect_from: /posts/about/raw/
 <div class="flex items-start">
 <div class="w-3/4 flex-0">
 {% capture bio %}
-Jeff Triplett is a Partner at [REVSYS](https://revsys.com/) and a director on the [Django Software Foundation (DSF)](https://www.djangoproject.com/foundation/#board).
+Jeff Triplett is a Partner at [REVSYS](https://revsys.com/) and President of the [Django Software Foundation (DSF)](https://www.djangoproject.com/foundation/#board).
 
 Jeff is the co-founder and former President of the [Django Events Foundation North America (DEFNA)](https://www.defna.org), the non-profit which has run DjangoCon US since 2015 and a former Director and Vice Chair of the [Python Software Foundation](https://www.python.org/psf/records/board/history/#id2).
 
