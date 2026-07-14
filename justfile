@@ -9,6 +9,10 @@ TAILWIND_CSS_VERSION := "latest"
 @add-games *ARGS:
     uv --quiet run scripts/fetch-backlogged.py {{ ARGS }}
 
+# backfill micro.blog posts missing from _posts (see jefftriplett.com issue #18)
+@add-microblog *ARGS:
+    uv --quiet run scripts/fetch-microblog.py {{ ARGS }}
+
 # fetch and add music entries (Spotify/YouTube)
 @add-music *ARGS:
     uv --quiet run scripts/fetch-music.py {{ ARGS }}
